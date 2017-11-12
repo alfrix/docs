@@ -2,6 +2,8 @@
 
 --Check the display name entry in the corresponding core info file (https://github.com/libretro/libretro-super/tree/master/dist/info)--
 
+--Documentation notice (Put a notice below the core title if this documentation is  currently incomplete or missing crucial information-- 
+
 ## Background
 
 --Use Google, Wikipedia, Emulation wikis, Github repository README's and descriptions to find information--
@@ -44,7 +46,6 @@ In order to propose improvements to this document, [visit it's corresponding sou
 *Content that can be loaded by the (Core name) core have the following file extensions.*
 
 --Check the supported extensions entry in the relevant core info file (https://github.com/libretro/libretro-super/tree/master/dist/info)--
---Extensions such as cue or m3u will eventually have a hyperlink for their respective guides--
 
 --If no extensions use--
 The (Core name) core does not feature extension use.
@@ -53,6 +54,8 @@ The (Core name) core does not feature extension use.
 --OPTIONAL SECTION--
 
 *RetroArch databases that are associated with the (Core name) core*
+
+* Database name
 
 --Check the database entry in the relevant core info file (https://github.com/libretro/libretro-super/tree/master/dist/info)--
 
@@ -70,27 +73,27 @@ The (Core name) core does not feature extension use.
 
 ## Features
 
--- Use ✔ or ✕ (or use - when unknown (will come back to it later))--
+--Use ✔ or ✕--
 
 --State support can be tested by attempting to save and load a state in the core--
 --If States are supported, that means Rewind and Netplay are supported too--
 
 | Feature           | Supported |
 |-------------------|:---------:|
-| Saves             | ✕         |
-| States            | ✕         |
-| Rewind            | ✕         |
-| Netplay           | ✕         |
-| RetroAchievements | ✕         |
-| RetroArch Cheats  | ✕         |
-| Native Cheats     | ✕         |
-| Controllers       | ✕         |
-| Multi-Mouse       | ✕         |
-| Rumble            | ✕         |
-| Sensors           | ✕         |
-| Camera            | ✕         |
-| Location          | ✕         |
-| Subsystem         | ✕         |
+| Saves             | -         |
+| States            | -         |
+| Rewind            | -         |
+| Netplay           | -         |
+| RetroAchievements | -         |
+| RetroArch Cheats  | -         |
+| Native Cheats     | -         |
+| Controllers       | -         |
+| Multi-Mouse       | -         |
+| Rumble            | -         |
+| Sensors           | -         |
+| Camera            | -         |
+| Location          | -         |
+| Subsystem         | -         |
 
 The (Core name) core's directory name is '(name)'
 
@@ -99,13 +102,11 @@ The (Core name) core's directory name is '(name)'
 ## Core options
 --OPTIONAL SECTION--
 
---If a core option description isn't obvious, just put Awaiting description. as a placeholder--
-
 *The (Core name) core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
 
-- **Core Option** (**Setting1**/Setting2): Description.
+- **Core Option** (**Setting1**/Setting2): Awaiting description.
 
---Core option screenshots are OPTIONAL**
+--Core option screenshots are OPTIONAL--
 
 ??? note "Core Option - Setting"
 	![screenshot_name](images\Cores\folder\screenshot_name.png)
@@ -116,9 +117,9 @@ The (Core name) core's directory name is '(name)'
 
 ### User # - # Device Type(s)
 
-* **RetroPad** - Joypad without analog or Joypad with analog or Keyboard or Mouse or Lightgun or Pointer - *Optional Description*
+* **RetroPad** - Joypad without analog or Joypad with analog or Keyboard or Mouse or Lightgun or Pointer - *Awaiting description.*
 
-* RetroPad w/Analog - Joypad without analog or Joypad with analog or Keyboard or Mouse or Lightgun or Pointer - *Optional Description*
+* RetroPad w/Analog - Joypad without analog or Joypad with analog or Keyboard or Mouse or Lightgun or Pointer - *Awaiting description.*
 
 ### Controllers graph
 --OPTIONAL SECTION--
