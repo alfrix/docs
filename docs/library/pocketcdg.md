@@ -46,6 +46,7 @@ cdg
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
 | Controllers       | ✔         |
+| Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |

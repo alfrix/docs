@@ -88,6 +88,7 @@ The (Core name) core does not feature extension use.
 | RetroArch Cheats  | -         |
 | Native Cheats     | -         |
 | Controllers       | -         |
+| Remapping         | -         |
 | Multi-Mouse       | -         |
 | Rumble            | -         |
 | Sensors           | -         |
