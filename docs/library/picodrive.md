@@ -93,13 +93,13 @@ Save states are saved/loaded to and from where state files are stored.
 - **Core-provided aspect ratio** (**PAR**/ 4/3 /CRT): hoose the core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. 
 
 ??? note "Core-provided aspect ratio - PAR"
-	![par](images\Cores\picodrive\par.png)
+	![PAR](images\Cores\picodrive\PAR.png)
 	
 ??? note "Core-provided aspect ratio - 4/3"
 	![4by3](images\Cores\picodrive\4by3.png)
 
 ??? note "Core-provided aspect ratio - CRT"
-	![crt](images\Cores\picodrive\crt.png)	
+	![CRT](images\Cores\picodrive\CRT.png)	
 
 - **Show Overscan** (**Off**/On): Crop out the potentially random glitchy video output that would have been hidden by the bezel around the edge of a standard-definition television screen.
 
