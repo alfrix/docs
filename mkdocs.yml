@@ -15,6 +15,7 @@ pages:
       - 'Atari Lynx (Beetle Handy)': 'library/beetle_lynx.md'
       - 'Atari Lynx (Handy)': 'library/handy.md'
       - 'Atari ST/STE/TT/Falcon (Hatari)': 'library/hatari.md'
+      - 'ChaiLove': 'library/chailove.md'
       - 'Dinothawr': 'library/dinothawr.md'
       - 'FFmpeg': 'library/ffmpeg.md'
       - 'Game Boy / Game Boy Color (Emux)': 'library/emux_gb.md'
