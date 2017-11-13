@@ -20,7 +20,9 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## See also
 
-[Genesis Plus GX](https://buildbot.libretro.com/docs/library/genesis_plus_gx/)
+[Sega Master System (Emux)](https://buildbot.libretro.com/docs/library/emux_sms/)
+
+[Sega MS/GG/MD/CD (Genesis Plus GX)](https://buildbot.libretro.com/docs/library/genesis_plus_gx/)
 
 ## License
 
@@ -37,32 +39,35 @@ bin|gen|smd|md|32x|cue|iso|sms|68k
 *RetroArch databases that are associated with the PicoDrive core*
 
 * Sega - Master System - Mark III
+
 * Sega - Mega Drive - Genesis
+
 * Sega - PICO
+
 * Sega - 32X
 
 ## BIOS
 
 *Required or optional firmware files go in RetroArch's system directory.*
 
-|   Filename     |    Description             |              md5sum             |
-|:--------------:|:--------------------------:|:-------------------------------:|
-| bios_CD_E.bin  | MegaCD EU BIOS - Required | e66fa1dc5820d254611fdcdba0662372 |
-| bios_CD_U.bin  | SegaCD US BIOS - Required | 2efd74e3232ff260e371b99f84024f7f |
-| bios_CD_J.bin  | MegaCD JP BIOS - Required | 278a9397d192149e84e820ac621a8edd |
+|   Filename    |    Description            |              md5sum              |
+|:-------------:|:-------------------------:|:--------------------------------:|
+| bios_CD_E.bin | MegaCD EU BIOS - Required | e66fa1dc5820d254611fdcdba0662372 |
+| bios_CD_U.bin | SegaCD US BIOS - Required | 2efd74e3232ff260e371b99f84024f7f |
+| bios_CD_J.bin | MegaCD JP BIOS - Required | 278a9397d192149e84e820ac621a8edd |
 
 ## Features
 
 | Feature           | Supported |
 |-------------------|:---------:|
-| Saves             | ✓         |
-| States            | ✓         |
-| Rewind            | ✓         |
-| Netplay           | ✓         |
-| RetroAchievements | -         |
-| RetroArch Cheats  | -         |
+| Saves             | ✔         |
+| States            | ✔         |
+| Rewind            | ✔         |
+| Netplay           | ✔         |
+| RetroAchievements | ✔         |
+| RetroArch Cheats  | ✔         |
 | Native Cheats     | ✕         |
-| Controllers       | ✓         |
+| Controllers       | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
@@ -70,23 +75,13 @@ bin|gen|smd|md|32x|cue|iso|sms|68k
 | Location          | ✕         |
 | Subsystem         | ✕         |
 
-The PicoDrive core creates directories named 'PicoDrive' in RetroArch's...
+The PicoDrive core's directory name is 'PicoDrive'
 
-* Savefile directory when the core is loaded.
-* Statestate directory when the core is loaded.
-* Config directory when a Core Override or a Game Override or a Game-options file is saved.
-* Input Remapping directory when a Core Remap or a Game Remap is saved.
-* Shaders Presets directory when a Core Preset or a Game Preset is saved.
+Game data is saved/loaded to and from where save files are stored.
 
-Core Overrides/Remaps/Presets that are saved will be named 'PicoDrive'.
+Save states are saved/loaded to and from where state files are stored. 
 
-Game Overrides/Remaps/Presets and Game-option files will have the same name as the loaded content.
-
-Game data is saved/loaded to and from the core's save directory.
-
-Save states are saved/loaded to and from the core's state directory.
-
-## Options
+## Core options
 
 *The PicoDrive core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
 
@@ -95,28 +90,28 @@ Save states are saved/loaded to and from the core's state directory.
 - **No sprite limit** (**Off**/On): Enable this to remove the sprite limit.
 - **MegaCD RAM cart** (**Off**/On): Emulate a MegaCD RAM cart.
 - **Region** (**Auto**/Japan NTSC/Japan PAL/US/Europe): Force a specific region.
-
-- **Core-provided aspect ratio** (**PAR**/ 4/3 /CRT): Choose the core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. 
+- **Core-provided aspect ratio** (**PAR**/ 4/3 /CRT): hoose the core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. 
 
 ??? note "Core-provided aspect ratio - PAR"
 	![PAR](images\Cores\picodrive\PAR.png)
 	
 ??? note "Core-provided aspect ratio - 4/3"
 	![4by3](images\Cores\picodrive\4by3.png)
-	
+
 ??? note "Core-provided aspect ratio - CRT"
-	![CRT](images\Cores\picodrive\CRT.png)
+	![CRT](images\Cores\picodrive\CRT.png)	
 
 - **Show Overscan** (**Off**/On): Crop out the potentially random glitchy video output that would have been hidden by the bezel around the edge of a standard-definition television screen.
 
 ??? note "Show Overscan - Off"
-	![overscan_disabled](images\Cores\picodrive\overscan_disabled.png)
+	![overscan_off](images\Cores\picodrive\overscan_off.png)
 	
 ??? note "Show Overscan - On"
-	![overscan_enabled](images\Cores\picodrive\overscan_enabled.png)
+	![overscan_on](images\Cores\picodrive\overscan_on.png)	
 
 - **68k overclock** (**Off**/+25%/+50%/+75%/+100%/+200%/+400%): Overclock the emulated [68k chip](http://segaretro.org/M68000)
-- **Dynamic recompilers** (Off/**On**): Use dynamic recompilers **(this core option is not available on all hardware)**.
+
+- **Dynamic recompilers** (Off/**On**): Enable dynamic recompilers which help to improve performance. **This core option is not available on all hardware.**
 
 ## Controllers
 
@@ -124,9 +119,9 @@ Save states are saved/loaded to and from the core's state directory.
 
 ### User 1 - 16 Device Type(s)
 
-* **RetroPad** - Joypad without analog
+* **RetroPad** - Joypad with analog
 
-* RetroPad w/Analog - Joypad with analog
+* RetroPad w/Analog - **There is no reason to switch to this.**
 
 ### Controllers graph
 
@@ -147,17 +142,17 @@ Save states are saved/loaded to and from the core's state directory.
 
 ## Compatibility
 
-| 32x Games                                    | Issue                                                         |
+| 32x games                                    | Issue                                                         |
 |----------------------------------------------|---------------------------------------------------------------|
 | Brutal Unleashed – Above the Claw            | Softlocks after the first fight.                              |
 | FIFA Soccer ’96                              | Glitched main menu text.                                      |
 | Knuckles’ Chaotix                            | Glitched graphics on the Player Select screen.                |
 | NBA Jam Tournament Edition                   | Framerate issues.                                             |
 | NFL Quarterback Club                         | Some menu graphics are missing.                               |
-| Star Wars Arcade (PAL version)               | Glitched opening visuals. Cannot get past Press Start screen. | 
+| Star Wars Arcade (PAL version)               | Glitched opening visuals. Cannot get past Press Start screen. |
 | Virtua Racing Deluxe                         | Blinking line during the SEGA logo screen.                    |
 | World Series Baseball Starring Deion Sanders | Crashes when starting a match.                                |
-| WWF Raw                                      | Various graphics are missing.                                 | 
+| WWF Raw                                      | Various graphics are missing.                                 |
 
 ## External Links
 

@@ -30,7 +30,11 @@ game
 
 ## BIOS
 
-**How to get and install this:**
+|   Filename      |    Description                 |              md5sum                      |
+|:---------------:|:------------------------------:|:----------------------------------------:|
+| dinothawr.game  | Dinothawr game file - Required | a8db0d14628759a5ebafb420e05105bf         |
+
+### How to get and install this:
 
 1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
@@ -42,7 +46,7 @@ game
 
 5. Select 'Dinothawr', then select 'Dinothawr.zip'. This should download and extract this file to RetroArch's Downloads directory.
 
-**How to play (after installation):**
+#### How to play (after installation):
 
 1. Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
 
@@ -51,10 +55,6 @@ game
 3. If you are asked which core to select, choose 'Dinothawr'.
 
 The game should now start running!
-
-|   Filename     |    Description                 |              md5sum              |
-|:--------------:|:------------------------------:|:--------------------------------:|
-| dinothawr.game | Dinothawr game file - Required | a8db0d14628759a5ebafb420e05105bf |
 
 ## Features
 
@@ -67,7 +67,7 @@ The game should now start running!
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✓         |
+| Controllers       | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
@@ -75,21 +75,11 @@ The game should now start running!
 | Location          | ✕         |
 | Subsystem         | ✕         |
 
-The Dinothawr core creates directories named 'Dinothawr' in RetroArch's...
+The Dinothawr core's directory name is 'Dinothawr'
 
-* Savefile directory when the core is loaded.
-* Statestate directory when the core is loaded.
-* Config directory when a Core Override or a Game Override or a Game-options file is saved.
-* Input Remapping directory when a Core Remap or a Game Remap is saved.
-* Shaders Presets directory when a Core Preset or a Game Preset is saved.
+Game data is saved/loaded to and from 'dinothawr.srm' where save files are stored.
 
-Core Overrides/Remaps/Presets that are saved will be named 'Dinothawr'.
-
-Game Overrides/Remaps/Presets and Game-option files will have the same name as the loaded content.
-
-Game data is saved/loaded to and from 'dinothawr.srm' in the core's save directory 
-
-## Options
+## Core options
 
 *The Dinothawr core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
 
@@ -101,29 +91,29 @@ Game data is saved/loaded to and from 'dinothawr.srm' in the core's save directo
 
 ### User 1 - 16 Device Type(s)
 
-* **RetroPad** - Joypad without analog
+* **RetroPad** - Joypad with analog
 
-* RetroPad w/Analog - Joypad with analog
+* RetroPad w/Analog - **No reason to switch to this.**
 
 ### Controllers graph
 
-| Dinothawr   | RetroPad                                                       |
-|-------------|----------------------------------------------------------------|
-| Push        | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| D-Pad Up    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| D-Pad Down  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| D-Pad Left  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| D-Pad Right | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| Menu        | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-| Reset       | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
+| Dinothawr | RetroPad                                                       |
+|-----------|----------------------------------------------------------------|
+| Push      | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
+| D-Pad Up  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
+| D-Pad Down  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)        |
+| D-Pad Left  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)        |
+| D-Pad Right  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)      |
+| Menu  | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)                   |
+| Reset | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)                   |
 
 ## Customizing / Hacking
 
-Dinothawr is fairly hackable. dinothawr.game is the game file itself. It is a simple XML file which points to all assets used by the game. Levels are organized in chapters. Levels themselves are created using the [Tiled](http://www.mapeditor.org/) editor. If you want to try making your own levels, make sure you use the "plain XML" format for .tmx files and not the default zlib base64.
+Dinothawr is fairly hackable. dinothawr.game is the game file itself. It is a simple XML file which points to all assets used by the game. Levels are organized in chapters. Levels themselves are created using the Tiled editor. If you want to try making your own levels, make sure you use the "plain XML" format for .tmx files and not the default zlib base64.
 
 [Dinothawr - Level Design guide (pdf)](http://retinaleclipse.com/dinothawr-guide.pdf)
 
 ## External Links
 
-* [Official Repository](https://github.com/libretro/Dinothawr)
+* [Official/Libretro Repository](https://github.com/libretro/Dinothawr)
 * [Report Core Issues Here](https://github.com/libretro/libretro-meta)
