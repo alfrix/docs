@@ -48,12 +48,12 @@ In order to propose improvements to this document, [visit it's corresponding sou
 --Check the supported extensions entry in the relevant core info file (https://github.com/libretro/libretro-super/tree/master/dist/info)--
 
 --If no extensions use--
-The (Core name) core does not feature extension use.
+The (Core name) core does not feature extension use. Just load and start the core.
 
 ## Database(s)
 --OPTIONAL SECTION--
 
-*RetroArch databases that are associated with the (Core name) core*
+*RetroArch database(s) that are associated with the (Core name) core*
 
 * Database name
 
@@ -118,9 +118,9 @@ The (Core name) core's directory name is '(name)'
 
 ### User # - # Device Type(s)
 
-* **RetroPad** - Joypad without analog or Joypad with analog or Keyboard or Mouse or Lightgun or Pointer - *Awaiting description.*
+* **RetroPad** - Joypad or Keyboard or Mouse or Lightgun or Pointer - *Awaiting description.*
 
-* RetroPad w/Analog - Joypad without analog or Joypad with analog or Keyboard or Mouse or Lightgun or Pointer - *Awaiting description.*
+* RetroPad w/Analog - Joypad or Keyboard or Mouse or Lightgun or Pointer - *Awaiting description.*
 
 ### Controllers graph
 --OPTIONAL SECTION--
