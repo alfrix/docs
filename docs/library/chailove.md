@@ -34,6 +34,10 @@ Rob Loach
 
 In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/chailove.md). Changes are proposed using "Pull Requests."
 
+## See also
+
+[Lua Engine (Lutro)](https://buildbot.libretro.com/docs/library/lutro/)
+
 ## License
 
 MIT
@@ -105,6 +109,8 @@ Save states are saved/loaded to and from where state files are stored.
 * RetroPad w/Analog - **There is no reason to switch to this**
 
 ### Controllers graph
+
+**What the buttons do are game specific.**
 
 | ChaiLove    | RetroPad                                                       |
 |-------------|----------------------------------------------------------------|
