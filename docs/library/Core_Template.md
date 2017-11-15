@@ -129,26 +129,26 @@ The (Core name) core's directory name is '(name)'
 
 --The first columns of the controller graph can be ripped straight from RetroArch's control menu--
 
-| Core Name | RetroPad                                                       |
-|-----------|----------------------------------------------------------------|
-| Action 1  | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| Action 2  | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-| Action 3  | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
-| Action 4  | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| Action 5  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| Action 6  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| Action 7  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| Action 8  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| Action 9  | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-| Action 10 | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
-| Action 11 | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
-| Action 12 | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
-| Action 13 | ![RetroPad_L2](images/RetroPad/Retro_L2_Temp.png)              |
-| Action 14 | ![RetroPad_R2](images/RetroPad/Retro_R2.png)                   |
-| Action 15 | ![RetroPad_L3](images/RetroPad/Retro_L3.png)                   |
-| Action 16 | ![RetroPad_R3](images/RetroPad/Retro_R3.png)                   |
-| Action 17 | ![RetroPad_Left_Stick](images/RetroPad/Retro_Left_Stick.png)   |
-| Action 18 | ![RetroPad_Right_Stick](images/RetroPad/Retro_Right_Stick.png) |
+| (Core Name) | RetroPad                                                       |
+|-------------|----------------------------------------------------------------|
+| Action 1    | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
+| Action 2    | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
+| Action 3    | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
+| Action 4    | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
+| Action 5    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
+| Action 6    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
+| Action 7    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
+| Action 8    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
+| Action 9    | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
+| Action 10   | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
+| Action 11   | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
+| Action 12   | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
+| Action 13   | ![RetroPad_L2](images/RetroPad/Retro_L2_Temp.png)              |
+| Action 14   | ![RetroPad_R2](images/RetroPad/Retro_R2.png)                   |
+| Action 15   | ![RetroPad_L3](images/RetroPad/Retro_L3.png)                   |
+| Action 16   | ![RetroPad_R3](images/RetroPad/Retro_R3.png)                   |
+| Action 17   | ![RetroPad_Left_Stick](images/RetroPad/Retro_Left_Stick.png)   |
+| Action 18   | ![RetroPad_Right_Stick](images/RetroPad/Retro_Right_Stick.png) |
 
 | RetroKeyboard|
 |--------------|
