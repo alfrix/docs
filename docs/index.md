@@ -10,5 +10,5 @@ It enables you to run classic games on a wide range of computers and consoles th
 ![RetroArch_Banner](images/RetroArch_Banner.png)
 
 ### Which platforms are RetroArch available for?
-RetroArch runs and is supported on GNU/Linux, BSD, Windows, Mac OSX (PPC/Intel), PlayStation 3, XBox 360, XBox 1, Raspberry Pi, Nintendo Wii, Android, iOS and Blackberry.
+RetroArch runs and is supported on GNU/Linux, BSD, Windows, Mac OSX (PPC/Intel), PlayStation 3, Playstation Vita, Playstation Portable, XBox 360, XBox 1, Raspberry Pi, Nintendo Gamecube, Nintendo Wii, Nintendo Wii U, Nintendo 3DS, Android, iOS, Open Pandora, and Blackberry.
 
