@@ -18,6 +18,7 @@ pages:
       - 'Cave Story (NXEngine)': 'library/nxengine.md'
       - 'ChaiLove': 'library/chailove.md'
       - 'Dinothawr': 'library/dinothawr.md'
+      - 'Doom (PrBoom)': 'library/prboom.md'
       - 'FFmpeg': 'library/ffmpeg.md'
       - 'Game Boy / Game Boy Color (Emux)': 'library/emux_gb.md'
       - 'Game Boy / Game Boy Color (Gambatte)': 'library/gambatte.md'
