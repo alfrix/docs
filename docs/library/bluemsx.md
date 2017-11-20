@@ -16,7 +16,7 @@ GPLv2
 
 ## Extensions
 
-rom|ri|mx1|mx2|col|dsk|cas|sg|sc
+rom|ri|mx1|mx2|col|dsk|cas|sg|sc|m3u
 
 ## BIOS
 
@@ -62,6 +62,7 @@ The blueMSX core has the following options that can be tweaked from the core opt
     ![crop_overscan_msx2](images\Cores\bluemsx\crop_overscan_msx2.png)
 
 - **VDP Sync Type (Restart)** (**Auto**/50Hz/60Hz): Match the game/machine region frequency to avoid emulated speed issues
+- **No Sprite Limit** (**Off**/On): Remove the 4 sprite per line limit which can reduce or remove sprite flicker in some games.
 - **Sound YM2413 Enable (Restart)** (**Off**/On): Sound YM2413 enable
 - **Cart Mapper Type (Restart)** (**Auto**/normal/mirrored/basic/0x4000/0xC000/ascii8/ascii8sram/ascii16/ascii16sram/ascii16nf/konami4/konami4nf/konami5/konamisynth/korean80/korean90/korean126/MegaFlashRomScc/MegaFlashRomSccPlus/msxdos2/scc/sccexpanded/sccmirrored/sccplus/snatcher/sdsnatcher/SegaBasic/SG1000/SG1000Castle/SG1000RamA/SG1000RamB/SC3000/): When a rom game or application is in the database, the emulator uses the databases to apply the correct mapper. If the sha1 value of a dump is not yet in the databases, it uses an automatic mapper detection system, but it can fail in some cases. In this situation, you can manually select the correct mapper.
 
@@ -95,6 +96,25 @@ The blueMSX core supports 3 controller setting(s):
 
 !!! note
     Colecovision inputs for **0 & 9** are mapped to Keyboard 1 & 2 for Player 1, 3 & 4 for Player 2.
+
+## Multiple-disk games
+
+If foo is a multiple-disk game, you should have .dsk files for each one, e.g. `foo (Disk 1).dsk`, `foo (Disk 2).dsk`, `foo (Disk 3).dsk`.
+
+To take advantage of BlueMSX Disk Control feature for disk swapping, an index file (a m3u file) should be made.
+
+Create a text file and save it as `foo.m3u`. Then enter your game's .dsk files on it. The m3u file contents should look something like this:
+
+`foo.m3u`
+```
+foo (Disk 1).dsk
+foo (Disk 2).dsk
+foo (Disk 3).dsk
+```
+
+After that, you can load the `foo.m3u` file in RetroArch with the BlueMSX core.
+
+An alternative is to append disks to the current playlist via the "Disk Image Append" option RetroArch menu.
 
 ## Compatibility
 
