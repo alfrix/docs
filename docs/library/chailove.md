@@ -2,7 +2,7 @@
 
 ## Background
 
-ChaiLove is a framework for making 2D games with [ChaiScript](http://chaiscript.com/). ChaiLove games can be played with LibRetro/RetroArch through the ChaiLove core.
+[ChaiLove](https://github.com/RobLoach/ChaiLove) is a framework for making 2D games with [ChaiScript](http://chaiscript.com/). ChaiLove games can be played with LibRetro/RetroArch through the ChaiLove core.
 
 ### Usage
 
@@ -44,15 +44,17 @@ MIT
 
 ## Extensions
 
-*Content that can be loaded by the ChaiLove core have the following file extensions.*
+Content that can be loaded by the ChaiLove core have the following file extensions:
 
-chai|chailove|chaigame
+- .chai
+- .chailove
+- .chaigame
 
 ## Database(s)
 
-*RetroArch database(s) that are associated with the ChaiLove core*
+RetroArch database(s) that are associated with the ChaiLove core:
 
-* ChaiLove
+- ChaiLove
 
 ## Features
 
@@ -61,7 +63,7 @@ chai|chailove|chaigame
 | Saves             | ✕         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | ✔         |
+| Netplay           | ✕         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
@@ -80,7 +82,7 @@ Save states are saved/loaded to and from where state files are stored.
 
 ## Core options
 
-*The ChaiLove core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
+The ChaiLove core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
 
 - **Alpha Blending** (Off/**On**): Enable or disable alpha blending (transparency).
 
@@ -100,9 +102,9 @@ Save states are saved/loaded to and from where state files are stored.
 
 ## Controllers
 
-*The ChaiLove core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The ChaiLove core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
 
-### User 1 - 16 Device Type(s)
+### User 1 - 4 Device Type(s)
 
 * **RetroPad** - Joypad with analog
 
