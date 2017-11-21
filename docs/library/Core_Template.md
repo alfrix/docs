@@ -19,7 +19,7 @@
 --Recommended for Netplay?--
 --Is the core designed to run on specific hardware or platforms?--
 
-### Author(s):
+### Authors
 
 --Check the authors entry in the corresponding core info file (https://github.com/libretro/libretro-super/tree/master/dist/info)--
 --Use internet aliases whenever possible--
@@ -43,26 +43,28 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## Extensions
 
-*Content that can be loaded by the (Core name) core have the following file extensions.*
+Content that can be loaded by the (Core name) core have the following file extensions:
 
 --Check the supported extensions entry in the relevant core info file (https://github.com/libretro/libretro-super/tree/master/dist/info)--
+
+- .(extension)
 
 --If no extensions use--
 The (Core name) core does not feature extension use. Just load and start the core.
 
-## Database(s)
+## Databases
 --OPTIONAL SECTION--
 
-*RetroArch database(s) that are associated with the (Core name) core*
+RetroArch database(s) that are associated with the (Core name) core:
 
-* Database name
+- Database name
 
 --Check the database entry in the relevant core info file (https://github.com/libretro/libretro-super/tree/master/dist/info)--
 
 ## BIOS
 --OPTIONAL SECTION--
 
-*Required or optional firmware files go in RetroArch's system directory.*
+Required or optional firmware files go in RetroArch's system directory.
 
 |   Filename    |    Description         |              md5sum              |
 |:-------------:|:----------------------:|:--------------------------------:|
@@ -95,15 +97,20 @@ The (Core name) core does not feature extension use. Just load and start the cor
 | Camera            | -         |
 | Location          | -         |
 | Subsystem         | -         |
+| Softpatching      | -         |
 
 The (Core name) core's directory name is '(name)'
 
 --Describe what the core reads/writes to.--
+--EXAMPLE DESCRIPTIONS--
+
+- Game data is saved/loaded to and from where save files are stored.
+- Save states are saved/loaded to and from where state files are stored.
 
 ## Core options
 --OPTIONAL SECTION--
 
-*The (Core name) core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
+The (Core name) core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
 
 - **Core Option** (**Setting1**/Setting2): Awaiting description.
 
@@ -114,13 +121,12 @@ The (Core name) core's directory name is '(name)'
 	
 ## Controllers
 
-*The (Core name) core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The (Core name) core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
 
-### User # - # Device Type(s)
+### User # - # Device Types
 
-* **RetroPad** - Joypad or Keyboard or Mouse or Lightgun or Pointer - *Awaiting description.*
-
-* RetroPad w/Analog - Joypad or Keyboard or Mouse or Lightgun or Pointer - *Awaiting description.*
+- **RetroPad** - Joypad or Keyboard or Mouse or Lightgun or Pointer - *Optional description*
+- RetroPad w/Analog - Joypad or Keyboard or Mouse or Lightgun or Pointer - *Optional description*
 
 ### Controllers graph
 --OPTIONAL SECTION--
@@ -143,7 +149,7 @@ The (Core name) core's directory name is '(name)'
 | Action 10   | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
 | Action 11   | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
 | Action 12   | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
-| Action 13   | ![RetroPad_L2](images/RetroPad/Retro_L2_Temp.png)              |
+| Action 13   | ![RetroPad_L2](images/RetroPad/Retro_L2.png)                   |
 | Action 14   | ![RetroPad_R2](images/RetroPad/Retro_R2.png)                   |
 | Action 15   | ![RetroPad_L3](images/RetroPad/Retro_L3.png)                   |
 | Action 16   | ![RetroPad_R3](images/RetroPad/Retro_R3.png)                   |
@@ -181,7 +187,8 @@ Unknown
 ## External Links
 
 --Example links, they can be different than this--
-* [Libretro Repository](https://link)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
-* [Official Website](https://link)
-* [Official Repository](https://link)
+- [Core info file](https://link)
+- [Libretro Repository](https://link)
+- [Report Core Issues Here](https://link)
+- [Official Website](https://link)
+- [Official Repository](https://link)
