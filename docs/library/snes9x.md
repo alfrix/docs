@@ -2,19 +2,17 @@
 
 ## Background
 
-Port of upstream up-to-date mainline Snes9x, a portable Super Nintendo Entertainment System emulator to libretro.
+Port of upstream mainline **up-to-date** Snes9x, a portable Super Nintendo Entertainment System emulator to libretro.
 
 ### Why use this core?
 
-* Highly accurate SNES emulation.
+- Highly accurate SNES emulation.
+- Simplified and easily accessible MSU-1 expansion chip support.
+- Recommended for netplay
+- Less CPU intensive than the higan/bsnes based cores.
+- **Most up-to-date libretro Snes9x core available.**
 
-* Simplified and easily accessible MSU-1 expansion chip support.
-
-* Recommended for netplay
-
-* Less CPU intensive but less compatible than the higan based cores.
-
-### Author(s):
+### Authors
 
 Snes9x Team
 
@@ -24,31 +22,19 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## See also
 
-[Beetle bsnes](https://buildbot.libretro.com/docs/library/beetle_bsnes)
-
-[bsnes Accuracy](https://buildbot.libretro.com/docs/library/bsnes_accuracy)
-
-[bsnes Balanced](https://buildbot.libretro.com/docs/library/bsnes_balanced)
-
-[bsnes C++98 (v085)](https://buildbot.libretro.com/docs/library/bsnes_cplusplus98)
-
-[bsnes Performance](https://buildbot.libretro.com/docs/library/bsnes_performance)
-
-[bsnes-mercury Accuracy](https://buildbot.libretro.com/docs/library/bsnes_mercury_accuracy)
-
-[bsnes-mercury Balanced](https://buildbot.libretro.com/docs/library/bsnes_mercury_balanced)
-
-[bsnes-mercury Performance](https://buildbot.libretro.com/docs/library/bsnes_mercury_performance)
-
-[higan Accuracy](https://buildbot.libretro.com/docs/library/higan_accuracy)
-
-[Snes9x 2002](https://buildbot.libretro.com/docs/library/snes9x_2002)
-
-[Snes9x 2005 Plus](https://buildbot.libretro.com/docs/library/snes9x_2005_plus)
-
-[Snes9x 2005](https://buildbot.libretro.com/docs/library/snes9x_2005)
-
-[Snes9x 2010](https://buildbot.libretro.com/docs/library/snes9x_2010)
+- [Beetle bsnes](https://doc.libretro.com/library/beetle_snes/)
+- [bsnes Accuracy](https://doc.libretro.com/library/bsnes_accuracy)
+- [bsnes Balanced](https://doc.libretro.com/library/bsnes_balanced)
+- [bsnes C++98 (v085)](https://doc.libretro.com/library/bsnes_cplusplus98)
+- [bsnes Performance](https://doc.libretro.com/library/bsnes_performance)
+- [bsnes-mercury Accuracy](https://doc.libretro.com/library/bsnes_mercury_accuracy)
+- [bsnes-mercury Balanced](https://doc.libretro.com/library/bsnes_mercury_balanced)
+- [bsnes-mercury Performance](https://doc.libretro.com/library/bsnes_mercury_performance)
+- [higan Accuracy](https://doc.libretro.com/library/higan_accuracy)
+- [Snes9x 2002](https://doc.libretro.com/library/snes9x_2002)
+- [Snes9x 2005 Plus](https://doc.libretro.com/library/snes9x_2005_plus)
+- [Snes9x 2005](https://doc.libretro.com/library/snes9x_2005)
+- [Snes9x 2010](https://doc.libretro.com/library/snes9x_2010)
 
 ## License
 
@@ -56,23 +42,20 @@ Non-commercial
 
 ## Extensions
 
-*Content that can be loaded by the Snes9x core have the following file extensions.*
+Content that can be loaded by the Snes9x core have the following file extensions:
 
-smc|sfc|swc|fig
+- .smc
+- .sfc
+- .swc
+- .fig
 
-## Database(s)
+## Databases
 
-*RetroArch databases that are associated with the Snes9x core*
+RetroArch database(s) that are associated with the Snes9x core:
 
-* Nintendo - Super Nintendo Entertainment System
-
-* Nintendo - Super Nintendo Entertainment System Hacks
-
-* Nintendo - Sufami Turbo
-
-## BIOS
-
-The Snes9x core does not feature BIOS use.
+- [Nintendo - Super Nintendo Entertainment System](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System.rdb)
+- [Nintendo - Super Nintendo Entertainment System Hacks](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20Hacks.rdb)
+- [Nintendo - Sufami Turbo](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Sufami%20Turbo.rdb)
 
 ## Features
 
@@ -86,83 +69,101 @@ The Snes9x core does not feature BIOS use.
 | RetroArch Cheats  | ✓         |
 | Native Cheats     | ✕         |
 | Controllers       | ✓         |
+| Remapping         | ✓         |
 | Multi-Mouse       | -         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| Softpatching      | ✓         |
 
-The Snes9x core creates directories named 'Snes9x' in RetroArch's...
+The Snes9x core's directory name is 'Snes9x'
 
-* Savefile directory when the core is loaded.
-* Statestate directory when the core is loaded.
-* Config directory when a Core Override or a Game Override or a Game-options file is saved.
-* Input Remapping directory when a Core Remap or a Game Remap is saved.
-* Shaders Presets directory when a Core Preset or a Game Preset is saved.
+- Game data is saved/loaded to and from where save files are stored.
 
-Core Overrides/Remaps/Presets that are saved will be named 'Snes9x'.
+- Save states are saved/loaded to and from where state files are stored.
 
-Game Overrides/Remaps/Presets and Game-option files will have the same name as the loaded content.
+### MSU-1 support
 
-Game data is saved/loaded to and from the core's save directory.
+MSU-1 support in the Snes9x core follows the SD2SNES naming format, i.e.
+```
+gamename\
+gamename.sfc
+gamename.msu
+gamename-#.pcm
+```
 
-Save states are saved/loaded to and from the core's state directory.
+Loading a manifest.bml file or having a xml file isn't necessary. **Just load gamename.sfc.**
 
-## Options
+Here's an example of a working MSU-1 setup done with [Secret of Mana MSU-1](https://www.romhacking.net/hacks/2467/). Please note that som_msu1.sfc is being [softpatched](https://buildbot.libretro.com/docs/guides/softpatching/) in this example.
 
-*The Snes9x core has the following options that can be tweaked from the core options menu. The default setting is bolded.*
+![msu1_example](images/Cores/snes9x/msu1_example.png)
+
+## Core options
+
+The Snes9x core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
 
 - **SuperFX Frequency** (**10MHz**/20MHz/40MHz/60MHz/80MHz/100MHz): Overclock the [SuperFX chip](https://en.wikipedia.org/wiki/Super_FX). 10Mhz is stock clockspeed.
-- **Show layer 1** (**On**/Off): Self-explanatory.
-- **Show layer 2** (**On**/Off): Self-explanatory.
-- **Show layer 3** (**On**/Off): Self-explanatory.
-- **Show layer 4** (**On**/Off): Self-explanatory.
-- **Show sprite layer** (**On**/Off): Self-explanatory.
-- **Enable graphic clip windows** (**On**/Off): Self-explanatory.
-- **Enable transparency effects** (**On**/Off): Self-explanatory.
-- **Enable sound channel 1** (**On**/Off): Self-explanatory.
-- **Enable sound channel 2** (**On**/Off): Self-explanatory.
-- **Enable sound channel 3** (**On**/Off): Self-explanatory.
-- **Enable sound channel 4** (**On**/Off): Self-explanatory.
-- **Enable sound channel 5** (**On**/Off): Self-explanatory.
-- **Enable sound channel 6** (**On**/Off): Self-explanatory.
-- **Enable sound channel 7** (**On**/Off): Self-explanatory.
-- **Enable sound channel 8** (**On**/Off): Self-explanatory.
-- **Crop overscan** (**auto**/On/Off): Self-explanatory.
+- **Show layer 1** (Off/**On**): Self-explanatory.
+- **Show layer 2** (Off/**On**): Self-explanatory.
+- **Show layer 3** (Off/**On**): Self-explanatory.
+- **Show layer 4** (Off/**On**): Self-explanatory.
+- **Show sprite layer** (Off/**On**): Self-explanatory.
+- **Enable graphic clip windows** (Off/**On**): Self-explanatory.
+- **Enable transparency effects** (Off/**On**): Self-explanatory.
+- **Enable sound channel 1** (Off/**On**): Self-explanatory.
+- **Enable sound channel 2** (Off/**On**): Self-explanatory.
+- **Enable sound channel 3** (Off/**On**): Self-explanatory.
+- **Enable sound channel 4** (Off/**On**): Self-explanatory.
+- **Enable sound channel 5** (Off/**On**): Self-explanatory.
+- **Enable sound channel 6** (Off/**On**): Self-explanatory.
+- **Enable sound channel 7** (Off/**On**): Self-explanatory.
+- **Enable sound channel 8** (Off/**On**): Self-explanatory.
+- **Crop overscan** (**auto**/On/Off): Crop out the potentially random glitchy video output that would have been hidden by the bezel around the edge of a standard-definition television screen.
+
+??? note "Crop overscan - On"
+	![crop_overscan_on](images\Cores\snes9x\crop_overscan_on.png)
+	
+??? note "Crop overscan - Off"
+	![crop_overscan_off](images\Cores\snes9x\crop_overscan_off.png)	
+
 - **Preferred aspect ratio** (**auto**/ntsc/pal/4:3): Choose the preferred aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings.
 
+??? note "Preferred aspect ratio - ntsc"
+	![preferred_aspect_ratio_ntsc](images\Cores\snes9x\preferred_aspect_ratio_ntsc.png)
+	
+??? note "Preferred aspect ratio - pal"
+	![preferred_aspect_ratio_pal](images\Cores\snes9x\preferred_aspect_ratio_pal.png)
+
+??? note "Preferred aspect ratio - 4:3"
+	![preferred_aspect_ratio_4by3](images\Cores\snes9x\preferred_aspect_ratio_4by3.png)	
+	
 ## Controllers
 
-*The Snes9x core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The Snes9x core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
 
 ### User 1 Device Type(s)
 
-* **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad without analog
-
-* [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
-
-* [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad without analog - allows for up to five players to play together in certain games.
+- **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad 
+- [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
+- [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad - *Allows for up to five players to play together in certain games.*
 
 ### User 2 Device Type(s)
 
-* **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad without analog
-
-* [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
-
-* [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad without analog - allows for up to five players to play together in certain games.
-
-* [SuperScope](https://en.wikipedia.org/wiki/Super_Scope) - Lightgun
-
-* [Justifier](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun
+- **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad
+- [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
+- [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad - *Allows for up to five players to play together in certain games.*
+- [SuperScope](https://en.wikipedia.org/wiki/Super_Scope) - Lightgun
+- [Justifier](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun
 
 ### User 3 - 16 Device Type(s)
 
-* **RetroPad** - Joypad without analog
+- **RetroPad** - Joypad
 
 ### Controllers graph
 
-| Snes9x      | RetroPad                                                       | *SNES Joypad / Multitap*                                |
+| Snes9x      | RetroPad                                                       |   SNES Joypad / Multitap                                |
 |-------------|----------------------------------------------------------------|---------------------------------------------------------|
 | B           | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               | ![SNES_B](images/Button_Pack/SNES/SNES_B.png)           |
 | Y           | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               | ![SNES_Y](images/Button_Pack/SNES/SNES_Y.png)           |
@@ -177,15 +178,15 @@ Save states are saved/loaded to and from the core's state directory.
 | L           | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   | ![SNES_L](images/Button_Pack/SNES/SNES_L.png)           |
 | R           | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   | ![SNES_R](images/Button_Pack/SNES/SNES_R.png)           |
 
-| RetroMouse                                                      | *SNES Mouse* | *SuperScope* | *Justifier* |
+| RetroMouse                                                      |  SNES Mouse  |  SuperScope  |  Justifier  |
 |-----------------------------------------------------------------|--------------|--------------|-------------|
 | ![Retro_Mouse](images/RetroMouse/Retro_Mouse.png)               | Pointer      | Pointer      | Pointer     |
-| ![Retro_Left](images/RetroMouse/Retro_Left.png)                 | Left Button  | ???          | ???         |
-| ![Retro_Middle](images/RetroMouse/Retro_Middle.png)             |              | ???          | ???         |
-| ![Retro_Right](images/RetroMouse/Retro_Right.png)               | Right Button | ???          | ???         |
-| ![Retro_Left+Middle](images/RetroMouse/Retro_Left+Middle.png)   |              | ???          | ???         |
-| ![Retro_Right+Middle](images/RetroMouse/Retro_Right+Middle.png) |              | ???          | ???         |
+| ![Retro_Left](images/RetroMouse/Retro_Left.png)                 | Left Button  | Trigger      | Trigger     |
+| ![Retro_Middle](images/RetroMouse/Retro_Middle.png)             |              | Cursor       | Start       |
+| ![Retro_Right](images/RetroMouse/Retro_Right.png)               | Right Button | Turbo        | Offscreen   |
+| ![Retro_Left+Middle](images/RetroMouse/Retro_Left+Middle.png)   |              | Pause        |             |
 
+- All of the Super Scope games made by Nintendo have a soft-reset to the game's main title. This is accomplished by pausing the game, then, while holding Cursor, the Fire button must be pressed twice.
 
 ## Compatibility
 
@@ -200,16 +201,14 @@ Save states are saved/loaded to and from the core's state directory.
 | Secret of Evermore (PAL versions)                | Randomly freezes when the background music changes.                                  |
 | Speedy Gonzales: Los Gatos Bandidos              | Freezes when pressing a switch in the last level.                                    |
 
-* Snes9x can launch some Satellaview games with sometimes low compatibility.
-
-### MSU-1 Support
-
--
+- Snes9x can launch some Satellaview games with sometimes low compatibility.
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/snes9x)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta/labels/core:%20snes9x)
-* [Official Website (no longer updated)](http://www.snes9x.com/)
-* [Official Repository](https://github.com/snes9xgit/snes9x)
-* [Official Upstream Downloads](http://www.s9x-w32.de/dl/)
+- [Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/snes9x_libretro.info)
+- [Libretro Repository](https://github.com/libretro/snes9x)
+- [Report Core Issues Here](https://github.com/libretro/snes9x/issues)
+- [Official Website (no longer updated)](http://www.snes9x.com/)
+- [Official Github Repository](https://github.com/snes9xgit/snes9x)
+- [Official Upstream Downloads](http://www.s9x-w32.de/dl/)
+- [Alternate Official Upstream Downloads](https://sites.google.com/site/bearoso/)
