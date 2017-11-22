@@ -6,11 +6,12 @@ FCEU "mappers modified" is an unofficial build of FCEU Ultra by CaH4e3, which su
 
 ### Why use this core?
 
--
+Awaiting description.
 
 ### Author(s)
 
-FCEU Team|CaH4e3
+- FCEU Team
+- CaH4e3
 
 ## Contribute to this documentation
 
@@ -18,30 +19,29 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## See also
 
-[NES / Famicom (bnes)](https://doc.libretro.com/library/bnes/)
-
-[NES / Famicom (Emux)](https://doc.libretro.com/library/emux_nes/)
-
-[NES / Famicom (Nestopia UE)](https://doc.libretro.com/library/nestopia_ue/)
-
-[NES / Famicom (QuickNES)](https://doc.libretro.com/library/quicknes/)
+- [NES / Famicom (bnes)](https://doc.libretro.com/library/bnes/)
+- [NES / Famicom (Emux)](https://doc.libretro.com/library/emux_nes/)
+- [NES / Famicom (Nestopia UE)](https://doc.libretro.com/library/nestopia_ue/)
+- [NES / Famicom (QuickNES)](https://doc.libretro.com/library/quicknes/)
 
 ## License
 
-GPLv2
+- GPLv2
 
 ## Extensions
 
-*Content that can be loaded by the FCEUmm core have the following file extensions.*
+Content that can be loaded by the FCEUmm core have the following file extensions:
 
-fds|nes|unif|unf
+- .fds
+- .nes
+- .unif
+- .unf
 
-## Database(s)
+## Databases
 
-*RetroArch database(s) that are associated with the FCEUmm core*
+RetroArch database(s) that are associated with the FCEUmm core:
 
 * Nintendo - Nintendo Entertainment System
-
 * Nintendo - Family Computer Disk System
 
 ## BIOS
@@ -51,7 +51,7 @@ fds|nes|unif|unf
 |   Filename    |    Description                                                                |              md5sum              |
 |:-------------:|:-----------------------------------------------------------------------------:|:--------------------------------:|
 | disksys.rom   | Family Computer Disk System BIOS - Required for Famicom Disk System emulation | ca30b50f880eb660a320674ed365ef7a |
-| nes.pal       | Custom NES Palette (Color Palette core option) - Optional                                                 |                                  |
+| nes.pal       | Custom NES Palette (Color Palette core option) - Optional                     |                                  |
 
 ## Features
 
@@ -72,12 +72,12 @@ fds|nes|unif|unf
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| Softpatching      | ✔         |
 
 The FCEUmm core's directory name is 'FCEUmm'
 
-Game data is saved/loaded to and from where save files are stored.
-
-Save states are saved/loaded to and from where state files are stored.
+- Game data is saved/loaded to and from where save files are stored.
+- Save states are saved/loaded to and from where state files are stored.
 
 ### Custom color palettes
 
@@ -85,13 +85,12 @@ To use custom color palettes in the FCEUmm core, the Color Palette core option m
 
 Custom color palettes for the NES can be generated with either of these tools.
 
-[Bisqwit's NTSC NES palette generator](http://bisqwit.iki.fi/utils/nespalette.php)
-
-[Drag's NTSC NES palette generator](http://drag.wootest.net/misc/palgen.html)
+- [Bisqwit's NTSC NES palette generator](http://bisqwit.iki.fi/utils/nespalette.php)
+- [Drag's NTSC NES palette generator](http://drag.wootest.net/misc/palgen.html)
 
 ## Core options
 
-*The FCEUmm core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
+The FCEUmm core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
 
 - **Region Override** (**Auto**/NTSC/PAL/Dendy): Choose which region the system is from.
 - **Preferred aspect ratio** (**8:7 PAR**/4:3): Choose the preferred aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings.
@@ -102,7 +101,7 @@ Custom color palettes for the NES can be generated with either of these tools.
 ??? note "Preferred aspect ratio - 4:3"
 	![4by3](images\Cores\fceumm\4by3.png)
 
-- **Color Palette** (**default**/asqrealc/nintendo-vc/rgb/yuv-v3/unsaturated-final/sony-cxa2025as-us/pal/bmf-final2/bmf-final3/smooth-fbx/composite-direct-fbx/pvm-style-d93-fbx/ntsc-hardware-fbx/nes-classic-fbx-fs/nescap/wavebeam/raw/custom): Choose which color palette is going to be used.
+- **Color Palette** (**default**/asqrealc/nintendo-vc/rgb/yuv-v3/unsaturated-final/sony-cxa2025as-us/pal/bmf-final2/bmf-final3/smooth-fbx/composite-direct-fbx/pvm-style-d93-fbx/ntsc-hardware-fbx/nes-classic-fbx-fs/nescap/wavebeam/raw/custom): Choose which color palette is going to be used. The raw palette can used in combination with the nes-decoder shader to give colors based off on Bisqwit's NES palette generator and applies either an FCC color conversion matrix or specific Sony US matrix.
 
 !!! attention ""
 	**These 'Color Palette core option screenshots have been taken with the 'Use NTSC Palette' core option set to Off.**
@@ -189,12 +188,12 @@ Custom color palettes for the NES can be generated with either of these tools.
 	![crop_overscan_vertical_off](images\Cores\fceumm\crop_overscan_vertical_off.png)	
 
 - **No Sprite Limit** (**Off**/On):  Removes 8-sprites-per-scanline hardware limit.
-- **Sound Volume** (**150**/160/170/180/190/200/210/220/230/240/250/0/10/20/30/40/50/60/70/80/90/100/110/120/130/140): Awaiting description.
-- **Sound Quality** (**Low**/High/Very High): Awaiting description.
-- **Swap Duty Cycles** (**Off**/On): Awaiting description.
+- **Sound Volume** (**150**/160/170/180/190/200/210/220/230/240/250/0/10/20/30/40/50/60/70/80/90/100/110/120/130/140): Self-explanatory.
+- **Sound Quality** (**Low**/High/Very High): Enables high/higher sound quality for games using expansion audio (MMC5, VRC6, VRC7, Namco, Sunsoft). Use Low for slower devices.
+- **Swap Duty Cycles** (**Off**/On): Replicates the sound of some famiclones that have duty cycles swapped for square channels. A quick sound comparison is in Contra's sound effect when shooting with normal bullets.
 - **Turbo Enable** (**None**/Player 1/Player 2/Both): Enable the use of the [Turbo B and Turbo A buttons](https://doc.libretro.com/library/fceumm/index.html#controllers-graph)
 - **Turbo Delay (in frames)** (**3**/5/10/15/30/60/1/2): The number of frames between consecutive buttton presses when the Turbo B or Turbo A buttons are held down.
-- **Zapper Mode** (**pointer**/mouse): Awaiting description.
+- **Zapper Mode** (**pointer**/mouse): Pointer allows the Zapper Device Type to be used for touch-devices, but still can be used with regular mouse. Pointer and Mouse mode movement behaves differently with different input driver so user can choose which movement feels natural to them.
 - **Show Crosshair** (Off/**On**): Show the crosshair for the Zapper device type.
 
 ??? note "Show Crosshair - On"
@@ -203,19 +202,19 @@ Custom color palettes for the NES can be generated with either of these tools.
 ??? note "Show Crosshair - Off"
 	![show_crosshair_off](images\Cores\fceumm\show_crosshair_off.png)	
 
-- **Overclocking** (**Off**/2x-Postrender/2x-VBlank): Awaiting description.
+- **Overclocking** (**Off**/2x-Postrender/2x-VBlank): Overclocks the NES using PPU method to minimize ingame slowdowns of some games. Contra Force needs VBlank mode (stage 3 slowdowns). Choose which ever minimizes slowdowns without image distortion.
 
 ## Controllers
 
-*The FCEUmm core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The FCEUmm core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
 
 ### User 1 - 2 Device Type(s)
 
-* **Auto** - *Depending on the loaded content, the core will automatically emulate a Gamepad and/or a Zapper*
+* **Auto (Gamepad/Zapper)** - Depending on the loaded content, the core will automatically emulate a Gamepad and/or a Zapper
 
-* Gamepad - Joypad - [*Nintendo Entertainment System Controller*](http://nintendo.wikia.com/wiki/Nintendo_Entertainment_System_controller)
+* [Gamepad]((http://nintendo.wikia.com/wiki/Nintendo_Entertainment_System_controller)) - Joypad - Nintendo Entertainment System Controller
 
-* Zapper - Mouse - [*Nintendo Entertainment System light gun accessory.*](http://nintendo.wikia.com/wiki/NES_Zapper)
+* [Zapper]((http://nintendo.wikia.com/wiki/NES_Zapper)) - Mouse - Nintendo Entertainment System light gun accessory
 
 ### User 3 - 16 Device Type(s)
 
@@ -244,22 +243,19 @@ Custom color palettes for the NES can be generated with either of these tools.
 
 | RetroMouse                                                      | Zapper    |
 |-----------------------------------------------------------------|-----------|
-| ![Retro_Mouse](images/RetroMouse/Retro_Mouse.png)               | Crosshair |
+| ![Retro_Mouse](images/RetroMouse/Retro_Mouse.png)               | Pointer   |
 | ![Retro_Left](images/RetroMouse/Retro_Left.png)                 | Trigger   |
 
 ## Compatibility
 
 | Game                         | Issue                                                        |
 |------------------------------|--------------------------------------------------------------|
-| Ms. Pac-Man (Tengen version) | Graphical glitches on the sides of the screen. (1)           |
 | Skull & Crossbones           | Graphical glitches and screen shaking when in 2-player mode. | 
-
-??? note "(1)"
-	![mspacman_graphicalglitches](images\Cores\fceumm\mspacman_graphicalglitches.png)
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/libretro-fceumm)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
+- [Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/fceumm_libretro.info)
+- [Libretro Repository](https://github.com/libretro/libretro-fceumm)
+- [Report Core Issues Here](https://github.com/libretro/libretro-fceumm/issues)
 * [Official Website](http://cah4e3.shedevr.org.ru/fceultra.php)
 * [Official Sourceforge Repository](https://sourceforge.net/projects/fceumm/)
