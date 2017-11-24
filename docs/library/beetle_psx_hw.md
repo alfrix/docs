@@ -6,7 +6,7 @@ Enhanced port of standalone Mednafen PSX to libretro.
 
 ### Why use this core?
 
--
+Awaiting description.
 
 ### Authors
 
@@ -97,13 +97,16 @@ After that, you can load the `foo.cue` file in RetroArch with the Beetle PSX HW 
 !!! warning
     Certain PS1 games are multi-track, so their .cue files might be more complicated.
 	
-#### PAL copy protected games
+#### Playing PAL copy protected games
 
-PAL copy protected games need a SBI Subchannel file next to the bin/cue files in order to get past the copy protection. Also, the skip BIOS core option should be set to off.
+PAL copy protected games need a SBI Subchannel file next to the bin/cue files in order to get past the copy protection.
 
-- Parasite Eve II (S) (Disc 1).bin
-- Parasite Eve II (S) (Disc 1).cue
-- **Parasite Eve II (S) (Disc 1).sbi**
+- Ape Escape (Europe).bin
+- Ape Escape (Europe).cue
+- **Ape Escape (Europe).sbi**
+
+!!! warning ""
+	For proper PAL game compatibility, the 'Skip BIOS' core option should be set to off.
 
 ### Multiple-disk games
 
@@ -126,7 +129,8 @@ Here's another m3u example done with Valkryie Profile
 
 ![m3u_example](images\Cores\beetle_psx_hw\m3u_example.png)
 
-Adding multi-track games to playlists manually is recommended. (Add an entry in the playlist that points to `foo.m3u`)
+!!! warning ""
+	Adding multi-track games to playlists is recommended. (Manually add an entry a playlist that points to `foo.m3u`)
 
 ### Game compression
 
@@ -136,16 +140,24 @@ If converting a multiple-disk game, all disks should be added to the same .pbp f
 
 Most conversion tools will want a single .bin file for each disk. If your game uses multiple .bin files (tracks) per disk, you will have to mount the cue sheet to a virtual drive and re-burn the images onto a single track before conversion.
 
-!!! warning
+!!! warning ""
     RetroArch does not currently have .pbp database due to variability in users' conversion methods. All .pbp games will have to be added to playlists manually.
 
 ### Saves
 
-Memcard slot 0 is saved using libretro's standard interface (`gamename.srm`). You might have to rename your old memory cards brought from other emulators to `gamename.srm`.
+For game savedata storage, the PSX console used memory cards. The PSX console had two slots for memory cards. 
 
-The rest of memory cards are saved using Mednafen's standard mechanism. (e.g. `gamename.1.mcr`).
+In this doc, the first memory card slot will be referred to as 'Memcard slot 0' and the second slot will be referred to as 'Memcard slot 1'.
 
-The game name in the Memcard filename will match the cue or m3u or pbp file's name, like this:
+For memory card functionality and usage, the Beetle PSX HW core will either use the Libretro savefile format or the Mednafen savefile format.
+
+The Libretro savefile format for memory cards is `gamename.srm`
+
+The Mednafen savefile format for memory cards is `gamename.slot#.mcr`
+
+By default in the Beetle PSX HW core, memcard slot 0 is saved using libretro's savefile format (`gamename.srm`) and memcard slot 1 is saved using Mednafen's savefile format (`gamename.1.mcr`).
+
+By default in the Beetle PSX HW core, the filenames of the memcard savefiles will match the loaded cue or m3u or pbp filename, like this:
 
 - Loaded content: Breath of Fire III (USA).cue
 
@@ -169,9 +181,12 @@ or
 
 - **Memcard slot 1: `Wild Arms 2 (USA).1.mcr**
 
-!!! attention
-    Memory card behavior can be altered with any of the following core options (Memcard 0 method, Enable memory card 1, Shared memcards).
+!!! warning ""
+    Memory card behavior is controlled with the following [core options](https://buildbot.libretro.com/docs/library/beetle_psx_hw/#core-options) (Memcard 0 method, Enable memory card 1, Shared memcards).
 
+!!! warning ""
+	To import your old memory cards from other emulators, you need to rename them to either the Libretro savefile format `gamename.srm` or the Mednafen savefile format. 'gamename.slot#.mcr'. Which format to follow for renaming depends on your preferences and how the [Memory card related core options](https://buildbot.libretro.com/docs/library/beetle_psx_hw/#core-options) are configured.
+	
 ### Rumble
 
 Rumble only works when the corresponding user's device type is set to **DualShock** and the joypad input driver being used has rumble function implementation (e.g. **Xinput**).
@@ -180,7 +195,7 @@ Rumble only works when the corresponding user's device type is set to **DualShoc
 
 *The Beetle PSX HW core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
 
-- **Renderer (restart)** (**vulkan**/opengl/software): Choose which video renderer will be used. Software is the most accurate renderer. The OpenGL and Vulkan renderers will enable and/or speedup enhancements like upscaling and texture filtering. The OpenGL and Vulkan renderers must be used with it's corresponding video driver in RetroArch's Driver settings. Also, Hardware Shared Context must be enabled in RetroArch's Core settings.
+- **Renderer (restart)** (**vulkan**/opengl/software): Choose which video renderer will be used. **Software is the most accurate renderer.** The OpenGL and Vulkan renderers will enable and/or speedup enhancements like upscaling and texture filtering. **The OpenGL and Vulkan renderers must be used with it's corresponding video driver in RetroArch's Driver settings.** **Also, Hardware Shared Context must be enabled in RetroArch's Core settings.**
 - **Software framebuffer** (Off/**On**): If off, the software renderer will skip some steps. Potential speedup. Causes bad graphics when doing framebuffer readbacks.
 - **Adaptive smoothing** (Off/**On**): When upscaling, smooths out 2D elements while keeping 3D elements sharp. Only for the Vulkan renderer at the moment.
 
@@ -204,48 +219,90 @@ Rumble only works when the corresponding user's device type is set to **DualShoc
     ![nearest](images\Cores\beetle_psx_hw\nearest.png)
 
 ??? note "*SABR*"
-    ![nearest](images\Cores\beetle_psx_hw\SABR.png)
+    ![SABR](images\Cores\beetle_psx_hw\SABR.png)
 
 ??? note "*xBR*"
-    ![nearest](images\Cores\beetle_psx_hw\xBR.png)
+    ![xBR](images\Cores\beetle_psx_hw\xBR.png)
 
 ??? note "*bilinear*"
-    ![nearest](images\Cores\beetle_psx_hw\bilinear.png)
+    ![bilinear](images\Cores\beetle_psx_hw\bilinear.png)
 
 ??? note "*3-point*"
-    ![nearest](images\Cores\beetle_psx_hw\3-point.png)
+    ![3-point](images\Cores\beetle_psx_hw\3-point.png)
 
 ??? note "*JINC2*"
-    ![nearest](images\Cores\beetle_psx_hw\JINC2.png)
+    ![JINC2](images\Cores\beetle_psx_hw\JINC2.png)
 
-- **Internal color depth** (**dithered 16bpp (native)**/32bpp): PSX had 16bpp depth, Beetle PSX HW can go up to 32bpp. Only for the OpenGL and Vulkan renderers at the moment. Vulkan always uses 32bpp.
+- **Internal color depth** (**dithered 16bpp (native)**/32bpp): PSX had 16bpp depth, Beetle PSX HW can go up to 32bpp. **Only for the OpenGL and Vulkan renderers at the moment.** The Vulkan renderer always uses 32bpp.
 - **Wireframe mode** (**Off**/On): Shows only the outlines of polygons. Only for the OpenGL renderer. **For debug use.**
+
+??? note "Wireframe mode - On"
+	![wireframe_mode_on](images\Cores\beetle_psx_hw\wireframe_mode_on.png)
+
 - **Display full VRAM** (**Off**/On): Everything in VRAM is drawn on screen. **For debug use.**
+
+??? note "Display full VRAM - On"
+	![display_full_vram_on](images\Cores\beetle_psx_hw\display_full_vram_on.png)
+
 - **PGXP operation mode** (**Off**/memory only/memory + CPU): When on, floating point coordinates will be used for vertex positions, to avoid the PSX polygon jitter. 'memory + cpu' mode can further reduce jitter at the cost of performance and geometry glitches.
 - **PGXP vertex cache** (**Off**/On): Maintains a cache for vertices. May result in better performance but can result in graphics glitches in most games.
 - **PGXP perspective correct texturing** (**Off**/On): Original PSX did affine texture mapping, resulting in e.g. crooked lines across walls. This fixes it.
 - **Widescreen mode hack** (**Off**/On): If on, renders in 16:9. Works best on 3D games.
+
+??? note "Widescreen mode hack - Off"
+	![widescreen_mode_hack_off](images\Cores\beetle_psx_hw\widescreen_mode_hack_off.png)
+	
+??? note "Widescreen mode hack - On"
+	![widescreen_mode_hack_on](images\Cores\beetle_psx_hw\widescreen_mode_hack_on.png)
+
 - **Frame duping (speedup)** (**Off**/On): Redraws/reuses the last frame if there was no new data.
 - **CPU Overclock** (**Off**/On): Gets rid of memory access latency and makes all GTE instructions have 1 cycle latency.
-- **Skip BIOS** (**Off**/On): Self-explanatory. Some games have issues when enabled (Saga Frontier, PAL copy protected games, etc). 
-- **Dithering pattern** (**1x(native)**/internal resolution/Off): If off, disables the dithering pattern the PSX applies to combat color banding. Only for the OpenGL and Vulkan renderers. Vulkan always disables the pattern.
-- **Display internal FPS** (**Off**/On): Shows the frame rate at which the emulated PSX is drawing at. Onscreen Notifications must be enabled in the RetroArch Onscreen Display Settings.
-- **Initial scanline** (**0**/1/2/3/4/5/6/7/8/9/10/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40):  Sets the first scanline to be drawn on screen.
-- **Last scanline** (**239**/238/237/236/235/234/232/231/230/229/228/227/226/225/224/223/222/221/220/219/218/217/216/215/214/213/212/211/210): Sets the last scanline to be drawn on screen.
-- **Initial scanline PAL** (**0**/1/2/3/4/5/6/7/8/9/10/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40): Sets the first scanline to be drawn on screen for PAL systems.
-- **Last scanline PAL** (**287**/286/285/284/283/283/282/281/280/279/278/277/276/275/274/273/272/271/270/269/268/267/266/265/264/263/262/261/260): Sets the last scanline to be drawn on screen for PAL systems.
-- **Crop Overscan** (Off/**On**): Self-explanatory.
+- **Skip BIOS** (**Off**/On): Self-explanatory. **Some games have issues when this core option is enabled (Saga Frontier, PAL copy protected games, etc).** 
+
+??? note "Skip BIOS - Off"
+	![skip_bios_off](images\Cores\beetle_psx_hw\skip_bios_off.png)
+
+- **Dithering pattern** (**1x(native)**/internal resolution/Off): If off, disables the dithering pattern the PSX applies to combat color banding. **Only for the OpenGL and Vulkan renderers. Vulkan always disables the pattern.**
+- **Display internal FPS** (**Off**/On): Shows the frame rate at which the emulated PSX is drawing at. **Onscreen Notifications must be enabled in the RetroArch Onscreen Display Settings.**
+
+??? note "Display internal FPS - On"
+	![display_internal_fps_on](images\Cores\beetle_psx_hw\display_internal_fps_on.png)
+
+- **Initial scanline** (0 to 40 in increments of 1. **0 is default**):  Sets the first scanline to be drawn on screen.
+- **Last scanline** (210 to 239 in increments of 1. **239 is default**): Sets the last scanline to be drawn on screen.
+- **Initial scanline PAL** (0 to 40 in increments of 1. **0 is default**): Sets the first scanline to be drawn on screen for PAL systems.
+- **Last scanline PAL** (260 to 287 in increments of 1. **287 is default**): Sets the last scanline to be drawn on screen for PAL systems.
+- **Crop Overscan** (Off/**On**): Crop out the potentially random glitchy video output that would have been hidden by the bezel around the edge of a standard-definition television screen.
+
+??? note "Crop Overscan - On"
+	![crop_overscan_on](images\Cores\beetle_psx_hw\crop_overscan_on.png)
+	
+??? note "Crop Overscan - Off"
+	![crop_overscan_off](images\Cores\beetle_psx_hw\crop_overscan_off.png)
+
 - **Additional Cropping** (**Off**/1 px/2 px/3 px/4 px/5 px/6 px/7 px/8 px): Self-explanatory.
 - **Offset Cropped Image** (**Off**/1 px/2 px/3 px/4 px/-4 px/-3 px/-2 px/-1 px): Self-explanatory.
 - **Analog self-calibration** (**Off**/On): When enabled, monitors the max values reached by the input, using it as a calibration heuristic which then scales the analog coordinates sent to the emulator accordingly. For best results, rotate the sticks at max amplitude for the algorithm to get a good estimate of the scaling factor, otherwise it will adjust while playing.
 - **DualShock Analog button toggle** (**Off**/On): Toggles the Analog button from DualShock controllers, if disabled analogs are always on, if enabled you can toggle their state by pressing and holding START+SELECT+L1+L2+R1+R2.
 - **Port 1: Multitap enable** (**Off**/On): Enables/Disables multitap functionality on port 1.
 - **Port 2: Multitap enable** (**Off**/On): Enables/Disables multitap functionality on port 2.
+- **Gun Cursor** (**Cross**/Dot/Off): Choose the cursor for the 'Guncon / G-Con 45' and 'Justifier' Device Types. Setting it to off disables the crosshair.
+
+??? note "Gun Cursor - Cross"
+	![cursor_cross](images\Cores\beetle_psx_hw\cursor_cross.png)
+	
+??? note "Gun Cursor - Dot"
+	![cursor_dot](images\Cores\beetle_psx_hw\cursor_dot.png)	
+
+??? note "Gun Cursor - Off"
+	![cursor_off](images\Cores\beetle_psx_hw\cursor_off.png)		
+	
 - **Gun Trigger** (**Left Mouse Button**/Right Mouse Button): Select whether the left or right mouse button is used as the trigger for the 'Guncon / G-Con 45' and 'Justifier' Device Types. Look below at the [Controllers graph](https://buildbot.libretro.com/docs/library/beetle_psx_hw/#controllers-graph) section for more information.
+- **Mouse Sensitivity** (5% to 200% in increments of 5%. **100% is default**): Configure the 'Mouse' Device Type's sensitivity.
 - **CD Access Method (restart)** (**sync**/async/precache): Awaiting description.
-- **Memcard 0 method** (**libretro**/mednafen): Picks the format (libretro or mednafen) used for storing memcard 0 save data.
-- **Enable memory card 1** (Setting1/**On**): Specifically enables memcard slot 1. Needed for game "Codename Tenka".
-- **Shared memcards (restart)** (**Off**/On): Stores everything in the same savefile. 'Memcard 0 method' needs to be set to 'libretro'. 
+- **Memcard 0 method** (**libretro**/mednafen): Picks the savefile format (libretro or mednafen) used for storing memcard 0 save data. Look above at the [Saves](https://buildbot.libretro.com/docs/library/beetle_psx_hw/#saves) for an explanation regarding the libretro and mednafen formats.
+- **Enable memory card 1** (Off/**On**): Enable or disables memcard slot 1. **Memcard 1 must be enabled for game 'Codename Tenka'.**
+- **Shared memcards (restart)** (**Off**/On): Games will share memory cards. The **'Memcard 0 method' core option needs to be set to 'mednafen'.** Memcard slot 0 savedata filename's will be 'mednafen_psx_libretro_shared.0.mcr' and memcard 1 savedata filename's will be 'mednafen_psx_libretro_shared.1.mcr'.
 - **Increase CD loading speed** (**2x (native)**/4x/6x/8x/10x/12x/14x): An **experimental** feature, may not work correctly in all games. Can greatly reduce the loading times on games.
 
 ## Controllers
@@ -264,7 +321,7 @@ The Beetle PSX HW core supports the following controller setting(s), bolded cont
 
 - [Guncon / G-Con 45](https://en.wikipedia.org/wiki/GunCon) - Lightgun - Namco Gun Controller (SLEH-00007)
 
-- [Justifier](https://en.wikipedia.org/wiki/Konami_Justifierhttps://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun -  Konami Justifier lightgun peripheral (SLEH-00005, SLUH-00017)
+- [Justifier](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun -  Konami Justifier lightgun peripheral (SLEH-00005, SLUH-00017)
 
 - [Mouse](https://en.wikipedia.org/wiki/PlayStation_Mouse) - Mouse - PlayStation Mouse (SCPH-1090, SCPH-1030)
 
@@ -315,21 +372,17 @@ The Beetle PSX HW core supports the following controller setting(s), bolded cont
 **If the 'Gun Trigger' core option is set to Left Mouse Button, then**
 
 - Right click / Mouse Button 4 = Guncon / G-Con 45 'A' and Justifier 'Aux'
-- Middle click / Mouse Button 5 = Guncon / G-Con 45 'B' and Justifier 'Start'`
+- Middle click / Mouse Button 5 = Guncon / G-Con 45 'B' and Justifier 'Start'
 
 **If the 'Gun Trigger' core option is set to  Right Mouse Button, then**
 
 - Left click / Mouse Button 4 = Guncon / G-Con 45 'A' and Justifier 'Aux'
 - Middle click / Mouse Button 5 = Guncon / G-Con 45 'B' and Justifier 'Start'
 
-## Compatibility
-
-Please file bugs that are reproducible on **upstream standalone** on the [official forums](https://forum.fobby.net/index.php?t=msg&th=1114&start=0&).
-
 ## External Links
 
-- [Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/mednafen_psx_hw_libretro.info)
-- [Libretro Repository](https://github.com/libretro/beetle-psx-libretro)
-- [Report Core Issues Here](https://github.com/libretro/beetle-psx-libretro/issues)
-- [Official Website](https://mednafen.github.io/)
-- [Official Upstream Downloads](https://mednafen.github.io/releases/)
+- [Beetle PSX HW Libretro Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/mednafen_psx_hw_libretro.info)
+- [Beetle PSX HW Libretro Github Repository](https://github.com/libretro/beetle-psx-libretro)
+- [Report Beetle PSX HW Core Issues Here](https://github.com/libretro/beetle-psx-libretro/issues)
+- [Official Mednafen Website](https://mednafen.github.io/)
+- [Official Mednafen Downloads](https://mednafen.github.io/releases/)
