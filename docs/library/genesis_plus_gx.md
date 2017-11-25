@@ -6,66 +6,76 @@ Genesis Plus GX is an open-source Sega 8/16 bit emulator focused on accuracy and
 
 ### Why use this core?
 
--
+Awaiting description.
 
-### Author(s): 
+### Authors
 
-Charles McDonald|Eke-Eke
+- Charles McDonald
+- Eke-Eke
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/blob/master/docs/library/genesis_plus_gx.md). Changes are proposed using "Pull Requests."
+In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/genesis_plus_gx.md). Changes are proposed using "Pull Requests."
 
 ## See also
 
-[Picodrive](https://buildbot.libretro.com/docs/library/picodrive)
+- [Sega Master System (Emux)](https://doc.libretro.com/library/emux_sms/)
+- [Sega MS/GG/MD/CD (Genesis Plus GX)](https://doc.libretro.com/library/genesis_plus_gx/)
+- [Sega MS/MD/CD/32X (PicoDrive)](https://doc.libretro.com/library/picodrive/)
 
 ## License
 
-Non-commercial
+- Non-commercial
 
 ## Extensions
 
-*Content that can be loaded by the Genesis Plus GX core have the following file extensions*
+Content that can be loaded by the Genesis Plus GX core have the following file extensions:
 
-mdx|md|smd|gen|bin|cue|iso|sms|gg|sg|68k|chd
+- .mdx
+- .md
+- .smd
+- .gen
+- .bin
+- .cue
+- .iso
+- .sms
+- .gg
+- .sg
+- .68k
+- .chd
 
-## Database(s)
+## Databases
 
-*RetroArch databases that are associated with the Genesis Plus GX core*
+RetroArch database(s) that are associated with the Genesis Plus GX core:
 
-* Sega - Game Gear
-
-* Sega - Master System - Mark III
-
-* Sega - Mega-CD - Sega CD
-
-* Sega - Mega Drive - Genesis
-
-* Sega - PICO
-
-* Sega - SG-1000
+- [Sega - Game Gear](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20Game%20Gear.rdb)
+- [Sega - Master System - Mark III](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20Master%20System%20-%20Mark%20III.rdb)
+- [Sega - Mega-CD - Sega CD](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20Mega-CD%20-%20Sega%20CD.rdb)
+- [Sega - Mega Drive - Genesis](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20Mega%20Drive%20-%20Genesis.rdb)
+- [Sega - PICO](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20PICO.rdb)
+- [Sega - SG-1000](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20SG-1000.rdb)
 
 ## BIOS
 
-*Required or optional firmware files go in RetroArch's system directory.*
+Required or optional firmware files go in RetroArch's system directory.
 
-**Firmware files labelled (bootrom) and (lock-on) must have their corresponding core options enabled in order for them to be loaded.**
+|   Filename    |    Description                         |              md5sum                                                                         |
+|:-------------:|:-------------------------------------------------------------------------------------------------:|:--------------------------------:|
+| bios_MD.bin   | [MegaDrive TMSS startup ROM (bootrom)](http://segaretro.org/TradeMark_Security_System) - Optional | 45e298905a08f9cfb38fd504cd6dbc84 |
+| bios_CD_E.bin | MegaCD EU BIOS - Required for MegaCD EU games                                                     | e66fa1dc5820d254611fdcdba0662372 |
+| bios_CD_U.bin | SegaCD US BIOS - Required for SegaCD US games                                                     | 854b9150240a198070150e4566ae1290 |
+| bios_CD_J.bin | MegaCD JP BIOS - Required for MegaCD JP games                                                     | 278a9397d192149e84e820ac621a8edd |
+| bios_E.sms    | MasterSystem EU BIOS (bootrom) - Optional                                                         | -                                |
+| bios_U.sms    | MasterSystem US BIOS (bootrom) - Optional                                                         | -                                |
+| bios_J.sms    | MasterSystem JP BIOS (bootrom) - Optional                                                         | -                                |
+| bios.gg       | GameGear BIOS (bootrom) - Optional                                                                | -                                |
+| sk.bin        | Sonic & Knuckles ROM (lock-on) - Optional                                                         | 4ea493ea4e9f6c9ebfccbdb15110367e |
+| sk2chip.bin   | Sonic & Knuckles UPMEM ROM (lock-on) - Optional                                                   | b4e76e416b887f4e7413ba76fa735f16 |
+| areplay.bin   | Action Replay ROM (lock-on) - Optional                                                            | -                                |
+| ggenie.bin    | Game Genie ROM (lock-on) - Optional                                                               | -                                |
 
-|   Filename    |    Description                         |              md5sum                     |
-|:-------------:|:--------------------------------------:|:---------------------------------------:|
-| bios_MD.bin   | [MegaDrive TMSS startup ROM (bootrom)](http://segaretro.org/TradeMark_Security_System) - Optional  | 45e298905a08f9cfb38fd504cd6dbc84 |
-| bios_CD_E.bin | MegaCD EU BIOS - Required for EU       | e66fa1dc5820d254611fdcdba0662372        |
-| bios_CD_U.bin | SegaCD US BIOS - Required for US       | 854b9150240a198070150e4566ae1290        |
-| bios_CD_J.bin | MegaCD JP BIOS - Required for JP       | 278a9397d192149e84e820ac621a8edd        |
-| bios_E.sms    | MasterSystem EU BIOS (bootrom) - Optional        | -                                       |
-| bios_U.sms    | MasterSystem US BIOS (bootrom) - Optional        | -                                       |
-| bios_J.sms    | MasterSystem JP BIOS (bootrom) - Optional        | -                                       |
-| bios.gg       | GameGear BIOS (bootrom) - Optional               | -                                       |
-| sk.bin        | Sonic & Knuckles ROM (lock-on) - Optional        | 4ea493ea4e9f6c9ebfccbdb15110367e        |
-| sk2chip.bin   | Sonic & Knuckles UPMEM ROM (lock-on) - Optional  | b4e76e416b887f4e7413ba76fa735f16        |
-| areplay.bin   | Action Replay ROM (lock-on) - Optional           | -                                       |
-| ggenie.bin    | Game Genie ROM (lock-on) - Optional              | -                                       |
+!!! warning
+	Firmware files that are labelled (bootrom) and (lock-on) must have their corresponding [core option](https://buildbot.libretro.com/docs/library/genesis_plus_gx/#core-options) ('System bootrom' core option or 'Cartridge lock-on' core option) configured correctly in order for them to be loaded.
 
 ## Features
 
@@ -79,47 +89,38 @@ mdx|md|smd|gen|bin|cue|iso|sms|gg|sg|68k|chd
 | RetroArch Cheats  | ✔         |
 | Native Cheats     | ✕         |
 | Controllers       | ✔         |
-| Multi-Mouse       | ✕         |
+| Remapping         | ✔         |
+| Multi-Mouse       | -         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| Softpatching      | -         |
 
-The Genesis Plus GX core creates directories named 'Genesis Plus GX' in RetroArch's...
+The Genesis Plus GX core's directory name is 'Genesis Plus GX'
 
-* Savefile directory when the core is loaded.
-* Statestate directory when the core is loaded.
-* Config directory when a Core Override or a Game Override or a Game-options file is saved.
-* Input Remapping directory when a Core Remap or a Game Remap is saved.
-* Shaders Presets directory when a Core Preset or a Game Preset is saved.
+- Game data is saved/loaded to and from where save files are stored.
+- Save states are saved/loaded to and from where state files are stored.
 
-Core Overrides/Remaps/Presets that are saved will be named 'Genesis Plus GX'.
+## Core options
 
-Game Overrides/Remaps/Presets and Game-option files will have the same name as the loaded content.
+The Genesis Plus GX core has the following options that can be tweaked from the core options menu. The default setting is bolded.
 
-Game data is saved/loaded to and from the core's save directory.
-
-Save states are saved/loaded to and from the core's state directory. 
-
-## Options
-
-*The Genesis Plus GX core has the following options that can be tweaked from the core options menu. The default setting is bolded.*
-
-- **System hardware (restart)** (**auto**/sg-1000/sg-1000 II/mark-III/master system/master system II/game gear/mega drive / genesis): Choose which system is going to be emulated.
-- **System region (restart)** (**auto**/ntsc-u/pal/ntsc-j): Choose which region the system is from.
-- **System lockups** (**On**/Off): Emulate system lockups that occur on real hardware.
-- **System bootrom** (On/**Off**): - Runs bootrom if available and then starts loaded content after the boot sequence. The appropriate bootrom files must be in RetroArch's system directory.
-- **CD System BRAM** (**per bios**/per game): The Sega CD's internal memory cannot hold a lot of saves. Setting this option to per game allows each game to have its own one brm file, thus negating any lack of available space issues.
-- **68k address error** (**On**/Off): Emulate the [68k](http://segaretro.org/M68000) address error that occurs on real hardware. Set this to off when playing rom hacks since most emulators used to develop rom hacks don't emulate the error.
-- **Cartridge lock-on (restart)** (**Off**/game genie/action replay (pro)/sonic & knuckles): Select lock-on cartridge. The appropriate lock-on cartride files must be in RetroArch's system directory.
-- **Master System FM** (**auto**/Off/On): Enable the Master System FM chip. (Enhanced sound output support for [SMS compatible games](http://segaretro.org/FM_Sound_Unit_))
-- **YM2612 DAC quantization** (On/**Off**): Enable YM2612 DAC quantization.
-- **YM2612/YM3438 core** (**mame**/nuked (ym2612)/nuked (asic ym3438)/nuked (discrete ym3438):
-- **Sound output** (**stereo**/mono): - 
-- **Audio filter** (**Off**/low-pass): -
-- **Low-pass filter %** (**60**/65/70/75/80/85/90/95/5/10/15/20/25/30/35/40/45/50/55): -
-- **Blargg NTSC filter** (**Off**/monochrome/composite/svidio/rgb): Enable Blargg NTSC filters.
+- **System hardware** (**auto**/sg-1000/sg-1000 II/mark-III/master system/master system II/game gear/mega drive / genesis): Choose which system is going to be emulated.
+- **System region** (**auto**/ntsc-u/pal/ntsc-j): Choose which region the system is from.
+- **System lockups** (Off/**On**): Emulate system lockups that occur on real hardware.
+- **System bootrom** (**Off**/On): - Runs bootrom if available and then starts loaded content after the boot sequence. Look above at the [BIOS section](https://buildbot.libretro.com/docs/library/genesis_plus_gx/#bios) for more information.
+- **CD System BRAM** (**per bios**/per game): The Sega CD's internal memory cannot hold a lot of saves. Setting this core option to per game allows each game to have its own one brm file, thus negating any lack of available space issues.
+- **68k address error** (Off/**On**): Emulate the [68k](http://segaretro.org/M68000) address error that occurs on real hardware. Set this to off when playing rom hacks since most emulators used to develop rom hacks don't emulate the error.
+- **Cartridge lock-on** (**Off**/game genie/action replay (pro)/sonic & knuckles): Select lock-on cartridge. Look above at the [BIOS section](https://buildbot.libretro.com/docs/library/genesis_plus_gx/#bios) for more information.
+- **Master System FM** (**auto**/Off/On): Enable the Master System FM chip. (Enhanced sound output support for [SMS compatible games](http://segaretro.org/FM_Sound_Unit_).
+- **YM2612 DAC quantization** (**Off**/On): Awaiting description.
+- **YM2612/YM3438 core** (**mame**/nuked (ym2612)/nuked (asic ym3438)/nuked (discrete ym3438): Awaiting description.
+- **Sound output** (**stereo**/mono): Awaiting description.
+- **Audio filter** (**Off**/low-pass): - Awaiting description.
+- **Low-pass filter %** (5 to 95 in increments of 5. **60 is default**): Awaiting description.
+- **Blargg NTSC filter** (**Off**/monochrome/composite/svidio/rgb): Self-explanatory.
 
 ??? note "*Blargg NTSC filter - Off*"
     ![blargg_ntsc_filter_disabled](images\Cores\genesis_plus_gx\blargg_ntsc_filter_disabled.png)
@@ -136,13 +137,13 @@ Save states are saved/loaded to and from the core's state directory.
 ??? note "*Blargg NTSC filter - rgb*"
     ![blargg_ntsc_filter_rgb](images\Cores\genesis_plus_gx\blargg_ntsc_filter_rgb.png)
 
-- **LCD Ghosting filter** (On/**Off**): Enable LCD Gshoting filter
+- **LCD Ghosting filter** (**Off**/On): Self-explanatory.
 
 ??? note "*LCD Ghosting filter - On*"
     ![lcd_ghosting_filter_on](images\Cores\genesis_plus_gx\lcd_ghosting_filter_on.png)
 
-- **Borders** (**Off**/ top/bottom/ left/right / full): Enable borders.
-- **Game Gear extended screen** (On/**Off**: Extend the Game Gear screen.
+- **Borders** (**Off**/ top/bottom/ left/right / full): Self explanatory.
+- **Game Gear extended screen** (**Off**/On): Self-explanatory.
 
 ??? note "*Game Gear extended screen - Off*"
     ![game_gear_extended_screen_off](images\Cores\genesis_plus_gx\game_gear_extended_screen_off.png)
@@ -150,7 +151,7 @@ Save states are saved/loaded to and from the core's state directory.
 ??? note "*Game Gear extended screen - On*"
     ![game_gear_extended_screen_on](images\Cores\genesis_plus_gx\game_gear_extended_screen_on.png)
 
-- **Core-provided aspect ratio** (**auto**/NTSC PAR/PAL PAR ): RetroArch's aspect ratio must be set to Core provided in the Video settings for this to function properly.
+- **Core-provided aspect ratio** (**auto**/NTSC PAR/PAL PAR ): Choose the Core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video settings for this to function properly.
 
 - **Interlaced mode 2 output** (**single field**/double field): Change how interlaced mode 2 output is handled. Games like Sonic 2's multiplayer mode uses Interlaced Mode 2.
 
@@ -160,96 +161,96 @@ Save states are saved/loaded to and from the core's state directory.
 ??? note "*Interlaced mode 2 output - double field*"
     ![interlaced_mode_2_output_double_field](images\Cores\genesis_plus_gx\interlaced_mode_2_output_double_field.png)	
 
-- **Show Lightgun crosshair** (**Off**/On ): Shows lightgun crosshairs for the MD Menancer, MD Justifiers, and MS Light Phaser device types.
+- **Show Lightgun crosshair** (**Off**/On): Shows lightgun crosshairs for the 'MD Menancer', 'MD Justifiers', and 'MS Light Phaser' Device Types.
 
 ??? note "*Lightgun crosshair*"
     ![lightgun_crosshair](images\Cores\genesis_plus_gx\lightgun_crosshair.png)
 
-- **Invert Mouse Y-axis** (**Off**/On): For the MD Mouse Device Type
+- **Invert Mouse Y-axis** (**Off**/On): Inverts the Mouse Y-axis for the 'MD Mouse' Device Type
 
-- **CPU speed** (**100%**/125%/150%/175%/200%): -
+- **CPU speed** (100% to 200% in increments of 25%. **100% is default**): Overclock the emulated CPU.
 
-- **Remove per-line sprite limit** (**Off**/On): -
+- **Remove per-line sprite limit** (**Off**/On): Self-explanatory.
 
 ## Controllers
 
-*The Genesis Plus GX core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The Genesis Plus GX core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
 
 ### User 1 Device Type(s)
 
-* **Joypad Auto** - Joypad without analog - *Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller*
+- **Joypad Auto** - Joypad - Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller
 
-* MD Joypad 3 Button - Joypad without analog 
+- MD Joypad 3 Button - Joypad 
 
-* MD Joypad 6 Button - Joypad without analog
+- MD Joypad 6 Button - Joypad
 
-* MS Joypad 2 Button - Joypad without analog - *also used for Game Gear*
+- MS Joypad 2 Button - Joypad - also used for Game Gear
 
-* MD Joypad 3 Button + 4-WayPlay - Joypad without analog - *allows for up to four players to play together in certain games*
+- MD Joypad 3 Button + 4-WayPlay - Joypad - allows for up to four players to play together in certain games
 
-* MD Joypad 6 Button + 4-WayPlay - Joypad without analog - *allows for up to four players to play together in certain games*
+- MD Joypad 6 Button + 4-WayPlay - Joypad - allows for up to four players to play together in certain games
 
-* MD Joypad 3 Button + Teamplayer - Joypad without analog - *allows for up to four players to play together in certain games*
+- MD Joypad 3 Button + Teamplayer - Joypad - allows for up to four players to play together in certain games
 
-* MD Joypad 6 Button + Teamplayer - Joypad without analog - *allows for up to four players to play together in certain games*
+- MD Joypad 6 Button + Teamplayer - Joypad - allows for up to four players to play together in certain games
 
-* MS Joypad 2 Button + Master Tap - Joypad without analog - *allows for up to four players to play together in certain games*
+- MS Joypad 2 Button + Master Tap - Joypad - allows for up to four players to play together in certain games
 
-* MS Light Phaser - Lightgun
+- MS Light Phaser - Lightgun
 
-* MS Paddle Control - Joypad with analog
+- MS Paddle Control - Joypad 
 
-* MS Sports Pad - Joypad with analog
+- MS Sports Pad - Joypad
 
-* MS Graphic Board - Pointer
+- MS Graphic Board - Pointer
 
-* MD XE-1AP - Joypad with analog
+- MD XE-1AP - Joypad
 
-* MD Mouse - Mouse
+- MD Mouse - Mouse
 
 ### User 2 Device Type(s)
 
-* **Joypad Auto** - Joypad without analog - *Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller*
+- **Joypad Auto** - Joypad - Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller
 
-* MD Joypad 3 Button - Joypad without analog
+- MD Joypad 3 Button - Joypad
 
-* MD Joypad 6 Button - Joypad without analog
+- MD Joypad 6 Button - Joypad
 
-* MS Joypad 2 Button - Joypad without analog - *also used for Game Gear*
+- MS Joypad 2 Button - Joypad - also used for Game Gear
 
-* MD Joypad 3 Button + 4-WayPlay - Joypad without analog - *allows for up to four players to play together in certain games*
+- MD Joypad 3 Button + 4-WayPlay - Joypad - allows for up to four players to play together in certain games
 
-* MD Joypad 6 Button + 4-WayPlay - Joypad without analog - *allows for up to four players to play together in certain games*
+- MD Joypad 6 Button + 4-WayPlay - Joypad - allows for up to four players to play together in certain games
 
-* MD Joypad 3 Button + Teamplayer - Joypad without analog - *allows for up to four players to play together in certain games*
+- MD Joypad 3 Button + Teamplayer - Joypad - allows for up to four players to play together in certain games
 
-* MD Joypad 6 Button + Teamplayer - Joypad without analog - *allows for up to four players to play together in certain games*
+- MD Joypad 6 Button + Teamplayer - Joypad - allows for up to four players to play together in certain games
 
-* MS Joypad 2 Button + Master Tap - Joypad without analog - *allows for up to four players to play together in certain games*
+- MS Joypad 2 Button + Master Tap - Joypad - allows for up to four players to play together in certain games
 
-* MD Menancer - Lightgun
+- MD Menancer - Lightgun
 
-* MD Justifiers  - Lightgun
+- MD Justifiers  - Lightgun
 
-* MS Light Phaser - Lightgun
+- MS Light Phaser - Lightgun
 
-* MS Paddle Control - Joypad with analog
+- MS Paddle Control - Joypad
 
-* MS Sports Pad - Joypad with analog
+- MS Sports Pad - Joypad
 
-* MS Graphic Board - Pointer
+- MS Graphic Board - Pointer
 
-* MD XE-1AP - Joypad with analog
+- MD XE-1AP - Joypad
 
-* MD Mouse - Mouse
+- MD Mouse - Mouse
 
 ### User 3 - 16 Device Type(s)
 
-* **RetroPad** - Joypad without analog
+- **RetroPad** - Joypad
 
 ### Controllers graph
 
-| Genesis Plus GX  | RetroPad                                                       | *MD Joypad 3 Button (+ 4-WayPlay) (+ Teamplayer)* | *MD Joypad 6 Button (+ 4-WayPlay) (+ Teamplayer)* | *MS Joypad 2 Button (+ Master Tap)* | *MS Paddle Control* | *MS Sports Pad* | *MD XE-1AP* |
+| Genesis Plus GX  | RetroPad                                                       |  MD Joypad 3 Button (+ 4-WayPlay) (+ Teamplayer)  |  MD Joypad 6 Button (+ 4-WayPlay) (+ Teamplayer)  |  MS Joypad 2 Button (+ Master Tap)  |  MS Paddle Control  |  MS Sports Pad  |  MD XE-1AP  |
 |------------------|----------------------------------------------------------------|---------------------------------------------------|---------------------------------------------------|-------------------------------------|---------------------|-----------------|-------------|
 | B                | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               | B                                                 | B                                                 | 1                                   | 1                   | 1               | E2          |
 | A                | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               | A                                                 | A                                                 |                                     |                     |                 | E1          |
@@ -265,7 +266,7 @@ Save states are saved/loaded to and from the core's state directory.
 |                  | ![RetroPad_Left_Stick](images/RetroPad/Retro_Left_Stick.png)   |                                                   |                                                   |                                     | Paddle              | Trackball       | Thumb-stick |
 |                  | ![RetroPad_Right_Stick](images/RetroPad/Retro_Right_Stick.png) |                                                   |                                                   |                                     |                     |                 | Slider      |
 
-| RetroMouse                                                      | *Menacer* | *Justifiers* | *Light Phaser* | *Graphic Board* | *MD Mouse* |
+| RetroMouse                                                      |  Menacer  |  Justifiers  |  Light Phaser  |  Graphic Board  |  MD Mouse  |
 |-----------------------------------------------------------------|-----------|--------------|----------------|-----------------|------------|
 | ![Retro_Mouse](images/RetroMouse/Retro_Mouse.png)               | Pointer   | Pointer      | Pointer        | Pointer         | Pointer    | 
 | ![RetroP_Left](images/RetroMouse/Retro_Left.png)                | A         | A            | A              | Pen             | Left       |
@@ -281,6 +282,7 @@ Save states are saved/loaded to and from the core's state directory.
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/Genesis-Plus-GX)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta/issues)
-* [Official Website](https://github.com/ekeeke/Genesis-Plus-GX)
+- [Libretro Genesis Plus GX Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/genesis_plus_gx_libretro.info)
+- [Libretro Genesis Plus GX Github Repository](https://github.com/libretro/Genesis-Plus-GX)
+- [Report Libretro Genesis Plus GX Core Issues Here](https://github.com/libretro/Genesis-Plus-GX/issues)
+- [Official Genesis Plus GX Github Repository](https://github.com/ekeeke/Genesis-Plus-GX)
