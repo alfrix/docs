@@ -49,9 +49,7 @@ RetroArch database(s) that are associated with the Beetle Saturn core:
 | mpr-18811-mx.ic1 | The King of Fighters '95 ROM Cartridge - Required for this game            | 255113ba943c92a54facd25a10fd780c |
 | mpr-19367-mx.ic1 | Ultraman: Hikari no Kyojin Densetsu ROM Cartridge - Required for this game | 1cd19988d1d72a3e7caa0b73234c96b4 |
 
-**The King of Fighters '95 ROM Cartridge or the Ultraman: Hikari no Kyojin Densetsu ROM Cartridge will only be used when the ['Cartridge' core option](https://buildbot.libretro.com/docs/library/beetle_saturn/#options) is set to use one of them.**
-
-### Core Option
+**The King of Fighters '95 ROM Cartridge or the Ultraman: Hikari no Kyojin Densetsu ROM Cartridge will only be used when the ['Cartridge' core option](https://buildbot.libretro.com/docs/library/beetle_saturn/#core-options) is set to use one of them.**
 
 ## Features
 
