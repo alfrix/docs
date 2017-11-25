@@ -94,7 +94,7 @@ If you have e.g. `foo.bin`, you should create a text file and save it as `foo.cu
 
 After that, you can load the `foo.cue` file in RetroArch with the Beetle PSX core.
 
-!!! warning
+!!! warning ""
     Certain PS1 games are multi-track, so their .cue files might be more complicated.
 	
 #### Playing PAL copy protected games
@@ -106,7 +106,7 @@ PAL copy protected games need a SBI Subchannel file next to the bin/cue files in
 - **Ape Escape (Europe).sbi**
 
 !!! warning ""
-	For proper PAL game compatibility, the 'Skip BIOS' core option should be set to off.
+	For proper PAL game compatibility, the 'Skip BIOS' core option needs to be set to off.
 
 ### Multiple-disk games
 
@@ -130,7 +130,7 @@ Here's another m3u example done with Valkryie Profile
 ![m3u_example](images\Cores\beetle_psx_hw\m3u_example.png)
 
 !!! warning ""
-	Adding multi-track games to playlists is recommended. (Manually add an entry a playlist that points to `foo.m3u`)
+	Adding multi-track games to a RetroArch playlist is recommended. (Manually add an entry a playlist that points to `foo.m3u`)
 
 ### Game compression
 
@@ -149,15 +149,30 @@ For game savedata storage, the PSX console used memory cards. The PSX console ha
 
 In this doc, the first memory card slot will be referred to as 'Memcard slot 0' and the second slot will be referred to as 'Memcard slot 1'.
 
-For memory card functionality and usage, the Beetle PSX core will either use the Libretro savefile format or the Mednafen savefile format.
+For memory card functionality and usage, the Beetle PSX core will either use the Libretro savedata format or the Mednafen savedata format.
 
-The Libretro savefile format for memory cards is `gamename.srm`
+<center>
 
-The Mednafen savefile format for memory cards is `gamename.slot#.mcr`
+| Libretro savedata format   |  Mednafen savedata format        |
+|----------------------------|----------------------------------|
+| gamename.srm               |   gamename.slot#.mcr             |
 
-By default in the Beetle PSX core, memcard slot 0 is saved using libretro's savefile format (`gamename.srm`) and memcard slot 1 is saved using Mednafen's savefile format (`gamename.1.mcr`).
+</center>
 
-By default in the Beetle PSX core, the filenames of the memcard savefiles will match the loaded cue or m3u or pbp filename, like this:
+**By default**, the Beetle PSX HW core will use Libretro's savedata format for Memcard slot 0 and Mednafen's savedata format for Memcard slot 1.
+
+<center>
+
+| Memcard slot 0 | Memcard slot 1 |
+|----------------|----------------|
+| gamename.srm   | gamename.1.mcr |
+
+</center>
+
+!!! warning ""
+    Memory card behavior can be controlled with the following [core options](https://buildbot.libretro.com/docs/library/beetle_psx/#core-options) (Memcard 0 method, Enable memory card 1, Shared memcards).
+	
+**By default**, the filenames of the Memcard savedata will match the loaded cue or m3u or pbp filename, like this:
 
 - Loaded content: Breath of Fire III (USA).cue
 
@@ -182,10 +197,7 @@ or
 - **Memcard slot 1: `Wild Arms 2 (USA).1.mcr**
 
 !!! warning ""
-    Memory card behavior is controlled with the following [core options](https://buildbot.libretro.com/docs/library/beetle_psx/#core-options) (Memcard 0 method, Enable memory card 1, Shared memcards).
-
-!!! warning ""
-	To import your old memory cards from other emulators, you need to rename them to either the Libretro savefile format `gamename.srm` or the Mednafen savefile format. 'gamename.slot#.mcr'. Which format to follow for renaming depends on your preferences and how the [Memory card related core options](https://buildbot.libretro.com/docs/library/beetle_psx/#core-options) are configured.
+	To import your old memory cards from other emulators, you need to rename them to either the Libretro savedata format or the Mednafen savedata format.
 	
 ### Rumble
 
@@ -256,9 +268,21 @@ Rumble only works when the corresponding user's device type is set to **DualShoc
 - **Gun Trigger** (**Left Mouse Button**/Right Mouse Button): Select whether the left or right mouse button is used as the trigger for the 'Guncon / G-Con 45' and 'Justifier' Device Types. Look below at the [Controllers graph](https://buildbot.libretro.com/docs/library/beetle_psx/#controllers-graph) section for more information.
 - **Mouse Sensitivity** (5% to 200% in increments of 5%. **100% is default**): Configure the 'Mouse' Device Type's sensitivity.
 - **CD Access Method (restart)** (**sync**/async/precache): Awaiting description.
-- **Memcard 0 method** (**libretro**/mednafen): Picks the savefile format (libretro or mednafen) used for storing memcard 0 save data. Look above at the [Saves](https://buildbot.libretro.com/docs/library/beetle_psx/#saves) for an explanation regarding the libretro and mednafen formats.
-- **Enable memory card 1** (Off/**On**): Enable or disables memcard slot 1. **Memcard 1 must be enabled for game 'Codename Tenka'.**
-- **Shared memcards (restart)** (**Off**/On): Games will share memory cards. The **'Memcard 0 method' core option needs to be set to 'mednafen'.** Memcard slot 0 savedata filename's will be 'mednafen_psx_libretro_shared.0.mcr' and memcard 1 savedata filename's will be 'mednafen_psx_libretro_shared.1.mcr'.
+- **Memcard 0 method** (**libretro**/mednafen): Choose the savedata format used for Memcard slot 0 (libretro or mednafen) . Look above at the [Saves](https://buildbot.libretro.com/docs/library/beetle_psx/#saves) for an explanation regarding the libretro and mednafen formats.
+- **Enable memory card 1** (Off/**On**): Enable or disables Memcard slot 1. When disabled, games cannot save/load to Memcard slot 1. **Memcard 1 must be enabled for game 'Codename Tenka'.**
+- **Shared memcards (restart)** (**Off**/On): Games will share and save/load to the same memory cards.
+
+<center>
+
+| Memcard slot 0                     | Memcard slot 1                     |
+|------------------------------------|------------------------------------|
+| mednafen_psx_libretro_shared.0.mcr | mednafen_psx_libretro_shared.1.mcr |
+
+</center>
+
+!!! warning ""
+	The 'Memcard 0 method' core option needs to be set to 'mednafen' for the 'Shared memcards' core option to function properly.
+
 - **Increase CD loading speed** (**2x (native)**/4x/6x/8x/10x/12x/14x): An **experimental** feature, may not work correctly in all games. Can greatly reduce the loading times on games.
 
 ## Controllers
