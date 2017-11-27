@@ -35,28 +35,28 @@ The menu is designed with gamepad navigation in mind but it does have keyboard s
 Manu                        ||In-game      ||
 ------------- | ------------ |------------- | ------------ 
 **Key**       | **Action**   |**Key**       |**Action**
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Arrow_Up.png)    | Move cursor up                  |![](images/controls/Keyboard_Mouse/Keyboard_Black_F1.png)    | Menu toggle
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Arrow_Down.png)  | Move cursor down                |![](images/controls/Keyboard_Mouse/Keyboard_Black_F2.png)    | Save state
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Arrow_Left.png)  | Move cursor left                |![](images/controls/Keyboard_Mouse/Keyboard_Black_F4.png)    | Load state
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Arrow_Right.png) | Move cursor right               |![](images/controls/Keyboard_Mouse/Keyboard_Black_F7.png)    | Increase current state slot
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/controls/Keyboard_Mouse/Keyboard_Black_F6.png)    | Decrease current state slot
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Page_Up.png)     | Scroll one page up              |![](images/controls/Keyboard_Mouse/Keyboard_Black_F8.png)    | Take screenshot
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/controls/Keyboard_Mouse/Keyboard_Black_F9.png)    | Mute
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Enter.png)       | Select                          |![](images/controls/Keyboard_Mouse/Keyboard_Black_F12.png)   | Show on-screen keyboard
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Backspace.png)   | Return to the previous screen   |![](images/controls/Keyboard_Mouse/Keyboard_Black_F11.png)   | Grab mouse
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Shift.png)       | Help                            |![](images/controls/Keyboard_Mouse/Keyboard_Black_Plus.png)  | Volume Up
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Space.png)       | Reset to default                |![](images/controls/Keyboard_Mouse/Keyboard_Black_Minus.png) | Volume Down
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Slash.png)       | Search                          |![](images/controls/Keyboard_Mouse/Keyboard_Black_Space.png) | Fast forward toggle
-![](images/controls/Keyboard_Mouse/Keyboard_Black_Esc.png)         | Exit RetroArch                  |![](images/controls/Keyboard_Mouse/Keyboard_Black_L.png)     | Fast forward hold
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_R.png)     | Rewind
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_O.png)     | Movie record
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_P.png)     | Pause
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_K.png)     | Frame advance
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_H.png)     | Reset
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_M.png)     | Next shader
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_N.png)     | Previous shader
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_I.png)     | Netplay toggle play/spectate
-                                                                   |                                 |![](images/controls/Keyboard_Mouse/Keyboard_Black_E.png)     | Slow motion
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Up.png)    | Move cursor up                  |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F1.png)    | Menu toggle
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Down.png)  | Move cursor down                |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F2.png)    | Save state
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Left.png)  | Move cursor left                |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F4.png)    | Load state
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Right.png) | Move cursor right               |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F7.png)    | Increase current state slot
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F6.png)    | Decrease current state slot
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)     | Scroll one page up              |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F8.png)    | Take screenshot
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F9.png)    | Mute
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Enter.png)       | Select                          |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F12.png)   | Show on-screen keyboard
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Backspace.png)   | Return to the previous screen   |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F11.png)   | Grab mouse
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Shift.png)       | Help                            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Plus.png)  | Volume Up
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Space.png)       | Reset to default                |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Minus.png) | Volume Down
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Slash.png)       | Search                          |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Space.png) | Fast forward toggle
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Esc.png)         | Exit RetroArch                  |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_L.png)     | Fast forward hold
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_R.png)     | Rewind
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_O.png)     | Movie record
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_P.png)     | Pause
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_K.png)     | Frame advance
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_H.png)     | Reset
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_M.png)     | Next shader
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_N.png)     | Previous shader
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_I.png)     | Netplay toggle play/spectate
+                                                                   |                                 |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_E.png)     | Slow motion
                                                                    
                                                                    
 
