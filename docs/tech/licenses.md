@@ -44,7 +44,7 @@ fba|Non-commercial|Non-commercial
 fmsx|Non-commercial|Non-commercial
 [gambatte](../library/gambatte.md)|GPLv2|
 [game_music_emu](../library/game_music_emu.md)|LGPLv2, GPLv2|
-[genesis_plus_gx](../library/genesis_plus_gx.md)|Non-commercial|
+[genesis_plus_gx](../library/genesis_plus_gx.md)|[Non-commercial](https://github.com/libretro/Genesis-Plus-GX/blob/master/LICENSE.txt)|Non-commercial
 [gpsp](../library/gpsp.md)|GPLv2|
 [gw](../library/gw.md)|zlib|
 [handy](../library/handy.md)|zlib|
