@@ -115,6 +115,7 @@ pages:
       - 'Shaders': 'specs/shader.md'
       - 'Overlays': 'specs/overlay.md'
     - Technical:
+      - 'Licenses': 'tech/licenses.md'
       - RetroArch:
          - 'Netplay': 'tech/netplay.md'
          - 'Network Control Interface': 'tech/network-control-interface.md'
