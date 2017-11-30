@@ -27,8 +27,8 @@ pages:
           - 'MSVC Commandline': 'compilation/windowsXP-msvc-cmdline.md'
           - 'MSVC IDE': 'compilation/windowsXP.md'
           - 'Windows Vista and later (MSYS2)': 'compilation/windows.md'
-          - 'Xbox': 'compilation/xbox.md'
-          - 'Xbox 360': 'compilation/xbox360.md'
+        - 'Xbox': 'compilation/xbox.md'
+        - 'Xbox 360': 'compilation/xbox360.md'
       - Nintendo:
         - 'Nintendo 3DS': 'compilation/3ds.md'
         - 'Nintendo GameCube': 'compilation/gamecube.md'
