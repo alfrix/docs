@@ -8,7 +8,7 @@ RetroArch|[GPLv3](https://github.com/libretro/RetroArch/blob/master/COPYING)|
 Lakka|Non-Commercial|Non-Commercial
 [2048](../library/2048.md)|[Public Domain](https://github.com/libretro/libretro-2048/blob/master/COPYING)|
 [beetle_gba](../library/beetle_gba.md)|GPLv2|
-[3d_engine](../library/3d_engine.md)|GPLv3|
+[3D Engine](../library/3d_engine.md)|[GPLv3](https://github.com/libretro/libretro-3dengine/blob/master/license)|
 [4do](../library/4DO.md)|Non-commercial|Non-commercial
 [beetle_gba](../library/beetle_gba.md)|GPLv2|
 [beetle_lynx](../library/beetle_lynx.md)|GPLv2|
@@ -66,7 +66,7 @@ fmsx|Non-commercial|Non-commercial
 [prosystem](../library/prosystem.md)|GPLv2|
 [quicknes](../library/quicknes.md)|LGPLv2.1+|
 [redream](../library/redream.md)|GPLv3|
-[sameboy](../library/sameboy.md)|MIT|
+[SameBoy](../library/sameboy.md)|[MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)|
 [snes9x_2002](../library/snes9x_2002.md)|Non-commercial|Non-commercial
 [snes9x_2005](../library/snes9x_2005.md)|Non-commercial|Non-commercial
 [snes9x_2005_plus](../library/snes9x_2005_plus.md)|Non-commercial|Non-commercial
