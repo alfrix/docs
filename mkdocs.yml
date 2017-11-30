@@ -173,16 +173,16 @@ pages:
         - Troubleshooting: 'guides/troubleshooting-retroarch.md'
 extra:
   logo: 'images/invader.png'
-  version: '0.0.5'
+  version: '0.1.0'
   font:
-    text: 'Open Sans'
-    code: 'Inconsolata'
+    text: 'Roboto'
+    code: 'Roboto Mono'
   i18n:
     prev: 'Previous'
     next: 'Next'
   palette:
     primary: 'blue'
-    accent: 'light blue'
+    accent:  'blue'
 theme: 'material'
 markdown_extensions:
   - admonition
