@@ -67,6 +67,21 @@ pages:
         - 'Minecraft (Craft)': 'library/craft.md'
         - 'Mr.Boom (Bomberman)': 'library/mr_boom.md'
         - 'Rick Dangerous (XRick)': 'library/xrick.md'
+      - Multi System Cores:
+        - 'Arcade (MAME 2003)': 'library/mame2003.md'
+      - Misc Cores:
+        - '3D Engine': 'library/3d_engine.md'
+        - 'FFmpeg': 'library/ffmpeg.md'
+        - 'Game Music Emu': 'library/game_music_emu.md'
+        - 'Handheld Electronic (GW)': 'library/gw.md'
+        - 'Imageviewer': 'library/imageviewer.md'
+        - 'Lua Engine (Lutro)': 'library/lutro.md'
+        - 'MSX/SVI/ColecoVision/SG-1000 (blueMSX)': 'library/bluemsx.md'
+        - 'Neo Geo Pocket/Color (Beetle NeoPop)': 'library/beetle_ngp.md'
+        - 'PocketCDG': 'library/pocketcdg.md'
+        - 'Vectrex (vecx)': 'library/vecx.md'
+        - 'Wonderswan (Color)': 'library/beetle_wswan.md'
+        - 'ZX81 (EightyOne)': 'library/eightyone.md'
       - Nintendo Cores:
         - 'Game Boy / Game Boy Color (Emux)': 'library/emux_gb.md'
         - 'Game Boy / Game Boy Color (Gambatte)': 'library/gambatte.md'
@@ -99,21 +114,6 @@ pages:
         - 'SNES / Super Famicom (Snes9x 2010)': 'library/snes9x_2010.md'
         - 'SNES / Super Famicom (Snes9x)': 'library/snes9x.md'
         - 'Virtual Boy (Beetle VB)': 'library/beetle_vb.md'
-      - Multi System Cores:
-        - 'Arcade (MAME 2003)': 'library/mame2003.md'
-      - Misc Cores:
-        - '3D Engine': 'library/3d_engine.md'
-        - 'FFmpeg': 'library/ffmpeg.md'
-        - 'Game Music Emu': 'library/game_music_emu.md'
-        - 'Handheld Electronic (GW)': 'library/gw.md'
-        - 'Imageviewer': 'library/imageviewer.md'
-        - 'Lua Engine (Lutro)': 'library/lutro.md'
-        - 'MSX/SVI/ColecoVision/SG-1000 (blueMSX)': 'library/bluemsx.md'
-        - 'Neo Geo Pocket/Color (Beetle NeoPop)': 'library/beetle_ngp.md'
-        - 'PocketCDG': 'library/pocketcdg.md'
-        - 'Vectrex (vecx)': 'library/vecx.md'
-        - 'Wonderswan (Color)': 'library/beetle_wswan.md'
-        - 'ZX81 (EightyOne)': 'library/eightyone.md'
       - NEC Cores:
         - 'PC Engine SuperGrafx (Beetle SGX)': 'library/beetle_sgx.md'
         - 'PC Engine/PCE-CD (Beetle PCE FAST)': 'library/beetle_pce_fast.md'
