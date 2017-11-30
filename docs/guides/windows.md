@@ -1,34 +1,32 @@
 # Getting Started with RetroArch
 
-## Installing RetroArch
+## Installing and Updating RetroArch
 
-You can either download a stable release [here](https://buildbot.libretro.com/stable/1.3.6/windows/) or a current nightly [here](https://buildbot.libretro.com/nightly/windows/).
-There are several files you can download in these folders. For a new installation you want **RetroArch.7z**.
+Download a stable release [here](https://buildbot.libretro.com/stable) or a current nightly [here](https://buildbot.libretro.com/nightly/windows/).
+There are several files you can download in these folders. For a new installation you want **RetroArch.7z** or the latest setup package (**RetroArch-20XX-XX-XX-setup.exe**).
 
-Extract **RetroArch.7z** in a folder that doesn't require administrator permissions such as *C:\Users\yourusername\RetroArch*. Don't install to *Program Files* or your Windows folder.
-
-This distribution method has several advantages:
-
-- It's portable
+Both options are identical, the only difference is that one is a self extracting installer, and the other one an archive you have to extract manually. Both are portable installation which means the RetroArch setup is:
 - It's self-contained
 - It doesn't need users to guess random locations for configurations files
-- It's easy to update
+- It's easy to update by just replacing files
 
-## Updating RetroArch
+If you pick the archive package, extract it in a folder that doesn't require administrator permissions such as *C:\Users\yourusername\RetroArch*. Don't extract it to *Program Files* or your Windows folder. You can update the installation by downloading the latest **20XX-XX-XX-RetroArch.7z** package and overwriting the executable.
 
-If you were running a stable release prior to 1.4.0. you will need to update the system libraries. You can do so by downloading the full **RetroArch.7z** package or grabbing **redist.7z** from the download locations.
-To update RetroArch it's enough to download the current dated **2017-XX-XX_RetroArch.7z** and extract it on-top of your existing installation.
+If you pick the installer package we recommend to use the default location, follow the installation steps and you should be good to go. You can update the installer version by downloading the latest version and re-running the installer.
+
+!!! Warning
+    If you were running a stable release prior to 1.4.0. you will need to update the system libraries. You can do so by downloading the full **RetroArch.7z** package or **redist.7z** from the download locations.
+
 
 ## Using RetroArch
-### First Run
 
-At first you will be greeted by this screen:
+On the first run you will be greeted by this screen:
 
 ![Screenshot](images/windows/first_run.png)
 
-This is one of three production ready menu drivers. It is called XMB and it tries to follow PS3 XMB menu layout as closely as possible.
+From here you can launch content, change settigns and build up your content collection
 
-### Navigation
+### Basic Navigation
 
 The menu is designed with gamepad navigation in mind but it does have keyboard support. The keyboard controls are:
 
@@ -62,11 +60,9 @@ Manu                        ||In-game      ||
 
 ### Gamepad Configuration
 
-By default, XINPUT controllers should work out of the box. If the controller can be autoconfigured the OSD will inform you of the autoconfiguration event:
+XINPUT controllers should work out of the box. If the controller can be autoconfigured the OSD will inform you of the autoconfiguration event.
 
-![Screenshot](images/windows/autoconf_notification.png)
-
-If the controller is not autoconfigured you might need to map the controller manually with the following procedure:
+We also include autoconf profiles for many popular controllers. If your controller doesn't auto configure you can follow the standard configuration procedure:
 
 ![Screenshot](images/windows/autoconf.gif)
 
@@ -77,11 +73,9 @@ If the controller is not autoconfigured you might need to map the controller man
 - Press the buttons as required
 
 !!! tip
-    If you have several different controller types you may want to use the **User 1 Save Autoconfig** and ** User 1 Bind Default All** options after binding in order to achieve hotplug-like functionality
+    If you have several different controller types you may want to use the **User 1 Save Autoconfig** followed by **User 1 Bind Default All** options after binding in order to achieve hotplug functionality
 
 ### Directory Configuration
-
-![Screenshot](images/windows/settings_directory.png)
 
 Configuring directories is an important aspect to get the best RetroArch experience possible.
 To configure the directories follow these steps:
@@ -97,6 +91,9 @@ You should always configure the following paths:
 - Savefile Directory
 - Savestate Directory
 - Browser Directory
+
+!!! tip
+    The **Browser Directory** is used as a startup location which allows easy access to your content library.
 
 ## Glossary
 
