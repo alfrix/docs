@@ -1,26 +1,47 @@
 # WonderSwan/Color (Beetle Cygne)
 
-## Background
-
-The Beetle Cygne Libretro core is a WonderSwan (Color) handheld video game system emulator. Its a port of Mednafen Wonderswan which is a modified version of Cygne, with bug fixes and added sound emulation.  
-
-Author(s): Dox|Mednafen Team
-
 ## Contribute to this documentation
 
-+In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_wswan.md). Changes are proposed using "Pull Requests."
+In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_wswan.md). Changes are proposed using "Pull Requests."
+
+## Background
+
+Standalone port of Mednafen WonderSwan to libretro, itself a fork of Cygne. 
+
+### How to get and install the Beetle Cygne core:
+
+1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+
+2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+
+3. Browse through the list and select 'WonderSwan/Color (Beetle Cygne)'.
+
+After this has finished downloading, the core should now be ready for use!
+
+### Authors
+
+- Dox
+- Mednafen Team
 
 ## License
 
-GPLv2
+A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+
+- [GPLv2](https://github.com/libretro/beetle-wswan-libretro/blob/master/COPYING)
 
 ## Extensions
 
-ws|wsc
+Content that can be loaded by the Beetle Cygne core have the following file extensions:
 
-## BIOS
+- .ws
+- .wsc
 
-The (Beetle Cygne) core does not feature BIOS use.
+## Databases
+
+RetroArch database(s) that are associated with the Beetle Cygne core:
+
+- [Bandai - WonderSwan](https://github.com/libretro/libretro-database/blob/master/rdb/Bandai%20-%20WonderSwan.rdb)
+- [Bandai - WonderSwan Color](https://github.com/libretro/libretro-database/blob/master/rdb/Bandai%20-%20WonderSwan%20Color.rdb)
 
 ## Features
 
@@ -29,53 +50,62 @@ The (Beetle Cygne) core does not feature BIOS use.
 | Saves             | ✔         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | -         |
-| RetroAchievements | -         |
-| RetroArch Cheats  | -         |
-| Native Cheats     | -         |
+| Netplay           | ✔         |
+| RetroAchievements | ✕         |
+| RetroArch Cheats  | ✕         |
+| Native Cheats     | ✕         |
 | Controllers       | ✔         |
-| Multi-Mouse       | -         |
+| Remapping         | ✔         |
+| Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| Softpatching      | ✕         |
 
-## Options
+### Saves/States
 
-The (Beetle Cygne) core does not feature core options.
+The Beetle Cygne core's directory name is 'Mednafen WonderSwan'
+
+Game data is saved/loaded to and from where save files are stored.
+
+- .sav (Battery save)
+
+Save states are saved/loaded to and from where state files are stored.
+
+- .state (State)
 
 ## Controllers
 
-The (Beetle Cygne) core supports 1 controller setting(s):
+The Beetle Cygne core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
 
-* RetroPad
+### User 1 - 16 Device Types
 
-![retropad](images/controllers/retropad.png)
+- **RetroPad** - Joypad
+- RetroPad w/Analog - Joypad - **There is no reason to switch to this.**
 
-| Core Name    | [RetroPad](RetroPad)                                        |
-|:------------:|:-----------------------------------------------------------:|
-| B (down)     | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)            |
-| Start        | ![RetroPad_Start](images/RetroPad/Retro_Start.png)          |
-|X Cursor Up   | ![RetroPad_Dpad_Up](images/RetroPad/Retro_Dpad_Up.png)   |
-|X Cursor Down | ![RetroPad_Dpad_Down](images/RetroPad/Retro_Dpad_Down.png)  |
-|X Cursor Left | ![RetroPad_Dpad_Left](images/RetroPad/Retro_Dpad_Left.png)  |
-|X Cursor Right| ![RetroPad_Dpad_Right](images/RetroPad/Retro_Dpad_Right.png)|
-| A (Right)    | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)            |
-|Y Cursor Up   | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                |
-|Y Cursor Down | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                |
-|Y Cursor Left | ![RetroPad_L2](images/RetroPad/Retro_L2_Temp.png)           |
-|Y Cursor Right| ![RetroPad_R2](images/RetroPad/Retro_R2.png)                |
+### Controllers graph
 
-## Compatibility
-
-| Game               | Issue                                                                      |
-|:------------------:|:--------------------------------------------------------------------------:|
-|**Tonpuusou**       |Title screen announcer voice missing. Softlocks after picking a menu option.|
+| Beetle Cygne   | RetroPad                                  |
+|----------------|-------------------------------------------|
+| B              | ![](images/RetroPad/Retro_B_Round.png)    |
+| Rotate screen and the active D-Pad       | ![](images/RetroPad/Retro_Select.png)     |
+| Start          | ![t](images/RetroPad/Retro_Start.png)     |
+| X Cursor Up    | ![](images/RetroPad/Retro_Dpad_Up.png)    |
+| X Cursor Down  | ![](images/RetroPad/Retro_Dpad_Down.png)  |
+| X Cursor Left  | ![](images/RetroPad/Retro_Dpad_Left.png)  |
+| X Cursor Right | ![](images/RetroPad/Retro_Dpad_Right.png) |
+| A              | ![](images/RetroPad/Retro_A_Round.png)    |
+| Y Cursor Left  | ![](images/RetroPad/Retro_L1.png)         |
+| Y Cursor Right | ![](images/RetroPad/Retro_R1.png)         |
+| Y Cursor Down  | ![](images/RetroPad/Retro_L2.png)         |
+| Y Cursor Up    | ![](images/RetroPad/Retro_R2.png)         |
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/beetle-wswan-libretro)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
-* [Official Website](https://mednafen.github.io/)
-* [Official Upstream Downloads](https://mednafen.github.io/releases/)
+- [Libretro Beetle Cygne Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/mednafen_wswan_libretro.info)
+- [Libretro Beetle Cygne Github Repository](https://github.com/libretro/beetle-wswan-libretro)
+- [Report Libretro Beetle Cygne Core Issues Here](https://github.com/libretro/beetle-wswan-libretro/issues)
+- [Official Mednafen Website](https://mednafen.github.io/)
+- [Official Mednafen Downloads](https://mednafen.github.io/releases/)

@@ -21,7 +21,7 @@ Lakka|Non-Commercial|Non-Commercial
 [beetle_sgx](../library/beetle_sgx.md)|GPLv2|
 [beetle_snes](../library/beetle_snes.md)|GPLv2|
 [beetle_vb](../library/beetle_vb.md)|GPLv2|
-[beetle_wswan](../library/beetle_wswan.md)|GPLv2|
+[Beetle Cygne](../library/beetle_wswan.md)|[GPLv2](https://github.com/libretro/beetle-wswan-libretro/blob/master/COPYING)|
 [bluemsx](../library/bluemsx.md)|GPLv2|
 [bnes](../library/bnes.md)|GPLv3|
 [bsnes_accuracy](../library/bsnes_accuracy.md)|GPLv3|
