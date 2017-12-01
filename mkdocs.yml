@@ -80,7 +80,7 @@ pages:
         - 'Neo Geo Pocket/Color (Beetle NeoPop)': 'library/beetle_ngp.md'
         - 'PocketCDG': 'library/pocketcdg.md'
         - 'Vectrex (vecx)': 'library/vecx.md'
-        - 'Wonderswan (Color)': 'library/beetle_wswan.md'
+        - 'WonderSwan/Color (Beetle Cygne)': 'library/beetle_wswan.md'
         - 'ZX81 (EightyOne)': 'library/eightyone.md'
       - Nintendo Cores:
         - 'Game Boy / Game Boy Color (Emux)': 'library/emux_gb.md'
