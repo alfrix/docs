@@ -1,50 +1,67 @@
 # Sega MS/MD/CD/32X (PicoDrive)
 
+## Contribute to this documentation
+
+In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/picodrive.md). Changes are proposed using "Pull Requests."
+
 ## Background
 
 PicoDrive is an open-source Sega 8/16 bit and 32X emulator which was written having ARM-based handheld devices in mind.
 
 ### Why use this core?
 
-* Only libretro core that supports 32x emulation.
+- Only libretro core that supports 32x emulation.
 
-* If your preferred device is too weak to run any other cores.
+- If your preferred device is too weak to run any other cores.
 
-### Author(s):
+### How to get and install the PicoDrive core:
 
-notaz|fdave
+1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-## Contribute to this documentation
+2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/picodrive.md). Changes are proposed using "Pull Requests."
+3. Browse through the list and select 'Sega MS/MD/CD/32X (PicoDrive)'.
+
+After this has finished downloading, the core should now be ready for use!
+
+### Authors
+
+- notaz
+- fdave
 
 ## See also
 
-[Sega Master System (Emux)](https://buildbot.libretro.com/docs/library/emux_sms/)
-
-[Sega MS/GG/MD/CD (Genesis Plus GX)](https://buildbot.libretro.com/docs/library/genesis_plus_gx/)
+- [Sega Master System (Emux)](https://buildbot.libretro.com/docs/library/emux_sms/)
+- [Sega MS/GG/MD/CD (Genesis Plus GX)](https://buildbot.libretro.com/docs/library/genesis_plus_gx/)
 
 ## License
 
-MAME
+A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+
+- [MAME](https://github.com/libretro/picodrive/blob/master/COPYING)
 
 ## Extensions
 
-*Content that can be loaded by the PicoDrive core have the following file extensions.*
+Content that can be loaded by the PicoDrive core have the following file extensions:
 
-bin|gen|smd|md|32x|cue|iso|sms|68k
+- .bin
+- .gen
+- .smd
+- .md
+- .32x
+- .cue
+- .iso
+- .sms
+- .68k
 
-## Database(s)
+## Databases
 
-*RetroArch databases that are associated with the PicoDrive core*
+RetroArch database(s) that are associated with the PicoDrive core:
 
-* Sega - Master System - Mark III
-
-* Sega - Mega Drive - Genesis
-
-* Sega - PICO
-
-* Sega - 32X
+- [Sega - Master System - Mark III](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20Master%20System%20-%20Mark%20III.rdb)
+- [Sega - Mega Drive - Genesis](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20Mega%20Drive%20-%20Genesis.rdb)
+- [Sega - PICO](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20PICO.rdb)
+- [Sega - 32X](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%2032X.rdb)
 
 ## BIOS
 
@@ -68,29 +85,37 @@ bin|gen|smd|md|32x|cue|iso|sms|68k
 | RetroArch Cheats  | ✔         |
 | Native Cheats     | ✕         |
 | Controllers       | ✔         |
+| Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| Softpatching      | ✕         |
+
+### Saves/States
 
 The PicoDrive core's directory name is 'PicoDrive'
 
 Game data is saved/loaded to and from where save files are stored.
 
-Save states are saved/loaded to and from where state files are stored. 
+- .srm (Battery save)
+
+Save states are saved/loaded to and from where state files are stored.
+
+- .state (State)
 
 ## Core options
 
-*The PicoDrive core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
+The PicoDrive core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
 
 - **Input device 1** (**3 button pad**/6 button pad/None): Choose which kind of controller is plugged in slot 1.
 - **Input device 2** (**3 button pad**/6 button pad/None): Choose which kind of controller is plugged in slot 2.
 - **No sprite limit** (**Off**/On): Enable this to remove the sprite limit.
 - **MegaCD RAM cart** (**Off**/On): Emulate a MegaCD RAM cart.
 - **Region** (**Auto**/Japan NTSC/Japan PAL/US/Europe): Force a specific region.
-- **Core-provided aspect ratio** (**PAR**/ 4/3 /CRT): hoose the core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. 
+- **Core-provided aspect ratio** (**PAR**/ 4/3 /CRT): Choose the core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. 
 
 ??? note "Core-provided aspect ratio - PAR"
 	![PAR](images\Cores\picodrive\PAR.png)
@@ -115,13 +140,12 @@ Save states are saved/loaded to and from where state files are stored.
 
 ## Controllers
 
-*The PicoDrive core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The PicoDrive core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-### User 1 - 16 Device Type(s)
+### User 1 - 2 device types
 
-* **RetroPad** - Joypad with analog
-
-* RetroPad w/Analog - **There is no reason to switch to this.**
+- **RetroPad** - Joypad with analog
+- RetroPad w/Analog - **There is no reason to switch to this.**
 
 ### Controllers graph
 
@@ -156,7 +180,8 @@ Save states are saved/loaded to and from where state files are stored.
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/picodrive)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
+- [Libretro PicoDrive Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/picodrive_libretro.info)
+- [Libretro PicoDrive Github Repository](https://github.com/libretro/picodrive)
+- [Report Libretro PicoDrive Core Issues Here](https://github.com/libretro/picodrive/issues)
 * [Official Website](http://notaz.gp2x.de/pico.php)
 * [Official Repository](https://github.com/notaz/picodrive)
