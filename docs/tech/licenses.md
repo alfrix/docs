@@ -39,7 +39,7 @@ Lakka|Non-Commercial|Non-Commercial
 [emux_nes](../library/emux_nes.md)|GPLv2|
 [emux_sms](../library/emux_sms.md)|GPLv2|
 fba|Non-commercial|Non-commercial
-[fceumm](../library/fceumm.md)|GPLv2|
+[FCEUmm](../library/fceumm.md)|[GPLv2](https://github.com/libretro/libretro-fceumm/blob/master/Copying)|
 [ffmpeg](../library/ffmpeg.md)|LGPLv2, GPLv2|
 fmsx|Non-commercial|Non-commercial
 [gambatte](../library/gambatte.md)|GPLv2|
