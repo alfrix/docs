@@ -39,7 +39,35 @@ Awaiting description.
 
 // Fill in the (Title).
 
-4. After this has finished downloading, the core should now be ready for use!
+After this has finished downloading, the core should now be ready for use!
+
+#### How to play (after installation):
+// Optional section.
+// This section is for cores that need files from RetroArch's content downloader.
+
+1. Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
+
+2. Select the '(Content directory name)' directory, then select '(Game filename)'.
+
+// Fill in the (Content directory name) and the (Game filename).
+
+3. If you are asked which core to select, choose '(Title)'.
+
+// Fill in the title.
+
+The game should now start running!
+
+#### How to play (after installation):
+// Optional section.
+// This section is for cores that don't need any content to be started.
+
+1. Go back to RetroArch's main menu screen. Select 'Load Core', then '(Core name)'.
+
+// Fill in the (Core name).
+
+2. Now, select 'Start Core'.
+
+The game should now start running!
 
 ### Authors
 
@@ -65,6 +93,7 @@ A summary of the licenses behind RetroArch and its cores have found [here](https
 //(https://github.com/libretro/libretro-super/tree/master/dist/info)
 
 ## Extensions
+// Optional section.
 
 Content that can be loaded by the (Core name) core have the following file extensions:
 
@@ -74,9 +103,6 @@ Content that can be loaded by the (Core name) core have the following file exten
 
 // Copy the exntension entry in the core info file and paste it here.
 // https://github.com/libretro/libretro-super/tree/master/dist/info)
-
-// If there is no extension use, then use the below comment instead.
-// The (Core name) core does not feature extension use. Just load and start the core.
 
 ## Databases
 // Optional section.
@@ -139,6 +165,7 @@ The (Core name) core's directory name is '(Directory name)'
 Awaiting description.
 
 // Describe what the core reads/writes to.
+// Add a list of save/state files the core creates in the folders
 // Example descriptions.
 /// Game data is saved/loaded to and from where save files are stored.
 /// Save states are saved/loaded to and from where state files are stored.
@@ -161,11 +188,11 @@ The (Core name) core has the following option(s) that can be tweaked from the co
 	
 ## Controllers
 
-The (Core name) core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
+The (Core name) core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
 // Fill in the (Core name).
 
-### User # - # Device Types
+### User # - # device types
 
 - **(Device Type name)** - Joypad or Keyboard or Mouse or Lightgun or Pointer - Optional description
 
