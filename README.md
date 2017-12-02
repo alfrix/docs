@@ -2,6 +2,10 @@
 
 This is the source for the [libretro documentation](https://buildbot.libretro.com/docs/), powered by [MkDocs](http://www.mkdocs.org/).
 
+[MkDocs documentation](http://www.mkdocs.org/)
+
+[Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material/)
+
 [Libretro Forums topic](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078)
 
 [To-do list doc](https://docs.google.com/spreadsheets/d/1_PHI8ajebJPCrhPHKKytLzTfEKSyGncQhBgkhj6Hw-E/)
