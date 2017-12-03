@@ -188,11 +188,13 @@ The (Core name) core has the following option(s) that can be tweaked from the co
 	
 ## Controllers
 
+### Device types
+
 The (Core name) core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
 // Fill in the (Core name).
 
-### User # - # device types
+#### User # - # device types
 
 - **(Device Type name)** - Joypad or Keyboard or Mouse or Lightgun or Pointer - Optional description
 
@@ -224,8 +226,110 @@ The (Core name) core supports the following device type(s) in the controls menu,
 | Action 19   | ![](images/RetroPad/Retro_Right_Stick.png) |
 | Action 20   | ![](images/RetroPad/Retro_Right_Stick.png) |
 
-| RetroKeyboard|
-|--------------|
+| RetroKeyboard                                                                  |
+|--------------------------------------------------------------------------------|
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_A.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_B.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_C.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_D.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_E.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_G.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_H.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_I.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_J.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_K.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_L.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_M.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_N.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_O.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_P.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Q.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_R.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_S.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_T.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_U.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_V.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_W.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_X.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Y.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Z.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Left.png)    |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Right.png)   |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Up.png)      |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Down.png)    |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Enter.png)         |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Tab.png)           |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Insert.png)        |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Delete.png)        |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_End.png)           |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Home.png)          |
+| Return                                                                         |
+| Right Shift                                                                    |
+| Left Shift                                                                     |
+| Left Control                                                                   |
+| Right Control                                                                  |
+| Left Alt                                                                       |
+| Right Alt                                                                      |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Space.png)         |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Esc.png)           |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F1.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F2.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F3.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F4.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F5.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F6.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F7.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F8.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F9.png)            |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F10.png)           |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F11.png)           |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F12.png)           |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_0.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_1.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_2.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_3.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_4.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_5.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_6.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_7.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_8.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_9.png)             |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)       |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)     |
+| Keypad 0                                                                       |
+| Keypad 1                                                                       |
+| Keypad 2                                                                       |
+| Keypad 3                                                                       |
+| Keypad 4                                                                       |
+| Keypad 5                                                                       |
+| Keypad 6                                                                       |
+| Keypad 7                                                                       |
+| Keypad 8                                                                       |
+| Keypad 9                                                                       |
+| Keypad Plus                                                                    |
+| Keypad Minus                                                                   |
+| Keypad Period                                                                  |
+| Keypad *                                                                       |
+| Keypad /                                                                       |
+| Period                                                                         |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Caps_Lock.png)     |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Num_Lock.png)      |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Backspace.png)     |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Print_Screen.png)  |
+| Scroll Lock                                                                    |
+| Backquote (`)                                                                  |
+| Pause                                                                          |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Quote.png)         |
+| Comma                                                                          |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Minus.png)         |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Slash.png)         |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Semicolon.png)     |
+| Equals                                                                         |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Bracket_Left.png)  |
+| Backslash                                                                      |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Bracket_Right.png) |
+| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Enter_Tall.png)    |
 
 | RetroMouse                                    |
 |-----------------------------------------------|
