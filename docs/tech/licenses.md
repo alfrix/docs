@@ -33,6 +33,7 @@ Lakka|Non-Commercial|Non-Commercial
 [bsnes_performance](../library/bsnes_performance.md)|GPLv3|
 [chailove](../library/chailove.md)|MIT|
 [craft](../library/craft.md)|MIT|
+[CrocoDS](../library/crocods.md)|[MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)|
 [dinothawr](../library/dinothawr.md)|[Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)|Non-Commercial
 [eightyone](../library/eightyone.md)|GPLv3|
 [emux_gb](../library/emux_gb.md)|GPLv2|

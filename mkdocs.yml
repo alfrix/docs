@@ -71,6 +71,7 @@ pages:
         - 'Arcade (MAME 2003)': 'library/mame2003.md'
       - Misc Cores:
         - '3D Engine': 'library/3d_engine.md'
+        - 'Amstrad CPC (CrocoDS)': 'library/crocods.md'
         - 'FFmpeg': 'library/ffmpeg.md'
         - 'Game Music Emu': 'library/game_music_emu.md'
         - 'Handheld Electronic (GW)': 'library/gw.md'
