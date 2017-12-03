@@ -36,9 +36,10 @@ Lakka|Non-Commercial|Non-Commercial
 [CrocoDS](../library/crocods.md)|[MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)|
 [dinothawr](../library/dinothawr.md)|[Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)|Non-Commercial
 [eightyone](../library/eightyone.md)|GPLv3|
-[emux_gb](../library/emux_gb.md)|GPLv2|
-[emux_nes](../library/emux_nes.md)|GPLv2|
-[emux_sms](../library/emux_sms.md)|GPLv2|
+[Emux CHIP-8](../library/emux_chip8.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
+[Emux GB](../library/emux_gb.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
+[Emux NES](../library/emux_nes.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
+[Emux SMS](../library/emux_sms.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
 fba|Non-commercial|Non-commercial
 [FCEUmm](../library/fceumm.md)|[GPLv2](https://github.com/libretro/libretro-fceumm/blob/master/Copying)|
 [ffmpeg](../library/ffmpeg.md)|LGPLv2, GPLv2|
