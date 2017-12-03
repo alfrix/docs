@@ -1,12 +1,12 @@
 # Welcome to the Libretro/RetroArch Documentation Center!
 
-**DOCUMENTATION IS A WORK IN PROGRESS**
+**DOCUMENTATION IS A WORK IN PROGRESS, DOCS ARE AT VARYING LEVELS OF COMPLETION**
 
-**CONTRIBUTIONS ARE WELCOME**
+**CONTRIBUTIONS ARE WELCOME, ANYONE CAN HELP OUT**
+
+**YOU CAN SUBMIT SUGGESTIONS OR ISSUES AT [https://github.com/libretro/docs/issues](https://github.com/libretro/docs/issues) OR [https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/)**
 
 **YOU CAN CONTRIBUTE DIRECTLY AT [https://github.com/libretro/docs](https://github.com/libretro/docs)**
-
-**YOU CAN SUBMIT SUGGESTIONS AT [https://github.com/libretro/docs/issues](https://github.com/libretro/docs/issues) OR [https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/)**
 
 RetroArch is a frontend for emulators, game engines and media players.
 

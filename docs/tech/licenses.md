@@ -33,6 +33,7 @@ Lakka|Non-Commercial|Non-Commercial
 [bsnes_performance](../library/bsnes_performance.md)|GPLv3|
 [chailove](../library/chailove.md)|MIT|
 [craft](../library/craft.md)|MIT|
+[CrocoDS](../library/crocods.md)|[MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)|
 [dinothawr](../library/dinothawr.md)|[Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)|Non-Commercial
 [eightyone](../library/eightyone.md)|GPLv3|
 [emux_gb](../library/emux_gb.md)|GPLv2|
@@ -58,7 +59,7 @@ fmsx|Non-commercial|Non-commercial
 [mr_boom](../library/mr_boom.md)|MIT|
 [nestopia_ue](../library/nestopia_ue.md)|GPLv2|
 [nxengine](../library/nxengine.md)|GPLv3|
-[picodrive](../library/picodrive.md)|[Non-commercial](https://github.com/libretro/picodrive/blob/master/COPYING)|Non-commercial
+[Picodrive](../library/picodrive.md)|[Non-commercial](https://github.com/libretro/picodrive/blob/master/COPYING)|Non-commercial
 [pocketcdg](../library/pocketcdg.md)|MIT|
 [pokemini](../library/pokemini.md)|GPLv3|
 [ppsspp](../library/ppsspp.md)|GPLv2|
