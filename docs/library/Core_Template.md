@@ -80,13 +80,13 @@ The game should now start running!
 ## See also
 // Optional section.
 
-- [Other Core](https://buildbot.libretro.com/docs/library/) - Optional description.
+- [Other Core](https://docs.libretro.com/library/) - Optional description.
 
 // Add links to related core docs here.
 
 ## License
 
-A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 - [license](https://link)
 
@@ -151,8 +151,6 @@ Required or optional firmware files go in RetroArch's system directory.
 | Location          | -         |
 | Subsystem         | -         |
 | Softpatching      | -         |
-| Crop Overscan     | -         |
-| Username          | -         |
 | Disk Control      | -         |
 
 // Use ✔ or ✕
@@ -221,20 +219,20 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Joypad and analog device type table
 
-| (Core Name) input descriptors | RetroPad                                     | (Device type name) |
+| (Core Name) input descriptors | User # RetroPad                              | (Device type name) |
 |-------------------------------|----------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroPad/Retro_B_Round.png)       | -                  |
 | Action 2                      | ![](images/RetroPad/Retro_Y_Round.png)       | -                  |
 | Action 3                      | ![](images/RetroPad/Retro_Select.png)        | -                  |
 | Action 4                      | ![](images/RetroPad/Retro_Start.png)         | -                  |
-| Action 5                      | ![](images/RetroPad/Retro_Dpad_Up.png        | -                  |
-| Action 6                      | ![](images/RetroPad/Retro_Dpad_Down.png      | -                  |
-| Action 7                      | ![](images/RetroPad/Retro_Dpad_Left.png      | -                  |
+| Action 5                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | -                  |
+| Action 6                      | ![](images/RetroPad/Retro_Dpad_Down.png)     | -                  |
+| Action 7                      | ![](images/RetroPad/Retro_Dpad_Left.png)     | -                  |
 | Action 8                      | ![](images/RetroPad/Retro_Dpad_Right.png     | -                  |
 | Action 9                      | ![](images/RetroPad/Retro_A_Round.png)       | -                  |
 | Action 10                     | ![](images/RetroPad/Retro_X_Round.png)       | -                  |
 | Action 11                     | ![](images/RetroPad/Retro_L1.png)            | -                  |
-| Action 12                     | ![](images/RetroPad/Retro_R2.png)            | -                  |
+| Action 12                     | ![](images/RetroPad/Retro_R1.png)            | -                  |
 | Action 13                     | ![](images/RetroPad/Retro_L2.png)            | -                  |
 | Action 14                     | ![](images/RetroPad/Retro_R2.png)            | -                  |
 | Action 15                     | ![](images/RetroPad/Retro_L3.png)            | -                  |
