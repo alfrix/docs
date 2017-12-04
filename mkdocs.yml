@@ -72,6 +72,7 @@ pages:
       - Misc Cores:
         - '3D Engine': 'library/3d_engine.md'
         - 'Amstrad CPC (CrocoDS)': 'library/crocods.md'
+        - 'CHIP-8 (Emux)': 'library/emux_chip8.md'
         - 'FFmpeg': 'library/ffmpeg.md'
         - 'Game Music Emu': 'library/game_music_emu.md'
         - 'Handheld Electronic (GW)': 'library/gw.md'

@@ -17,7 +17,7 @@ Lakka|Non-Commercial|Non-Commercial
 [beetle_pcfx](../library/beetle_pcfx.md)|GPLv2|
 [beetle_psx_hw](../library/beetle_psx_hw.md)|GPLv2|
 [beetle_psx](../library/beetle_psx.md)|GPLv2|
-[beetle_saturn](../library/beetle_saturn.md)|GPLv2|
+[Beetle Saturn](../library/beetle_saturn.md)|[GPLv2](https://github.com/libretro/beetle-saturn-libretro/blob/master/COPYING)|
 [beetle_sgx](../library/beetle_sgx.md)|GPLv2|
 [beetle_snes](../library/beetle_snes.md)|GPLv2|
 [beetle_vb](../library/beetle_vb.md)|GPLv2|
@@ -36,9 +36,10 @@ Lakka|Non-Commercial|Non-Commercial
 [CrocoDS](../library/crocods.md)|[MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)|
 [dinothawr](../library/dinothawr.md)|[Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)|Non-Commercial
 [eightyone](../library/eightyone.md)|GPLv3|
-[emux_gb](../library/emux_gb.md)|GPLv2|
-[emux_nes](../library/emux_nes.md)|GPLv2|
-[emux_sms](../library/emux_sms.md)|GPLv2|
+[Emux CHIP-8](../library/emux_chip8.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
+[Emux GB](../library/emux_gb.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
+[Emux NES](../library/emux_nes.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
+[Emux SMS](../library/emux_sms.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
 fba|Non-commercial|Non-commercial
 [FCEUmm](../library/fceumm.md)|[GPLv2](https://github.com/libretro/libretro-fceumm/blob/master/Copying)|
 [ffmpeg](../library/ffmpeg.md)|LGPLv2, GPLv2|
