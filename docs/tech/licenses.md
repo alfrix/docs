@@ -17,7 +17,7 @@ Lakka|Non-Commercial|Non-Commercial
 [beetle_pcfx](../library/beetle_pcfx.md)|GPLv2|
 [beetle_psx_hw](../library/beetle_psx_hw.md)|GPLv2|
 [beetle_psx](../library/beetle_psx.md)|GPLv2|
-[beetle_saturn](../library/beetle_saturn.md)|GPLv2|
+[Beetle Saturn](../library/beetle_saturn.md)|[GPLv2](https://github.com/libretro/beetle-saturn-libretro/blob/master/COPYING)|
 [beetle_sgx](../library/beetle_sgx.md)|GPLv2|
 [beetle_snes](../library/beetle_snes.md)|GPLv2|
 [beetle_vb](../library/beetle_vb.md)|GPLv2|
