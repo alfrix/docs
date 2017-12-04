@@ -206,11 +206,11 @@ The CrocoDS core supports the following device type(s) in the controls menu, bol
 | Control             | Right Control                                                                  |
 | Caps Lock           | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Caps_Lock.png)     |
 | Small Enter         | Keypad Enter                                                                   |
-| Joy Left            | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Delete.png)        |
+| Joy Left            | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Del.png)        |
 | Joy Right           | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)     |
 | Joy Up              | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Home.png)          |
 | Joy Down            | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_End.png)           |
-| Joy Fire 1          | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Ins.png)           |
+| Joy Fire 1          | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Insert.png)           |
 | Joy Fire 2          | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)       |
 
 ## External Links
