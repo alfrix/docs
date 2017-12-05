@@ -178,6 +178,7 @@ pages:
       - 'RetroAchievements': 'guides/retroachievements.md'
       - 'Video Recording and Streaming': 'guides/recording-and-streaming.md'
     - Advanced Topics:
+      - 'Libretro Frontends': 'tech/frontends.md'
       - 'Custom Settings': 'guides/overrides.md'
       - 'Optimal Vsync Performance': 'guides/optimal-vsync.md'
       - 'Softpatching ROMs': 'guides/softpatching.md'
