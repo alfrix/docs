@@ -18,3 +18,4 @@ Name | Author(s) | Last Release | Description
 [nanoarch](https://github.com/heuripedes/nanoarch) | heuripedes | | Small frontend providing video, audio and basic input features to run non-libretro-GL cores. Built on GLFW.
 [sdlarch](https://github.com/heuripedes/sdlarch) | heuripedes | | Small frontend providing video, audio and basic input to run basic libretro cores. Built on SDL.
 [noarch](https://github.com/robloach/noarch) | RobLoach | | Minimalist frontend which does not provide video, audio or even basic input. It loads a libretro core, runs an iteration, and then exits. Good for unit testing.
+[minir test fronts](https://github.com/Alcaro/minir/tree/master/subproj) | Alcaro | | Three different fronts, none of which has IO drivers: retroprofile just runs the core, intended for performance tests and PGO; retrorepeat runs the core twice, expecting identical output; retrostateverify traces the entire core and verifies whether its savestates are perfect.
