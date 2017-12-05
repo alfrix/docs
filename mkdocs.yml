@@ -61,7 +61,6 @@ pages:
       - Game Cores:
         - '2048': 'library/2048.md'
         - 'Cave Story (NXEngine)': 'library/nxengine.md'
-        - 'ChaiLove': 'library/chailove.md'
         - 'Dinothawr': 'library/dinothawr.md'
         - 'Doom (PrBoom)': 'library/prboom.md'
         - 'Minecraft (Craft)': 'library/craft.md'
@@ -72,6 +71,7 @@ pages:
       - Misc Cores:
         - '3D Engine': 'library/3d_engine.md'
         - 'Amstrad CPC (CrocoDS)': 'library/crocods.md'
+        - 'ChaiLove': 'library/chailove.md'
         - 'CHIP-8 (Emux)': 'library/emux_chip8.md'
         - 'FFmpeg': 'library/ffmpeg.md'
         - 'Game Music Emu': 'library/game_music_emu.md'
