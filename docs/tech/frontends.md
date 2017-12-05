@@ -1,6 +1,6 @@
 # Frontends
 
-Libretro frontends are programs that have implemented the [libretro API](../specs/api.md) specification. When properly implemented, this allows the program to run any libretro core that has been developed.
+Libretro frontends are programs that have implemented the [libretro API](../specs/api.md) specification. If fully implemented, this allows the program to run any libretro core that has been developed.
 
 Name | Author(s) | Last Release | Description
 ------|-----------|--------------|------------
