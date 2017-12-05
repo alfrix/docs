@@ -26,6 +26,7 @@ Awaiting description.
 /// Does the core have notable enhancements or differences compared to standalone or other cores?
 /// Is the core recommended for netplay?
 /// Is the core designed to run on specific hardware or platforms?
+/// Is the core recommended for romhacks?
 
 ### How to get and install the (Core name) core:
 
@@ -79,13 +80,13 @@ The game should now start running!
 ## See also
 // Optional section.
 
-- [Other Core](https://buildbot.libretro.com/docs/library/)
+- [Other Core](https://docs.libretro.com/library/) - Optional description.
 
 // Add links to related core docs here.
 
 ## License
 
-A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 - [license](https://link)
 
@@ -150,10 +151,10 @@ Required or optional firmware files go in RetroArch's system directory.
 | Location          | -         |
 | Subsystem         | -         |
 | Softpatching      | -         |
+| Disk Control      | -         |
 
 // Use ✔ or ✕
 // Leave it as - if unsure.
-// If States are supported, then Rewind and Netplay are supported too.
 
 ### Saves/States
 
@@ -162,13 +163,17 @@ The (Core name) core's directory name is '(Directory name)'
 // Fill in the (Core name) and the (Directory name).
 // The (Directory name) is the name of the directory the core creates in RetroArch's save and state directories.
 
-Awaiting description.
+Game data is saved/loaded to and from where save files are stored.
 
-// Describe what the core reads/writes to.
-// Add a list of save/state files the core creates in the folders
-// Example descriptions.
-/// Game data is saved/loaded to and from where save files are stored.
-/// Save states are saved/loaded to and from where state files are stored.
+- .srm (Save data)
+
+Save states are saved/loaded to and from where state files are stored.
+
+- .state (State)
+
+// Add a list of files the core saves and loads from its directories. 
+
+### Core provided aspect ratio
 
 ## Core options
 // Optional section.
@@ -196,161 +201,243 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### User # - # device types
 
-- **(Device Type name)** - Joypad or Keyboard or Mouse or Lightgun or Pointer - Optional description
+- **(Device type name)** - (Device type) - Optional description.
 
-// Fill in Device Types.
+// Fill in (Device type name).
 
-### Controllers graph
-// Optional section.
+// Fill in (Device type)
+/// Possible device types
+//// None
+//// Joypad
+//// Analog
+//// Keyboard
+//// Mouse
+//// Lightgun
+//// Pointer
 
-| (Core Name) | RetroPad                                   |
-|-------------|--------------------------------------------|
-| Action 1    | ![](images/RetroPad/Retro_B_Round.png)     |
-| Action 2    | ![](images/RetroPad/Retro_Y_Round.png)     |
-| Action 3    | ![](images/RetroPad/Retro_Select.png)      |
-| Action 4    | ![t](images/RetroPad/Retro_Start.png)      |
-| Action 5    | ![](images/RetroPad/Retro_Dpad_Up.png)     |
-| Action 6    | ![](images/RetroPad/Retro_Dpad_Down.png)   |
-| Action 7    | ![](images/RetroPad/Retro_Dpad_Left.png)   |
-| Action 8    | ![](images/RetroPad/Retro_Dpad_Right.png)  |
-| Action 9    | ![](images/RetroPad/Retro_A_Round.png)     |
-| Action 10   | ![](images/RetroPad/Retro_X_Round.png)     |
-| Action 11   | ![](images/RetroPad/Retro_L1.png)          |
-| Action 12   | ![](images/RetroPad/Retro_R1.png)          |
-| Action 13   | ![](images/RetroPad/Retro_L2.png)          |
-| Action 14   | ![](images/RetroPad/Retro_R2.png)          |
-| Action 15   | ![](images/RetroPad/Retro_L3.png)          |
-| Action 16   | ![](images/RetroPad/Retro_R3.png)          |
-| Action 17   | ![](images/RetroPad/Retro_Left_Stick.png)  |
-| Action 18   | ![](images/RetroPad/Retro_Left_Stick.png)  |
-| Action 19   | ![](images/RetroPad/Retro_Right_Stick.png) |
-| Action 20   | ![](images/RetroPad/Retro_Right_Stick.png) |
+### Controller tables
 
-| RetroKeyboard                                                                  |
-|--------------------------------------------------------------------------------|
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_A.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_B.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_C.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_D.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_E.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_G.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_H.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_I.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_J.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_K.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_L.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_M.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_N.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_O.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_P.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Q.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_R.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_S.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_T.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_U.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_V.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_W.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_X.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Y.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Z.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Left.png)    |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Right.png)   |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Up.png)      |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Down.png)    |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Enter.png)         |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Tab.png)           |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Insert.png)        |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Delete.png)        |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_End.png)           |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Home.png)          |
-| Return                                                                         |
-| Right Shift                                                                    |
-| Left Shift                                                                     |
-| Left Control                                                                   |
-| Right Control                                                                  |
-| Left Alt                                                                       |
-| Right Alt                                                                      |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Space.png)         |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Esc.png)           |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F1.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F2.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F3.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F4.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F5.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F6.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F7.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F8.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F9.png)            |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F10.png)           |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F11.png)           |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F12.png)           |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_0.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_1.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_2.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_3.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_4.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_5.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_6.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_7.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_8.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_9.png)             |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)       |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)     |
-| Keypad 0                                                                       |
-| Keypad 1                                                                       |
-| Keypad 2                                                                       |
-| Keypad 3                                                                       |
-| Keypad 4                                                                       |
-| Keypad 5                                                                       |
-| Keypad 6                                                                       |
-| Keypad 7                                                                       |
-| Keypad 8                                                                       |
-| Keypad 9                                                                       |
-| Keypad Plus                                                                    |
-| Keypad Minus                                                                   |
-| Keypad Period                                                                  |
-| Keypad *                                                                       |
-| Keypad /                                                                       |
-| Period                                                                         |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Caps_Lock.png)     |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Num_Lock.png)      |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Backspace.png)     |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Print_Screen.png)  |
-| Scroll Lock                                                                    |
-| Backquote (`)                                                                  |
-| Pause                                                                          |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Quote.png)         |
-| Comma                                                                          |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Minus.png)         |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Slash.png)         |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Semicolon.png)     |
-| Equals                                                                         |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Bracket_Left.png)  |
-| Backslash                                                                      |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Bracket_Right.png) |
-| ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Enter_Tall.png)    |
+#### Joypad and analog device type table
 
-| RetroMouse                                    |
-|-----------------------------------------------|
-| ![](images/RetroMouse/Retro_Mouse.png)        |
-| ![](images/RetroMouse/Retro_Left.png)         |
-| ![](images/RetroMouse/Retro_Right.png)        |
-| ![](images/RetroMouse/Retro_Middle.png)       |
-| ![](images/RetroMouse/Retro_Left+Middle.png)  |
-| ![](images/RetroMouse/Retro_Right+Middle.png) |
-| Mouse Button 4                                |
-| Mouse Button 5                                |
+| (Core Name) input descriptors | User # RetroPad                              | (Device type name) |
+|-------------------------------|----------------------------------------------|--------------------|
+| Action 1                      | ![](images/RetroPad/Retro_B_Round.png)       | -                  |
+| Action 2                      | ![](images/RetroPad/Retro_Y_Round.png)       | -                  |
+| Action 3                      | ![](images/RetroPad/Retro_Select.png)        | -                  |
+| Action 4                      | ![](images/RetroPad/Retro_Start.png)         | -                  |
+| Action 5                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | -                  |
+| Action 6                      | ![](images/RetroPad/Retro_Dpad_Down.png)     | -                  |
+| Action 7                      | ![](images/RetroPad/Retro_Dpad_Left.png)     | -                  |
+| Action 8                      | ![](images/RetroPad/Retro_Dpad_Right.png     | -                  |
+| Action 9                      | ![](images/RetroPad/Retro_A_Round.png)       | -                  |
+| Action 10                     | ![](images/RetroPad/Retro_X_Round.png)       | -                  |
+| Action 11                     | ![](images/RetroPad/Retro_L1.png)            | -                  |
+| Action 12                     | ![](images/RetroPad/Retro_R1.png)            | -                  |
+| Action 13                     | ![](images/RetroPad/Retro_L2.png)            | -                  |
+| Action 14                     | ![](images/RetroPad/Retro_R2.png)            | -                  |
+| Action 15                     | ![](images/RetroPad/Retro_L3.png)            | -                  |
+| Action 16                     | ![](images/RetroPad/Retro_R3.png)            | -                  |
+| Action 17                     | ![](images/RetroPad/Retro_Left_Stick.png) X  | -                  |
+| Action 18                     | ![](images/RetroPad/Retro_Left_Stick.png) Y  | -                  |
+| Action 19                     | ![](images/RetroPad/Retro_Right_Stick.png) X | -                  |
+| Action 20                     | ![](images/RetroPad/Retro_Right_Stick.png) Y | -                  |
 
-// Fill in the (Core name) in the RetroPad graph.
-// Fill out the controller graphs. This may require reading the core's source code.
-// Most of the time, the RetroPad controller graph can be ripped straight from RetroArch's control menu.
+#### Keyboard device type table
+
+| (Core name) input descriptors | RetroKeyboard                 | (Device type name) |
+|-------------------------------|-------------------------------|--------------------|
+| Action 1                      | Keyboard Backspace            | -                  |
+| Action 2                      | Keyboard Tab                  | -                  |
+| Action 3                      | Keyboard Clear                | -                  |
+| Action 4                      | Keyboard Return               | -                  |
+| Action 5                      | Keyboard Pause                | -                  |
+| Action 6                      | Keyboard Escape               | -                  |
+| Action 7                      | Keyboard Space                | -                  |
+| Action 8                      | Keyboard Exclaimation         | -                  |
+| Action 9                      | Keyboard Double Quote         | -                  |
+| Action 10                     | Keyboard Hash                 | -                  |
+| Action 11                     | Keyboard Dollar               | -                  |
+| Action 12                     | Keyboard Ampersand            | -                  |
+| Action 13                     | Keyboard Quote                | -                  |
+| Action 14                     | Keyboard Left Parentheses     | -                  |
+| Action 15                     | Keyboard Right Parentheses    | -                  |
+| Action 16                     | Keyboard Asterisk             | -                  |
+| Action 17                     | Keyboard Plus                 | -                  |
+| Action 18                     | Keyboard Comma                | -                  |
+| Action 19                     | Keyboard Minus                | -                  |
+| Action 20                     | Keyboard Period               | -                  |
+| Action 21                     | Keyboard Slash                | -                  |
+| Action 22                     | Keyboard 0                    | -                  |
+| Action 23                     | Keyboard 1                    | -                  |
+| Action 24                     | Keyboard 2                    | -                  |
+| Action 25                     | Keyboard 3                    | -                  |
+| Action 25                     | Keyboard 4                    | -                  |
+| Action 26                     | Keyboard 5                    | -                  |
+| Action 27                     | Keyboard 6                    | -                  |
+| Action 28                     | Keyboard 7                    | -                  |
+| Action 29                     | Keyboard 8                    | -                  |
+| Action 30                     | Keyboard 9                    | -                  |
+| Action 31                     | Keyboard Colon                | -                  |
+| Action 32                     | Keyboard Semicolon            | -                  |
+| Action 33                     | Keyboard Less than            | -                  |
+| Action 34                     | Keyboard Equals               | -                  |
+| Action 35                     | Keyboard Greater              | -                  |
+| Action 36                     | Keyboard Question             | -                  |
+| Action 37                     | Keyboard At                   | -                  |
+| Action 38                     | Keyboard Left Bracket         | -                  |
+| Action 39                     | Keyboard Backslash            | -                  |
+| Action 40                     | Keyboard Right Bracket        | -                  |
+| Action 41                     | Keyboard Caret                | -                  |
+| Action 42                     | Keyboard Underscore           | -                  |
+| Action 43                     | Keyboard Backquote            | -                  |
+| Action 44                     | Keyboard a                    | -                  |
+| Action 45                     | Keyboard b                    | -                  |
+| Action 46                     | Keyboard c                    | -                  |
+| Action 47                     | Keyboard d                    | -                  |
+| Action 48                     | Keyboard e                    | -                  |
+| Action 49                     | Keyboard f                    | -                  |
+| Action 50                     | Keyboard g                    | -                  |
+| Action 51                     | Keyboard h                    | -                  |
+| Action 52                     | Keyboard i                    | -                  |
+| Action 53                     | Keyboard j                    | -                  |
+| Action 54                     | Keyboard k                    | -                  |
+| Action 55                     | Keyboard l                    | -                  |
+| Action 56                     | Keyboard m                    | -                  |
+| Action 57                     | Keyboard n                    | -                  |
+| Action 57                     | Keyboard o                    | -                  |
+| Action 58                     | Keyboard p                    | -                  |
+| Action 59                     | Keyboard q                    | -                  |
+| Action 60                     | Keyboard r                    | -                  |
+| Action 61                     | Keyboard s                    | -                  |
+| Action 62                     | Keyboard t                    | -                  |
+| Action 63                     | Keyboard u                    | -                  |
+| Action 64                     | Keyboard v                    | -                  |
+| Action 65                     | Keyboard w                    | -                  |
+| Action 66                     | Keyboard x                    | -                  |
+| Action 67                     | Keyboard y                    | -                  |
+| Action 68                     | Keyboard z                    | -                  |
+| Action 69                     | Keyboard Delete               | -                  |
+| Action 70                     | Keyboard Keypad 0             | -                  |
+| Action 71                     | Keyboard Keypad 1             | -                  |
+| Action 72                     | Keyboard Keypad 2             | -                  |
+| Action 73                     | Keyboard Keypad 3             | -                  |
+| Action 74                     | Keyboard Keypad 4             | -                  |
+| Action 75                     | Keyboard Keypad 5             | -                  |
+| Action 76                     | Keyboard Keypad 6             | -                  |
+| Action 77                     | Keyboard Keypad 7             | -                  |
+| Action 78                     | Keyboard Keypad 8             | -                  |
+| Action 79                     | Keyboard Keypad 9             | -                  |
+| Action 80                     | Keyboard Keypad Period        | -                  |
+| Action 81                     | Keyboard Keypad Divide        | -                  |
+| Action 82                     | Keyboard Keypad Multiply      | -                  |
+| Action 83                     | Keyboard Keypad Minus         | -                  |
+| Action 84                     | Keyboard Keypad Plus          | -                  |
+| Action 85                     | Keyboard Keypad Enter         | -                  |
+| Action 86                     | Keyboard Keypad Equals        | -                  |
+| Action 87                     | Keyboard Up                   | -                  |
+| Action 88                     | Keyboard Down                 | -                  |
+| Action 89                     | Keyboard Right                | -                  |
+| Action 90                     | Keyboard Left                 | -                  |
+| Action 100                    | Keyboard Insert               | -                  |
+| Action 101                    | Keyboard Home                 | -                  |
+| Action 102                    | Keyboard End                  | -                  |
+| Action 103                    | Keyboard Page Up              | -                  |
+| Action 104                    | Keyboard Page Down            | -                  |
+| Action 105                    | Keyboard F1                   | -                  |
+| Action 106                    | Keyboard F2                   | -                  |
+| Action 107                    | Keyboard F3                   | -                  |
+| Action 108                    | Keyboard F4                   | -                  |
+| Action 109                    | Keyboard F5                   | -                  |
+| Action 110                    | Keyboard F6                   | -                  |
+| Action 111                    | Keyboard F7                   | -                  |
+| Action 112                    | Keyboard F8                   | -                  |
+| Action 113                    | Keyboard F9                   | -                  |
+| Action 114                    | Keyboard F10                  | -                  |
+| Action 115                    | Keyboard F11                  | -                  |
+| Action 116                    | Keyboard F12                  | -                  |
+| Action 117                    | Keyboard F13                  | -                  |
+| Action 118                    | Keyboard F14                  | -                  |
+| Action 119                    | Keyboard F15                  | -                  |
+| Action 120                    | Keyboard Num Lock             | -                  |
+| Action 121                    | Keyboard Caps Lock            | -                  |
+| Action 122                    | Keyboard Scroll Lock          | -                  |
+| Action 123                    | Keyboard Left Shift           | -                  |
+| Action 124                    | Keyboard Right Shift          | -                  |
+| Action 125                    | Keyboard Left Control         | -                  |
+| Action 126                    | Keyboard Left Alt             | -                  |
+| Action 127                    | Keyboard Right Alt            | -                  |
+| Action 128                    | Keyboard Left Meta            | -                  |
+| Action 129                    | Keyboard Right Meta           | -                  |
+| Action 130                    | Keyboard Left Super           | -                  |
+| Action 131                    | Keyboard Right Super          | -                  |
+| Action 132                    | Keyboard Modifier Shift       | -                  |
+| Action 133                    | Keyboard Modifier Control     | -                  |
+| Action 134                    | Keyboard Modifier Alt         | -                  |
+| Action 135                    | Keyboard Modifier Meta        | -                  |
+| Action 136                    | Keyboard Modifier Num Lock    | -                  |
+| Action 137                    | Keyboard Modifier Caps Lock   | -                  |
+| Action 138                    | Keyboard Modifier Scroll Lock | -                  |
+| Action 139                    | Keyboard Mode                 | -                  |
+| Action 140                    | Keyboard Compose              | -                  |
+| Action 141                    | Keyboard Help                 | -                  |
+| Action 142                    | Keyboard Print                | -                  |
+| Action 143                    | Keyboard System Request       | -                  |
+| Action 144                    | Keyboard Break                | -                  |
+| Action 145                    | Keyboard Menu                 | -                  |
+| Action 146                    | Keyboard Power                | -                  |
+| Action 147                    | Keyboard Euro                 | -                  |
+| Action 148                    | Keyboard Undo                 | -                  |
+
+#### Mouse device type table
+
+| (Core Name) input descriptors | RetroMouse                               | (Device type name) |
+|-------------------------------|------------------------------------------|--------------------|
+| Action 1                      | ![](images/RetroMouse/Retro_Mouse.png) X | -                  |
+| Action 2                      | ![](images/RetroMouse/Retro_Mouse.png) Y | -                  |
+| Action 3                      | ![](images/RetroMouse/Retro_Left.png)    | -                  |
+| Action 4                      | ![](images/RetroMouse/Retro_Right.png)   | -                  |
+| Action 5                      | Mouse Wheel Up                           | -                  |
+| Action 6                      | Mouse Wheel Down                         | -                  |
+| Action 7                      | ![](images/RetroMouse/Retro_Middle.png)  | -                  |
+| Action 8                      | Mouse Horizontal Wheel Up                | -                  |
+| Action 9                      | Mouse Horizontal Wheel Down              | -                  |
+| Action 10                     | Mouse Button 4                           | -                  |
+| Action 11                     | Mouse Button 5                           | -                  |
+
+#### Lightgun device type table
+
+| (Core Name) input descriptors | RetroLightgun   | (Device type name) |
+|-------------------------------|-----------------|--------------------|
+| Action 1                      | Gun X           | -                  |
+| Action 2                      | Gun Y           | -                  |
+| Action 2                      | Gun Trigger     | -                  |
+| Action 3                      | Gun Reload      | -                  |
+| Action 4                      | Gun Aux A       | -                  |
+| Action 5                      | Gun Aux B       | -                  |
+| Action 6                      | Gun Aux C       | -                  |
+| Action 7                      | Gun Start       | -                  |
+| Action 8                      | Gun Select      | -                  |
+| Action 9                      | Gun D-pad Up    | -                  |
+| Action 10                     | Gun D-pad Down  | -                  |
+| Action 11                     | Gun D-pad Left  | -                  |
+| Action 12                     | Gun D-pad Right | -                  |
+
+#### Pointer device type table
+
+| (Core Name) input descriptors | RetroPointer    | (Device type name) |
+|-------------------------------|-----------------|--------------------|
+| Action 1                      | Pointer X       | -                  |
+| Action 2                      | Pointer Y       | -                  |
+| Action 3                      | Pointer Pressed | -                  |
+
+// Fill in the (Core name) in the device type tables that will be used.
+// Fill out the device type tables that will be used,.
 
 ## Compatibility
 // Optional section.
 
 // Paste in a link to a compatibility list.
-[(Core name) Compatibility List](URL)
+- [(Core name) Compatibility List](URL)
 
 // Or write up a compatibility description.
 Awaiting description.
@@ -362,7 +449,7 @@ Awaiting description.
 
 ## External Links
 
-// Example links, they can be different than this
+// Put relevant links here.
 - [Libretro (Core name) Core info file](https://link)
 - [Libretro (Core name) (Website name) Repository](https://link)
 - [Report Libretro (Core name) Core Issues Here](https://link)

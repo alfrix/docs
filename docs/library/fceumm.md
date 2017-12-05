@@ -9,6 +9,7 @@ In order to propose improvements to this document, [visit it's corresponding sou
 FCEU "mappers modified" is an unofficial build of FCEU Ultra by CaH4e3, which supports a lot of new mappers including some obscure mappers such as one for unlicensed NES ROM's.
 
 ### Why use this core?
+
 Awaiting description.
 
 ### How to get and install the FCEUmm core:
@@ -28,14 +29,14 @@ After this has finished downloading, the core should now be ready for use!
 
 ## See also
 
-- [NES / Famicom (bnes)](https://doc.libretro.com/library/bnes/)
-- [NES / Famicom (Emux)](https://doc.libretro.com/library/emux_nes/)
-- [NES / Famicom (Nestopia UE)](https://doc.libretro.com/library/nestopia_ue/)
-- [NES / Famicom (QuickNES)](https://doc.libretro.com/library/quicknes/)
+- [NES / Famicom (bnes)](https://docs.libretro.com/library/bnes/) - Shared platforms
+- [NES / Famicom (Emux)](https://docs.libretro.com/library/emux_nes/) - Shared platforms
+- [NES / Famicom (Nestopia UE)](https://docs.libretro.com/library/nestopia_ue/) - Shared platforms
+- [NES / Famicom (QuickNES)](https://docs.libretro.com/library/quicknes/) - Shared platforms
 
 ## License
 
-A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 - [GPLv2](https://github.com/libretro/libretro-fceumm/blob/master/Copying)
 
@@ -59,10 +60,10 @@ RetroArch database(s) that are associated with the FCEUmm core:
 
 Required or optional firmware files go in RetroArch's system directory.
 
-|   Filename    |    Description                                                                |              md5sum              |
-|:-------------:|:-----------------------------------------------------------------------------:|:--------------------------------:|
-| disksys.rom   | Family Computer Disk System BIOS - Required for Famicom Disk System emulation | ca30b50f880eb660a320674ed365ef7a |
-| nes.pal       | Custom NES Palette [(Color Palette core option)](https://buildbot.libretro.com/docs/library/fceumm/#core-options) - Optional                     |                                  |
+|   Filename    |    Description                                                                                                               | md5sum                           |
+|:-------------:|:----------------------------------------------------------------------------------------------------------------------------:|:--------------------------------:|
+| disksys.rom   | Family Computer Disk System BIOS - Required for Famicom Disk System emulation                                                | ca30b50f880eb660a320674ed365ef7a |
+| nes.pal       | Custom NES Palette [(Color Palette core option)](https://docs.libretro.com/library/fceumm/#core-options) - Optional          |                                  |
 
 ## Features
 
@@ -84,6 +85,7 @@ Required or optional firmware files go in RetroArch's system directory.
 | Location          | ✕         |
 | Subsystem         | ✕         |
 | Softpatching      | ✔         |
+| Disk Control      | ✕         |
 
 ### Saves/States
 
@@ -96,6 +98,14 @@ Game data is saved/loaded to and from where save files are stored.
 Save states are saved/loaded to and from where state files are stored.
 
 - .state (State)
+
+### Core provided aspect ratio
+
+The core provided aspect ratio can be configured with the ['Preferred aspect ratio' core option](https://docs.libretro.com/library/fceumm/#core-options).
+
+### Crop overscan
+
+Cropping overscan can be configured with the ['Crop Overscan (Horizontal)' and 'Crop Overscan (Vertical)' core options](https://docs.libretro.com/library/fceumm/#core-options).
 
 ### Custom color palettes
 
@@ -209,7 +219,7 @@ The FCEUmm core has the following option(s) that can be tweaked from the core op
 - **Sound Volume** (**150**/160/170/180/190/200/210/220/230/240/250/0/10/20/30/40/50/60/70/80/90/100/110/120/130/140): Self-explanatory.
 - **Sound Quality** (**Low**/High/Very High): Enables high/higher sound quality for games using expansion audio (MMC5, VRC6, VRC7, Namco, Sunsoft). Use Low for slower devices.
 - **Swap Duty Cycles** (**Off**/On): Replicates the sound of some famiclones that have duty cycles swapped for square channels. A quick sound comparison is in Contra's sound effect when shooting with normal bullets.
-- **Turbo Enable** (**None**/Player 1/Player 2/Both): Enable the use of the [Turbo B and Turbo A buttons](https://doc.libretro.com/library/fceumm/index.html#controllers-graph).
+- **Turbo Enable** (**None**/Player 1/Player 2/Both): Enable the use of the [Turbo B and Turbo A buttons](https://docs.libretro.com/library/fceumm/index.html#controller-tables).
 - **Turbo Delay (in frames)** (**3**/5/10/15/30/60/1/2): The number of frames between consecutive buttton presses when the Turbo B or Turbo A buttons are held down.
 - **Zapper Mode** (**pointer**/mouse): Pointer allows the Zapper Device Type to be used for touch-devices, but still can be used with regular mouse. Pointer and Mouse mode movement behaves differently with different input driver so user can choose which movement feels natural to them.
 - **Show Crosshair** (Off/**On**): Show the crosshair for the Zapper device type.
@@ -224,25 +234,27 @@ The FCEUmm core has the following option(s) that can be tweaked from the core op
 
 ## Controllers
 
-The FCEUmm core supports the following device types(s) in the controls menu, bolded device types are the default for the specified user(s):
+### Device types
 
-### User 1 device type(s)
+The FCEUmm core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-- **Auto** - Based off the loaded game's crc, the core will automatically select a regular controller (NES and Famicom) for User 1.
+#### User 1 device types
 
-- [Gamepad](http://nintendo.wikia.com/wiki/Nintendo_Entertainment_System_controller) - Joypad - Manually selects a regular controller (NES and Famicom) for User 1.
+- **Auto** - Joypad - Based off the loaded game's crc, the core will automatically select a regular controller (NES or Famicom) for User 1.
 
-- [Zapper](http://nintendo.wikia.com/wiki/NES_Zapper) - Mouse - Manually selects a Zapper light gun (NES and Famicom) for User 1.
+- [Gamepad](http://nintendo.wikia.com/wiki/Nintendo_Entertainment_System_controller) - Joypad - Manually selects a regular controller (NES or Famicom) for User 1.
 
-### User 2 device types(s)
+- [Zapper](http://nintendo.wikia.com/wiki/NES_Zapper) - Mouse - Manually selects a Zapper light gun (NES or Famicom) for User 1.
 
-- **Auto** - Based off the loaded game's crc, the core will automatically select a regular controller (NES and Famicom) or a Zapper light gun (NES amd Famicom) or a Arkanoid Paddle (NES only) for User 2.
+#### User 2 device types
 
-- [Gamepad](http://nintendo.wikia.com/wiki/Nintendo_Entertainment_System_controller) - Joypad - Manually selects a regular controller (NES and Famicom) for User 2.
+- **Auto** - Joypad - Based off the loaded game's crc, the core will automatically select a regular controller (NES or Famicom) or a Zapper light gun (NES or Famicom) or a Arkanoid Paddle (NES only) for User 2.
+
+- [Gamepad](http://nintendo.wikia.com/wiki/Nintendo_Entertainment_System_controller) - Joypad - Manually selects a regular controller (NES or Famicom) for User 2.
 
 - [Arkanoid](https://en.wikipedia.org/wiki/Arkanoid_Controller) - Mouse - Manually selects a Arkanoid Paddle (NES only) for User 2.
 
-- [Zapper](http://nintendo.wikia.com/wiki/NES_Zapper) - Mouse - Manually selects a Zapper light gun (NES and Famicom) for User 2.
+- [Zapper](http://nintendo.wikia.com/wiki/NES_Zapper) - Mouse - Manually selects a Zapper light gun (NES or Famicom) for User 2.
 
 ### Other Famicom controllers
 
@@ -254,38 +266,60 @@ The FCEUmm core will also auto select the following controllers for the Famicom 
 
 - Oeka Kids Tablet (Famicom) - Mouse
 
-Please note that these Famicom controllers are separate from the device types in the controls menu and cannot be manually selected.
+!!! warning ""
+	Please note that these Famicom controllers are completely separate from the device types in the controls menu and cannot be manually selected.
 
-### Controllers graph
+### Controller tables
+
+#### Joypad and analog device type table
 
 !!! warning ""
 	In order to use the Turbo A and Turbo B buttons, the 'Turbo Enable' core option must be set to On.
 
-| FCEUmm                  | RetroPad                                               |
-|-------------------------|--------------------------------------------------------|
-| B                       | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)       |
-| Turbo B                 | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)       |
-| Select                  | ![RetroPad_Select](images/RetroPad/Retro_Select.png)   |
-| Start                   | ![RetroPad_Start](images/RetroPad/Retro_Start.png)     |
-| D-Pad Up                | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)    |
-| D-Pad Down              | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)  |
-| D-Pad Left              | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)  |
-| D-Pad Right             | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png) |
-| A                       | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)       |
-| Turbo A                 | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)       |
-| (FDS) Disk Side Change  | ![RetroPad_L1](images/RetroPad/Retro_L1.png)           |
-| (FDS) Insert/Eject Disk | ![RetroPad_R1](images/RetroPad/Retro_R1.png)           |
-| (VSSystem) Insert Coin  | ![RetroPad_R2](images/RetroPad/Retro_R2.png)           |
+| FCEUmm input descriptors      | User 1 RetroPad                              | Gamepad                 |
+|-------------------------------|----------------------------------------------|-------------------------|
+| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                       |
+| Turbo B                       | ![](images/RetroPad/Retro_Y_Round.png)       | Turbo B                 |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                  |
+| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start                   |
+| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up                |
+| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down              |
+| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left              |
+| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right             |
+| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                       |
+| Turbo A                       | ![](images/RetroPad/Retro_X_Round.png)       | Turbo A                 |
+| (FDS) Disk Side Change        | ![](images/RetroPad/Retro_L1.png)            | (FDS) Disk Side Change  |
+| (FDS) Insert/Eject Disk       | ![](images/RetroPad/Retro_R1.png)            | (FDS) Insert/Eject Disk |
+| (VSSystem) Insert Coin        | ![](images/RetroPad/Retro_R2.png)            | (VSSystem) Insert Coin  |
 
-| RetroMouse                                                      | Zapper    | Arkanoid | Oeka Kids Tablet | Bandai Hyper Shot Gun |
-|-----------------------------------------------------------------|-----------|----------|------------------|-----------------------|
-| ![Retro_Mouse](images/RetroMouse/Retro_Mouse.png)               | Pointer   | Pointer  | Pointer          | Pointer               |
-| ![Retro_Left](images/RetroMouse/Retro_Left.png)                 | Trigger   | Fire     | Touch            | Shoot                 |
+| FCEUmm input descriptors      | Users 2 - 4 RetroPad                         | Gamepad            |
+|-------------------------------|----------------------------------------------|--------------------|
+| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                  |
+| Turbo B                       | ![](images/RetroPad/Retro_Y_Round.png)       | Turbo B            |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select             |
+| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start              |
+| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up           |
+| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down         |
+| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left         |
+| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right        |
+| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                  |
+| Turbo A                       | ![](images/RetroPad/Retro_X_Round.png)       | Turbo A            |
 
+#### Mouse device type table
+
+| FCEUmm input descriptors      | RetroMouse                               | Zapper             | Arkanoid   | Oeka Kids Tablet   | Bandai Hyper Shot Gun   |
+|-------------------------------|------------------------------------------|--------------------|------------|--------------------|-------------------------|
+| **                            | ![](images/RetroMouse/Retro_Mouse.png) X | Zapper X           | Arkanoid X | Oeka Kids Tablet X | Bandai Hyper Shot Gun X |  
+| **                            | ![](images/RetroMouse/Retro_Mouse.png) Y | Zapper Y           | Arkanoid Y | Oeka Kids Tablet Y | Bandai Hyper Shot Gun Y |
+| **                            | ![](images/RetroMouse/Retro_Left.png)    | Trigger            | Fire       | Touch              | Shoot                   |
+
+!!! warning ""
+	When the 'Zapper' device type is changed to a Pointer device type with the ['Zapper Mode' core option](https://buildbot.libretro.com/.docs/library/fceumm/#core-options), the inputs will be the exact same.
+	
 ### Multitap support
 
-The FCEUmm core supports up to 4 players in Multitap games for the NES and Famicom, games with Multitap usage are detected by their crc.
-
+The FCEUmm core supports up to 4 players in multitap games for the NES and Famicom, games with multitap usage are detected by their crc.
+	
 ## Compatibility
 
 | Game                         | Issue                                                        |
