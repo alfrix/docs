@@ -50,8 +50,7 @@ pages:
         - 'Overlays': 'specs/overlay.md'
   - For Users:
     - Core Documentation:
-      - Atari Cores:
-        - '3DO (4DO)': 'library/4DO.md'      
+      - Atari Cores:      
         - 'Atari 2600 (Stella)': 'library/Stella.md'
         - 'Atari 7800 (ProSystem)': 'library/prosystem.md'
         - 'Atari Jaguar (Virtual Jaguar)': 'library/virtualjaguar.md'
@@ -71,6 +70,8 @@ pages:
         - 'Arcade (MAME 2003)': 'library/mame2003.md'
       - Misc Cores:
         - '3D Engine': 'library/3d_engine.md'
+        - '3DO (4DO)': 'library/4DO.md'
+        - 'Amstrad CPC (Caprice32)': 'library/caprice32.md'
         - 'Amstrad CPC (CrocoDS)': 'library/crocods.md'
         - 'CHIP-8 (Emux)': 'library/emux_chip8.md'
         - 'FFmpeg': 'library/ffmpeg.md'
