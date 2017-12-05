@@ -9,6 +9,7 @@ Name | Author(s) | Last Release | Description
 [Arcan](https://github.com/letoram/arcan) | Letoram | | Powerful development framework for creating virtually anything from user interfaces for specialized embedded applications all the way to full-blown standalone desktop environments.
 [GNOME Games](https://wiki.gnome.org/Apps/Games) | GNOME | | Games is a GNOME application to browse your video games library and to easily pick and play a game from it.
 [Bizhawk](http://tasvideos.org/BizHawk.html) | Bizhawk | | Experimental libretro player support for the BizHawk multi-platform emulator.
+[einweggerat](https://github.com/mudlord/einweggerat) | mudlord | | Debugging tool for libretro cores.
 [Phoenix](http://phoenix.vg/) | Phoenix | | Upcoming libretro frontend written with the Qt5 cross-platform application framework.
 [Anarchy Arcade](http://store.steampowered.com/app/266430/Anarchy_Arcade/) | Elijah Newman-Gomez | | AArcade is a virtual reality 3D desktop that launches shortcuts to absolutely anything you like.
 [nanoarch](https://github.com/heuripedes/nanoarch) | heuripedes | | Small frontend providing video, audio and basic input features to run non-libretro-GL cores. Built on GLFW.
