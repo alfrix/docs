@@ -22,11 +22,14 @@ To update your local copy from the repository run git pull
 
 ### Building RetroArch separately
 
-First, you need to compile 'Salamander'. To compile Salamander (for Wii) run:
+First, you need to compile 'Salamander'. Salamander is the RetroArch frontend for embedded platforms for which the cores are statically linked to the frontend. It means that for each core there is a file which contains the code of the core and the frontend.
+To compile Salamander (for Wii) run:
 
     make -f Makefile.wii.salamander
 
-Second, to compile RetroArch (for Wii) run:
+Rename the file retroarch-salamander_wii.dol as boot.dol. This file is the frontend launcher for the other cores (indeed files containing core and fronend).
+
+Second, to compile RetroArch for Wii (the core and the frontend), rename the compiled core as 'libretro_wii.a' (see bellow how to compile a core), put it in the RetroArch directory and run:
 
     make -f Makefile.griffin platform=wii
 
@@ -59,13 +62,13 @@ This process will also automate the packaging process for you.
 
 ### Fetching Cores
 
-The easiest way to fetch all the cores is to use libretro-super. Run
+The easiest way to fetch all the cores is to use libretro-super. Download libretro-super from github and run
 
     ./libretro-fetch.sh
 
 ### Building Cores
 
-The easiest way to build all the cores (for Wii) is to use libretro-super. Run
+The easiest way to build all the cores (for Wii) is to use libretro-super. If not already fetched, put the codes of the cores you want compile in the libretro-super directory and run
 
     ./libretro-build-wii.sh
 
