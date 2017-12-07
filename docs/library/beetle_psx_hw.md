@@ -14,7 +14,7 @@ Awaiting description.
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_psx_hw.md). Changes are proposed using "Pull Requests."
+In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_psx_hw.md). Changes are proposed using "Pull Requests."
 
 ## See also
 
@@ -207,7 +207,7 @@ Rumble only works when the corresponding user's device type is set to **DualShoc
 
 *The Beetle PSX HW core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
 
-- **Renderer (restart)** (**vulkan**/opengl/software): Choose which video renderer will be used. **Software is the most accurate renderer.** The OpenGL and Vulkan renderers will enable and/or speedup enhancements like upscaling and texture filtering. **The OpenGL and Vulkan renderers must be used with it's corresponding video driver in RetroArch's Driver settings.** **Also, Hardware Shared Context must be enabled in RetroArch's Core settings.**
+- **Renderer (restart)** (**vulkan**/opengl/software): Choose which video renderer will be used. **Software is the most accurate renderer.** The OpenGL and Vulkan renderers will enable and/or speedup enhancements like upscaling and texture filtering. **The OpenGL and Vulkan renderers must be used with its corresponding video driver in RetroArch's Driver settings.** **Also, Hardware Shared Context must be enabled in RetroArch's Core settings.**
 - **Software framebuffer** (Off/**On**): If off, the software renderer will skip some steps. Potential speedup. Causes bad graphics when doing framebuffer readbacks.
 - **Adaptive smoothing** (Off/**On**): When upscaling, smooths out 2D elements while keeping 3D elements sharp. Only for the Vulkan renderer at the moment.
 
@@ -274,7 +274,7 @@ Rumble only works when the corresponding user's device type is set to **DualShoc
 ??? note "Skip BIOS - Off"
 	![skip_bios_off](images\Cores\beetle_psx_hw\skip_bios_off.png)
 
-- **Dithering pattern** (**1x(native)**/internal resolution/Off): If off, disables the dithering pattern the PSX applies to combat color banding. **Only for the OpenGL and Vulkan renderers. Vulkan always disables the pattern.**
+- **Dithering pattern** (**1x(native)**/internal resolution/Off): If off, disables the dithering pattern the PSX applies to combat color banding. **Only for the OpenGL and Software renderers. Vulkan always disables the pattern.**
 - **Display internal FPS** (**Off**/On): Shows the frame rate at which the emulated PSX is drawing at. **Onscreen Notifications must be enabled in the RetroArch Onscreen Display Settings.**
 
 ??? note "Display internal FPS - On"
