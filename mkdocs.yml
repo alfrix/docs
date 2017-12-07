@@ -65,6 +65,7 @@ pages:
         - 'Doom (PrBoom)': 'library/prboom.md'
         - 'Minecraft (Craft)': 'library/craft.md'
         - 'Mr.Boom (Bomberman)': 'library/mr_boom.md'
+        - 'Quake 1 (TyrQuake)': 'library/tyrquake.md'
         - 'Rick Dangerous (XRick)': 'library/xrick.md'
       - Multi System Cores:
         - 'Arcade (MAME 2003)': 'library/mame2003.md'

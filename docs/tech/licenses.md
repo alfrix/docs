@@ -77,6 +77,7 @@ fmsx|Non-commercial|Non-commercial
 [snes9x](../library/snes9x.md)|Non-commercial|Non-commercial
 [stella](../library/Stella.md)|GPLv2|
 [tgbdual](../library/tgbdual.md)|GPLv2|
+[TyrQuake](../library/tyrquake.md)|[GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)|
 [vbam](../library/vbam.md)|GPLv2|
 [vba_next](../library/vba_next.md)|GPLv2|
 [vecx](../library/vecx.md)|GPLv3|
