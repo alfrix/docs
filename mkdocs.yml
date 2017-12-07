@@ -60,7 +60,6 @@ pages:
       - Game Cores:
         - '2048': 'library/2048.md'
         - 'Cave Story (NXEngine)': 'library/nxengine.md'
-        - 'ChaiLove': 'library/chailove.md'
         - 'Dinothawr': 'library/dinothawr.md'
         - 'Doom (PrBoom)': 'library/prboom.md'
         - 'Minecraft (Craft)': 'library/craft.md'
@@ -74,6 +73,7 @@ pages:
         - '3DO (4DO)': 'library/4DO.md'
         - 'Amstrad CPC (Caprice32)': 'library/caprice32.md'
         - 'Amstrad CPC (CrocoDS)': 'library/crocods.md'
+        - 'ChaiLove': 'library/chailove.md'
         - 'CHIP-8 (Emux)': 'library/emux_chip8.md'
         - 'FFmpeg': 'library/ffmpeg.md'
         - 'Game Music Emu': 'library/game_music_emu.md'
@@ -180,6 +180,7 @@ pages:
       - 'RetroAchievements': 'guides/retroachievements.md'
       - 'Video Recording and Streaming': 'guides/recording-and-streaming.md'
     - Advanced Topics:
+      - 'Libretro Frontends': 'tech/frontends.md'
       - 'Custom Settings': 'guides/overrides.md'
       - 'Optimal Vsync Performance': 'guides/optimal-vsync.md'
       - 'Softpatching ROMs': 'guides/softpatching.md'
