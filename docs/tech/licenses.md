@@ -31,6 +31,7 @@ Lakka|Non-Commercial|Non-Commercial
 [bsnes_mercury_balanced](../library/bsnes_mercury_balanced.md)|GPLv3|
 [bsnes_mercury_performance](../library/bsnes_mercury_performance.md)|GPLv3|
 [bsnes_performance](../library/bsnes_performance.md)|GPLv3|
+[Caprice32](../library/caprice32.md)|[GPLv2](https://github.com/ColinPitrat/caprice32/blob/master/COPYING.txt)|
 [chailove](../library/chailove.md)|MIT|
 [craft](../library/craft.md)|MIT|
 [CrocoDS](../library/crocods.md)|[MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)|
@@ -76,6 +77,7 @@ fmsx|Non-commercial|Non-commercial
 [snes9x](../library/snes9x.md)|Non-commercial|Non-commercial
 [stella](../library/Stella.md)|GPLv2|
 [tgbdual](../library/tgbdual.md)|GPLv2|
+[TyrQuake](../library/tyrquake.md)|[GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)|
 [vbam](../library/vbam.md)|GPLv2|
 [vba_next](../library/vba_next.md)|GPLv2|
 [vecx](../library/vecx.md)|GPLv3|
