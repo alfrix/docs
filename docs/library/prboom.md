@@ -56,6 +56,9 @@ The PrBoom core's directory name is 'PrBoom'
 
 Game data is saved/loaded to and from the folder where the loaded content is.
 
+The Retroarch port of PrBoom is not able to play the music files inside the wad files (they are in a proprietary midi format).
+To have music, you have to put the files in mp3 format inside the content's directory.
+
 ## Loading content
 
 PrBoom can load wad or iwad files. The PrBoom core requires data ROM ['prboom.wad'](https://github.com/libretro/libretro-prboom/blob/master/prboom.wad) inside the loaded content's directory.
