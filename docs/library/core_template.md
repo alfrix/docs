@@ -220,15 +220,16 @@ The (Core name) core has the following option(s) that can be tweaked from the co
 
 // Fill in the (Core name).
 
-- **Core Option** (**Setting1**/Setting2): Awaiting description.
+- **Core Option** (**Setting1**/Setting2)
 
-// Fill in core options.
+<center> Awaiting description. </center>
 
 ??? note "Core Option - Setting"
 	![](images\Cores\folder\screenshot_name.png)
-	
+
+// Fill in core options.
 // Add core option screenshots if needed.
-	
+
 ## Controllers
 
 ### Device types
@@ -257,7 +258,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Joypad and analog device type table
 
-| User # input descriptors      | **                                           | (Device name)      |
+| User # input descriptors      |                                              | (Device name)      |
 |-------------------------------|----------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroPad/Retro_B_Round.png)       | -                  |
 | Action 2                      | ![](images/RetroPad/Retro_Y_Round.png)       | -                  |
@@ -282,7 +283,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Keyboard device type table
 
-| User # input descriptors      | **                            | (Device name)      |
+| User # input descriptors      |                               | (Device name)      |
 |-------------------------------|-------------------------------|--------------------|
 | Action 1                      | Keyboard Backspace            | -                  |
 | Action 2                      | Keyboard Tab                  | -                  |
@@ -423,7 +424,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Mouse device type table
 
-| User # input descriptors      | **                                       | (Device name)      |
+| User # input descriptors      |                                          | (Device name)      |
 |-------------------------------|------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroMouse/Retro_Mouse.png)   | -                  |
 | Action 2                      | ![](images/RetroMouse/Retro_Left.png)    | -                  |
@@ -438,7 +439,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Lightgun device type table
 
-| User # input descriptors      | **              | (Device name)      |
+| User # input descriptors      |                 | (Device name)      |
 |-------------------------------|-----------------|--------------------|
 | Action 1                      | Gun             | -                  |
 | Action 2                      | Gun Trigger     | -                  |
@@ -455,7 +456,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Pointer device type table
 
-| User # input descriptors      | **              | (Device name)      |
+| User # input descriptors      |                 | (Device name)      |
 |-------------------------------|-----------------|--------------------|
 | Action 1                      | Pointer         | -                  |
 | Action 2                      | Pointer Pressed | -                  |
@@ -477,8 +478,8 @@ Awaiting description.
 |      |       |
 
 ## External Links
-
 // Put relevant links here.
+
 - [Libretro (Core name) Core info file](https://link)
 - [Libretro (Core name) (Website name) Repository](https://link)
 - [Report Libretro (Core name) Core Issues Here](https://link)

@@ -38,6 +38,8 @@ pages:
         - 'PlayStation3': 'compilation/ps3.md'
         - 'PlayStation Portable': 'compilation/psp.md'
         - 'PlayStation Vita/TV': 'compilation/psvita.md'
+    - Documentation guide:
+      - 'Core Template': 'library/core_template.md'
     - Technical:
       - 'Licenses': 'tech/licenses.md'
       - Protocols:
@@ -102,6 +104,7 @@ pages:
         - 'NES / Famicom (FCEUmm)': 'library/fceumm.md'
         - 'NES / Famicom (Nestopia UE)': 'library/nestopia_ue.md'
         - 'NES / Famicom (QuickNES)': 'library/quicknes.md'
+        - 'Nintendo DS (DeSmuME)': 'library/desmume.md'
         - 'Pokémon Mini (PokeMini)': 'library/pokemini.md'
         - 'SNES / Super Famicom (Beetle bsnes)': 'library/beetle_snes.md'
         - 'SNES / Super Famicom (bsnes Accuracy)': 'library/bsnes_accuracy.md'
