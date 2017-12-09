@@ -35,6 +35,7 @@ Lakka|Non-Commercial|Non-Commercial
 [chailove](../library/chailove.md)|MIT|
 [craft](../library/craft.md)|MIT|
 [CrocoDS](../library/crocods.md)|[MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)|
+[DeSmuME](../library/desmume.md)|[GPLv2](https://github.com/TASVideos/desmume/blob/master/license.txt)|
 [dinothawr](../library/dinothawr.md)|[Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)|Non-Commercial
 [eightyone](../library/eightyone.md)|GPLv3|
 [Emux CHIP-8](../library/emux_chip8.md)|[GPLv2](https://github.com/libretro/emux/blob/master/COPYING)|
