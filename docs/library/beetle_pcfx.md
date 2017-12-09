@@ -46,7 +46,7 @@ cue|ccd|toc
 
 ## Options
 
-The (Beetle PC-FX) core has the following options that can be tweaked from the core options menu. The default setting is bolded.
+The (Beetle PC-FX) core has the following options that can be tweaked from the core options menu. The default setting is bolded. Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
 - **High Dotclock Width (Restart)** (**1024**/256/341): Emulated width for 7.16MHz dot-clock mode. Lower values are faster, but will cause some degree of pixel distortion.
 - **Suppress Channel Reset Clicks (Restart)** (**On**/Off): Hack to suppress clicks caused by forced channel resets.
@@ -54,8 +54,8 @@ The (Beetle PC-FX) core has the following options that can be tweaked from the c
 - **Sound Quality (Restart)** (**3**/1-5): Higher values correspond to better SNR and better preservation of higher frequencies("brightness"), at the cost of increased computational complexity and a negligible increase in latency.
 - **Chroma channel bilinear interpolation (Restart)** (**Off**/On): Enable bilinear interpolation on the chroma channel of RAINBOW YUV output. Enabling it may cause graphical glitches with some games.
 - **No Sprite Limit (Restart)** (**Off**/On): Remove 16-sprites-per-scanline hardware limit. 
-- **Initial Scanline** (**4**/0-40): Set initial rendered scanline position.
-- **Last Scanline** (208-**235**-239): Set last rendered scanline position.
+- **Initial Scanline** (**4**/0-40): Set initial visible scanline position.
+- **Last Scanline** (208-**235**-239): Set last visible scanline position.
 
 ## Controllers
 
@@ -83,7 +83,7 @@ The (Beetle PC-FX) core supports 2 controller setting(s):
 
 | Game                                                                    | Issue                                           |
 |-------------------------------------------------------------------------|-------------------------------------------------|
-| **Pia Carrot e Youkoso!! (Japan) [T-En by David Michel + filler v1.0]** |Doesn't boot. Confirmed to work on real hardware.|
+|                                                                         |                                                 |
 
 
 ## External Links
