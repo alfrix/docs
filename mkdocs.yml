@@ -135,6 +135,7 @@ pages:
       - Sony Cores:
         - 'PlayStation (Beetle PSX)': 'library/beetle_psx.md'
         - 'PlayStation (Beetle PSX HW)': 'library/beetle_psx_hw.md'
+        - 'PlayStation (PCSX ReARMed)': 'library/pcsx_rearmed.md'
         - 'PlayStation Portable (PPSSPP)': 'library/ppsspp.md'
     - Shader Previews:
       - 'Introduction': 'shader/introduction.md'

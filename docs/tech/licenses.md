@@ -62,6 +62,7 @@ fmsx|Non-commercial|Non-commercial
 [mr_boom](../library/mr_boom.md)|MIT|
 [nestopia_ue](../library/nestopia_ue.md)|GPLv2|
 [nxengine](../library/nxengine.md)|GPLv3|
+[PCSX ReARMed](../library/pcsx_rearmed.md)|[GPLv2](https://github.com/libretro/pcsx_rearmed/blob/master/COPYING)|
 [Picodrive](../library/picodrive.md)|[Non-commercial](https://github.com/libretro/picodrive/blob/master/COPYING)|Non-commercial
 [pocketcdg](../library/pocketcdg.md)|MIT|
 [pokemini](../library/pokemini.md)|GPLv3|
