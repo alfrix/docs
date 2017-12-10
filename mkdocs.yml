@@ -85,6 +85,7 @@ pages:
         - 'MSX/SVI/ColecoVision/SG-1000 (blueMSX)': 'library/bluemsx.md'
         - 'Neo Geo Pocket/Color (Beetle NeoPop)': 'library/beetle_ngp.md'
         - 'PocketCDG': 'library/pocketcdg.md'
+        - 'ScummVM': 'library/scummvm.md'
         - 'Vectrex (vecx)': 'library/vecx.md'
         - 'WonderSwan/Color (Beetle Cygne)': 'library/beetle_wswan.md'
         - 'ZX81 (EightyOne)': 'library/eightyone.md'
