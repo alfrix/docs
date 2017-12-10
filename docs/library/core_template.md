@@ -184,12 +184,12 @@ Required or optional firmware files go in RetroArch's system directory.
 | Softpatching      | -         |
 | Disk Control      | -         |
 | Username          | -         |
-| Crop Overscan     | -         |
+| Crop Overscan (in RetroArch's Video settings) | -         |
 
 // Use ✔ or ✕
 // Leave it as - if unsure.
 
-### Saves/States
+### Directories
 
 The (Core name) core's directory name is '(Directory name)'
 
@@ -216,7 +216,7 @@ Save states are saved/loaded to and from where state files are stored.
 ## Core options
 // Optional section.
 
-The (Core name) core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
+The (Core name) core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
 // Fill in the (Core name).
 
@@ -240,6 +240,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### User # - # device types
 
+- None - Input disabled.
 - **(Device name)** - (Device type) - Optional description.
 
 // Fill in (Device name).
