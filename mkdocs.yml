@@ -68,6 +68,7 @@ pages:
         - 'Mr.Boom (Bomberman)': 'library/mr_boom.md'
         - 'Quake 1 (TyrQuake)': 'library/tyrquake.md'
         - 'Rick Dangerous (XRick)': 'library/xrick.md'
+        - 'Tomb Raider (OpenLara)': 'library/openlara.md'
       - Multi System Cores:
         - 'Arcade (MAME 2003)': 'library/mame2003.md'
       - Misc Cores:

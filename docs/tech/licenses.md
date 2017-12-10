@@ -63,6 +63,7 @@ fmsx|Non-commercial|Non-commercial
 [mr_boom](../library/mr_boom.md)|MIT|
 [nestopia_ue](../library/nestopia_ue.md)|GPLv2|
 [nxengine](../library/nxengine.md)|GPLv3|
+[OpenLara](../library/openlara.md)|[2-clause BSD](https://github.com/XProger/OpenLara/blob/master/README.md)|
 [PCSX ReARMed](../library/pcsx_rearmed.md)|[GPLv2](https://github.com/libretro/pcsx_rearmed/blob/master/COPYING)|
 [Picodrive](../library/picodrive.md)|[Non-commercial](https://github.com/libretro/picodrive/blob/master/COPYING)|Non-commercial
 [pocketcdg](../library/pocketcdg.md)|MIT|
@@ -70,7 +71,7 @@ fmsx|Non-commercial|Non-commercial
 [ppsspp](../library/ppsspp.md)|GPLv2|
 [prboom](../library/prboom.md)|GPLv2|
 [prosystem](../library/prosystem.md)|GPLv2|
-[P-UAE](../library/p_uae.md)|[GPLv2](https://github.com/libretro/PUAE/blob/master/COPYING)|
+P-UAE|[GPLv2](https://github.com/libretro/PUAE/blob/master/COPYING)|
 [quicknes](../library/quicknes.md)|LGPLv2.1+|
 [redream](../library/redream.md)|GPLv3|
 [SameBoy](../library/sameboy.md)|[MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)|
