@@ -1,10 +1,10 @@
-# Cave Story (NXEngine)
+# ScummVM
 
-ScummVM is an interpreter for point-and-click adventure games that can be used as a libretro core.
+[ScummVM](http://scummvm.org) is an interpreter for point-and-click adventure games that can be used as a libretro core.
 
 ## Background
 
-[ScummVM](http://scummvm.org) is a program which allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed!
+ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed!
 
 ### Author(s)
 
@@ -69,7 +69,7 @@ To allow launching ScummVM games from the menu, you'll need to do the following:
     > `monkey.scummvm` for Monkey Island
 
 3. Open up the file in a text editor, and enter in the Game ID.
-    > `echo monkey >> monkey.scummvm`
+    > `echo monkey > monkey.scummvm`
 
 4. (Optional) Alternatively, you could download a prepared `.scummvm` file from [libretro-database-scummvm](https://github.com/RobLoach/libretro-database-scummvm/tree/master/games).
 
