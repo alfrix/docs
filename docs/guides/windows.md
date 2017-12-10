@@ -37,8 +37,8 @@ Menu                        ||In-game      ||
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Down.png)  | Move cursor down                |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F2.png)    | Save state
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Left.png)  | Move cursor left                |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F4.png)    | Load state
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Right.png) | Move cursor right               |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F7.png)    | Increase current state slot
-![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F6.png)    | Decrease current state slot
-![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)     | Scroll one page up              |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F8.png)    | Take screenshot
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)     | Scroll one page up              |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F6.png)    | Decrease current state slot
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F8.png)    | Take screenshot
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Enter.png)       | Select                          |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F9.png)    | Mute
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Backspace.png)   | Return to the previous screen  |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F12.png)   | Show on-screen keyboard
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Shift.png)       | Help                            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F11.png)   | Grab mouse
