@@ -106,6 +106,7 @@ pages:
         - 'NES / Famicom (Nestopia UE)': 'library/nestopia_ue.md'
         - 'NES / Famicom (QuickNES)': 'library/quicknes.md'
         - 'Nintendo DS (DeSmuME)': 'library/desmume.md'
+        - 'Nintendo DS (melonDS)': 'library/melonds.md'
         - 'Pokémon Mini (PokeMini)': 'library/pokemini.md'
         - 'SNES / Super Famicom (Beetle bsnes)': 'library/beetle_snes.md'
         - 'SNES / Super Famicom (bsnes Accuracy)': 'library/bsnes_accuracy.md'

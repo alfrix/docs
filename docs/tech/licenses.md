@@ -57,6 +57,7 @@ fmsx|Non-commercial|Non-commercial
 [imageviewer](../library/imageviewer.md)|GPLv3|
 [lutro](../library/lutro.md)|MIT|
 [mame2003](../library/mame2003.md)|BSD-3-Clause & GNU GPLv2|
+[melonDS](../library/melonds.md)|[GPLv3](https://github.com/libretro/melonDS/blob/master/LICENSE)|
 [meteor](../library/meteor.md)|GPLv3|
 [mgba](../library/mgba.md)|MPLv2.0|
 [mr_boom](../library/mr_boom.md)|MIT|
@@ -69,6 +70,7 @@ fmsx|Non-commercial|Non-commercial
 [ppsspp](../library/ppsspp.md)|GPLv2|
 [prboom](../library/prboom.md)|GPLv2|
 [prosystem](../library/prosystem.md)|GPLv2|
+[P-UAE](../library/p_uae.md)|[GPLv2](https://github.com/libretro/PUAE/blob/master/COPYING)|
 [quicknes](../library/quicknes.md)|LGPLv2.1+|
 [redream](../library/redream.md)|GPLv3|
 [SameBoy](../library/sameboy.md)|[MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)|
