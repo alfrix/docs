@@ -30,19 +30,19 @@ From here you can launch content, change settigns and build up your content coll
 
 The menu is designed with gamepad navigation in mind but it does have keyboard support. The keyboard controls are:
 
-Manu                        ||In-game      ||
+Menu                        ||In-game      ||
 ------------- | ------------ |------------- | ------------ 
 **Key**       | **Action**   |**Key**       |**Action**
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Up.png)    | Move cursor up                  |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F1.png)    | Menu toggle
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Down.png)  | Move cursor down                |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F2.png)    | Save state
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Left.png)  | Move cursor left                |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F4.png)    | Load state
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Right.png) | Move cursor right               |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F7.png)    | Increase current state slot
-![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F6.png)    | Decrease current state slot
-![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)     | Scroll one page up              |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F8.png)    | Take screenshot
-![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F9.png)    | Mute
-![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Enter.png)       | Select                          |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F12.png)   | Show on-screen keyboard
-![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Backspace.png)   | Return to the previous screen   |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F11.png)   | Grab mouse
-![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Shift.png)       | Help                            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Plus.png)  | Volume Up
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)     | Scroll one page up              |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F6.png)    | Decrease current state slot
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)   | Scroll one page down            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F8.png)    | Take screenshot
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Enter.png)       | Select                          |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F9.png)    | Mute
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Backspace.png)   | Return to the previous screen  |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F12.png)   | Show on-screen keyboard
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Shift.png)       | Help                            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F11.png)   | Grab mouse
+![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Del.png)         | Remove highlighted input bind            |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Plus.png)  | Volume Up
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Space.png)       | Reset to default                |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Minus.png) | Volume Down
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Slash.png)       | Search                          |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Space.png) | Fast forward toggle
 ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Esc.png)         | Exit RetroArch                  |![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_L.png)     | Fast forward hold
