@@ -7,6 +7,7 @@ Core | License | Non-Commercial
 RetroArch|[GPLv3](https://github.com/libretro/RetroArch/blob/master/COPYING)|
 Lakka|Non-Commercial|Non-Commercial
 [2048](../library/2048.md)|[Public Domain](https://github.com/libretro/libretro-2048/blob/master/COPYING)|
+[Atari800](../library/atari800.md)|[GPLv2](https://github.com/atari800/atari800/blob/master/COPYING)|
 [beetle_gba](../library/beetle_gba.md)|GPLv2|
 [3D Engine](../library/3d_engine.md)|[GPLv3](https://github.com/libretro/libretro-3dengine/blob/master/license)|
 [4do](../library/4DO.md)|Non-commercial|Non-commercial
