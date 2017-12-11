@@ -55,6 +55,7 @@ pages:
       - Atari Cores:      
         - 'Atari 2600 (Stella)': 'library/Stella.md'
         - 'Atari 7800 (ProSystem)': 'library/prosystem.md'
+        - 'Atari 8-bit computer systems and 5200 (Atari800)': 'library/atari800.md'
         - 'Atari Jaguar (Virtual Jaguar)': 'library/virtualjaguar.md'
         - 'Atari Lynx (Beetle Handy)': 'library/beetle_lynx.md'
         - 'Atari Lynx (Handy)': 'library/handy.md'
