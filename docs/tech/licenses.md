@@ -34,6 +34,7 @@ Lakka|Non-Commercial|Non-Commercial
 [bsnes_performance](../library/bsnes_performance.md)|GPLv3|
 [Caprice32](../library/caprice32.md)|[GPLv2](https://github.com/ColinPitrat/caprice32/blob/master/COPYING.txt)|
 [chailove](../library/chailove.md)|MIT|
+[Citra](../library/citra.md)|[GPLv2](https://github.com/citra-emu/citra/blob/master/license.txt)|
 [craft](../library/craft.md)|MIT|
 [CrocoDS](../library/crocods.md)|[MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)|
 [DeSmuME](../library/desmume.md)|[GPLv2](https://github.com/TASVideos/desmume/blob/master/license.txt)|

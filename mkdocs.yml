@@ -107,6 +107,7 @@ pages:
         - 'NES / Famicom (FCEUmm)': 'library/fceumm.md'
         - 'NES / Famicom (Nestopia UE)': 'library/nestopia_ue.md'
         - 'NES / Famicom (QuickNES)': 'library/quicknes.md'
+        - 'Nintendo 3DS (Citra)': 'library/citra.md'
         - 'Nintendo DS (DeSmuME)': 'library/desmume.md'
         - 'Nintendo DS (melonDS)': 'library/melonds.md'
         - 'Pokémon Mini (PokeMini)': 'library/pokemini.md'
