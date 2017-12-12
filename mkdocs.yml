@@ -132,6 +132,7 @@ pages:
         - 'PC-FX (Beetle PC-FX)': 'library/beetle_pcfx.md'
       - Sega Cores:
         - 'Sega Dreamcast (Redream)': 'library/redream.md'
+        - 'Sega Dreamcast (Reicast)': 'library/reicast.md'
         - 'Sega Master System (Emux)': 'library/emux_sms.md'
         - 'Sega MS/GG/MD/CD (Genesis Plus GX)': 'library/genesis_plus_gx.md'
         - 'Sega MS/MD/CD/32X (PicoDrive)': 'library/picodrive.md'

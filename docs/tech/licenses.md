@@ -76,6 +76,7 @@ fmsx|Non-commercial|Non-commercial
 P-UAE|[GPLv2](https://github.com/libretro/PUAE/blob/master/COPYING)|
 [quicknes](../library/quicknes.md)|LGPLv2.1+|
 [redream](../library/redream.md)|GPLv3|
+[Reicast](../library/reicast.md)|[GPLv2](https://github.com/reicast/reicast-emulator/blob/master/LICENSE)|
 [SameBoy](../library/sameboy.md)|[MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)|
 [snes9x_2002](../library/snes9x_2002.md)|Non-commercial|Non-commercial
 [snes9x_2005](../library/snes9x_2005.md)|Non-commercial|Non-commercial
