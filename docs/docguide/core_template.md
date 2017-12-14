@@ -216,11 +216,11 @@ Save states are saved/loaded to and from where state files are stored.
 
 // FPS
 
-(Core name)'s default FPS is (FPS).
+(Core name)'s FPS is (FPS).
 
 // Sample rate
 
-(Core name)'s default sample rate is (Rate)
+(Core name)'s sample rate is (Rate)
 
 // Core provided aspect ratio
 
