@@ -8,7 +8,7 @@ This is the source for the [libretro documentation](https://buildbot.libretro.co
 
 [Libretro Forums topic](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078)
 
-[To-do list doc](https://docs.google.com/spreadsheets/d/1_PHI8ajebJPCrhPHKKytLzTfEKSyGncQhBgkhj6Hw-E/)
+[To-do list](https://buildbot.libretro.com/.docs/docguide/todo/)
 
 ![travis](https://www.travis-ci.org/libretro/docs.svg?branch=master)
 

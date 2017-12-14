@@ -39,7 +39,10 @@ pages:
         - 'PlayStation Portable': 'compilation/psp.md'
         - 'PlayStation Vita/TV': 'compilation/psvita.md'
     - Documentation guide:
-      - 'Core Template': 'library/core_template.md'
+      - 'Core Template': 'docguide/core_template.md'
+      - 'See Also': 'docguide/see_also.md'
+      - 'Core Notes': 'docguide/core_notes.md'
+      - 'To Do': 'docguide/todo.md'
     - Technical:
       - 'Licenses': 'tech/licenses.md'
       - Protocols:
