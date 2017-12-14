@@ -140,7 +140,7 @@ RetroArch database(s) that are associated with the (Core name) core:
 
 // Fill in the (Core name).
 
-- (Database name)[Database file URL]
+- [Database name](Database file URL)
 
 // Copy the database entry in the core info file and paste it here. Also, paste in the link for the database. 
 // https://github.com/libretro/libretro-super/tree/master/dist/info
@@ -160,6 +160,10 @@ Required or optional firmware files go in RetroArch's system directory.
 // https://github.com/libretro/libretro-super/tree/master/dist/info)--
 
 ## Features
+
+RetroArch features that the (Core name) core respects.
+
+// Fill in the (Core name).
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -184,7 +188,8 @@ Required or optional firmware files go in RetroArch's system directory.
 | Softpatching      | -         |
 | Disk Control      | -         |
 | Username          | -         |
-| Crop Overscan (in RetroArch's Video settings) | -         |
+| Language          | -         |
+| Crop Overscan     | -         |
 
 // Use ✔ or ✕
 // Leave it as - if unsure.
@@ -204,14 +209,28 @@ Save states are saved/loaded to and from where state files are stored.
 
 - .state (State)
 
-// Add a list of files the core saves and loads from its directories. 
+// Add a list of directories/files the core uses.
 
-### Core provided aspect ratio
+### Geometry and timing
 // Optional section.
+
+// FPS
+
+(Core name)'s default FPS is (FPS).
+
+// Sample rate
+
+(Core name)'s default sample rate is (Rate)
+
+// Core provided aspect ratio
 
 (Core name)'s core provided aspect ratio is (Ratio).
 
-// Fill in the (Core name) and the (Ratio). 
+// Fill in the (Core name) and the FPS, sample rate, aspect ratio info.
+
+### Usage
+//Optional section.
+// Explain how to use the core if needed.
 
 ## Core options
 // Optional section.
