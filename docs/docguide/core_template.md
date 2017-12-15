@@ -201,13 +201,45 @@ The (Core name) core's directory name is '(Directory name)'
 // Fill in the (Core name) and the (Directory name).
 // The (Directory name) is the name of the directory the core creates in RetroArch's save and state directories.
 
-Game data is saved/loaded to and from where save files are stored.
+The (Core name) loads from and saves to to these directories.
 
-- .srm (Save data)
+// Fill in the (Core name).
 
-Save states are saved/loaded to and from where state files are stored.
+RetroArch.exe directory
 
-- .state (State)
+- . ()
+
+RetroArch's Config directory
+
+- . ()
+
+RetroArch's Download directory
+
+- . ()
+
+RetroArch's Save directory
+
+- . ()
+
+RetroArch's State directory
+
+- . ()
+
+RetroArch's System directory
+
+- . ()
+
+Loaded content's directory
+
+- . ()
+
+Appdata directory
+
+- . ()
+
+Documents directory
+
+- . ()
 
 // Add a list of directories/files the core uses.
 
@@ -235,7 +267,9 @@ Save states are saved/loaded to and from where state files are stored.
 ## Core options
 // Optional section.
 
-The (Core name) core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
+The (Core name) core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
+
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
 // Fill in the (Core name).
 
