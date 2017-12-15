@@ -99,7 +99,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | RemoteJoy                                                            | Awaiting description.                                                                     |                |
 | [SameBoy](../library/sameboy.md)                                     | [MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)                            |                |
 | [ScummVM](../library/scummvm.md)                                     | [GPLv2](https://github.com/libretro/scummvm/blob/master/COPYING)                          |                |
-| [Sega Master System (Emux)](../library/emux_sms.md                   | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
+| [Sega Master System (Emux)](../library/emux_sms.md)                  | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
 | [Snes9x](../library/snes9x.md)                                       | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
 | [Snes9x 2002](../library/snes9x_2002.md)                             | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial | 
 | [Snes9x 2005](../library/snes9x_2005.md)                             | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
@@ -115,7 +115,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Virtual Jaguar](../library/virtualjaguar.md)                        | [GPLv3](https://github.com/libretro/virtualjaguar-libretro/blob/master/docs/GPLv3)        |                |
 | [XRick](../library/xrick.md)                                         | [GPLv3](https://github.com/libretro/xrick-libretro/blob/master/README)                    |                |
 | [Yabause](../library/Yabause.md)									   | [GPLv2](https://github.com/libretro/yabause/blob/master/yabause/COPYING)                  |                |
-| [blueMSX](../library/bluemsx.md)									   | [GPLv2[(https://github.com/libretro/blueMSX-libretro)                                     |                |
+| [blueMSX](../library/bluemsx.md)									   | [GPLv2](https://github.com/libretro/blueMSX-libretro)                                     |                |
 | [bnes](../library/bnes.md)                                           | [GPLv3](https://github.com/libretro/bnes-libretro)                                        |                |
 | [bsnes Accuracy](../library/bsnes_accuracy.md)                       | [GPLv3](https://github.com/libretro/bsnes-libretro)                                       |                |
 | [bsnes Balanced](../library/bsnes_balanced.md)                       | [GPLv3](https://github.com/libretro/bsnes-libretro)                                       |                |
