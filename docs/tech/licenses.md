@@ -96,7 +96,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [QuickNES](../library/quicknes.md)                                   | [LGPLv2.1+](https://github.com/kode54/QuickNES/blob/master/COPYING)                       |                |
 | [Redream](../library/redream.md)                                     | [GPLv3](https://github.com/libretro/redream/blob/master/LICENSE.txt)                      |                |
 | [Reicast](../library/reicast.md)                                     | [GPLv2](https://github.com/libretro-mirrors/reicast-emulator/blob/master/LICENSE)         |                |
-| RemoteJoy                                                            | Awaiting description.                                                                     |                |
+| RemoteJoy                                                            | GPLv2                                                                     |                |
 | [SameBoy](../library/sameboy.md)                                     | [MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)                            |                |
 | [ScummVM](../library/scummvm.md)                                     | [GPLv2](https://github.com/libretro/scummvm/blob/master/COPYING)                          |                |
 | [Sega Master System (Emux)](../library/emux_sms.md)                  | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
