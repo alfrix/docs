@@ -11,7 +11,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | Libretro  | License                                                            | Non-commercial |
 |-----------| -------------------------------------------------------------------| ---------------|
 | RetroArch | [GPLv3](https://github.com/libretro/RetroArch/blob/master/COPYING) |                |
-| Lakka     | Non-Commercial                                                     | Non-Commercial |
+| Lakka     | [Non-Commercial](http://www.lakka.tv/doc/FAQ/)                     | Non-Commercial |
 
 ## Cores
 

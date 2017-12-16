@@ -1,3 +1,6 @@
+// This is a list of cores available through RetroArch's Online Updater
+// Also includes the Ubuntu Nightly PPA
+
 3D Engine
 4DO
 2048
