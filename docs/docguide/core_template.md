@@ -16,13 +16,11 @@ Awaiting description.
 // Put background information for the core here.
 
 ### Why use this core?
-// Optional section.
 
 Awaiting description.
 
-// This section is for platforms that have multiple libretro cores like the SNES.
-
 // Possible topics to talk about.
+/// What can the core do?
 /// Does the core have notable enhancements or differences compared to standalone or other cores?
 /// Is the core recommended for netplay?
 /// Is the core designed to run on specific hardware or platforms?
@@ -42,7 +40,7 @@ Awaiting description.
 
 After this has finished downloading, the core should now be ready for use!
 
-#### How to play (after installation):
+#### How to start (after installation):
 // Optional section.
 // This section is for cores that are predominantly ran by loading content.
 
@@ -56,9 +54,9 @@ After this has finished downloading, the core should now be ready for use!
 
 // Fill in the (Title).
 
-The game should now start running!
+The content should now start running!
 
-#### How to play (after installation):
+#### How to start (after installation):
 // Optional section.
 // This section is for cores that need files from RetroArch's content downloader.
 
@@ -80,9 +78,9 @@ The game should now start running!
 
 // Fill in the title.
 
-The game should now start running!
+The content should now start running!
 
-#### How to play (after installation):
+#### How to start (after installation):
 // Optional section.
 // This section is for cores that don't need any content to be started.
 
@@ -92,13 +90,13 @@ The game should now start running!
 
 2. Now, select 'Start Core'.
 
-The game should now start running!
+The content should now start running!
 
 ### Authors
 
-- (Author)
+- [Author](http://link)
 
-// Copy the author entry in the core info file and paste it here.
+// Copy the author entry in the core info file and paste it here. Link is optional.
 // https://github.com/libretro/libretro-super/tree/master/dist/info
 
 ## See also
@@ -246,23 +244,17 @@ Documents directory
 ### Geometry and timing
 // Optional section.
 
-// FPS
+The (Core name) core's internal FPS is (FPS).
 
-(Core name)'s FPS is (FPS).
+The (Core name) core's internal sample rate is (Rate)
 
-// Sample rate
-
-(Core name)'s sample rate is (Rate)
-
-// Core provided aspect ratio
-
-(Core name)'s core provided aspect ratio is (Ratio).
+The (Core name) core's core provided aspect ratio is (Ratio).
 
 // Fill in the (Core name) and the FPS, sample rate, aspect ratio info.
 
 ### Usage
 //Optional section.
-// Explain how to use the core if needed.
+// Explain how to use the core if further explaination is needed.
 
 ## Core options
 // Optional section.
@@ -312,7 +304,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Joypad and analog device type table
 
-| User # input descriptors      |                                              | (Device name)      |
+| User # input descriptors      | RetroPad Inputs                              | (Device name)      |
 |-------------------------------|----------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroPad/Retro_B_Round.png)       | -                  |
 | Action 2                      | ![](images/RetroPad/Retro_Y_Round.png)       | -                  |
@@ -337,7 +329,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Keyboard device type table
 
-| User # input descriptors      |                               | (Device name)      |
+| User # input descriptors      | RetroKeyboard Inputs          | (Device name)      |
 |-------------------------------|-------------------------------|--------------------|
 | Action 1                      | Keyboard Backspace            | -                  |
 | Action 2                      | Keyboard Tab                  | -                  |
@@ -478,7 +470,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Mouse device type table
 
-| User # input descriptors      |                                          | (Device name)      |
+| User # input descriptors      | RetroMouse Inputs                        | (Device name)      |
 |-------------------------------|------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroMouse/Retro_Mouse.png)   | -                  |
 | Action 2                      | ![](images/RetroMouse/Retro_Left.png)    | -                  |
@@ -493,27 +485,27 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Lightgun device type table
 
-| User # input descriptors      |                 | (Device name)      |
-|-------------------------------|-----------------|--------------------|
-| Action 1                      | Gun             | -                  |
-| Action 2                      | Gun Trigger     | -                  |
-| Action 3                      | Gun Reload      | -                  |
-| Action 4                      | Gun Aux A       | -                  |
-| Action 5                      | Gun Aux B       | -                  |
-| Action 6                      | Gun Aux C       | -                  |
-| Action 7                      | Gun Start       | -                  |
-| Action 8                      | Gun Select      | -                  |
-| Action 9                      | Gun D-pad Up    | -                  |
-| Action 10                     | Gun D-pad Down  | -                  |
-| Action 11                     | Gun D-pad Left  | -                  |
-| Action 12                     | Gun D-pad Right | -                  |
+| User # input descriptors      | RetroLightgun Inputs | (Device name)      |
+|-------------------------------|----------------------|--------------------|
+| Action 1                      | Gun                  | -                  |
+| Action 2                      | Gun Trigger          | -                  |
+| Action 3                      | Gun Reload           | -                  |
+| Action 4                      | Gun Aux A            | -                  |
+| Action 5                      | Gun Aux B            | -                  |
+| Action 6                      | Gun Aux C            | -                  |
+| Action 7                      | Gun Start            | -                  |
+| Action 8                      | Gun Select           | -                  |
+| Action 9                      | Gun D-pad Up         | -                  |
+| Action 10                     | Gun D-pad Down       | -                  |
+| Action 11                     | Gun D-pad Left       | -                  |
+| Action 12                     | Gun D-pad Right      | -                  |
 
 #### Pointer device type table
 
-| User # input descriptors      |                 | (Device name)      |
-|-------------------------------|-----------------|--------------------|
-| Action 1                      | Pointer         | -                  |
-| Action 2                      | Pointer Pressed | -                  |
+| User # input descriptors      | RetroPointer Inputs | (Device name)      |
+|-------------------------------|---------------------|--------------------|
+| Action 1                      | Pointer             | -                  |
+| Action 2                      | Pointer Pressed     | -                  |
 
 // Fill out the device type tables that will be used.
 

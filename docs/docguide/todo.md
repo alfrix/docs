@@ -32,11 +32,10 @@
 
 ## Assets needed
 
-- Updated RetroPad images
 - RetroKeyboard images
-- RetroMouse
-- RetroLightgun
-- RetroPointer
+- RetroMouse images
+- RetroLightgun images
+- RetroPointer images
 
 ## All cores
 
@@ -57,8 +56,10 @@
 
 ### [〰️] 3D Engine
 
+- Fill in the core provided aspect ratio.
+- Complete why use this core section.
 - Complete core option descriptions.
-- Complete and verify controllers table.
+- Improve the background section. I believe the 3D Engine core is two older libretro core combined? (https://github.com/libretro/instancingviewer-libretro-gl) and (https://github.com/libretro/modelviewer-location-libretro)
 
 ### [✔] 4DO
 

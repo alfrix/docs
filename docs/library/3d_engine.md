@@ -2,11 +2,15 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/3d_engine.md). Changes are proposed using "Pull Requests."
+In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/3d_engine.md). Changes are proposed using "Pull Requests."
 
 ## Background
 
 A tech demo for libretro GL with additional features (camera/location/etc).
+
+### Why use this core?
+
+Awaiting description.
 
 ### How to get and install the 3D Engine core:
 
@@ -18,13 +22,25 @@ A tech demo for libretro GL with additional features (camera/location/etc).
 
 After this has finished downloading, the core should now be ready for use!
 
+#### How to start (after installation):
+
+1. Go back to RetroArch's main menu screen. Select 'Load Content'.
+
+2. Browse to the folder that contains the content you want to run.
+
+3. Select the content that you want to run.
+
+4. If you are asked which core to select, choose '3D Engine'.
+
+The content should now start running!
+
 ### Authors
 
-- Team Libretro
+- [Team Libretro](https://www.libretro.com/)
 
 ## License
 
-A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 - [GPLv3](https://github.com/libretro/libretro-3dengine/blob/master/license)
 
@@ -39,16 +55,21 @@ Content that can be loaded by the 3D Engine core have the following file extensi
 
 ## Features
 
+RetroArch features that the 3D Engine core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✕         |
+| Screenshots       | ✔         |
 | Saves             | ✕         |
 | States            | ✕         |
 | Rewind            | ✕         |
 | Netplay           | ✕         |
+| Core Options      | ✔         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✕         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -57,54 +78,102 @@ Content that can be loaded by the 3D Engine core have the following file extensi
 | Location          | ✔         |
 | Subsystem         | ✕         |
 | Softpatching      | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
 
-### Saves/States
+### Directories
 
 The 3D Engine core's directory name is 'Libretro 3DEngine'
 
+### Geometry and timing
+
+The 3D Engine core's internal FPS is 60.0.
+
+The 3D Engine core's internal sample rate is 30000.0 Hz.
+
+The 3D Engine core's core provided aspect ratio is (Ratio).
+
 ## Core options
 
-The 3D Engine core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
+The 3D Engine core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
-- **Internal resolution** (**320x240**/360x480/480x272/512x384/512x512/640x240/640x448/640x480/720x576/800x600/960x720/1024x768/1024x1024/1280x720/1280x960/1600x1200/1920x1080/1920x1440/1920x1600/2048x1152/2048x1536/2048x2048/320x240): Configure the resolution.
-- **Cube size** (**0**/1/2/4/8/16/32/64/128): Awaiting description.
-- **Cube stride** (2.0 to 8.0 in increments of 1.0. **2.0 is default**): Awaiting description.
-- **Camera enable** (**Off**/On): Awaiting description.
-- **Camera FB Type** (**texture/**/raw framebuffer): Awaiting description.
-- **Sensor enable** (**Off**/On): Awaiting description.
-- **Location enable** (**Off**/On): Awaiting description.
-- **Location camera control** (**Off**/On): Awaiting description.
-- **Discard hack enable** (**Off**/On): Awaiting description.
-- **Location position OSD** (**Off**/On): Awaiting description.
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
+
+- **Internal resolution** (**320x240**/360x480/480x272/512x384/512x512/640x240/640x448/640x480/720x576/800x600/960x720/1024x768/1024x1024/1280x720/1280x960/1600x1200/1920x1080/1920x1440/1920x1600/2048x1152/2048x1536/2048x2048/320x240)
+
+<center> Self explanatory. </center>
+
+- **Cube size** (**0**/1/2/4/8/16/32/64/128)
+
+<center> Awaiting description. </center>
+
+- **Cube stride** (2.0 to 8.0 in increments of 1.0. **2.0 is default**)
+
+<center> Awaiting description. </center>
+
+- **Camera enable** (**Off**/On)
+
+<center> Awaiting description. </center>
+
+- **Camera FB Type** (**texture/**/raw framebuffer)
+
+<center> Awaiting description. </center>
+
+- **Sensor enable** (**Off**/On)
+
+<center> Awaiting description. </center>
+
+- **Location enable** (**Off**/On)
+
+<center> Awaiting description. </center>
+
+- **Location camera control** (**Off**/On)
+
+<center> Awaiting description. </center>
+
+- **Discard hack enable** (**Off**/On)
+
+<center> Awaiting description. </center>
+
+- **Location position OSD** (**Off**/On)
+
+<center> Awaiting description. </center>
 
 ## Controllers
 
+### Device types
+
 The 3D Engine core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-### User 1 device types
+#### User 1 device types
 
+- None - Doesn't disable input.
 - **RetroPad** - Joypad
 - RetroPad w/Analog - Joypad - **There is no reason to switch to this.**
 
-### Controllers graph
+### Controller tables
 
-| 3D Engine                                | RetroPad                                                       |
-|------------------------------------------|----------------------------------------------------------------|
-| Jump/Zoom-in                             | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| Move forwards                            | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| Move backwards                           | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| Turn left                                | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| Turn right                               | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| Zoom-out                                 | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-| Move Left                                | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
-| Move Right                               | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
-| Adjust lighting                          | ![RetroPad_L2](images/RetroPad/Retro_L2.png)                   |
-| Adjust lighting                          | ![RetroPad_R2](images/RetroPad/Retro_R2.png)                   |
-| Adjust lighting                          | ![RetroPad_R3](images/RetroPad/Retro_R3.png)                   |
-| Move right or left/Rotate model          | ![RetroPad_Left_Stick](images/RetroPad/Retro_Left_Stick.png)   |
-| Move forwards and backwards/Rotate model | ![RetroPad_Left_Stick](images/RetroPad/Retro_Left_Stick.png)   |
-| Look right and left                      | ![RetroPad_Right_Stick](images/RetroPad/Retro_Right_Stick.png) |
-| Look up and down/Zoom-in or Zoom-out     | ![RetroPad_Right_Stick](images/RetroPad/Retro_Right_Stick.png) |
+#### Joypad and analog device type table
+
+| User 1 input descriptors      | RetroPad Inputs                              | RetroPad                                 |
+|-------------------------------|----------------------------------------------|------------------------------------------|
+| N/A                           | ![](images/RetroPad/Retro_B_Round.png)       | Jump/Zoom-in                             |
+| N/A                           | ![](images/RetroPad/Retro_Dpad_Up.png)       | Move forwards                            |
+| N/A                           | ![](images/RetroPad/Retro_Dpad_Down.png)     | Move backwards                           |
+| N/A                           | ![](images/RetroPad/Retro_Dpad_Left.png)     | Turn left                                |
+| N/A                           | ![](images/RetroPad/Retro_Dpad_Right.png)    | Turn right                               |
+| N/A                           | ![](images/RetroPad/Retro_A_Round.png)       | Zoom-out                                 |
+| N/A                           | ![](images/RetroPad/Retro_L1.png)            | Move left                                |
+| N/A                           | ![](images/RetroPad/Retro_R1.png)            | Move right                               |
+| N/A                           | ![](images/RetroPad/Retro_L2.png)            | Adjust lighting                          |
+| N/A                           | ![](images/RetroPad/Retro_R2.png)            | Adjust lighting                          |
+| N/A                           | ![](images/RetroPad/Retro_R3.png)            | Adjust lighting                          |
+| N/A                           | ![](images/RetroPad/Retro_Left_Stick.png) X  | Move right or left/Rotate model          |
+| N/A                           | ![](images/RetroPad/Retro_Left_Stick.png) Y  | Move forwards and backwards/Rotate model |
+| N/A                           | ![](images/RetroPad/Retro_Right_Stick.png) X | Look right and left                      |
+| N/A                           | ![](images/RetroPad/Retro_Right_Stick.png) Y | Look up and down/Zoom-in or Zoom-out     |
 
 ## External Links
 

@@ -41,7 +41,6 @@ pages:
     - Documentation guide:
       - 'Core Template': 'docguide/core_template.md'
       - 'See Also': 'docguide/see_also.md'
-      - 'Core Notes': 'docguide/core_notes.md'
       - 'To Do': 'docguide/todo.md'
     - Technical:
       - 'Licenses': 'tech/licenses.md'
