@@ -278,6 +278,12 @@
 
 ### [〰️] mGBA
 
+- Improve background section.
+- Complete why use this core section
+- Add internal FPS
+- Add core provided aspect ratio
+- Complete core option descriptions.
+
 ### [〰️] Mr.Boom
 
 - Complete core option descriptions.
