@@ -236,7 +236,14 @@
 
 - Doesn't have a core info file yet.
 
-### [✔] Genesis Plus GX
+### [〰️] Genesis Plus GX
+
+- Complete why use this core section.
+- Complete core option descriptions.
+- Test Multi-Mouse support
+- Add internal FPS
+- Add internal sample rate
+- This core needs to be ported to the new Lightgun API
 
 ### [〰️] gpSP
 
@@ -283,6 +290,7 @@
 - Add internal FPS
 - Add core provided aspect ratio
 - Complete core option descriptions.
+- Complete compatbility section.
 
 ### [〰️] Mr.Boom
 
