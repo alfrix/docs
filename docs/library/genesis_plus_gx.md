@@ -139,10 +139,10 @@ The Genesis Plus GX loads from and saves to to these directories.
 RetroArch's Save directory
 
 - 'content-name'.srm (MS/GG/MD/Pico/SG-1000 Cartridge Backup save)
-- scd_E.brm (Mega CD (PAL) BIOS BRAM)) **When the 'CD System BRAM' core option is set to per bios**
-- scd_U.brm (Sega CD (NTSC-U) BIOS BRAM)) **When the 'CD System BRAM' core option is set to per bios**
-- scd_J.brm (Mega CD (NTSC-J) BIOS BRAM)) **When the 'CD System BRAM' core option is set to per bios**
-- 'content-name'.brm (Per-game BRAM) **When the 'CD System BRAM' core option is set to per game**
+- scd_E.brm (Mega CD EU BIOS Backup RAM) **When the 'CD System BRAM' core option is set to per bios**
+- scd_U.brm (Sega CD US BIOS Backup RAM) **When the 'CD System BRAM' core option is set to per bios**
+- scd_J.brm (Mega CD JP BIOS Backup RAM) **When the 'CD System BRAM' core option is set to per bios**
+- 'content-name'.brm (Sega CD/MegaCD Per-game Backup RAM) **When the 'CD System BRAM' core option is set to per game**
 - cart.brm (Sega/Mega CD RAM CART)
 
 RetroArch's State directory
@@ -238,26 +238,26 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 <center> Self-explanatory. </center>
 
 ??? note "*Blargg NTSC filter - Off*"
-    ![blargg_ntsc_filter_disabled](images\Cores\genesis_plus_gx\blargg_ntsc_filter_disabled.png)
+    ![](images\Cores\genesis_plus_gx\blargg_off.png)
 
 ??? note "*Blargg NTSC filter  - monochrome*"
-    ![blargg_ntsc_filter_monochrome](images\Cores\genesis_plus_gx\blargg_ntsc_filter_monochrome.png)
+    ![](images\Cores\genesis_plus_gx\blargg_monochrome.png)
 
 ??? note "*Blargg NTSC filter - composite*"
-    ![blargg_ntsc_filter_composite](images\Cores\genesis_plus_gx\blargg_ntsc_filter_composite.png)
+    ![](images\Cores\genesis_plus_gx\blargg_composite.png)
 
 ??? note "*Blargg NTSC filter  - svideo*"
-    ![blargg_ntsc_filter_svideo](images\Cores\genesis_plus_gx\blargg_ntsc_filter_svideo.png)
+    ![](images\Cores\genesis_plus_gx\blargg_svideo.png)
 
 ??? note "*Blargg NTSC filter - rgb*"
-    ![blargg_ntsc_filter_rgb](images\Cores\genesis_plus_gx\blargg_ntsc_filter_rgb.png)
+    ![](images\Cores\genesis_plus_gx\blargg_rgb.png)
 
 - **LCD Ghosting filter** (**Off**/On):
 
 <center> Self-explanatory. </center>
 
 ??? note "*LCD Ghosting filter - On*"
-    ![lcd_ghosting_filter_on](images\Cores\genesis_plus_gx\lcd_ghosting_filter_on.png)
+    ![lcd_ghosting_filter_on](images\Cores\genesis_plus_gx\ghost.png)
 
 - **Borders** (**Off**/ top/bottom/ left/right / full):
 
@@ -268,10 +268,10 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 <center> Self-explanatory. </center>
 
 ??? note "*Game Gear extended screen - Off*"
-    ![game_gear_extended_screen_off](images\Cores\genesis_plus_gx\game_gear_extended_screen_off.png)
+    ![](images\Cores\genesis_plus_gx\extend_off.png)
 
 ??? note "*Game Gear extended screen - On*"
-    ![game_gear_extended_screen_on](images\Cores\genesis_plus_gx\game_gear_extended_screen_on.png)
+    ![](images\Cores\genesis_plus_gx\extend_on.png)
 
 - **Core-provided aspect ratio** (**auto**/NTSC PAR/PAL PAR ): 
 
@@ -282,17 +282,17 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 <center> Change how interlaced mode 2 output is handled. Games like Sonic 2's multiplayer mode uses Interlaced Mode 2. </center>
 
 ??? note "*Interlaced mode 2 output - single field*"
-    ![interlaced_mode_2_output_single_field](images\Cores\genesis_plus_gx\interlaced_mode_2_output_single_field.png)
+    ![interlaced_mode_2_output_single_field](images\Cores\genesis_plus_gx\single.png)
 	
 ??? note "*Interlaced mode 2 output - double field*"
-    ![interlaced_mode_2_output_double_field](images\Cores\genesis_plus_gx\interlaced_mode_2_output_double_field.png)	
+    ![interlaced_mode_2_output_double_field](images\Cores\genesis_plus_gx\double.png)	
 
 - **Show Lightgun crosshair** (**Off**/On):
 
 <center> Shows lightgun crosshairs for the 'MD Menancer', 'MD Justifiers', and 'MS Light Phaser' Device Types. </center>
 
 ??? note "*Lightgun crosshair*"
-    ![lightgun_crosshair](images\Cores\genesis_plus_gx\lightgun_crosshair.png)
+    ![lightgun_crosshair](images\Cores\genesis_plus_gx\lightgun.png)
 
 - **Invert Mouse Y-axis** (**Off**/On):
 
@@ -316,41 +316,45 @@ The Genesis Plus GX core supports the following device type(s) in the controls m
 
 - Joypad Port Empty - None - Input disabled.
 - **Joypad Auto** - Joypad - Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller
-- MD Joypad 3 Button - Joypad 
-- MD Joypad 6 Button - Joypad
-- MS Joypad 2 Button - Joypad - also used for Game Gear
-- MD Joypad 3 Button + 4-WayPlay - Joypad - Enables multitap
-- MD Joypad 6 Button + 4-WayPlay - Joypad - Enables multitap
-- MD Joypad 3 Button + Teamplayer - Joypad - Enables multitap
-- MD Joypad 6 Button + Teamplayer - Joypad - Enables multitap
+- [MD Joypad 3 Button](https://segaretro.org/Control_Pad_(Mega_Drive)) - Joypad 
+- [MD Joypad 6 Button](https://segaretro.org/Six_Button_Control_Pad_(Mega_Drive)) - Joypad
+- [MS Joypad 2 Button](https://segaretro.org/Control_Pad_(Master_System)) - Joypad - also used for Game Gear
+- [MD Joypad 3 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap
+- [MD Joypad 6 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap
+- [MD Joypad 3 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap
+- [MD Joypad 6 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap
 - MS Joypad 2 Button + Master Tap - Joypad - Enables multitap
-- MS Light Phaser - Lightgun
-- MS Paddle Control - Analog 
-- MS Sports Pad - Analog
-- MS Graphic Board - Pointer
-- MD XE-1AP - Analog
-- MD Mouse - Mouse
+- [MS Light Phaser](https://segaretro.org/Light_Phaser) - Lightgun
+- [MS Paddle Control](https://segaretro.org/Paddle_Control) - Analog 
+- [MS Sports Pad](https://segaretro.org/Sports_Pad) - Analog
+- [MS Graphic Board](https://segaretro.org/Sega_Graphic_Board) - Pointer
+- [MD XE-1AP](https://segaretro.org/XE-1_AP) - Analog
+- [MD Mouse](https://segaretro.org/Sega_Mouse) - Mouse
 
 #### User 2 device types
 
 - Joypad Port Empty - None - Input disabled.
 - **Joypad Auto** - Joypad - Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller
-- MD Joypad 3 Button - Joypad
-- MD Joypad 6 Button - Joypad
-- MS Joypad 2 Button - Joypad - also used for Game Gear
-- MD Joypad 3 Button + 4-WayPlay - Joypad - Enables multitap
-- MD Joypad 6 Button + 4-WayPlay - Joypad - Enables multitap
-- MD Joypad 3 Button + Teamplayer - Joypad - Enables multitap
-- MD Joypad 6 Button + Teamplayer - Joypad - Enables multitap
+- [MD Joypad 3 Button](https://segaretro.org/Control_Pad_(Mega_Drive)) - Joypad
+- [MD Joypad 6 Button](https://segaretro.org/Six_Button_Control_Pad_(Mega_Drive)) - Joypad
+- [MS Joypad 2 Button](https://segaretro.org/Control_Pad_(Master_System)) - Joypad - also used for Game Gear
+- [MD Joypad 3 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap
+- [MD Joypad 6 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap
+- [MD Joypad 3 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap
+- [MD Joypad 6 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap
 - MS Joypad 2 Button + Master Tap - Joypad - Enables multitap
-- MD Menancer - Lightgun
-- MD Justifiers  - Lightgun
-- MS Light Phaser - Lightgun
-- MS Paddle Control - Analog
-- MS Sports Pad - Analog
-- MS Graphic Board - Pointer
-- MD XE-1AP - Analog
-- MD Mouse - Mouse
+- [MD Menancer](https://segaretro.org/Menacer) - Lightgun
+- [MD Justifiers](https://segaretro.org/The_Justifier)  - Lightgun
+- [MS Light Phaser](https://segaretro.org/Light_Phaser) - Lightgun
+- [MS Paddle Control](https://segaretro.org/Paddle_Control) - Analog
+- [MS Sports Pad](https://segaretro.org/Sports_Pad) - Analog
+- [MS Graphic Board](https://segaretro.org/Sega_Graphic_Board) - Pointer
+- [MD XE-1AP](https://segaretro.org/XE-1_AP) - Analog
+- [MD Mouse](https://segaretro.org/Sega_Mouse) - Mouse
+
+### Other controllers
+
+The Genesis Plus GX can also emulate Pico touch controls but this is done automatically and cannot manually selected as a Device Type through RetroArch's Controls menu.
 
 ### Controller tables
 
@@ -381,13 +385,13 @@ The Genesis Plus GX core supports the following device type(s) in the controls m
 
 #### Mouse device type table
 
-| User # input descriptors      | RetroMouse Inputs                        | MD Mouse           | Graphic Board |
-|-------------------------------|------------------------------------------|--------------------|---------------|
-| N/A                           | ![](images/RetroMouse/Retro_Mouse.png)   | Mouse              | Pointer       |
-| N/A                           | ![](images/RetroMouse/Retro_Left.png)    | Left button        | Pen           |
-| N/A                           | ![](images/RetroMouse/Retro_Right.png)   | Right button       | Menu          |
-| N/A                           | Mouse Wheel Down                         | Center button      |               |
-| N/A                           | ![](images/RetroMouse/Retro_Middle.png)  | Start              | Do            |
+| User # input descriptors      | RetroMouse Inputs                        | MD Mouse           | Graphic Board | Pico       |
+|-------------------------------|------------------------------------------|--------------------|---------------|------------|
+| N/A                           | ![](images/RetroMouse/Retro_Mouse.png)   | Mouse              | Pointer       | Pointer    |
+| N/A                           | ![](images/RetroMouse/Retro_Left.png)    | Left button        | Pen           | Pen button |
+| N/A                           | ![](images/RetroMouse/Retro_Right.png)   | Right button       | Menu          | Red button |
+| N/A                           | Mouse Wheel Down                         | Center button      |               |            |
+| N/A                           | ![](images/RetroMouse/Retro_Middle.png)  | Start              | Do            |            |
 
 #### Lightgun device type table
 
@@ -401,7 +405,7 @@ The Genesis Plus GX core supports the following device type(s) in the controls m
 
 ## Compatibility
 
-100% compatibility with Genesis / Mega Drive, Sega/Mega CD, Master System, Game Gear & SG-1000 released software (including all unlicensed or pirate known dumps), also emulating backwards compatibility modes when available.
+100% compatibility with Genesis / Mega Drive, Sega/Mega CD, Master System, Game Gear & SG-1000 released software (including all unlicensed or pirate known dumps), also emulating backwards compatibility modes when available. It also has Pico emulation.
 
 ## External Links
 
