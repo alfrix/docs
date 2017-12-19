@@ -247,6 +247,11 @@
 
 ### [〰️] gpSP
 
+- Complete why use this core section.
+- Add internal FPS
+- Add internal sample rate
+- Add core provided aspect ratio
+
 ### [〰️] GW
 
 ### [〰️] Handy

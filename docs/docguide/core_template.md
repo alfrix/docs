@@ -7,6 +7,8 @@
 
 In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/). Changes are proposed using "Pull Requests."
 
+There is a To-Do list for libretro/docs [here](https://buildbot.libretro.com/.docs/docguide/todo/)
+
 // Add (core-doc-filename).md to the end of the URL.
 
 ## Background
@@ -102,13 +104,9 @@ The content should now start running!
 ## See also
 // Optional section.
 
-- [Other Core](https://docs.libretro.com/library/) - Awaiting description.
+- [Other Core](https://docs.libretro.com/library/)
 
 // Add links to related core docs here.
-// Add a description for each related core.
-/// Example descriptions
-//// Shared platforms.
-//// Shared authors.
 
 ## License
 
@@ -199,43 +197,43 @@ The (Core name) core's directory name is '(Directory name)'
 // Fill in the (Core name) and the (Directory name).
 // The (Directory name) is the name of the directory the core creates in RetroArch's save and state directories.
 
-The (Core name) loads from and saves to to these directories.
+The (Core name) core loads from and saves to to these directories.
 
 // Fill in the (Core name).
 
-RetroArch.exe directory
+**RetroArch.exe directory**
 
 - . ()
 
-RetroArch's Config directory
+**RetroArch's Config directory**
 
 - . ()
 
-RetroArch's Download directory
+**RetroArch's Download directory**
 
 - . ()
 
-RetroArch's Save directory
+**RetroArch's Save directory**
 
 - . ()
 
-RetroArch's State directory
+**RetroArch's State directory**
 
 - . ()
 
-RetroArch's System directory
+**RetroArch's System directory**
 
 - . ()
 
-Loaded content's directory
+**Loaded content's directory**
 
 - . ()
 
-Appdata directory
+**Appdata directory**
 
 - . ()
 
-Documents directory
+**Documents directory**
 
 - . ()
 
