@@ -7,7 +7,7 @@
 
 In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/). Changes are proposed using "Pull Requests."
 
-There is a To-Do list for libretro/docs [here](https://buildbot.libretro.com/.docs/docguide/todo/)
+There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)
 
 // Add (core-doc-filename).md to the end of the URL.
 
