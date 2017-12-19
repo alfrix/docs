@@ -288,6 +288,13 @@
 
 ### [〰️] Meteor
 
+- Complete why use this core section
+- Improve background section
+- Complete compatibility section
+- Add internal FPS
+- Add internal sample rate
+- Add core provided aspect ratio
+
 ### [〰️] mGBA
 
 - Improve background section.
