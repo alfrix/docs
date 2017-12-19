@@ -76,6 +76,13 @@
 ### [!!!] Beetle GBA
 
 - Can't complete documentation, core doesn't start. https://github.com/libretro/libretro-meta/issues/103
+- Complete why use this core section
+- Complete compatbility section
+- Complete feature table
+- Complete director section.
+- Complete geometry and timing section
+- Complete core option section
+- Complete controllers section
 
 ### [〰️] Beetle Handy
 
