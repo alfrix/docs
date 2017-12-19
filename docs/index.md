@@ -6,7 +6,7 @@
 
 **CONTRIBUTIONS ARE WELCOME, ANYONE CAN HELP OUT**
 
-**YOU CAN SUBMIT SUGGESTIONS OR ISSUES AT [https://github.com/libretro/docs/issues](https://github.com/libretro/docs/issues) OR [https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/)**
+**YOU CAN SUBMIT SUGGESTIONS OR ISSUES REGARDING DOCUMENTATION AT [https://github.com/libretro/docs/issues](https://github.com/libretro/docs/issues) OR [https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/)**
 
 **YOU CAN CONTRIBUTE DIRECTLY AT [https://github.com/libretro/docs](https://github.com/libretro/docs)**
 
