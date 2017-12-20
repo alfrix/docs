@@ -194,7 +194,7 @@ RetroArch-level settings or features that the (Core name) core respects.
 
 ### Directories
 
-The (Core name) core saves/loads from/to these directories.
+The (Core name) core's directory name is '(Directory name)'
 
 // Fill in the (Core name) and the (Directory name).
 // The (Directory name) is the name of the directory the core creates in RetroArch's save and state directories.
@@ -315,6 +315,8 @@ The (Core name) core supports the following device type(s) in the controls menu,
 ### Other controllers
 // Optional section.
 // This section is for cores that have controllers that cannot be manually selected through RetroArch's Controls menu.
+
+- (Device name) - (Device type) - Optional description.
 
 ### Multitap support
 // Optional section.
