@@ -226,6 +226,14 @@
 ### [〰️] FCEUmm
 
 - Complete why use this core section
+- Improve background section
+- Add internal FPS
+- Add internal sample rate
+- Add a screenshot of nes.pal in RetroArch's System directory.
+- Combine aspect ratio screenshots into one image
+- Combine palette core options screenshots into one image like [this](http://emulation.gametechwiki.com/images/thumb/2/2c/5NUrm6U-1-.png/800px-5NUrm6U-1-.png)
+- Combine Crop Overscan core options screenshots into one image
+- Combine crosshair core option screenshots into one image
 
 ### [✔] FFmpeg
 

@@ -49,9 +49,9 @@
 - [Game Music Emu](https://docs.libretro.com/library/game_music_emu/)
 - [PocketCDG](https://docs.libretro.com/library/pocketcdg/)
 
-### NES
+### NES/Famicom
 
-- [NES / Famicom (bnes)]((https://docs.libretro.com/library/bnes/)
+- [NES / Famicom (bnes)](https://docs.libretro.com/library/bnes/)
 - [NES / Famicom (Emux)](https://docs.libretro.com/library/emux_nes/)
 - [NES / Famicom (FCEUmm)](https://docs.libretro.com/library/fceumm/)
 - [NES / Famicom (Nestopia UE)](https://docs.libretro.com/library/nestopia_ue/)
@@ -104,7 +104,7 @@
 - [Game Boy Advance (Meteor)](https://docs.libretro.com/library/meteor/)
 - [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
 - [Game Boy Advance (VBA Next)](https://docs.libretro.com/library/vba_next/)
-- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vbam/)
+- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vba_m/)
 
 ### MSX
 
