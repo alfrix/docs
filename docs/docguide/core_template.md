@@ -11,6 +11,8 @@ In order to propose improvements to this document, [visit its corresponding sour
 
 There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)
 
+You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).
+
 ## Background
 
 Awaiting description.
@@ -157,7 +159,7 @@ Required or optional firmware files go in RetroArch's system directory.
 
 ## Features
 
-RetroArch features that the (Core name) core respects.
+RetroArch-level settings or features that the (Core name) core respects.
 
 // Fill in the (Core name).
 
@@ -192,7 +194,7 @@ RetroArch features that the (Core name) core respects.
 
 ### Directories
 
-The (Core name) core's directory name is '(Directory name)'
+The (Core name) core saves/loads from/to these directories.
 
 // Fill in the (Core name) and the (Directory name).
 // The (Directory name) is the name of the directory the core creates in RetroArch's save and state directories.
@@ -242,13 +244,25 @@ The (Core name) core loads from and saves to to these directories.
 ### Geometry and timing
 // Optional section.
 
-The (Core name) core's internal FPS is (FPS)
-
-The (Core name) core's internal sample rate is (Rate)
-
-The (Core name) core's core provided aspect ratio is (Ratio)
+- The (Core name) core's internal FPS is (FPS)
+- The (Core name) core's internal sample rate is (Rate)
+- The (Core name) core's core provided aspect ratio is (Ratio)
 
 // Fill in the (Core name) and the FPS, sample rate, aspect ratio info.
+
+### Rumble support
+// Optional section.
+// This section is for cores that have rumble support
+
+Rumble only works in the (Core name) core when
+
+// Fill in the (Core name).
+
+- The content being ran has rumble support.
+- The joypad input driver being used has rumble support. (e.g. Xinput)
+- The joypad device being used has rumble support.
+
+// Explain how to activate rumble.
 
 ### Usage
 //Optional section.
@@ -298,11 +312,19 @@ The (Core name) core supports the following device type(s) in the controls menu,
 //// Lightgun
 //// Pointer
 
+### Other controllers
+// Optional section.
+// This section is for cores that have controllers that cannot be manually selected through RetroArch's Controls menu.
+
+### Multitap support
+// Optional section.
+// This section for cores that have an opton to activate mutlitap in supported games.
+
 ### Controller tables
 
 #### Joypad and analog device type table
 
-| User # input descriptors      | RetroPad Inputs                              | (Device name)      |
+| User # Input descriptors      | RetroPad Inputs                              | (Device name)      |
 |-------------------------------|----------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroPad/Retro_B_Round.png)       | -                  |
 | Action 2                      | ![](images/RetroPad/Retro_Y_Round.png)       | -                  |
@@ -327,7 +349,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Keyboard device type table
 
-| User # input descriptors      | RetroKeyboard Inputs          | (Device name)      |
+| User # Input descriptors      | RetroKeyboard Inputs          | (Device name)      |
 |-------------------------------|-------------------------------|--------------------|
 | Action 1                      | Keyboard Backspace            | -                  |
 | Action 2                      | Keyboard Tab                  | -                  |
@@ -468,7 +490,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Mouse device type table
 
-| User # input descriptors      | RetroMouse Inputs                        | (Device name)      |
+| User # Input descriptors      | RetroMouse Inputs                        | (Device name)      |
 |-------------------------------|------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroMouse/Retro_Mouse.png)   | -                  |
 | Action 2                      | ![](images/RetroMouse/Retro_Left.png)    | -                  |
@@ -483,7 +505,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Lightgun device type table
 
-| User # input descriptors      | RetroLightgun Inputs | (Device name)      |
+| User # Input descriptors      | RetroLightgun Inputs | (Device name)      |
 |-------------------------------|----------------------|--------------------|
 | Action 1                      | Gun                  | -                  |
 | Action 2                      | Gun Trigger          | -                  |
@@ -500,7 +522,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 #### Pointer device type table
 
-| User # input descriptors      | RetroPointer Inputs | (Device name)      |
+| User # Input descriptors      | RetroPointer Inputs | (Device name)      |
 |-------------------------------|---------------------|--------------------|
 | Action 1                      | Pointer             | -                  |
 | Action 2                      | Pointer Pressed     | -                  |
