@@ -242,11 +242,11 @@ The (Core name) core loads from and saves to to these directories.
 ### Geometry and timing
 // Optional section.
 
-The (Core name) core's internal FPS is (FPS).
+The (Core name) core's internal FPS is (FPS)
 
 The (Core name) core's internal sample rate is (Rate)
 
-The (Core name) core's core provided aspect ratio is (Ratio).
+The (Core name) core's core provided aspect ratio is (Ratio)
 
 // Fill in the (Core name) and the FPS, sample rate, aspect ratio info.
 
@@ -259,9 +259,9 @@ The (Core name) core's core provided aspect ratio is (Ratio).
 
 The (Core name) core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
-Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
-
 // Fill in the (Core name).
+
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
 - **Core Option** (**Setting1**/Setting2)
 

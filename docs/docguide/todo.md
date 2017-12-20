@@ -418,7 +418,12 @@
 
 ### [〰️] VBA-M
 
+- Improve background section.
+- Complete why use this core section.
+
 ### [〰️] VBA Next
+
+- Complete why use this core section
 
 ### [〰️] vecx
 

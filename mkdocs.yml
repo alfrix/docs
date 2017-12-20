@@ -102,7 +102,7 @@ pages:
         - 'Game Boy Advance (gpSP)': 'library/gpsp.md'
         - 'Game Boy Advance (Meteor)': 'library/meteor.md'
         - 'Game Boy Advance (mGBA)': 'library/mgba.md'
-        - 'Game Boy Advance (VBA-M)': 'library/vbam.md'
+        - 'Game Boy Advance (VBA-M)': 'library/vba_m.md'
         - 'Game Boy Advance (VBA Next)': 'library/vba_next.md'
         - 'NES / Famicom (bnes)': 'library/bnes.md'
         - 'NES / Famicom (Emux)': 'library/emux_nes.md'
