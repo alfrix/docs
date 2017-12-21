@@ -378,7 +378,9 @@
 
 ### [〰️] QuickNES
 
-- Complete the Why use this core? section.
+- Complete Why use this core? section.
+- Improve background section.
+- Add internal FPS
 
 ### [〰️] Redream
 
