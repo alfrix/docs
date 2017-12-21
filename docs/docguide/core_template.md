@@ -199,7 +199,7 @@ The (Core name) core's directory name is '(Directory name)'
 // Fill in the (Core name) and the (Directory name).
 // The (Directory name) is the name of the directory the core creates in RetroArch's save and state directories.
 
-The (Core name) core loads from and saves to to these directories.
+The (Core name) core saves/loads to/from these directories.
 
 // Fill in the (Core name).
 
@@ -551,5 +551,5 @@ Awaiting description.
 - [Libretro (Core name) Core info file](https://link)
 - [Libretro (Core name) (Website name) Repository](https://link)
 - [Report Libretro (Core name) Core Issues Here](https://link)
-- [Official (Core name) Website](https://link)
-- [Official (Core name) (Website name) Repository](https://link)
+- [Official/Original (Core name) Website](https://link)
+- [Official/Original (Core name) (Website name) Repository](https://link)
