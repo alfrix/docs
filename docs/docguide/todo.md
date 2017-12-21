@@ -173,6 +173,9 @@
 
 ### [✔] ChaiLove
 
+- Complete why use this core section
+- Add core provided aspect ratio
+
 ### [〰️] Citra
 
 ### [〰️] Craft
