@@ -1,10 +1,22 @@
 # ChaiLove
 
+## Contribute to this documentation
+
+In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/chailove.md). Changes are proposed using "Pull Requests."
+
+There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)
+
+You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).
+
 ## Background
 
 [ChaiLove](https://github.com/RobLoach/ChaiLove) is a framework for making 2D games with [ChaiScript](http://chaiscript.com/). ChaiLove games can be played with LibRetro/RetroArch through the ChaiLove core.
 
-### Usage
+### Why use this core?
+
+Awaiting description.
+
+### How to get and install the ChaiLove core:
 
 1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
@@ -12,35 +24,51 @@
 
 3. Browse through the list and select 'ChaiLove'.
 
-4. After this has finished downloading, you will now need a ChaiLove game. We will be using Floppy Bird as an example. You can obtain Floppy Bird by going back to the previous menu screen. From there, select 'Content Downloader'.
+After this has finished downloading, the core should now be ready for use!
 
-5. Select 'ChaiLove', then select 'Floppy Bird.chailove'. This should download and extract this file to RetroArch's Downloads directory.
+#### How to start (after installation):
 
-#### How to play
+1. Go back to RetroArch's main menu screen. Select 'Load Content'.
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
+2. Browse to the folder that contains the content you want to run.
 
-2. Select 'Floppy Bird.chailove'
+3. Select the content that you want to run.
 
-3. If you are asked which core to select, choose 'ChaiLove'.
+4. If you are asked which core to select, choose 'ChaiLove'.
 
-The game should now start running!
+The content should now start running!
 
-### Author(s):
+##### Extra example
 
-Rob Loach
+As an extra example showcasing loading content with Chailove core, we will load the Floppy Bird game hosted on RetroArch's Content Downloader.
 
-## Contribute to this documentation
+1. First, you need to obtain Floppy Bird's data files. You can do this by going to RetroArch's main menu screen. From there, select 'Content Downloader'.
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/chailove.md). Changes are proposed using "Pull Requests."
+2. Select 'ChaiLove', then select 'Floppy Bird.chailove'. This should download and extract this file to RetroArch's Downloads directory.
+
+3. Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
+
+4. Select 'Floppy Bird.chailove'
+
+5. If you are asked which core to select, choose 'ChaiLove'.
+
+The content should now start running!
+
+### Authors
+
+- Rob Loach
 
 ## See also
 
-[Lua Engine (Lutro)](https://buildbot.libretro.com/docs/library/lutro/)
+### Custom engine
+
+- [Lua Engine (Lutro)](https://docs.libretro.com/library/lutro/)
 
 ## License
 
-MIT
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+- [MIT](https://github.com/RobLoach/ChaiLove/blob/master/LICENSE.md)
 
 ## Extensions
 
@@ -48,26 +76,30 @@ Content that can be loaded by the ChaiLove core have the following file extensio
 
 - .chai
 - .chailove
-- .chaigame
 
-## Database(s)
+## Databases
 
 RetroArch database(s) that are associated with the ChaiLove core:
 
-- ChaiLove
+- [ChaiLove](https://github.com/libretro/libretro-database/blob/master/rdb/ChaiLove.rdb)
 
 ## Features
 
+RetroArch-level settings or features that the ChaiLove core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
 | Saves             | ✕         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | ✕         |
+| Netplay           | ✔         |
+| Core Options      | ✔         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -75,61 +107,92 @@ RetroArch database(s) that are associated with the ChaiLove core:
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| Softpatching      | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+
+### Directories
 
 The ChaiLove core's directory name is 'ChaiLove'
 
-Save states are saved/loaded to and from where state files are stored. 
+The ChaiLove core saves/loads to/from these directories.
+
+**RetroArch's State directory**
+
+- 'content-name'.state# (State)
+
+### Geometry and timing
+
+- The ChaiLove core's internal FPS is 60
+- The ChaiLove core's internal sample rate is 44100 Hz
+- The ChaiLove core's core provided aspect ratio is (Ratio)
 
 ## Core options
 
-The ChaiLove core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
+The ChaiLove core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
-- **Alpha Blending** (Off/**On**): Enable or disable alpha blending (transparency).
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
+
+- **Alpha Blending** (Off/**On**) 
+
+<center> Enable or disable alpha blending (transparency). </center>
 
 ??? note "Alpha Blending - On"
-	![alpha_blending_on](images\Cores\chailove\alpha_blending_on.png)
+	![](images\Cores\chailove\alpha_on.png)
 	
 ??? note "Alpha Blending - Off"
-	![alpha_blending_off](images\Cores\chailove\alpha_blending_off.png)	
+	![](images\Cores\chailove\alpha_off.png)	
 
-- **High Quality** (Off/**On**): Enable or disable extra visual features.
+- **High Quality** (Off/**On**)
+
+<center> Enable or disable extra visual features. </center>
 
 ??? note "High Quality - On"
-	![high_quality_on](images\Cores\chailove\high_quality_on.png)
+	![](images\Cores\chailove\quality_on.png)
 	
 ??? note "High Quality - Off"
-	![high_quality_off](images\Cores\chailove\high_quality_off.png)	
+	![](images\Cores\chailove\quality_off.png)	
 
 ## Controllers
 
-The ChaiLove core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
+### Device types
 
-### User 1 - 4 Device Type(s)
+The ChaiLove core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-* **RetroPad** - Joypad with analog
+#### User 1 - 5 device types
 
-* RetroPad w/Analog - **There is no reason to switch to this**
+- None - Doesn't disable input.
+- **RetroPad** - Joypad
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
 
-### Controllers graph
+### Controller tables
 
-**What the buttons do are game specific.**
+#### Joypad and analog device type table
 
-| ChaiLove    | RetroPad                                                       |
-|-------------|----------------------------------------------------------------|
-| B           | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| Y           | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-| Select      | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
-| Start       | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| D-Pad Up    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| D-Pad Down  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| D-Pad Left  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| D-Pad Right | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| A           | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-| X           | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
-| L           | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
-| R           | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
+!!! attention
+	**What the buttons do are game specific.**
+
+| Users 1 - 5 Input descriptors | RetroPad Inputs                              |
+|-------------------------------|----------------------------------------------|
+| B                             | ![](images/RetroPad/Retro_B_Round.png)       |
+| Y                             | ![](images/RetroPad/Retro_Y_Round.png)       |           
+| Select                        | ![](images/RetroPad/Retro_Select.png)        |
+| Start                         | ![](images/RetroPad/Retro_Start.png)         |
+| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       |
+| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     |
+| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| A                             | ![](images/RetroPad/Retro_A_Round.png)       |
+| X                             | ![](images/RetroPad/Retro_X_Round.png)       |
+| L                             | ![](images/RetroPad/Retro_L1.png)            |
+| R                             | ![](images/RetroPad/Retro_R1.png)            |
 
 ## External Links
 
-* [Official/Libretro Repository](https://github.com/RobLoach/ChaiLove)
-* [Report Core Issues Here](https://github.com/RobLoach/ChaiLove/issues)
+- [Libretro ChaiLove Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/chailove_libretro.info)
+- [Official/Libretro ChaiLove Github Repository](https://github.com/RobLoach/ChaiLove)
+- [Report Libretro ChaiLove Core Issues Here](https://github.com/RobLoach/ChaiLove/issues)
+- [ChaiLove API Documentation Website](https://robloach.github.io/ChaiLove/)
+- [ChaiScript Website](http://chaiscript.com/)
