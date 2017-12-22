@@ -376,7 +376,7 @@ The FCEUmm core supports up to 4 players in multitap games for the NES and Famic
 
 | FCEUmm input descriptors      | RetroMouse                               | Zapper             | Arkanoid   | Oeka Kids Tablet   | Bandai Hyper Shot Gun   |
 |-------------------------------|------------------------------------------|--------------------|------------|--------------------|-------------------------|
-| N/A                           | ![](images/RetroMouse/Retro_Mouse.png) Y | Zapper             | Arkanoid   | Oeka Kids Tablet   | Bandai Hyper Shot Gun   |
+| N/A                           | ![](images/RetroMouse/Retro_Mouse.png)   | Zapper             | Arkanoid   | Oeka Kids Tablet   | Bandai Hyper Shot Gun   |
 | N/A                           | ![](images/RetroMouse/Retro_Left.png)    | Trigger            | Fire       | Touch              | Shoot                   |
 
 !!! warning ""

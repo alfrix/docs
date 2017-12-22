@@ -88,6 +88,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [Emux GB](https://github.com/libretro/emux)               | ✕         | |
 | [SameBoy](https://github.com/libretro/SameBoy)            | ✕         | |
 | [TGB Dual](https://github.com/libretro/tgbdual-libretro)  | ✕         | |
+| [Gearboy](https://github.com/libretro/gearboy)            | ✕         | |
 
 ### Game Boy Advance
 

@@ -37,7 +37,7 @@
 - [Atari Lynx (Beetle Handy)](https://docs.libretro.com/library/beetle_handy/)
 - [Atari Lynx (Handy)](https://docs.libretro.com/library/handy/)
 
-### Custom Game Engine
+### Custom Engine
 
 - [ChaiLove](https://docs.libretro.com/library/chailove/)
 - [Lua Engine (Lutro)](https://docs.libretro.com/library/lutro/)
@@ -52,14 +52,14 @@
 ### NES/Famicom
 
 - [NES / Famicom (bnes)](https://docs.libretro.com/library/bnes/)
-- [NES / Famicom (Emux)](https://docs.libretro.com/library/emux_nes/)
+- [NES / Famicom (Emux NES)](https://docs.libretro.com/library/emux_nes/)
 - [NES / Famicom (FCEUmm)](https://docs.libretro.com/library/fceumm/)
 - [NES / Famicom (Nestopia UE)](https://docs.libretro.com/library/nestopia_ue/)
 - [NES / Famicom (QuickNES)](https://docs.libretro.com/library/quicknes/)
 
 ### Sega 16-bit
 
-- [Sega Master System (Emux)](https://docs.libretro.com/library/emux_sms/)
+- [Sega Master System (Emux SMS)](https://docs.libretro.com/library/emux_sms/)
 - [Sega MS/GG/MD/CD (Genesis Plus GX)](https://docs.libretro.com/library/genesis_plus_gx/)
 - [Sega MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
 
@@ -91,10 +91,11 @@
 
 ### GB/GBC
 
-- [Game Boy / Game Boy Color (Emux)](https://docs.libretro.com/library/emux_gb/)
+- [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
 - [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
 - [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
 - [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgbdual/)
+- [Game Boy / Gameboy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
 - [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
 
 ### GBA

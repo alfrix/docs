@@ -1,5 +1,5 @@
-// This is a list of cores available through RetroArch's Online Updater
-// Also includes the Ubuntu Nightly PPA
+This is a list of cores available through RetroArch's Online Updater
+Also includes the Ubuntu Nightly PPA and internal cores
 
 3D Engine
 4DO
@@ -98,6 +98,7 @@ QuickNES
 Redream
 Reicast
 RemoteJoy
+Remote RetroPad
 SameBoy
 ScummVM
 Snes9x
@@ -117,6 +118,7 @@ VICE C64
 VICE C128
 VICE PLUS4
 VICE VIC20
+Video Processor
 Virtual Jaguar
 XRick
 Yabause

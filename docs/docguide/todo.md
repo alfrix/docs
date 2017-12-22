@@ -17,7 +17,17 @@
 - Complete RetroPad documentation https://buildbot.libretro.com/docs/specs/retropad/
 - Complete controller API documentation https://buildbot.libretro.com/docs/specs/api/#input-device-abstraction
 - Add Subsystem API documentation https://buildbot.libretro.com/docs/specs/api/
-- Complete Licenses doc
+
+### Licenses
+
+- Find a license source for 4DO
+- Confirm the license for Imageviewer
+- Confirm the license for Neko Project II
+- Find a license source for PX68k
+- Find a license source for RemoteJoy
+- Find a license source for Remote RetroPad
+- Find a license source for VBA Next
+- Confirm the license for Video Processor
 
 ## Guide
 
@@ -112,6 +122,10 @@
 ### [〰️] blueMSX
 
 ### [〰️] bnes
+
+- Improve background section.
+- Complete why use this core section.
+- Add core provided aspect ratio
 
 ### [〰️] bsnes-mercury Accuracy
 
@@ -250,9 +264,12 @@
 
 ### [✔] Game Music Emu
 
-### [!!!] Gearboy
+### [〰️] Gearboy
 
-- Doesn't have a core info file yet.
+- Complete compatibility section.
+- Improve background section.
+- Add core provided aspect ratio
+- Nintendo Gameboy should be the default device type for this core.
 
 ### [〰️] Genesis Plus GX
 
@@ -341,6 +358,11 @@
 
 - Complete why use this core section
 - Complete core option descriptions
+- Add internal fps
+- Add internal sample rate
+- Add core provided aspect ratio
+- Improve other controllers section
+- This core needs to be ported to the new lightgun API
 
 ### [✕] nSide Balanced
 
