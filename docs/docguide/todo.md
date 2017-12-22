@@ -119,6 +119,11 @@
 
 ### [〰️] Beetle VB
 
+- Improve background section.
+- Complete why use this core section.
+- Complete compatibility section.
+- Combine the anagylph and palette core option screenshots into one image.
+
 ### [〰️] blueMSX
 
 ### [〰️] bnes
