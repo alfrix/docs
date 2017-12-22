@@ -98,6 +98,7 @@ pages:
         - 'Game Boy / Game Boy Color (Gambatte)': 'library/gambatte.md'
         - 'Game Boy / Game Boy Color (SameBoy)': 'library/sameboy.md'
         - 'Game Boy / Game Boy Color (TGB Dual)': 'library/tgbdual.md'
+        - 'Game Boy / Gameboy Color (Gearboy)': 'library/gearboy.md'
         - 'Game Boy Advance (Beetle GBA)': 'library/beetle_gba.md'
         - 'Game Boy Advance (gpSP)': 'library/gpsp.md'
         - 'Game Boy Advance (Meteor)': 'library/meteor.md'

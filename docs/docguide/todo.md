@@ -264,9 +264,12 @@
 
 ### [✔] Game Music Emu
 
-### [!!!] Gearboy
+### [〰️] Gearboy
 
-- Doesn't have a core info file yet.
+- Complete compatibility section.
+- Improve background section.
+- Add core provided aspect ratio
+- Nintendo Gameboy should be the default device type for this core.
 
 ### [〰️] Genesis Plus GX
 
@@ -355,6 +358,11 @@
 
 - Complete why use this core section
 - Complete core option descriptions
+- Add internal fps
+- Add internal sample rate
+- Add core provided aspect ratio
+- Improve other controllers section
+- This core needs to be ported to the new lightgun API
 
 ### [✕] nSide Balanced
 
