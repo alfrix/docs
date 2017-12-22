@@ -1,4 +1,4 @@
-# Game Boy / Gameboy Color (Gearboy)
+# Game Boy / Game Boy Color (Gearboy)
 
 ## Contribute to this documentation
 
@@ -68,7 +68,10 @@ A summary of the licenses behind RetroArch and its cores have found [here](https
 Content that can be loaded by the Gearboy core have the following file extensions:
 
 - .gb
+- .dmg
 - .gbc
+- .cgb
+- .sgb
 
 ## Databases
 
