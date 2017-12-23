@@ -106,6 +106,7 @@ You can also check the progress of your friends and add comments on their trophi
 | Core                                                                    | Supported |
 |-------------------------------------------------------------------------|:---------:|
 | [Beetle PCE Fast](https://github.com/libretro/beetle-pce-fast-libretro) | ✔         |
+| [Beetle SGX](https://github.com/libretro/beetle-supergrafx-libretro)    | ✔         |
 
 
 ### Nintendo 64

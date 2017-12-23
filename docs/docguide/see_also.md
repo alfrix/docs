@@ -115,12 +115,17 @@
 ### Multi
 
 - [MULTI (MESS 2014)](https://docs.libretro.com/library/mess_2014/)
-- [MULTI (UME 2014)](https://docs.libretro.com/library/ume_2014/
+- [MULTI (UME 2014)](https://docs.libretro.com/library/ume_2014/)
 
 ### NEC PC-98
 
 - [NEC PC-98 (Neko Project II Kai)](https://docs.libretro.com/library/np2/)
 - [NEC PC-98 (Neko Project II)](https://docs.libretro.com/library/np2kai/)
+
+### NEC PC Engine
+
+- [PC Engine SuperGrafx (Beetle SGX)](https://docs.libretro.com/library/beetle_sgx/)
+- [PC Engine/PCE-CD (Beetle PCE FAST)](https://docs.libretro.com/library/beetle_pce_fast/)
 
 ### N64
 
