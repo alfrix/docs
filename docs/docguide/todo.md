@@ -114,8 +114,12 @@
 
 ### [〰️] Beetle SGX
 
-- Complete why use this core section
-- Complete core option descriptions.
+- Improve background section.
+- Complete why use this core section.
+- Complete and improve core option descriptions.
+- Complete controllers table section.
+- Add BIOS md5s.
+- Complete compatibility section.
 
 ### [〰️] Beetle VB
 
