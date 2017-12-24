@@ -396,7 +396,11 @@
 
 ### [✕] nSide Balanced
 
-### [✔] NXEngine
+### [〰️] NXEngine
+
+- Complete why use this core section.
+- Complete compatbiility section.
+- Add core provided aspect ratio.
 
 ### [✕] O2EM
 

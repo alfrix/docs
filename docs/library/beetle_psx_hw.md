@@ -451,7 +451,7 @@ Gets rid of memory access latency and makes all GTE instructions have 1 cycle la
 
 - **Memcard 0 method** (**libretro**/mednafen)
 
-<center> Choose the savedata format used for Memcard 0 (libretro or mednafen). Look above at the [Saves section](https://docs.libretro.com/library/beetle_psx_hw/#saves) for an explanation regarding the libretro and mednafen formats. <center>
+<center> Choose the savedata format used for Memcard 0 (libretro or mednafen). Look above at the [Saves section](https://docs.libretro.com/library/beetle_psx_hw/#saves) for an explanation regarding the libretro and mednafen formats. </center>
 
 - **Enable memory card 1** (Off/**On**)
 
