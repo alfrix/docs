@@ -2,11 +2,11 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/gearboy.md). Changes are proposed using "Pull Requests."
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/gearboy.md). Changes are proposed using "Pull Requests."**
 
-There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
 
-You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
@@ -21,15 +21,24 @@ Gearboy is a Nintendo Game Boy / GameBoy Color emulator written in C++.
 - Mix frames: Mimics the LCD ghosting effect seen in the original Game Boy.
 - Sound emulation using SDL Audio and Gb_Snd_Emu library.
 - Game Boy Color support.
+- Integrated disassembler. It can dump the full disassembled memory to a text file or access it in real time.
 - Saves battery powered RAM cartridges to file.
+- Compressed rom support (ZIP deflate).
+- Multi platform. Runs on Windows, Linux, Mac OS X, Raspberry Pi and iOS.
 
 ### How to get and install the Gearboy core:
 
 1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
+<center> ![](images\Cores\all\updater.png) </center>
+
 2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
 
-3. Browse through the list and select 'Game Boy / Gameboy Color (Gearboy)'.
+<center> ![](images\Cores\all\info.png) </center>
+
+3. Browse through the list and select 'Game Boy / Game Boy Color (Gearboy)'.
+
+<center> ![](images\Cores\gearboy\gearboy.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
 
@@ -37,11 +46,15 @@ After this has finished downloading, the core should now be ready for use!
 
 1. Go back to RetroArch's main menu screen. Select 'Load Content'.
 
+<center> ![](images\Cores\all\load.png) </center>
+
 2. Browse to the folder that contains the content you want to run.
 
 3. Select the content that you want to run.
 
-4. If you are asked which core to select, choose 'Game Boy / Gameboy Color (Gearboy)'.
+<center> ![](images\Cores\gearboy\sheepitup.png) </center>
+
+4. If you are asked which core to select, choose 'Game Boy / Game Boy Color (Gearboy)'.
 
 The content should now start running!
 
@@ -50,6 +63,8 @@ The content should now start running!
 - Ignacio Sanchez
 
 ## See also
+
+### GB/GBC
 
 - [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
 - [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
@@ -60,6 +75,8 @@ The content should now start running!
 ## License
 
 A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The Gearboy core is licensed under
 
 - [GPLv3](https://github.com/libretro/Gearboy/blob/master/LICENSE)
 
