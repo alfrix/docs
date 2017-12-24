@@ -160,7 +160,7 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 - **CD Image Cache (Restart)** (**Off**/On) 
 
-<center> Loads the complete image in memory at startup. </center>
+<center> Loads the complete image in memory at startup. Can potentially decrease loading times at the cost of increased startup time. </center>
 
 - **CD Bios (Restart)** (**System Card 3**/Games Express/System Card 1/System Card 2)
 

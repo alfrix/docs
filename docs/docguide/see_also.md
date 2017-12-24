@@ -63,7 +63,7 @@
 - [Sega MS/GG/MD/CD (Genesis Plus GX)](https://docs.libretro.com/library/genesis_plus_gx/)
 - [Sega MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
 
-### PS1
+### PSX
 
 - [PlayStation (Beetle PSX HW)](https://docs.libretro.com/library/beetle_psx_hw/)
 - [PlayStation (Beetle PSX)](https://docs.libretro.com/library/beetle_psx/)

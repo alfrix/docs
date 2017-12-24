@@ -55,7 +55,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | Dungeon Crawl Stone Soup                                             | [GPLv2+](https://github.com/libretro/crawl-ref/blob/master/crawl-ref/licence.txt)         |                |
 | EasyRPG                                                              | [GPLv3](https://github.com/libretro/easyrpg-libretro/blob/master/COPYING)                 |                |
 | [EightyOne](../library/eightyone.md)             			           | [GPLv3](https://github.com/libretro/81-libretro/blob/master/LICENSE)                      |                |
-[ [Emux CHIP-8](../library/emux_chip8.md)                              | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
+| [Emux CHIP-8](../library/emux_chip8.md)                              | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
 | [Emux GB](../library/emux_gb.md)                                     | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
 | [Emux NES](../library/emux_nes.md)                                   | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
 | [Emux SMS](../library/emux_sms.md)                                   | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
