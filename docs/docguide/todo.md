@@ -102,13 +102,34 @@
 
 ### [〰️] Beetle PCE FAST
 
+- Improve background section.
+- Complete why use this core section.
+- Add BIOS md5s
+- Complete compatbility section.
+- Complete controllers table section.
+- Complete and improve core option descriptions.
+
 ### [〰️] Beetle PSX
 
-- Complete 'Why use this core?' section
+- Improve background section.
+- Complete 'Why use this core?' section.
+- Test Multimouse support.
+- Complete compatibility section.
+- Add more core option screenshots.
+- Add internal sample rate.
+- Add internal FPS.
+- Add core provided aspect ratio.
 
 ### [〰️] Beetle PSX HW
 
-- Complete 'Why use this core?' section
+- Improve background section.
+- Complete 'Why use this core?' section.
+- Test Multimouse support.
+- Complete compatibility section.
+- Add more core option screenshots.
+- Add internal sample rate.
+- Add internal FPS.
+- Add core provided aspect ratio.
 
 ### [✔] Beetle Saturn
 

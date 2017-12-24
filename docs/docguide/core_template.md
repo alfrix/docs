@@ -114,8 +114,11 @@ The content should now start running!
 
 A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
+The (Core name) core is licensed under
+
 - [license](https://link)
 
+// Fill in the (Core name)
 // Copy the license entry in the core info file and a url to license information and paste it here.
 //(https://github.com/libretro/libretro-super/tree/master/dist/info)
 
@@ -250,20 +253,6 @@ The (Core name) core saves/loads to/from these directories.
 
 // Fill in the (Core name) and the FPS, sample rate, aspect ratio info.
 
-### Rumble support
-// Optional section.
-// This section is for cores that have rumble support
-
-Rumble only works in the (Core name) core when
-
-// Fill in the (Core name).
-
-- The content being ran has rumble support.
-- The joypad input driver being used has rumble support. (e.g. Xinput)
-- The joypad device being used has rumble support.
-
-// Explain how to activate rumble.
-
 ### Usage
 //Optional section.
 // Explain how to use the core if further explaination is needed.
@@ -317,6 +306,20 @@ The (Core name) core supports the following device type(s) in the controls menu,
 // This section is for cores that have controllers that cannot be manually selected through RetroArch's Controls menu.
 
 - (Device name) - (Device type) - Optional description.
+
+### Rumble support
+// Optional section.
+// This section is for cores that have rumble support
+
+Rumble only works in the (Core name) core when
+
+// Fill in the (Core name).
+
+- The content being ran has rumble support.
+- The joypad input driver being used has rumble support. (e.g. Xinput)
+- The joypad device being used has rumble support.
+
+// Explain how to activate rumble.
 
 ### Multitap support
 // Optional section.
