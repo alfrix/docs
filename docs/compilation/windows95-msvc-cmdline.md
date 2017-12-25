@@ -1,8 +1,8 @@
-# Windows (95/NT4) Command-line Compilation / Development Guide
+# Windows (95/98/NT4) Command-line Compilation / Development Guide
 
 ## Environment configuration
 
-To compile RetroArch on the command-line targetting Windows 95 and NT4, we will use a combination of the MSYS2 shell and Microsoft Visual Studio .NET 2003.
+To compile RetroArch on the command-line targeting Windows 95, Windows 98 (non-SE) and Windows NT4, we will use a combination of the MSYS2 shell and Microsoft Visual Studio .NET 2003.
 
 This guide assumes the host OS is Windows Vista or later, as MSYS2 cannot be installed on anything older.
 
