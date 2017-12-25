@@ -34,15 +34,15 @@ Awaiting description.
 
 // Fill in the (Core name).
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
 <center> ![](images\Cores\all\updater.png) </center>
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
 
 <center> ![](images\Cores\all\info.png) </center>
 
-3. Browse through the list and select '(Title)'.
+- Browse through the list and select '(Title)'.
 
 <center> ![](images\Cores\folder\screenshot_name.png) </center>
 
@@ -55,17 +55,17 @@ After this has finished downloading, the core should now be ready for use!
 // Optional section.
 // This section is for cores that are predominantly ran by loading content.
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content'.
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
 
 <center> ![](images\Cores\all\load.png) </center>
 
-2. Browse to the folder that contains the content you want to run.
+- Browse to the folder that contains the content you want to run.
 
-3. Select the content that you want to run.
+- Select the content that you want to run.
 
 <center> ![](images\Cores\folder\screenshot_name.png) </center>
 
-4. If you are asked which core to select, choose '(Title)'.
+- If you are asked which core to select, choose '(Title)'.
 
 // Fill in the content example screenshot.
 // Fill in the (Title).
@@ -76,31 +76,31 @@ The content should now start running!
 // Optional section.
 // This section is for cores that need files from RetroArch's content downloader.
 
-1. You now need to obtain (Core name)'s data files. You can do this by going back to the previous menu screen. From there, select 'Content Downloader'.
+- You now need to obtain (Core name)'s data files. You can do this by going back to the previous menu screen. From there, select 'Content Downloader'.
 
 <center> ![](images\Cores\all\download.png) </center>
 
 // Fill in the (Core name).
 
-2. Select '(Content directory name)', then select '(Game filename)'. This should download and extract this file to RetroArch's Downloads directory.
+- Select '(Content directory name)', then select '(Game filename)'. This should download and extract this file to RetroArch's Downloads directory.
 
 <center> ![](images\Cores\folder\screenshot_name.png) </center>
 
 // Fill in the (Content directory name) and the (Game filename).
 
-3. Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
+- Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
 
 <center> ![](images\Cores\all\load.png) </center>
 
 <center> ![](images\Cores\all\downloads.png) </center>
 
-4. Select the '(Content directory name)' directory, then select '(Game filename)'.
+- Select the '(Content directory name)' directory, then select '(Game filename)'.
 
 // Fill in the (Content directory name) and the (Game filename).
 
 <center> ![](images\Cores\folder\screenshot_name.png) </center>
 
-5. If you are asked which core to select, choose '(Title)'.
+- If you are asked which core to select, choose '(Title)'.
 
 // // Fill in the content example screenshot.
 // Fill in the title.
@@ -111,13 +111,13 @@ The content should now start running!
 // Optional section.
 // This section is for cores that don't need any content to be started.
 
-1. Go back to RetroArch's main menu screen. Select 'Load Core', then '(Core name)'.
+- Go back to RetroArch's main menu screen. Select 'Load Core', then '(Core name)'.
 
 // Fill in the (Core name).
 
-2. Now, select 'Start Core'.
+- Now, select 'Start Core'.
 
-<center> ![](images\Cores\all\start.png) </center>
+<center> ![](images\Cores\folder\start.png) </center>
 
 The content should now start running!
 
