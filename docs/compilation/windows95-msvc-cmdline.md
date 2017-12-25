@@ -2,7 +2,7 @@
 
 ## Environment configuration
 
-To compile RetroArch on the command-line targeting Windows 95, Windows 98 (non-SE) and Windows NT4, we will use a combination of the MSYS2 shell and Microsoft Visual Studio .NET 2003.
+To compile RetroArch on the command-line targeting Windows 95, Windows 98 or Windows NT4, we will use a combination of the MSYS2 shell and Microsoft Visual Studio .NET 2003.
 
 This guide assumes the host OS is Windows Vista or later, as MSYS2 cannot be installed on anything older.
 
@@ -47,7 +47,7 @@ To compile RetroArch, run:
 
     make -f Makefile.griffin platform=windows_msvc2003_x86
 
-DirectX support is disabled by default since 95/NT4 do not support 9.0, but if you will only be running on higher versions of Windows, you can re-enable it by adding `HAVE_DIRECTX=1` to the end of the command line.
+DirectX support is disabled by default since 95/NT do not support DirectX 9.0, but if you will only be running on higher versions of Windows, you can re-enable it by adding `HAVE_DIRECTX=1` to the end of the command line.
 
 ### Minimal Toolchain
 
