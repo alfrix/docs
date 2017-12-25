@@ -73,7 +73,10 @@
 
 ### [✔] 4DO
 
-### [✔] 2048
+### [〰️] 2048
+
+- Complete why use this core section.
+- Complete compatbiility section.
 
 ### [✕] Atari800
 
@@ -291,6 +294,11 @@
 ### [✕] Fuse
 
 ### [〰️] Gambatte
+
+- Complete why use this core section.
+- Add internal FPS
+- Add internal sample rate
+- Add core provided aspect ratio
 
 ### [✔] Game Music Emu
 
