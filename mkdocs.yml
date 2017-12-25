@@ -18,9 +18,9 @@ pages:
         - 'DOS': 'compilation/dos.md'
         - Windows NT3.51:
           - 'MSVC Commandline': 'compilation/windowsNT351-msvc-cmdline.md'
-        - Windows 95/NT4:
+        - Windows 95/98NT4:
           - 'MSVC Commandline': 'compilation/windows95-msvc-cmdline.md'
-        - Windows 98/2000:
+        - Windows 98 SE/ME/2000:
           - 'MSVC Commandline': 'compilation/windows98-msvc-cmdline.md'
           - 'MSVC IDE': 'compilation/windows98.md'
         - Windows XP and later:
