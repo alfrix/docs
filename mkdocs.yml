@@ -179,6 +179,8 @@ pages:
       - 'xbrz': 'shader/xbrz.md'
       - 'xsal': 'shader/xsal.md'
       - 'xsoft': 'shader/xsoft.md'
+    - Installing and Updating RetroArch
+      - 'Windows': 'guides/install-windows.md'
     - Getting Started:
       - 'Windows': 'guides/windows.md'
       - 'Command-line interface (CLI)': 'guides/cli-intro.md'
