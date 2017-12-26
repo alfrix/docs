@@ -179,7 +179,7 @@ pages:
       - 'xbrz': 'shader/xbrz.md'
       - 'xsal': 'shader/xsal.md'
       - 'xsoft': 'shader/xsoft.md'
-    - Installing and Updating RetroArch
+    - Installing and Updating RetroArch:
       - 'Windows': 'guides/install-windows.md'
     - Getting Started:
       - 'Windows': 'guides/windows.md'
