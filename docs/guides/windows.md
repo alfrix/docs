@@ -6,7 +6,7 @@ On the first run you will be greeted by this screen:
 
 ![Screenshot](images/windows/first_run.png)
 
-From here you can launch content, change settigns and build up your content collection
+From here you can launch content, change settings and build up your content collection.
 
 ### Basic Navigation
 
