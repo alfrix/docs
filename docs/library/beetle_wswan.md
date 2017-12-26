@@ -2,30 +2,62 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_wswan.md). Changes are proposed using "Pull Requests."
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/). Changes are proposed using "Pull Requests."**
+
+// Add (core-doc-filename).md to the end of the URL.
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
 Standalone port of Mednafen WonderSwan to libretro, itself a fork of Cygne. 
 
+### Why use this core?
+
+Awaiting description.
+
 ### How to get and install the Beetle Cygne core:
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+<center> ![](images\Cores\all\updater.png) </center>
 
-3. Browse through the list and select 'WonderSwan/Color (Beetle Cygne)'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'WonderSwan/Color (Beetle Cygne)'.
+
+<center> ![](images\Cores\beetle_cygne\cygne.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
+
+#### How to start (after installation):
+
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
+
+<center> ![](images\Cores\all\load.png) </center>
+
+- Browse to the folder that contains the content you want to run.
+
+- Select the content that you want to run.
+
+- If you are asked which core to select, choose 'WonderSwan/Color (Beetle Cygne)'.
+
+The content should now start running!
 
 ### Authors
 
 - Dox
-- Mednafen Team
+- [Mednafen Team](https://mednafen.github.io/)
 
 ## License
 
-A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The Beetle Cygne core is licensed under
 
 - [GPLv2](https://github.com/libretro/beetle-wswan-libretro/blob/master/COPYING)
 
@@ -45,16 +77,21 @@ RetroArch database(s) that are associated with the Beetle Cygne core:
 
 ## Features
 
+RetroArch-level settings or features that the Beetle Cygne core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
 | Saves             | ✔         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | ✔         |
+| Netplay           | ✔ (not link-cable emulation) |
+| Core Options      | ✕         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -63,44 +100,67 @@ RetroArch database(s) that are associated with the Beetle Cygne core:
 | Location          | ✕         |
 | Subsystem         | ✕         |
 | Softpatching      | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
 
-### Saves/States
+### Directories
 
 The Beetle Cygne core's directory name is 'Mednafen WonderSwan'
 
-Game data is saved/loaded to and from where save files are stored.
+The Beetle Cygne core saves/loads to/from these directories.
 
-- .sav (Battery save)
+**RetroArch's Save directory**
 
-Save states are saved/loaded to and from where state files are stored.
+- 'content-name'.sav (Cartridge backup save)
 
-- .state (State)
+**RetroArch's State directory**
+
+- 'content-name'.state# (State)
+
+### Geometry and timing
+
+- The Beetle Cygne core's internal FPS is 75.47
+- The Beetle Cygne core's internal sample rate is 44100 Hz
+- The Beetle Cygne core's core provided aspect ratio is 14/9
 
 ## Controllers
 
-The Beetle Cygne core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
+### Device types
 
-### User 1 - 16 Device Types
+The Beetle Cygne core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
+#### User 1 device types
+
+- None - Doesn't disable input.
 - **RetroPad** - Joypad
-- RetroPad w/Analog - Joypad - **There is no reason to switch to this.**
+- RetroPad w/Analog - There is no reason to switch to this.
 
-### Controllers graph
+### Controller tables
 
-| Beetle Cygne   | RetroPad                                  |
-|----------------|-------------------------------------------|
-| B              | ![](images/RetroPad/Retro_B_Round.png)    |
-| Rotate screen and the active D-Pad       | ![](images/RetroPad/Retro_Select.png)     |
-| Start          | ![t](images/RetroPad/Retro_Start.png)     |
-| X Cursor Up    | ![](images/RetroPad/Retro_Dpad_Up.png)    |
-| X Cursor Down  | ![](images/RetroPad/Retro_Dpad_Down.png)  |
-| X Cursor Left  | ![](images/RetroPad/Retro_Dpad_Left.png)  |
-| X Cursor Right | ![](images/RetroPad/Retro_Dpad_Right.png) |
-| A              | ![](images/RetroPad/Retro_A_Round.png)    |
-| Y Cursor Left  | ![](images/RetroPad/Retro_L1.png)         |
-| Y Cursor Right | ![](images/RetroPad/Retro_R1.png)         |
-| Y Cursor Down  | ![](images/RetroPad/Retro_L2.png)         |
-| Y Cursor Up    | ![](images/RetroPad/Retro_R2.png)         |
+#### Joypad and analog device type table
+
+| User 1 Input descriptors      | RetroPad Inputs                              | RetroPad                           |
+|-------------------------------|----------------------------------------------|------------------------------------|
+| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                                  |
+|                               | ![](images/RetroPad/Retro_Select.png)        | Rotate screen and the active D-Pad |
+| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start                              |
+| X Cursor Up                   | ![](images/RetroPad/Retro_Dpad_Up.png)       | X Cursor Up                        |
+| X Cursor Down                 | ![](images/RetroPad/Retro_Dpad_Down.png)     | X Cursor Down                      |
+| X Cursor Left                 | ![](images/RetroPad/Retro_Dpad_Left.png)     | X Cursor Left                      |
+| X Cursor Right                | ![](images/RetroPad/Retro_Dpad_Right.png)    | X Cursor Right                     |
+| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                                  |
+| Y Cursor Left                 | ![](images/RetroPad/Retro_L1.png)            | Y Cursor Left                      |
+| Y Cursor Right                | ![](images/RetroPad/Retro_R1.png)            | Y Cursor Right                     |
+| Y Cursor Down                 | ![](images/RetroPad/Retro_L2.png)            | Y Cursor Down                      |
+| Y Cursor Up                   | ![](images/RetroPad/Retro_R2.png)            | Y Cursor Up                        |
+
+## Compatibility
+
+| Game      | Issue                                                                        |
+|-----------|------------------------------------------------------------------------------|
+| Tonpuusou | Title screen announcer voice missing. Softlocks after picking a menu option. |
 
 ## External Links
 

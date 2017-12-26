@@ -98,7 +98,7 @@ pages:
         - 'Game Boy / Game Boy Color (Emux)': 'library/emux_gb.md'
         - 'Game Boy / Game Boy Color (Gambatte)': 'library/gambatte.md'
         - 'Game Boy / Game Boy Color (SameBoy)': 'library/sameboy.md'
-        - 'Game Boy / Game Boy Color (TGB Dual)': 'library/tgbdual.md'
+        - 'Game Boy / Game Boy Color (TGB Dual)': 'library/tgb_dual.md'
         - 'Game Boy / Game Boy Color (Gearboy)': 'library/gearboy.md'
         - 'Game Boy Advance (Beetle GBA)': 'library/beetle_gba.md'
         - 'Game Boy Advance (gpSP)': 'library/gpsp.md'
