@@ -42,6 +42,7 @@ pages:
       - 'Core Template': 'docguide/core_template.md'
       - 'See Also': 'docguide/see_also.md'
       - 'To Do': 'docguide/todo.md'
+      - 'Libretro Wiki': 'docguide/wiki.md'
     - Technical:
       - 'Licenses': 'tech/licenses.md'
       - Protocols:

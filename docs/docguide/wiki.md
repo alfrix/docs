@@ -1,0 +1,104 @@
+// This is a list to keep track of Libretro Wiki pages that need to be looked over and ported to libetro/docs
+// ✔️ = Complete
+// ✕ = Incomplete
+
+- 2048 ✔️
+- 32X Core Compatibility ✔️
+- 3DO Core Compatibility ✔️
+- 4DO ✔️
+- Atari Jaguar Core Compatibility ✔️
+- Atari Lynx Core Compatibility 
+- BIOS Configuration ✔️
+- Bandai WonderSwan Core Compatibility ✕
+- Beetle/Mednafen LYNX ️✔️
+- Beetle/Mednafen NGP ✔️
+- Beetle/Mednafen PCE FAST ✔️
+- Beetle/Mednafen PCFX ✔️
+- Beetle/Mednafen PSX ✔️
+- Beetle/Mednafen SGX ✔️
+- Beetle/Mednafen Saturn ✔️
+- Beetle/Mednafen VB ✔️
+- Beetle/Mednafen WSWAN ✔️
+- BlueMSX ✔️
+- Bnes ✔️
+- Boxes ✔️
+- Bsnes ✔️
+- Bsnes-mercury ✔️
+- Building Guide (Windows) ✔️
+- Building Retroarch on Windows ✔️
+- CRT-Royale ✕
+- Cg ✕
+- Configuration Specification ✕
+- Cores ✕
+- DOSBox ✕
+- DeSmuME ✔️
+- Dinothawr ✔️
+- Dungeon Crawl Stone Soup ✕
+- Emux ️✔️
+- FCEUmm ✔️
+- FMSX ✕
+- Final Burn Alpha ✕
+- Frontends ✕
+- Fuse ✕
+- GLSL Shaders ✕
+- Gambatte ✔️
+- Game & Watch ✔️
+- Genesis Plus GX ✔️
+- GpSP ✔️
+- Haiku ✕
+- Handy ️✔️
+- Hatari ✔️
+- Libretro API ✔️
+- MAME ✕
+- MAME 2000 ✕
+- MAME 2003 ✔️
+- MAME 2010 ✕
+- MAME 2014 ✕
+- MAME 2016 ✕
+- MESS ✕
+- MGBA ✔️
+- Meteor ✔️
+- Mupen64Plus ✔️
+- NEC PC-FX Core Compatibility ✕
+- Nestopia ✔️
+- Netplay ✔️
+- Nintendo DS Core Compatibility ✕
+- Nintendo Game Boy (Color) Core Compatibility ✕
+- Nintendo Game Boy Advance Core Compatibility ✕
+- Nintendo N64 Core Compatibility ✕
+- Nintendo NES Core Compatibility ✕
+- Nintendo SNES Core Compatibility ✕
+- O2EM ✕
+- Overlay ✕
+- ✕Overlay Specification
+- PCSX ReARMed ✔️
+- PPSSPP ✕
+- PicoDrive ✔️
+- PlayStation Core Compatibility ✕
+- PrBoom ✕
+- ProSystem ✕
+- QuickNES ✔️
+- Reicast ✕
+- RetroArch ✕
+- RetroArch Compilation ✔️
+- RetroPad ✕
+- ScummVM ✕
+- Sega 32X Core Compatibility ✕
+- Sega Dreamcast Core Compatibility ✕
+- Sega Saturn Core Compatibility ✕
+- Shader Specification ✕
+- Snes9x ✔️
+- Snes9x 2002 ✔️
+- Snes9x 2005 ✔️
+- Snes9x 2010 ✔️
+- Specifications ✕
+- Stella ✕
+- TGB Dual ✕
+- Troubleshooting ✕
+- TyrQuake ✕
+- Uzem ✕
+- VBA-M ✔️
+- VBA Next ✔️
+- Vecx ✕
+- Virtual Jaguar ✕
+- Yabause ✕

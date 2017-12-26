@@ -134,7 +134,14 @@
 - Add internal FPS.
 - Add core provided aspect ratio.
 
-### [✔] Beetle Saturn
+### [〰️] Beetle Saturn
+
+- Improve background section.
+- Complete why use this core section.
+- Test Multimouse support.
+- Complete compatbility section.
+- Improve core option descriptions.
+- Test RetroArch cheats support.
 
 ### [〰️] Beetle SGX
 
