@@ -84,7 +84,9 @@
 
 - Can't complete documentation, core doesn't start. https://github.com/libretro/beetle-bsnes-libretro/issues/3
 
-### [✔] Beetle Cygne
+### [〰️] Beetle Cygne
+
+- Complete why use this core section.
 
 ### [!!!] Beetle GBA
 
@@ -490,6 +492,12 @@
 ### [〰️] Stella
 
 ### [〰️] TGB Dual
+
+- Complete why use this core section.
+- Add core provided aspect ratio.
+- Complete usage section.
+- Example what the Next Audio Mode/Prev Audio Mode inputs do.
+- Complete compatbility section.
 
 ### [〰️] TyrQuake
 

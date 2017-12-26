@@ -124,7 +124,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Snes9x 2005 Plus](../library/snes9x_2005_plus.md)                   | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
 | [Snes9x 2010](../library/snes9x_2010.md)                             | [Non-commcercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt) | Non-commercial |
 | [Stella](../library/Stella.md)                                       | [GPLv2](https://github.com/stella-emu/stella/blob/master/License.txt)                     |                |
-| [TGB Dual](../library/tgbdual.md)                                    | [GPLv2](https://github.com/libretro/tgbdual-libretro/blob/master/docs/COPYING-2.0.txt)    |                |
+| [TGB Dual](../library/tgb_dual.md)                                   | [GPLv2](https://github.com/libretro/tgbdual-libretro/blob/master/docs/COPYING-2.0.txt)    |                |
 | [TyrQuake](../library/tyrquake.md)                                   | [GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)                         |                |
 | UME 2014                                                             | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | Uzem                                                                 | [GPLv3](https://github.com/Uzebox/uzebox/blob/master/gpl-3.0.txt)                         |                |
