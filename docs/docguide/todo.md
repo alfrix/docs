@@ -264,9 +264,19 @@
 
 ### [〰️] Emux GB
 
+- Complete why use this core section.
+- Complete compatibility section.
+- Add internal FPS.
+- Add internal sample rate.
+- Add core provided aspect ratio.
+
 ### [〰️] Emux NES
 
-- Complete why use this core section
+- Complete compatibility section.
+- Complete why use this core section.
+- Add internal FPS.
+- Add internal sample rate.
+- Add core provided aspect ratio.
 
 ### [〰️] Emux SMS
 
@@ -468,8 +478,9 @@
 
 ### [〰️] SameBoy
 
-- Complete why this core section.
+- Improve why this core section.
 - Complete core option descriptions.
+- Complete compatibility section.
 
 ### [〰️] ScummVM
 

@@ -28,15 +28,15 @@ Gearboy is a Nintendo Game Boy / GameBoy Color emulator written in C++.
 
 ### How to get and install the Gearboy core:
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
 <center> ![](images\Cores\all\updater.png) </center>
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
 
 <center> ![](images\Cores\all\info.png) </center>
 
-3. Browse through the list and select 'Game Boy / Game Boy Color (Gearboy)'.
+- Browse through the list and select 'Game Boy / Game Boy Color (Gearboy)'.
 
 <center> ![](images\Cores\gearboy\gearboy.png) </center>
 
@@ -44,17 +44,17 @@ After this has finished downloading, the core should now be ready for use!
 
 #### How to start (after installation):
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content'.
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
 
 <center> ![](images\Cores\all\load.png) </center>
 
-2. Browse to the folder that contains the content you want to run.
+- Browse to the folder that contains the content you want to run.
 
-3. Select the content that you want to run.
+- Select the content that you want to run.
 
-<center> ![](images\Cores\gearboy\sheepitup.png) </center>
+<center> ![](images\Cores\all\gb.png) </center>
 
-4. If you are asked which core to select, choose 'Game Boy / Game Boy Color (Gearboy)'.
+- If you are asked which core to select, choose 'Game Boy / Game Boy Color (Gearboy)'.
 
 The content should now start running!
 
@@ -69,7 +69,7 @@ The content should now start running!
 - [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
 - [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
 - [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
-- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgbdual/)
+- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
 - [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
 
 ## License
