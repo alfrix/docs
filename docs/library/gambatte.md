@@ -42,7 +42,7 @@ After this has finished downloading, the core should now be ready for use!
 
 - Select the content that you want to run.
 
-<center> ![](images\Cores\gambatte\sheepitup.png) </center>
+<center> ![](images\Cores\all\gb.png) </center>
 
 - If you are asked which core to select, choose 'Game Boy / Game Boy Color (Gambatte)'.
 
@@ -58,7 +58,7 @@ The content should now start running!
 
 - [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
 - [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
-- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgbdual/)
+- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
 - [Game Boy / Game Boy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
 - [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
 

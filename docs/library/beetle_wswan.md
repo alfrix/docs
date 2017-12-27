@@ -4,8 +4,6 @@
 
 **In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/). Changes are proposed using "Pull Requests."**
 
-// Add (core-doc-filename).md to the end of the URL.
-
 **There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
 
 **You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**

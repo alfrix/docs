@@ -40,7 +40,7 @@ The content should now start running!
 
 ## See also
 
-### GBA cores
+### GBA
 
 - [Game Boy Advance (Beetle GBA)](https://docs.libretro.com/library/beetle_gba/)
 - [Game Boy Advance (gpSP)](https://docs.libretro.com/library/gpsp/)
@@ -48,12 +48,12 @@ The content should now start running!
 - [Game Boy Advance (VBA Next)](https://docs.libretro.com/library/vba_next/)
 - [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vbam/)
 
-### GB/GBC cores
+### GB/GBC
 
 - [Game Boy / Game Boy Color (Emux)](https://docs.libretro.com/library/emux_gb/)
 - [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
 - [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
-- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgbdual/)
+- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
 
 ## License
 
@@ -142,7 +142,11 @@ The mGBA core's core provided aspect ratio is (Ratio).
 
 ### Rumble
 
-Rumble only works when the the joypad input driver being used has rumble function implementation (e.g. **Xinput**).
+Rumble only works in the mGBA core when
+
+- The content being ran has rumble support. (e.g. Cartridges with a Rumble Pak)
+- The joypad input driver being used has rumble support. (e.g. Xinput)
+- The joypad device being used has rumble support. (e.g. Xbox 360 Controller)
 
 ## Core options
 
@@ -150,7 +154,7 @@ The mGBA core has the following option(s) that can be tweaked from the core opti
 
 Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
-- **Solar sensor level** (*0 to 10 in increments of 1. **0 is default.**)
+- **Solar sensor level** (0 to 10 in increments of 1. **0 is default.**)
 
 <center> Can be used for games that employed the use of a solar sensor on their cartridges. </center>
 

@@ -2,7 +2,11 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/sameboy.md). Changes are proposed using "Pull Requests."
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/sameboy.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
@@ -10,17 +14,44 @@ SameBoy is an extremely accurate open source Gameboy (DMG) and Gameboy Color (CG
 
 ### Why use this core?
 
-Awaiting description.
+- Supports GameBoy (DMG) and GameBoy Color (CGB) emulation
+- Battery save support
+- Save states
+- Includes open source DMG and CGB boot ROMs
+- Real time clock emulation
+- Extremely high accuracy
 
 ### How to get and install the SameBoy core:
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+<center> ![](images\Cores\all\updater.png) </center>
 
-3. Browse through the list and select 'Game Boy/Game Boy Color (SameBoy)'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
 
-4. After this has finished downloading, the core should now be ready for use!
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'Game Boy/Game Boy Color (SameBoy)'.
+
+<center> ![](images\Cores\sameboy\sameboy.png) </center>
+
+After this has finished downloading, the core should now be ready for use!
+
+#### How to start (after installation):
+
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
+
+<center> ![](images\Cores\all\load.png) </center>
+
+- Browse to the folder that contains the content you want to run.
+
+- Select the content that you want to run.
+
+<center> ![](images\Cores\all\gb.png) </center>
+
+- If you are asked which core to select, choose 'Game Boy/Game Boy Color (SameBoy)'.
+
+The content should now start running!
 
 ### Authors
 
@@ -28,13 +59,19 @@ Awaiting description.
 
 ## See also
 
-- [Game Boy / Game Boy Color (Emux)](https://doc.libretro.com/library/emux_gb/)
-- [Game Boy / Game Boy Color (Gambatte)](https://doc.libretro.com/library/gambatte/)
-- [Game Boy / Game Boy Color (TGB Dual)](https://doc.libretro.com/library/tgbdual/)
+### GB/GBC
+
+- [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
+- [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
+- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
+- [Game Boy / Game Boy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
+- [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
 
 ## License
 
-A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The SameBoy core is licensed under
 
 - [MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)
 
@@ -56,7 +93,7 @@ RetroArch database(s) that are associated with the SameBoy core:
 
 Required or optional firmware files go in RetroArch's system directory.
 
-!!! warning ""
+!!! attention
 	The SameBoy core has reverse engineered Game Boy/Game Boy Color boot ROMs baked into the core itself so real BIOS files aren't required. If you’d like to override this, you can place the following BIOS files in RetroArch's system directory.
 
 |   Filename   |      Description                   |              md5sum              |
@@ -66,16 +103,21 @@ Required or optional firmware files go in RetroArch's system directory.
 
 ## Features
 
+RetroArch-level settings or features that the SameBoy core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
 | Saves             | ✔         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | ✔         |
+| Netplay           | ✔ (not link-cable emulation) |
+| Core Options      | ✔         |
 | RetroAchievements | ✔         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✔         |
@@ -84,29 +126,41 @@ Required or optional firmware files go in RetroArch's system directory.
 | Location          | ✕         |
 | Subsystem         | ✕         |
 | Softpatching      | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
 
-### Saves/States
+### Directories
 
 The SameBoy core's directory name is 'SameBoy'
 
-Game data is saved/loaded to and from where save files are stored.
+The SameBoy core saves/loads to/from these directories.
 
-- .srm (Battery save)
-- .rtc (Real Time Clock save)
+**RetroArch's Save directory**
 
-Save states are saved/loaded to and from where state files are stored.
+- 'content-name'.srm (Cartridge backup save)
+- 'content-name'.rtc (Real time clock save)
 
-- .state (State)
+**RetroArch's State directory**
 
-### Rumble
+- 'content-name'.state# (State)
 
-Rumble only works when the joypad input driver being used has rumble function implementation (e.g. **Xinput**).
+### Geometry and timing
+
+- The SameBoy core's internal FPS is 59.72
+- The SameBoy core's internal sample rate is 44100 Hz
+- The SameBoy core's core provided aspect ratio is 160/144
 
 ## Core options
 
-The SameBoy core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
+The SameBoy core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
-- **Color Correction** (**off**/correct curves/emulate hardware/preserve brightness): Self-explanatory. **Only for Gameboy Color games**
+Settings with SameBoy means that core has to be closed for the new setting to be applied on next launch.
+
+- **Color Correction** (**off**/correct curves/emulate hardware/preserve brightness)
+
+<center> Self-explanatory. **Only for Gameboy Color games** </center>
 
 ??? note "Color Correction - off"
 	![](images\Cores\sameboy\color_off.png)
@@ -120,33 +174,48 @@ The SameBoy core has the following option(s) that can be tweaked from the core o
 ??? note "Color Correction - preserve brightness"
 	![](images\Cores\sameboy\color_brightness.png)
 
-- **High Pass Filter** (**off**/accurate/remove dc offset): Awaiting description.
+- **High Pass Filter** (**off**/accurate/remove dc offset)
+
+<center> Awaiting description. </center>
 
 ## Controllers
 
-The SameBoy core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):
+### Device types
 
-### User 1 - 2 Device Types
+The SameBoy core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
+#### User 1 device types
+
+- None - Doesn't disable input.
 - **RetroPad** - Joypad
-- **Nintendo Gameboy** - Joypad
+- Nintendo Gameboy - Joypad
 
-### User 3 - 16 Device Types
+### Rumble support
 
-- **RetroPad** - Joypad
+Rumble only works in the SameBoy core when
 
-### Controllers graph
+- The content being ran has rumble support.
+- The joypad input driver being used has rumble support. (e.g. Xinput)
+- The joypad device being used has rumble support.
 
-| SameBoy     | RetroPad                                  |
-|-------------|-------------------------------------------|
-| B           | ![](images/RetroPad/Retro_B_Round.png)    |
-| Select      | ![](images/RetroPad/Retro_Select.png)     |
-| Start       | ![](images/RetroPad/Retro_Start.png)      |
-| Up          | ![](images/RetroPad/Retro_Dpad_Up.png)    |
-| Down        | ![](images/RetroPad/Retro_Dpad_Down.png)  |
-| Left        | ![](images/RetroPad/Retro_Dpad_Left.png)  |
-| Right       | ![](images/RetroPad/Retro_Dpad_Right.png) |
-| A           | ![](images/RetroPad/Retro_A_Round.png)    |
+### Controller tables
+
+#### Joypad and analog device type table
+
+| User 1 Input descriptors      | RetroPad Inputs                              | Nintendo Gameboy   |
+|-------------------------------|----------------------------------------------|--------------------|
+| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                  |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select             |
+| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start              |
+| Up                            | ![](images/RetroPad/Retro_Dpad_Up.png)       | Up                 |
+| Down                          | ![](images/RetroPad/Retro_Dpad_Down.png)     | Down               |
+| Left                          | ![](images/RetroPad/Retro_Dpad_Left.png)     | Left               |
+| Right                         | ![](images/RetroPad/Retro_Dpad_Right.png)    | Right              |
+| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                  |
+
+## Compatibility
+
+Awaiting description.
 
 ## External Links
 

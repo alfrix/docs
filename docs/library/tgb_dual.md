@@ -42,7 +42,7 @@ After this has finished downloading, the core should now be ready for use!
 
 - Select the content that you want to run.
 
-<center> ![](images\Cores\tgb_dual\sheepitup.png) </center>
+<center> ![](images\Cores\all\gb.png) </center>
 
 - If you are asked which core to select, choose 'Game Boy / Game Boy Color (TGB Dual)'.
 
