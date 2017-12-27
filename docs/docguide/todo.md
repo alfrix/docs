@@ -452,7 +452,11 @@
 
 - Complete core option descriptions
 
-### [✔] PokeMini
+### [〰️] PokeMini
+
+- Improve background section.
+- Complete why use this core section.
+- Complte compatibility section.
 
 ### [〰️] PPSSPP
 
