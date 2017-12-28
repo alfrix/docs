@@ -443,8 +443,10 @@
 
 ### [〰️] PCSX ReARMed
 
+- Complete why use this core section.
 - Complete core option descriptions.
-- Complete controllers table.
+- Explain what the default setting for the Pad Type core options does.
+- Add negcon inputs to controllers table
 
 ### [✔] PicoDrive
 
