@@ -2,11 +2,15 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/pcsx_rearmed.md). Changes are proposed using "Pull Requests."
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/pcsx_rearmed.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
-PCSX ReARMed is a fork of PCSX Reloaded. It differs from the latter in that it has special optimizations for systems that have an ARM architecture-based CPU. It also has a dedicated graphics plugin, 'Exophase NEON GPU'. It is a surprisingly accurate graphics rasterizer that also has the ability of rendering internally in high resolution at playable framerates on ARM hardware. 
+PCSX ReARMed is a fork of PCSX Reloaded. It differs from the latter in that it has special optimizations for systems that have an ARM architecture-based CPU. It also has a dedicated graphics plugin, 'Exophase NEON GPU'. It is a surprisingly accurate graphics rasterizer that also has the ability of rendering internally in high resolution at playable framerates on ARM hardware.
 
 ### Why use this core?
 
@@ -14,25 +18,35 @@ Awaiting description.
 
 ### How to get and install the PCSX ReARMed core:
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+<center> ![](images\Cores\all\updater.png) </center>
 
-3. Browse through the list and select 'PlayStation (PCSX ReARMed)'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'PlayStation (PCSX ReARMed)'.
+
+<center> ![](images\Cores\pcsx_rearmed\pcsx_rearmed.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
 
-#### How to play (after installation):
+#### How to start (after installation):
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content'.
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
 
-2. Browse to the folder that contains the content you want to run.
+<center> ![](images\Cores\all\load.png) </center>
 
-3. Select the content that you want to run.
+- Browse to the folder that contains the content you want to run.
 
-4. If you are asked which core to select, choose 'PlayStation (PCSX ReARMed)'.
+- Select the content that you want to run.
 
-The game should now start running!
+<center> ![](images\Cores\all\psx.png) </center>
+
+- If you are asked which core to select, choose 'PlayStation (PCSX ReARMed)'.
+
+The content should now start running!
 
 ### Authors
 
@@ -42,12 +56,16 @@ The game should now start running!
 
 ## See also
 
-- [PlayStation (Beetle PSX HW)](https://docs.libretro.com/library/beetle_psx_hw/) - Shared platforms.
-- [PlayStation (Beetle PSX)](https://docs.libretro.com/library/beetle_psx/) - Shared platforms.
+### PSX
+
+- [PlayStation (Beetle PSX HW)](https://docs.libretro.com/library/beetle_psx_hw/)
+- [PlayStation (Beetle PSX)](https://docs.libretro.com/library/beetle_psx/)
 
 ## License
 
 A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The PCSX ReARMed core is licensed under
 
 - [GPLv2](https://github.com/libretro/pcsx_rearmed/blob/master/COPYING)
 
@@ -80,10 +98,12 @@ Required or optional firmware files go in RetroArch's system directory.
 | scph5501.bin  | PS1 US BIOS - Optional | 490f666e1afb15b7362b406ed1cea246 |
 | scph5502.bin  | PS1 EU BIOS - Optional | 32736f17079d0b2b7024407c39bd3050 |
 
-!!! warning
-	In case the PCSX ReARMed can find no BIOS files named like this in RetroArch's system directory, it will default to a High-Level Emulation BIOS. This decreases the level of compatibility of the emulator, so it is recommended that you always supply valid BIOS images inside the system directory. 
+!!! attention
+	In case the PCSX ReARMed can find no BIOS files named like this in RetroArch's system directory, it will default to a High-Level Emulation BIOS. This decreases the level of compatibility of the emulator, so it is recommended that you always supply valid BIOS images inside the system directory.
 
 ## Features
+
+RetroArch-level settings or features that the PCSX ReARMed core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -108,23 +128,28 @@ Required or optional firmware files go in RetroArch's system directory.
 | Softpatching      | ✕         |
 | Disk Control      | ✔         |
 | Username          | ✕         |
+| Language          | ✕         |
 | Crop Overscan     | ✕         |
 
-### Saves/States
+### Directories
 
 The PCSX ReARMed core's directory name is 'PCSX-ReARMed'
 
-Game data is saved/loaded to and from where save files are stored.
+The PCSX ReARMed core saves/loads to/from these directories.
 
-- .srm (Memory card slot 0)
+**RetroArch's Save directory**
 
-Save states are saved/loaded to and from where state files are stored.
+- 'content-name'.srm (Memory card slot 0)
 
-- .state (State)
+**RetroArch's State directory**
 
-### Core provided aspect ratio
+- 'content-name'.state# (State)
 
-PCSX ReARMed's core provided aspect ratio is 4/3.
+### Geometry and timing
+
+- The PCSX ReARMed core's internal FPS is 60 for everything expect for PAL games. PAL games are 50 fps.
+- The PCSX ReARMed core's internal sample rate is 44100 Hz
+- The PCSX ReARMed core's core provided aspect ratio is 4/3
 
 ### Loading content
 
@@ -141,7 +166,7 @@ If you have e.g. `foo.bin`, you should create a text file and save it as `foo.cu
 
 After that, you can load the `foo.cue` file in RetroArch with the PCSX ReARMed core.
 
-!!! warning ""
+!!! attention
     Certain PS1 games are multi-track, so their .cue files might be more complicated.
 	
 #### Playing PAL copy protected games
@@ -171,9 +196,9 @@ After that, you can load the `foo.m3u` file in RetroArch with the PCSX ReARMed c
 
 Here's another m3u example done with Valkryie Profile
 
-![m3u_example](images\Cores\beetle_psx_hw\m3u_example.png)
+![](images\Cores\beetle_psx_hw\m3u.png)
 
-!!! warning ""
+!!! attention
 	Adding multi-track games to a RetroArch playlist is recommended. (Manually add an entry a playlist that points to `foo.m3u`)
 
 #### Game compression
@@ -184,7 +209,7 @@ If converting a multiple-disk game, all disks should be added to the same .pbp f
 
 Most conversion tools will want a single .bin file for each disk. If your game uses multiple .bin files (tracks) per disk, you will have to mount the cue sheet to a virtual drive and re-burn the images onto a single track before conversion.
 
-!!! warning ""
+!!! attention
     RetroArch does not currently have .pbp database due to variability in users' conversion methods. All .pbp games will have to be added to playlists manually.
 
 ### Saves
@@ -223,16 +248,17 @@ or
 
 - **Memcard slot 0: `Wild Arms 2 (USA).srm**
 
-!!! warning ""
+!!! attention
 	To import your old memory cards from other emulators, you need to rename them to the Libretro savedata format.
 
-### Rumble
-
-Rumble only works when the 'Enable Vibration' core option is set to On and the joypad input driver being used has rumble function implementation (e.g. **Xinput**).
+!!! warning
+	Keep in mind that save states also include the state of the memory card; carelessly loading an old save state will **OVEWRITE** the memory card, potentially resulting in lost saved games. **You can set the 'Don't overwrite SaveRAM on loading savestate' option in RetroArch's Saving settings to On to prevent this.**
 
 ## Core options
 
-The PCSX ReARMed core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
+The PCSX ReARMed core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
+
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
 - **Frameskip** (**0**/1/2/3)
 
@@ -254,7 +280,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 <center> With the negcon setting, a [neGcon Controller](https://en.wikipedia.org/wiki/NeGcon) is emulated. </center>
 
-<center> Check the [Controllers section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#controllers) for more information. </center>
+<center> Check the [Controllers section](https://docs.libretro.com/library/pcsx_rearmed/#controllers) for more information. </center>
 
 - **Pad 2 Type** (**default**/none/standard/analog/negcon)
 
@@ -268,7 +294,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 <center> With the negcon setting, a [neGcon Controller](https://en.wikipedia.org/wiki/NeGcon) is emulated. </center>
 
-<center> Check the [Controllers section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#controllers) for more information. </center>
+<center> Check the [Controllers section](https://docs.libretro.com/library/pcsx_rearmed/#controllers) for more information. </center>
 
 - **Pad 3 Type** (**default**/none/standard/analog/negcon) 
 
@@ -282,7 +308,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 <center> With the negcon setting, a [neGcon Controller](https://en.wikipedia.org/wiki/NeGcon) is emulated. </center>
 
-<center> Check the [Controllers section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#controllers) for more information. </center>
+<center> Check the [Controllers section](https://docs.libretro.com/library/pcsx_rearmed/#controllers) for more information. </center>
 
 - **Pad 4 Type** (**default**/none/standard/analog/negcon)
  
@@ -296,7 +322,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 <center> With the negcon setting, a [neGcon Controller](https://en.wikipedia.org/wiki/NeGcon) is emulated. </center>
 
-<center> Check the [Controllers section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#controllers) for more information. </center>
+<center> Check the [Controllers section](https://docs.libretro.com/library/pcsx_rearmed/#controllers) for more information. </center>
 
 - **Pad 5 Type** (**default**/none/standard/analog/negcon)
 
@@ -310,7 +336,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 <center> With the negcon setting, a [neGcon Controller](https://en.wikipedia.org/wiki/NeGcon) is emulated. </center>
 
-<center> Check the [Controllers section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#controllers) for more information. </center>
+<center> Check the [Controllers section](https://docs.libretro.com/library/pcsx_rearmed/#controllers) for more information. </center>
 
 - **Pad 6 Type** (**default**/none/standard/analog/negcon)
 
@@ -324,7 +350,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 <center> With the negcon setting, a [neGcon Controller](https://en.wikipedia.org/wiki/NeGcon) is emulated. </center>
 
-<center> Check the [Controllers section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#controllers) for more information. </center>
+<center> Check the [Controllers section](https://docs.libretro.com/library/pcsx_rearmed/#controllers)for more information. </center>
 
 - **Pad 7 Type** (**default**/none/standard/analog/negcon)
 
@@ -338,7 +364,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 <center> With the negcon setting, a [neGcon Controller](https://en.wikipedia.org/wiki/NeGcon) is emulated. </center>
 
-<center> Check the [Controllers section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#controllers) for more information. </center>
+<center> Check the [Controllers section](https://docs.libretro.com/library/pcsx_rearmed/#controllers) for more information. </center>
 
 - **Pad 8 Type** (**default**/none/standard/analog/negcon)
 
@@ -352,7 +378,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 <center> With the negcon setting, a [neGcon Controller](https://en.wikipedia.org/wiki/NeGcon) is emulated. </center>
 
-<center> Check the [Controllers section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#controllers) for more information. </center>
+<center> Check the [Controllers section](https://docs.libretro.com/library/pcsx_rearmed/#controllers) for more information. </center>
  
 - **Multitap 1** (**auto**/Off/On)
  
@@ -364,7 +390,7 @@ The PCSX ReARMed core has the following option(s) that can be tweaked from the c
 
 - **Enable Vibration** (Off/**On**)
 
-<center> Enables Rumble. Look at the [Rumble section](https://buildbot.libretro.com/.docs/library/pcsx_rearmed/#rumble) for more information </center>
+<center> Enables Rumble. Look at the [Rumble section](https://docs.libretro.com/library/pcsx_rearmed#rumble-support) for more information </center>
 
 - **Enable Dithering** (Off/**On**)
 
@@ -416,8 +442,22 @@ The PCSX ReARMed core supports the following device type(s) in the controls menu
 
 #### User 1 - 8 device types
 
+- None - Input disabled.
 - **RetroPad** - Joypad
-- **RetroPad w/Analog** - Joypad - **There is no reason to switch to this.**
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
+
+### Rumble support
+
+Rumble only works in the PCSX ReARMed core when
+
+- The content being ran has rumble support.
+- The joypad input driver being used has rumble support. (e.g. Xinput)
+- The joypad device being used has rumble support.
+- The ['Enable Vibration' core option](https://docs.libretro.com/library/pcsx_rearmed#core-options) is set to On
+
+### Multitap support
+
+Activating multitap support in compatible games can be configured by the ['Multitap 1' and 'Multitap 2' core options](https://docs.libretro.com/library/pcsx_rearmed#core-options).
 
 ### Controller tables
 
