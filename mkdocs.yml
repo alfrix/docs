@@ -124,6 +124,7 @@ pages:
         - 'SNES / Super Famicom (bsnes-mercury Balanced)': 'library/bsnes_mercury_balanced.md'
         - 'SNES / Super Famicom (bsnes-mercury Performance)': 'library/bsnes_mercury_performance.md'
         - 'SNES / Super Famicom (higan Accuracy)': 'library/higan_accuracy.md'
+        - 'SNES / Super Famicom (nSide Balanced)': 'library/nside_balanced.md'
         - 'SNES / Super Famicom (Snes9x 2002)': 'library/snes9x_2002.md'
         - 'SNES / Super Famicom (Snes9x 2005 Plus)': 'library/snes9x_2005_plus.md'
         - 'SNES / Super Famicom (Snes9x 2005)': 'library/snes9x_2005.md'

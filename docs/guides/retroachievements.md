@@ -78,6 +78,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [bsnes](https://github.com/libretro/bsnes-libretro)               | ✔         |       |
 | [bsnes-mercury](https://github.com/libretro/bsnes-mercury)        | ✔         |       |
 | [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro) | ?         | [Core currently doesn't work at all](https://github.com/libretro/beetle-bsnes-libretro/issues/3) |
+| [nSide Balanced)(https://github.com/hex-usr/nSide)                | ✕         |       |
 
 ### Game Boy / Game Boy Color
 

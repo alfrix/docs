@@ -421,7 +421,18 @@
 - Improve other controllers section
 - This core needs to be ported to the new lightgun API
 
-### [✕] nSide Balanced
+### [〰️] nSide Balanced
+
+- Complete why use this core section.
+- New Lightgun API
+- Satellaview/BS-X support?
+- Sufami Turbo support?
+- Multi-Mouse support?
+- Complete MSU-1 support section.
+- Add internal fps
+- Add internal sample rate
+- Add core provided aspect ratio
+- Verify controllers table
 
 ### [〰️] NXEngine
 

@@ -11,7 +11,7 @@
 - [SNES / Super Famicom (bsnes-mercury Balanced)](https://docs.libretro.com/library/bsnes_mercury_balanced/)
 - [SNES / Super Famicom (bsnes-mercury Performance)](https://docs.libretro.com/library/bsnes_mercury_performance/)
 - [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
-- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
 - [SNES / Super Famicom (Snes9x 2002)](https://docs.libretro.com/library/snes9x_2002/)
 - [SNES / Super Famicom (Snes9x 2005 Plus)](https://docs.libretro.com/library/snes9x_2005_plus/)
 - [SNES / Super Famicom (Snes9x 2005)](https://docs.libretro.com/library/snes9x_2005/)
@@ -97,6 +97,8 @@
 - [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
 - [Game Boy / Game Boy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
 - [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
+- [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
 
 ### GBA
 
