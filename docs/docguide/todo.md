@@ -514,6 +514,14 @@
 
 ### [〰️] Snes9x 2010
 
+- Improve background section
+- Improve why use this core section.
+- This core needs to be ported to the new lightgun API
+- Test Multi-Mouse support.
+- Does this core support Sufami Turbo games?
+- Does this core support Super Game Boy games?
+- Verify the controller tables.
+
 ### [〰️] Stella
 
 ### [〰️] TGB Dual
