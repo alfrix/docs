@@ -308,9 +308,9 @@ Activating multitap support in compatible games can be configured by switching t
 
 | User 1 - 2 Input descriptors  | RetroMouse Inputs                        | SNES Mouse         |
 |-------------------------------|------------------------------------------|--------------------|
-|                               | ![](images/RetroMouse/Retro_Mouse.png)   | Mouse Cursor       |
-|                               | ![](images/RetroMouse/Retro_Left.png)    | Left Button        |
-|                               | ![](images/RetroMouse/Retro_Right.png)   | Right Button       |
+|                               | ![](images/RetroMouse/Retro_Mouse.png)   | SNES Mouse Cursor  |
+|                               | ![](images/RetroMouse/Retro_Left.png)    | SNES Left Button   |
+|                               | ![](images/RetroMouse/Retro_Right.png)   | SNES Right Button  |
 
 #### Lightgun device type table
 

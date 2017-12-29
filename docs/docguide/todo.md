@@ -502,15 +502,39 @@
 
 ### [〰️] Snes9x 2002
 
+- Improve background section
+- Improve why use this core section.
+- Test Multi-Mouse support.
+- Does this core support Sufami Turbo games?
+- Does this core support Super Game Boy games?
+- Add internal sample rate.
+- Complete compatibility section.
+
 ### [〰️] Snes9x 2005
 
+- Improve background section.
+- Improve why use this core section.
+- Test Multi-Mouse support.
+- Does this core support Sufami Turbo games?
+- Does this core support Super Game Boy games?
 - Figure out what the exact differences between 2005 and 2005 Plus are. 2005 Plus is compiled with Blargg's APU but I have no idea what that does.
 - Figure out and describe what the Video Mode core option does and add a screenshot for it.
+- Add internal FPS.
+- Add internal sample rate.
+- Test Multitap support.
 
 ### [〰️] Snes9x 2005 Plus
 
+- Improve background section.
+- Improve why use this core section.
+- Test Multi-Mouse support.
+- Does this core support Sufami Turbo games?
+- Does this core support Super Game Boy games?
 - Figure out what the exact differences between 2005 and 2005 Plus are. 2005 Plus is compiled with Blargg's APU but I have no idea what that does.
 - Figure out and describe what the Video Mode core option does and add a screenshot for it.
+- Add internal FPS.
+- Add internal sample rate.
+- Test Multitap support.
 
 ### [〰️] Snes9x 2010
 

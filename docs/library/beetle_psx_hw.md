@@ -127,7 +127,7 @@ The Beetle PSX HW core saves/loads to/from these directories.
 
 **RetroArch's State directory**
 
-- 'content-name'.srm (State)
+- 'content-name'.state# (State)
 
 ### Geometry and timing
 
