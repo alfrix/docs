@@ -91,7 +91,7 @@ Required or optional firmware files go in RetroArch's system directory.
 
 |   Filename    |    Description                 |              md5sum              |
 |:-------------:|:------------------------------:|:--------------------------------:|
-| DMG_ROM.bin   | Game Boy Boot ROM - Required   | 32fbbd84168d3482956eb3c5051637f5 |
+| dmg_boot.bin   | Game Boy Boot ROM - Required   | 32fbbd84168d3482956eb3c5051637f5 |
 
 ## Features
 
