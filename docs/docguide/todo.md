@@ -352,11 +352,19 @@
 
 ### [〰️] higan Accuracy
 
+- Improve background section.
+- Improve why use this core section.
+- New Lightgun API
+- Multi-Mouse support?
+- Sufami Turbo support?
+- Satellaview/BS-X support?
+- Verify controllers table.
 - Scanline emulation core option doesn't do anything currenly.
 - Add a MSU-1 support guide (find out how higan Accuracy can load MSU-1 enhanced games)
-- Does this support BS-X games?
-- Does this support Sufami Turbo games?
 - Better Internal resolution core option description.
+- Add internal fps
+- Add internal sample rate
+- Add core provided aspect ratio
 
 ### [✔] Imageviewer
 

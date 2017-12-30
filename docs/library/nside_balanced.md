@@ -215,10 +215,6 @@ The nSide Balanced core saves/loads to/from these directories.
 - The nSide Balanced core's internal sample rate is (Rate)
 - The nSide Balanced core's core provided aspect ratio is (Ratio)
 
-### MSU-1 support
-
-Awaiting description.
-
 ### Super Gameboy Support
 
 The nSide Balanced core uses a simplified Super Game Boy routine that makes it much easier to access this feature than with the old v094-based cores. 
@@ -386,5 +382,5 @@ Incompatible with ROM hacks made to take advantage of emulator quirks, much like
 - [Libretro nSide Balanced Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/higan_sfc_balanced_libretro.info)
 - [Libretro nSide Balanced Github Repository](https://github.com/hex-usr/nSide)
 - [Report Libretro nSide Balanced Core Issues Here](https://github.com/libretro/libretro-meta/issues)
-* [Official higan Website](https://byuu.org/)
-* [Official higan Upstream Downloads](https://byuu.org/emulation/higan/)
+- [Official higan Website](https://byuu.org/)
+- [Official higan Upstream Downloads](https://byuu.org/emulation/higan/)

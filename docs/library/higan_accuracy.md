@@ -1,90 +1,143 @@
 # SNES / Super Famicom (higan Accuracy)
 
+## Contribute to this documentation
+
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/higan_accuracy.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
+
 ## Background
 
 A port of higan v105's Super Famicom emulation core to libretro. This core is the most in sync with upstream higan.
 
-The Balanced and Peformance profiles were removed in higan v99 so now only the Accuracy profile is available.
-
 ### Why use this core?
 
-* Most accurate SNES emulation available.
+- Most accurate SNES emulation available.
+- Simplified and easily accessible Super Game Boy functionality compared to the other bsnes cores.
 
-* Simplified and easily accessible Super Game Boy functionality compared to the other bsnes cores.
+### How to get and install the higan Accuracy core:
 
-### Author(s):
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-byuu
+<center> ![](images\Cores\all\updater.png) </center>
 
-## Contribute to this documentation
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/higan_accuracy.md). Changes are proposed using "Pull Requests."
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'SNES / Super Famicom (higan Accuracy)'.
+
+<center> ![](images\Cores\higan\higan_accuracy.png) </center>
+
+After this has finished downloading, the core should now be ready for use!
+
+#### How to start (after installation):
+
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
+
+<center> ![](images\Cores\all\load.png) </center>
+
+- Browse to the folder that contains the content you want to run.
+
+- Select the content that you want to run.
+
+<center> ![](images\Cores\all\snes.png) </center>
+
+- If you are asked which core to select, choose 'SNES / Super Famicom (higan Accuracy)'.
+
+The content should now start running!
+
+### Authors
+
+- byuu
 
 ## See also
 
-[Beetle bsnes](https://buildbot.libretro.com/docs/library/beetle_bsnes)
+### SNES
 
-[bsnes Accuracy](https://buildbot.libretro.com/docs/library/bsnes_accuracy)
+- [SNES / Super Famicom (Beetle bsnes)](https://docs.libretro.com/library/beetle_snes/)
+- [SNES / Super Famicom (bsnes Accuracy)](https://docs.libretro.com/library/bsnes_accuracy/)
+- [SNES / Super Famicom (bsnes Balanced)](https://docs.libretro.com/library/bsnes_balanced/)
+- [SNES / Super Famicom (bsnes C++98 (v085))](https://docs.libretro.com/library/bsnes_cplusplus98/)
+- [SNES / Super Famicom (bsnes Performance)](https://docs.libretro.com/library/bsnes_performance/)
+- [SNES / Super Famicom (bsnes-mercury Accuracy)](https://docs.libretro.com/library/bsnes_mercury_accuracy/)
+- [SNES / Super Famicom (bsnes-mercury Balanced)](https://docs.libretro.com/library/bsnes_mercury_balanced/)
+- [SNES / Super Famicom (bsnes-mercury Performance)](https://docs.libretro.com/library/bsnes_mercury_performance/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
+- [SNES / Super Famicom (Snes9x 2002)](https://docs.libretro.com/library/snes9x_2002/)
+- [SNES / Super Famicom (Snes9x 2005 Plus)](https://docs.libretro.com/library/snes9x_2005_plus/)
+- [SNES / Super Famicom (Snes9x 2005)](https://docs.libretro.com/library/snes9x_2005/)
+- [SNES / Super Famicom (Snes9x 2010)](https://docs.libretro.com/library/snes9x_2010/)
+- [SNES / Super Famicom (Snes9x)](https://docs.libretro.com/library/snes9x/)
 
-[bsnes Balanced](https://buildbot.libretro.com/docs/library/bsnes_balanced)
+### GB/GBC
 
-[bsnes C++98 (v085)](https://buildbot.libretro.com/docs/library/bsnes_cplusplus98)
-
-[bsnes Performance](https://buildbot.libretro.com/docs/library/bsnes_performance)
-
-[bsnes-mercury Accuracy](https://buildbot.libretro.com/docs/library/bsnes_mercury_accuracy)
-
-[bsnes-mercury Balanced](https://buildbot.libretro.com/docs/library/bsnes_mercury_balanced)
-
-[bsnes-mercury Performance](https://buildbot.libretro.com/docs/library/bsnes_mercury_performance)
-
-[Snes9x 2002](https://buildbot.libretro.com/docs/library/snes9x_2002)
-
-[Snes9x 2005 Plus](https://buildbot.libretro.com/docs/library/snes9x_@005_plus)
-
-[Snes9x 2005](https://buildbot.libretro.com/docs/library/snes9x_2005)
-
-[Snes9x 2010](https://buildbot.libretro.com/docs/library/snes9x_2010)
-
-[Snes9x](https://buildbot.libretro.com/docs/library/snes9x)
+- [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
+- [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
+- [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
+- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
+- [Game Boy / Game Boy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
+- [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
 
 ## License
 
-GPLv3
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The higan Accuracy core is licensed under
+
+- [GPLv3](https://gitlab.com/higan/higan/blob/master/LICENSE.txt)
 
 ## Extensions
 
-*Content that can be loaded by the higan Accuracy core have the following file extensions*
+Content that can be loaded by the higan Accuracy core have the following file extensions:
 
-sfc|smc|gb|gbc|bml|rom
+- .sfc
+- .smc
+- .gb
+- .gbc
+- .bml
+- .rom
 
-## Database(s)
+## Databases
 
-*RetroArch databases that are associated with the higan Accuracy core*
+RetroArch database(s) that are associated with the higan Accuracy core:
 
-* Nintendo - Super Nintendo Entertainment System
-
-* Nintendo - Super Nintendo Entertainment System Hacks
-
-* Nintendo - Game Boy
-
-* Nintendo - Game Boy Color
+- [Nintendo - Super Nintendo Entertainment System](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20Hacks.rdb)
+- [Nintendo - Super Nintendo Entertainment System Hacks](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20Hacks.rdb)
+- [Nintendo - Game Boy](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Game%20Boy.rdb)
+- [Nintendo - Game Boy Color](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Game%20Boy%20Color.rdb)
 
 ## BIOS
 
-*Required or optional firmware files go in RetroArch's system directory.*
+Required or optional firmware files go in RetroArch's system directory.
 
-The higan Accuracy core uses split ROMS for [special chip games](https://en.wikipedia.org/wiki/List_of_Super_NES_enhancement_chips#List_of_Super_NES_games_that_use_enhancement_chips).
+!!! attention
+	higan Accuracy uses split ROMS for special chip games.
+	
+Notable DSP1/DSP1B Games:
 
-Notable DSP1/DSP1B Games: Super Mario Kart, Pilotwings
+- Super Mario Kart
+- Pilotwings
 
-Notable DSP2 Games: Dungeon Master
+Notable DSP2 Games:
 
-Notable DSP3 Games: SD Gundam GX
+- Dungeon Master
 
-Notable DSP4 Games: Top Gear 3000
+Notable DSP3 Games:
 
-Notable Cx4 Games: Mega Man X2, Mega Man X3
+- SD Gundam GX
+
+Notable DSP4 Games:
+
+- Top Gear 3000
+
+Notable Cx4 Games:
+
+- Mega Man X2
+- Mega Man X3
 
 |   Filename             |    Description                         |              md5sum              |
 |:----------------------:|:--------------------------------------:|:--------------------------------:|
@@ -110,148 +163,64 @@ Notable Cx4 Games: Mega Man X2, Mega Man X3
 | SGB2.sfc/sgb2.boot.rom | SGB Boot BIOS - Optional               | d574d4f9c12f305074798f54c091a8b4 |
 | SGB2.sfc/program.rom   | SGB Boot Image - Optional              |                                  |
 
+!!! attention
+	Firmware files for SGB emulation need to be in directories called SGB1.sfc and SGB2.sfc in RetroArch's system directory. Look at the [Super GameBoy support section](https://docs.libretro.com/library/higan_accuracy#super-gameboy-support) for more information.
+
 ## Features
+
+RetroArch-level settings or features that the higan Accuracy core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
 | Saves             | ✔         |
 | States            | ✔         |
 | Rewind            | ✔         |
 | Netplay           | ✔         |
-| RetroAchievements | -         |
-| RetroArch Cheats  | -         |
+| Core Options      | ✔         |
+| RetroAchievements | ✕         |
+| RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
+| Remapping         | ✔         |
 | Multi-Mouse       | -         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| Softpatching      | ✔         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | -         |
 
-The higan Accuracy core creates directories named 'higan (Super Famicom Accuracy)' in RetroArch's...
+### Directories
 
-* Savefile directory when the core is loaded.
-* Statestate directory when the core is loaded.
-* Config directory when a Core Override or a Game Override or a Game-options file is saved.
-* Input Remapping directory when a Core Remap or a Game Remap is saved.
-* Shaders Presets directory when a Core Preset or a Game Preset is saved.
+The higan Accuracy core's directory name is '(Directory name)'
 
-Core Overrides/Remaps/Presets that are saved will be named 'higan (Super Famicom Accuracy)'. 
+The higan Accuracy core saves/loads to/from these directories.
 
-Game Overrides/Remaps/Presets and Game-option files will have the same name as the loaded content.
+**RetroArch's Save directory**
 
-Game data is saved/loaded to and from the core's save directory.
+- 'content-name'.srm (Cartridge battery save)
 
-Save states are saved/loaded to and from the core's state directory. 
+**RetroArch's State directory**
 
-## Options
+- 'content-name'.state# (State)
 
-*The higan Accuracy core has the following options that can be tweaked from the core options menu. The default setting is bolded.*
+### Geometry and timing
 
-- **Internal resolution** (**512x480**/512x448/512x240/512x224/256x240/256x224): Self-explanatory.
-
-??? note "512x480"
-    ![512x480](images/Cores/higan_accuracy/512x480.png)
-
-??? note "512x448"
-    ![512x448](images/Cores/higan_accuracy/512x448.png)
-
-??? note "512x240"
-    ![512x240](images/Cores/higan_accuracy/512x240.png)
-
-??? note "512x224"
-    ![512x224](images/Cores/higan_accuracy/512x224.png)
-
-??? note "256x240"
-    ![256x240](images/Cores/higan_accuracy/256x240.png)
-
-??? note "256x224"
-    ![256x224](images/Cores/higan_accuracy/256x224.png)
-
-- **Color emulation** (**Off**/On): Simulates the way a console’s display device differs from modern computer monitor’s colour reproduction. In particular, it simulates the slightly-different gamma correction used by the Super Famicom.
-
-??? note "Color emulation - Disabled"
-    ![color_emulation_disabled](images/Cores/higan_accuracy/color_emulation_disabled.png)
-
-??? note "Color emulation - Enabled"
-    ![color_emulation_enabled](images/Cores/higan_accuracy/color_emulation_enabled.png)
-
-- **Blur emulation**  (**Off**/On):  Simulates the limited horizontal resolution of standard-definition TVs by blurring together horizontally-adjacent pixels. Games like Jurassic Park for the Super Famicom depend on this to emulate a transparency effect.
-
-??? note "Blur emulation - Disabled"
-    ![blur_emulation_disabled](images/Cores/higan_accuracy/blur_emulation_disabled.png)
-
-??? note "Blur emulation - Enabled"
-    ![blur_emulation_enabled](images/Cores/higan_accuracy/blur_emulation_enabled.png)
-
-- **Scanline emulation** (**Off**/On): **Currently does not function properly**
-- **Preferred Super GameBoy BIOS (restart)** (**SGB1.sfc/**/SGB2.sfc/) Choose what Super GameBoy BIOS you want to use.
-
-## Controllers
-
-*The higan Accuracy core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
-
-### User 1 Device Type(s)
-
-* **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad without analog
-
-* [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
-
-### User 2 Device Type(s)
-
-* **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad without analog
-
-* [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
-
-* [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad without analog - allows for up to five players to play together in certain games.
-
-* [SuperScope](https://en.wikipedia.org/wiki/Super_Scope) - Lightgun
-
-* [Justifier](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun
-
-* [Justifiers](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun - Two Justifiers are plugged in, for two-player Justifier games.
-
-### User 3 - 16 Device Type(s)
-
-* **RetroPad** - Joypad without analog
-
-### Controllers graph
-
-| bsnes mercury Accuracy | RetroPad                                               | *SNES Joypad / Multitap*                                |
-|------------------------|--------------------------------------------------------|---------------------------------------------------------|
-| B                      | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)       | ![SNES_B](images/Button_Pack/SNES/SNES_B.png)           |
-| Y                      | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)       | ![SNES_Y](images/Button_Pack/SNES/SNES_Y.png)           |
-| Select                 | ![RetroPad_Select](images/RetroPad/Retro_Select.png)   | ![SNES_Select](images/Button_Pack/SNES/SNES_Select.png) |
-| Start                  | ![RetroPad_Start](images/RetroPad/Retro_Start.png)     | ![SNES_Start](images/Button_Pack/SNES/SNES_Start.png)   |
-| D-Pad Up               | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)    | ![SNES_Dpad](images/Button_Pack/SNES/SNES_Dpad.png)     |
-| D-Pad Down             | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)  | ![SNES_Dpad](images/Button_Pack/SNES/SNES_Dpad.png)     |
-| D-Pad Left             | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)  | ![SNES_Dpad](images/Button_Pack/SNES/SNES_Dpad.png)     |
-| D-Pad Right            | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png) | ![SNES_Dpad](images/Button_Pack/SNES/SNES_Dpad.png)     |
-| A                      | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)       | ![SNES_A](images/Button_Pack/SNES/SNES_A.png)           |
-| X                      | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)       | ![SNES_X](images/Button_Pack/SNES/SNES_X.png)           |
-| L                      | ![RetroPad_L1](images/RetroPad/Retro_L1.png)           | ![SNES_L](images/Button_Pack/SNES/SNES_L.png)           |
-| R                      | ![RetroPad_R1](images/RetroPad/Retro_R1.png)           | ![SNES_R](images/Button_Pack/SNES/SNES_R.png)           |
-
-| RetroMouse                                                                                                      | *SNES Mouse* | *SuperScope* | *Justifier(s)* |
-|-----------------------------------------------------------------------------------------------------------------|--------------|--------------|----------------|
-| ![Retro_Mouse](images/RetroMouse/Retro_Mouse.png)                                                               | Pointer      | Pointer      | Pointer        |
-| ![Retro_Left](images/RetroMouse/Retro_Left.png)                                                                 | Left Button  | Trigger      | Trigger        |
-| ![Retro_Middle](images/RetroMouse/Retro_Middle.png)                                                             |              | ???          |                |
-| ![Retro_Right](images/RetroMouse/Retro_Right.png)                                                               | Right Button | Turbo        | Turbo          |
-| ![Retro_Left+Middle](images/RetroMouse/Retro_Left+Middle.png)                                                   |              | Pause        | Pause          |
-| ![Retro_Right+Middle](images/RetroMouse/Retro_Right+Middle.png)                                                 |              | Start        | Start          |
-| ![Retro_Left+Middle](images/RetroMouse/Retro_Left+Middle.png) + ![Retro_Left](images/RetroMouse/Retro_Left.png) |              | Reset        | Reset          |
-
-## Compatibility
-
-The higan Accuracy core fully emulates all SNES games that have ever been officially released.
-
-Incompatible with ROM hacks made to take advantage of emulator quirks, much like real hardware.
+- The higan Accuracy core's internal FPS is (FPS)
+- The higan Accuracy core's internal sample rate is (Rate)
+- The higan Accuracy core's core provided aspect ratio is (Ratio)
 
 ### Super Gameboy Support
 
-The higan Accuracy core uses a simplified Super Game Boy routine that makes it much easier to access this feature than with the old v094-based cores. Instead of using the complex, CLI-based 'subsystem' launch commands, it looks for the necessary files in the system/BIOS directory whenever you feed the core a *.gb/c file.
+The higan Accuracy core uses a simplified Super Game Boy routine that makes it much easier to access this feature than with the old v094-based cores. 
+
+Instead of using the complex, CLI-based 'subsystem' launch commands, it looks for the necessary files in the system/BIOS directory whenever you feed the core a *.gb/c file.
 
 To get it working, you'll need one or more Super Game Boy ROMs and the sgb.boot.rom BIOS.
 
@@ -267,7 +236,7 @@ Copy your original Super Game Boy ROM into the SGB1.sfc directory and then renam
 
 Copy your sgb.boot.rom BIOS into each of your SGB1.sfc and SGB2.sfc directories, and rename them to sgb1.boot.rom and sgb2.boot.rom, respectively. 
 
-There's a core option to choose which of the two SGB BIOSes you want to use.
+The ['Preferred Super GameBoy BIOS' core option](https://docs.libretro.com/library/higan_accuracy#core-options) lets you choose which of the two SGB BIOSes to use.
 
 **Step 4**
 
@@ -275,15 +244,144 @@ Load a SGB-supported GB/GBC rom.
 
 **Done**
 
-![sgb](images/Cores/higan_accuracy/sgb.png)
+![](images/Cores/higan/sgb.png)
 
 ### MSU-1 Support
 
--
+Awaiting description.
+
+## Core options
+
+The higan Accuracy core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
+
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
+
+- **Internal resolution** (**512x480**/512x448/512x240/512x224/256x240/256x224)
+
+<center> Self-explanatory. </center>
+
+??? note "512x480"
+    ![](images/Cores/higan/512x480.png)
+
+??? note "512x448"
+    ![](images/Cores/higan/512x448.png)
+
+??? note "512x240"
+    ![](images/Cores/higan/512x240.png)
+
+??? note "512x224"
+    ![](images/Cores/higan/512x224.png)
+
+??? note "256x240"
+    ![](images/Cores/higan/256x240.png)
+
+??? note "256x224"
+    ![](images/Cores/higan/256x224.png)
+
+- **Color emulation** (**Off**/On)
+
+<center> Simulates the way a console’s display device differs from modern computer monitor’s colour reproduction. In particular, it simulates the slightly-different gamma correction used by the Super Famicom. </center>
+
+??? note "Color emulation - Disabled"
+    ![](images/Cores/higan/color_off.png)
+
+??? note "Color emulation - Enabled"
+    ![](images/Cores/higan/color_on.png)
+
+- **Blur emulation**  (**Off**/On)
+
+<center> Simulates the limited horizontal resolution of standard-definition TVs by blurring together horizontally-adjacent pixels. Games like Jurassic Park for the Super Famicom depend on this to emulate a transparency effect. </center>
+
+??? note "Blur emulation - Disabled"
+    ![](images/Cores/higan/blur_off.png)
+
+??? note "Blur emulation - Enabled"
+    ![](images/Cores/higan/blur_on.png)
+
+- **Scanline emulation** (**Off**/On)
+
+<center> Currently does not function properly </center>
+
+- **Preferred Super GameBoy BIOS (restart)** (**SGB1.sfc/**/SGB2.sfc/)
+
+<center> Choose what Super GameBoy BIOS you want to use. Look at the [Super GameBoy Support section](https://docs.libretro.com/library/higan_accuracy#super-gameboy-support) for more information. </center>
+
+## Controllers
+
+### Device types
+
+The higan Accuracy core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
+
+#### User 1 device types
+
+- None - Input disabled.
+- [**SNES Joypad**](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller) - Joypad
+- [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
+
+#### User 2 device types
+
+- None - Input disabled.
+- [**SNES Joypad**](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller) - Joypad
+- [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
+- [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad - Allows for up to five players to play together in certain games.
+- [SuperScope](https://en.wikipedia.org/wiki/Super_Scope) - Lightgun
+- [Justifier](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun
+- [Justifiers](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun - Two Justifiers are plugged in, for two-player Justifier games.
+
+### Multitap support
+
+Activating multitap support in compatible games can be configured by switching to the [Multitap device type](https://docs.libretro.com/library/higan_accuracy#controllers) for User 2.
+
+### Controller tables
+
+#### Joypad and analog device type table
+
+| User 1 - 5 Input descriptors  | RetroPad Inputs                              | SNES Joypad / Multitap |
+|-------------------------------|----------------------------------------------|------------------------|
+| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                      |
+| Y                             | ![](images/RetroPad/Retro_Y_Round.png)       | Y                      |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                 |
+| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start                  |
+| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up               |
+| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down             |
+| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Lef              |
+| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right            |
+| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                      |
+| X                             | ![](images/RetroPad/Retro_X_Round.png)       | X                      |
+| L                             | ![](images/RetroPad/Retro_L1.png)            | L                      |
+| R                             | ![](images/RetroPad/Retro_R1.png)            | R                      |
+
+#### Mouse device type table
+
+| User 1 - 2 Input descriptors  | RetroMouse Inputs                        | SNES Mouse              |
+|-------------------------------|------------------------------------------|-------------------------|
+|                               | ![](images/RetroMouse/Retro_Mouse.png)   | SNES Mouse Cursor       |
+|                               | ![](images/RetroMouse/Retro_Left.png)    | SNES Mouse Left Button  |
+|                               | ![](images/RetroMouse/Retro_Right.png)   | SNES Mouse Right Button |
+
+#### Lightgun device type table
+
+| User 2 Input descriptors      | RetroLightgun Inputs | SuperScope           | Justifier(s)        |
+|-------------------------------|----------------------|----------------------|---------------------|
+|                               | Gun                  | SuperScope Crosshair | Justifier Crosshair |
+|                               | Gun Trigger          | SuperScope Trigger   | Justifier Trigger   |
+|                               | Gun Cursor           | SuperScope Cursor    |                     |
+|                               | Gun Turbo            | SuperScope Turbo     | Justifier Offscreen |
+|                               | Gun Pause            | SuperScope Pause     | Justifier Start     |
+
+!!! attention
+	All of the Super Scope games made by Nintendo have a soft-reset to the game's main title. This is accomplished by pausing the game, then, while holding Cursor, the Fire button must be pressed twice.
+
+## Compatibility
+
+The higan Accuracy core fully emulates all SNES games that have ever been officially released.
+
+Incompatible with ROM hacks made to take advantage of emulator quirks, much like real hardware.
 
 ## External Links
 
-* [Libretro Repository](https://gitlab.com/higan/higan)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
-* [Official Website](https://byuu.org/)
-* [Official Upstream Downloads](https://byuu.org/emulation/higan/)
+- [Libretro higan Accuracy Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/higan_sfc_libretro.info)
+- [Libretro higan Accuracy Gitlab Repository](https://gitlab.com/higan/higan)
+- [Report Libretro higan Accuracy Core Issues Here](https://github.com/libretro/libretro-meta/issues)
+- [Official higan Website](https://byuu.org/)
+- [Official higan Upstream Downloads](https://byuu.org/emulation/higan/)

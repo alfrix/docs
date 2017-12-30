@@ -27,7 +27,7 @@
 
 **You need an active Internet connection.**
 
-In this example, we are using the game Chrono Trigger (USA) with the core snes9x.
+In this example, we are using the game Chrono Trigger (USA) with the Snes9x core.
 
 Launch the game and trigger the Quick Menu.
 
@@ -53,32 +53,33 @@ You can also check the progress of your friends and add comments on their trophi
 
 | Core                                                  | Supported | Notes |
 |-------------------------------------------------------|:---------:|-------|
-| [QuickNES](https://github.com/libretro/QuickNES_Core) | ✔ | On Android has a [known issue](https://github.com/libretro/RetroArch/issues/3973)|
-| [FCEUmm](https://github.com/libretro/libretro-fceumm) | ✔ | |
-| [Nestopia UE](https://github.com/libretro/nestopia)   | ✕ | |
-| [bnes](https://github.com/libretro/bnes-libretro)     | ✕ | |
-| [Emux NES](https://github.com/libretro/emux)          | ✕ | |
+| [QuickNES](https://github.com/libretro/QuickNES_Core) | ✔         | On Android has a [known issue](https://github.com/libretro/RetroArch/issues/3973) |
+| [FCEUmm](https://github.com/libretro/libretro-fceumm) | ✔         | |
+| [Nestopia UE](https://github.com/libretro/nestopia)   | ✕         | |
+| [bnes](https://github.com/libretro/bnes-libretro)     | ✕         | |
+| [Emux NES](https://github.com/libretro/emux)          | ✕         | |
 
 ### Master System / MegaDrive - Genesis
 
 | Core                                                           | Supported |
 |----------------------------------------------------------------|:---------:|
-| [Genesis Plus GX](https://github.com/libretro/Genesis-Plus-GX) | ✔ |
-| [Picodrive](https://github.com/libretro/picodrive)             | ✔ |
-| [Emux SMS](https://github.com/libretro/emux)                   | ✕ |
+| [Genesis Plus GX](https://github.com/libretro/Genesis-Plus-GX) | ✔         |
+| [Picodrive](https://github.com/libretro/picodrive)             | ✔         |
+| [Emux SMS](https://github.com/libretro/emux)                   | ✕         |
 
 ### SNES
 
 | Core                                                              | Supported | Notes |
 |-------------------------------------------------------------------|:---------:|-------|
-| [Snes9x 2010](https://github.com/libretro/snes9x2010)             | ✔         |       |
-| [Snes9x 2005](https://github.com/libretro/snes9x2005)             | ✔         |       |
-| [Snes9x 2002](https://github.com/libretro/snes9x2002)             | ✔         |       |
-| [Snes9x](https://github.com/libretro/snes9x)                      | ✔         |       |
-| [bsnes](https://github.com/libretro/bsnes-libretro)               | ✔         |       |
-| [bsnes-mercury](https://github.com/libretro/bsnes-mercury)        | ✔         |       |
-| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro) | ?         | [Core currently doesn't work at all](https://github.com/libretro/beetle-bsnes-libretro/issues/3) |
-| [nSide Balanced)(https://github.com/hex-usr/nSide)                | ✕         |       |
+| [Snes9x 2010](https://github.com/libretro/snes9x2010)             | ✔         | |
+| [Snes9x 2005](https://github.com/libretro/snes9x2005)             | ✔         | |
+| [Snes9x 2002](https://github.com/libretro/snes9x2002)             | ✔         | |
+| [Snes9x](https://github.com/libretro/snes9x)                      | ✔         | |
+| [bsnes](https://github.com/libretro/bsnes-libretro)               | ✔         | |
+| [bsnes-mercury](https://github.com/libretro/bsnes-mercury)        | ✔         | |
+| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro) | ?         | [Core currently doesn't start at all](https://github.com/libretro/beetle-bsnes-libretro/issues/3) |
+| higan Accuracy                                                    | ✕         | |
+| nSide Balanced                                                    | ✕         | |
 
 ### Game Boy / Game Boy Color
 
@@ -87,7 +88,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [Gambatte](https://github.com/libretro/gambatte-libretro) | ✔         | |
 | [mGBA](https://github.com/libretro/mgba)                  | ✕         | Achievements only work for the Game Boy Advance |
 | [Emux GB](https://github.com/libretro/emux)               | ✕         | |
-| [SameBoy](https://github.com/libretro/SameBoy)            | ✔          | |
+| [SameBoy](https://github.com/libretro/SameBoy)            | ✔         | |
 | [TGB Dual](https://github.com/libretro/tgbdual-libretro)  | ✕         | |
 | [Gearboy](https://github.com/libretro/gearboy)            | ✕         | |
 
@@ -95,12 +96,12 @@ You can also check the progress of your friends and add comments on their trophi
 
 | Core                                                          | Supported | Notes |
 |---------------------------------------------------------------|:---------:|-------|
-| [mGBA](https://github.com/libretro/mgba)                      | ✔         |       |
-| [VBA Next](https://github.com/libretro/vba-next)              | ✔         |       |
-| [VBA-M](https://github.com/libretro/vbam-libretro)            | ✔         |       |
-| [Beetle GBA](https://github.com/libretro/beetle-gba-libretro) | ?         | [Core currently doesn't work at all](https://github.com/libretro/libretro-meta/issues/103) |
-| [gpSP](https://github.com/libretro/gpsp)                      | ✕         |       |
-| [Meteor](https://github.com/libretro/meteor-libretro)         | ✕         |       |
+| [mGBA](https://github.com/libretro/mgba)                      | ✔         | |
+| [VBA Next](https://github.com/libretro/vba-next)              | ✔         | |
+| [VBA-M](https://github.com/libretro/vbam-libretro)            | ✔         | |
+| [Beetle GBA](https://github.com/libretro/beetle-gba-libretro) | ?         | [Core currently doesn't start at all](https://github.com/libretro/libretro-meta/issues/103) |
+| [gpSP](https://github.com/libretro/gpsp)                      | ✕         | |
+| [Meteor](https://github.com/libretro/meteor-libretro)         | ✕         | |
 
 ### PC Engine
 
@@ -109,7 +110,6 @@ You can also check the progress of your friends and add comments on their trophi
 | [Beetle PCE Fast](https://github.com/libretro/beetle-pce-fast-libretro) | ✔         |
 | [Beetle SGX](https://github.com/libretro/beetle-supergrafx-libretro)    | ✔         |
 
-
 ### Nintendo 64
 
 | Core                                                              | Supported |
@@ -117,9 +117,8 @@ You can also check the progress of your friends and add comments on their trophi
 | [Mupen 64 Plus](https://github.com/libretro/mupen64plus-libretro) | ✔         |
 | [Parallel N64](https://github.com/libretro/parallel-n64)          | ✔         |
 
-
 ### Atari Lynx
 
 | Core                                                | Supported | Notes |
 |-----------------------------------------------------|:---------:|:-----:|
-| [Handy](https://github.com/libretro/libretro-handy) | ✔ | *Support added in 22-October-2017. In order to work needs to update RetroArch too.* |
+| [Handy](https://github.com/libretro/libretro-handy) | ✔         | *Support added in 22-October-2017. In order to work needs to update RetroArch too.* |

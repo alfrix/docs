@@ -97,8 +97,8 @@
 - [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
 - [Game Boy / Game Boy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
 - [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
-- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
 - [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
 
 ### GBA
 
