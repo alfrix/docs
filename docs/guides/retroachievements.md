@@ -69,17 +69,19 @@ You can also check the progress of your friends and add comments on their trophi
 
 ### SNES
 
-| Core                                                              | Supported | Notes |
-|-------------------------------------------------------------------|:---------:|-------|
-| [Snes9x 2010](https://github.com/libretro/snes9x2010)             | ✔         | |
-| [Snes9x 2005](https://github.com/libretro/snes9x2005)             | ✔         | |
-| [Snes9x 2002](https://github.com/libretro/snes9x2002)             | ✔         | |
-| [Snes9x](https://github.com/libretro/snes9x)                      | ✔         | |
-| [bsnes](https://github.com/libretro/bsnes-libretro)               | ✔         | |
-| [bsnes-mercury](https://github.com/libretro/bsnes-mercury)        | ✔         | |
-| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro) | ?         | [Core currently doesn't start at all](https://github.com/libretro/beetle-bsnes-libretro/issues/3) |
-| higan Accuracy                                                    | ✕         | |
-| nSide Balanced                                                    | ✕         | |
+| Core                                                                   | Supported | Notes |
+|------------------------------------------------------------------------|:---------:|-------|
+| [Snes9x 2010](https://github.com/libretro/snes9x2010)                  | ✔         | |
+| [Snes9x 2005](https://github.com/libretro/snes9x2005)                  | ✔         | |
+| [Snes9x 2002](https://github.com/libretro/snes9x2002)                  | ✔         | |
+| [Snes9x](https://github.com/libretro/snes9x)                           | ✔         | |
+| [bsnes](https://github.com/libretro/bsnes-libretro)                    | ✔         | |
+| [bsnes-mercury Accuracy](https://github.com/libretro/bsnes-mercury)    | ✔         | |
+| [bsnes-mercury Balanced](https://github.com/libretro/bsnes-mercury)    | ✔         | |
+| [bsnes-mercury Performance](https://github.com/libretro/bsnes-mercury) | ✔         | |
+| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro)      | ?         | [Core currently doesn't start at all](https://github.com/libretro/beetle-bsnes-libretro/issues/3) |
+| higan Accuracy                                                         | ✕         | |
+| nSide Balanced                                                         | ✕         | |
 
 ### Game Boy / Game Boy Color
 

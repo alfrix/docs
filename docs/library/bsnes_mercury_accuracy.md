@@ -1,5 +1,13 @@
 # SNES / Super Famicom (bsnes-mercury Accuracy)
 
+## Contribute to this documentation
+
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/bsnes_mercury_accuracy.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
+
 ## Background
 
 bsnes-mercury is a fork of higan, aiming to restore some useful features that have been removed, as well as improving performance a bit.
@@ -18,81 +26,121 @@ Improvements include:
 
 **The bsnes-mercury cores are not less accurate at default settings than the mainline bsnes cores (you have to explicitly enable 2 core options to switch to the less accurate special chip HLE).**
 
-### Author(s):
+### How to get and install the bsnes-mercury Accuracy core:
 
-byuu|Alcaro
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-## Contribute to this documentation
+<center> ![](images\Cores\all\updater.png) </center>
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/bsnes_mercury_accuracy.md). Changes are proposed using "Pull Requests."
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'SNES / Super Famicom (bsnes-mercury Accuracy)'.
+
+<center> ![](images\Cores\higan\bsnes_mercury_accuracy.png) </center>
+
+After this has finished downloading, the core should now be ready for use!
+
+#### How to start (after installation):
+
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
+
+<center> ![](images\Cores\all\load.png) </center>
+
+- Browse to the folder that contains the content you want to run.
+
+- Select the content that you want to run.
+
+<center> ![](images\Cores\all\snes.png) </center>
+
+- If you are asked which core to select, choose 'SNES / Super Famicom (bsnes-mercury Accuracy)'.
+
+The content should now start running!
+
+### Authors
+
+- byuu
+- Alcaro
 
 ## See also
 
-[Beetle bsnes](https://buildbot.libretro.com/docs/library/beetle_bsnes)
+### SNES
 
-[bsnes Accuracy](https://buildbot.libretro.com/docs/library/bsnes_accuracy)
-
-[bsnes Balanced](https://buildbot.libretro.com/docs/library/bsnes_balanced)
-
-[bsnes C++98 (v085)](https://buildbot.libretro.com/docs/library/bsnes_cplusplus98)
-
-[bsnes Performance](https://buildbot.libretro.com/docs/library/bsnes_performance)
-
-[bsnes-mercury Balanced](https://buildbot.libretro.com/docs/library/bsnes_mercury_balanced)
-
-[bsnes-mercury Performance](https://buildbot.libretro.com/docs/library/bsnes_mercury_performance)
-
-[higan Accuracy](https://buildbot.libretro.com/docs/library/higan_accuracy)
-
-[Snes9x 2002](https://buildbot.libretro.com/docs/library/snes9x_2002)
-
-[Snes9x 2005 Plus](https://buildbot.libretro.com/docs/library/snes9x_2005_plus)
-
-[Snes9x 2005](https://buildbot.libretro.com/docs/library/snes9x_2005)
-
-[Snes9x 2010](https://buildbot.libretro.com/docs/library/snes9x_2010)
-
-[Snes9x](https://buildbot.libretro.com/docs/library/snes9x)
+- [SNES / Super Famicom (Beetle bsnes)](https://docs.libretro.com/library/beetle_snes/)
+- [SNES / Super Famicom (bsnes Accuracy)](https://docs.libretro.com/library/bsnes_accuracy/)
+- [SNES / Super Famicom (bsnes Balanced)](https://docs.libretro.com/library/bsnes_balanced/)
+- [SNES / Super Famicom (bsnes C++98 (v085))](https://docs.libretro.com/library/bsnes_cplusplus98/)
+- [SNES / Super Famicom (bsnes Performance)](https://docs.libretro.com/library/bsnes_performance/)
+- [SNES / Super Famicom (bsnes-mercury Accuracy)](https://docs.libretro.com/library/bsnes_mercury_accuracy/)
+- [SNES / Super Famicom (bsnes-mercury Balanced)](https://docs.libretro.com/library/bsnes_mercury_balanced/)
+- [SNES / Super Famicom (bsnes-mercury Performance)](https://docs.libretro.com/library/bsnes_mercury_performance/)
+- [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
+- [SNES / Super Famicom (Snes9x 2002)](https://docs.libretro.com/library/snes9x_2002/)
+- [SNES / Super Famicom (Snes9x 2005 Plus)](https://docs.libretro.com/library/snes9x_2005_plus/)
+- [SNES / Super Famicom (Snes9x 2005)](https://docs.libretro.com/library/snes9x_2005/)
+- [SNES / Super Famicom (Snes9x 2010)](https://docs.libretro.com/library/snes9x_2010/)
+- [SNES / Super Famicom (Snes9x)](https://docs.libretro.com/library/snes9x/)
 
 ## License
 
-GPLv3
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The bsnes-mercury Accuracy core is licensed under
+
+- [GPLv3](https://github.com/libretro/bsnes-libretro/blob/libretro/COPYING)
 
 ## Extensions
 
-*Content that can be loaded by the bsnes-mercury Accuracy core.*
+Content that can be loaded by the bsnes-mercury Accuracy core have the following file extensions:
 
-sfc|smc|bml
+- .sfc
+- .smc
+- .bml
 
-## Database(s)
+## Databases
 
-*RetroArch databases that are associated with the bsnes-mercury Accuracy core*
+RetroArch database(s) that are associated with the bsnes-mercury Accuracy core:
 
-* Nintendo - Super Nintendo Entertainment System
-
-* Nintendo - Super Nintendo Entertainment System Hacks
-
-* Nintendo - Sufami Turbo
+- [Nintendo - Super Nintendo Entertainment System](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System.rdb)
+- [Nintendo - Super Nintendo Entertainment System Hacks](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20Hacks.rdb)
+- [Nintendo - Sufami Turbo](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Sufami%20Turbo.rdb)
 
 ## BIOS
 
-*Required or optional firmware files go in RetroArch's system directory.*
+Required or optional firmware files go in RetroArch's system directory.
 
-The bsnes-mercury Accuracy core uses split ROMS for [special chip games](https://en.wikipedia.org/wiki/List_of_Super_NES_enhancement_chips#List_of_Super_NES_games_that_use_enhancement_chips).
+!!! attention
+	The bsnes-mercury Accuracy core uses split ROMS for [special chip games](https://en.wikipedia.org/wiki/List_of_Super_NES_enhancement_chips#List_of_Super_NES_games_that_use_enhancement_chips).
 
-Notable DSP1/DSP1B Games: Super Mario Kart, Pilotwings
+Notable DSP1/DSP1B Games: 
 
-Notable DSP2 Games: Dungeon Master
+- Super Mario Kart
+- Pilotwings
 
-Notable DSP3 Games: SD Gundam GX
+Notable DSP2 Games:
 
-Notable DSP4 Games: Top Gear 3000
+- Dungeon Master
 
-Notable Cx4 Games: Mega Man X2, Mega Man X3
+Notable DSP3 Games:
 
-**The co-processor firmware files for special chip games are only optional when the Allow settings to reduce accuracy core option is enabled and the Special chip accuracy core option is set to HLE. Otherwise, they are required.**
+- SD Gundam GX
 
-**The ST-0011 and ST-0018 co-processors cannot be HLE'd.**
+Notable DSP4 Games: 
+
+- Top Gear 3000
+
+Notable Cx4 Games:
+
+- Mega Man X2
+- Mega Man X3
+
+!!! attention
+	**The co-processor firmware files for special chip games are only optional when the Allow settings to reduce accuracy core option is enabled and the Special chip accuracy core option is set to HLE. Otherwise, they are required.**
+
+!!! attention
+	**The ST-0011 and ST-0018 co-processors cannot be HLE'd.**
 
 |   Filename        |    Description                         |              md5sum              |
 |:-----------------:|:--------------------------------------:|:--------------------------------:|
@@ -113,141 +161,189 @@ Notable Cx4 Games: Mega Man X2, Mega Man X3
 | st011.program.rom | ST011 co-processor firmware            | 95222ebf1c0c2990bcf25db43743f032 |
 | st018.data.rom    | ST018 co-processor firmware            | 49c898b60d0f15e90d0ba780dd12f366 |
 | st018.program.rom | ST018 co-processor firmware            | dda40ccd57390c96e49d30a041f9a9e7 |
-| sgb.boot.rom      | SGB Boot Image                         | d574d4f9c12f305074798f54c091a8b4 |
+| sgb.boot.rom      | SGB Boot BIOS                          | d574d4f9c12f305074798f54c091a8b4 |
 
 ## Features
 
+RetroArch-level settings or features that the bsnes-mercury Accuracy core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
-| Saves             | ✓         |
-| States            | ✓         |
-| Rewind            | ✓         |
-| Netplay           | ✓         |
-| RetroAchievements | -         |
-| RetroArch Cheats  | ✓         |
+| Restart           | ✔         |
+| Screenshots       | ✔         |
+| Saves             | ✔         |
+| States            | ✔         |
+| Rewind            | ✔         |
+| Netplay           | ✔         |
+| Core Options      | ✔         |
+| RetroAchievements | ✔         |
+| RetroArch Cheats  | ✔         |
 | Native Cheats     | ✕         |
-| Controllers       | ✓         |
+| Controls          | ✔         |
+| Remapping         | ✕         |
 | Multi-Mouse       | -         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
-| Subsystem         | ✓         |
+| Subsystem         | ✔         |
+| Softpatching      | ✔         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
 
-The bsnes-mercury Accuracy core creates directories named 'bsnes-mercury' in RetroArch's...
+### Directories
 
-* Savefile directory when the core is loaded.
-* Statestate directory when the core is loaded.
-* Config directory when a Core Override or a Game Override or a Game-options file is saved.
-* Input Remapping directory when a Core Remap or a Game Remap is saved.
-* Shaders Presets directory when a Core Preset or a Game Preset is saved.
+The bsnes-mercury Accuracy core's directory name is 'bsnes-mercury'
 
-Core Overrides/Remaps/Presets that are saved will be named 'bsnes-mercury'.
+The bsnes-mercury Accuracy core saves/loads to/from these directories.
 
-Game Overrides/Remaps/Presets and Game-option files will have the same name as the loaded content.
+**RetroArch's Save directory**
 
-Game data is saved/loaded to and from the core's save directory.
+- 'content-name'.srm (Cartridge battery save)
 
-Save states are saved/loaded to and from the core's state directory.
+**RetroArch's State directory**
 
-## Options
+- 'content-name'.state# (State)
 
-*The bsnes-mercury Accuracy core has the following options that can be tweaked from the core options menu. The default setting is bolded.*
+### Geometry and timing
 
-- **Allow settings to reduce accuracy** (**Off**/On): Respect accuracy-impacting settings.
-- **Special chip accuracy** (**LLE**/HLE): Choose whether to use LLE (real BIOS) or HLE (emulated BIOS) for enhancement chips. HLE is less accurate but also less demanding for the special chips. The Allow settings to reduce accuracy core option must be enabled in order for this to function properly. The ST-0011 and ST-0018 co-processors cannot be HLE'd.
-- **SuperFX speed** (**100%**/150%/200%/300%/400%/500%/1000%): Overclock the [SuperFX chip](https://en.wikipedia.org/wiki/Super_FX). 100% is stock clockspeed. The Allow settings to reduce accuracy core option must be enabled in order for this to function properly.
-- **System region** (**auto**/ntsc/pal): Choose which region the system is from.
-- **Preferred aspect ratio** (**auto**/ntsc/pal): Choose the preferred aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. 
-- **Crop overscan** (**Off**/On):  Crop out the potentially random glitchy video output that would have been hidden by the bezel around the edge of a standard-definition television screen.
-- **Gamma ramp (requires restart)** (**Off**/On): Simulates the way a console’s display device differs from modern computer monitor’s colour reproduction. In particular, it simulates the slightly-different gamma correction used by the Super Famicom.
+- The Snes9x core's internal FPS is 60 except for PAL games. PAL games are 50 fps.
+- The bsnes-mercury Accuracy core's internal sample rate is (Rate)
+- The bsnes-mercury Accuracy core's core provided aspect ratio is dependent on the ['Preferred aspect ratio' core option](https://docs.libretro.com/library/bsnes_mercury_accuracy#core-options).
+
+### Super Gameboy Support
+
+!!! warning
+	Super Gameboy support in this core is **command-line only**, **Windows only** and has **buggy save state support** and **visual glitches**. **Use the [higan Accuracy core](https://docs.libretro.com/library/higan_accuracy#super-gameboy-support) or the [nSide Balanced core](https://docs.libretro.com/library/nside_balanced#super-gameboy-support) for simplified, functional, and easily accessible Super Gameboy support.**
+
+Super Gameboy is supported via the Subsystem API. In RetroArch the Subsystem API is only available via [CLI](https://buildbot.libretro.com/docs/guides/cli-intro/).
+
+For SGB support, you need both the sgb.boot.rom (in RetroArch's system directory) and a SNES Super Game Boy ROM. 
+
+To launch SGB games, launch RetroArch like this:
+
+retroarch -L {path to bsnes core} {path to SNES Super Game Boy ROM} --subsystem sgb {path to GB rom}
+
+!!! warning
+	Super Game Boy ROM and GB roms must be unzipped.
+
+### MSU-1 Support
+
+Awaiting description.
+
+## Core options
+
+The bsnes-mercury Accuracy core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
+
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
+
+- **Allow settings to reduce accuracy** (**Off**/On)
+
+<center> Respect accuracy-impacting settings. </center>
+
+- **Special chip accuracy** (**LLE**/HLE)
+
+<center> Choose whether to use LLE (real BIOS) or HLE (emulated BIOS) for enhancement chips. HLE is less accurate but also less demanding for the special chips. The Allow settings to reduce accuracy core option must be enabled in order for this to function properly. The ST-0011 and ST-0018 co-processors cannot be HLE'd. </center>
+
+- **SuperFX speed** (**100%**/150%/200%/300%/400%/500%/1000%)
+
+<center> Overclock the [SuperFX chip](https://en.wikipedia.org/wiki/Super_FX). 100% is stock clockspeed. The Allow settings to reduce accuracy core option must be enabled in order for this to function properly. </center>
+
+- **System region** (**auto**/ntsc/pal)
+
+<center> Choose which region the system is from. </center>
+
+- **Preferred aspect ratio** (**auto**/ntsc/pal)
+
+<center> Choose the preferred aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. </center>
+
+- **Crop overscan** (**Off**/On)
+
+<center> Crop out the potentially random glitchy video output that would have been hidden by the bezel around the edge of a standard-definition television screen. </center>
+
+- **Gamma ramp (requires restart)** (**Off**/On)
+
+<center> Simulates the way a console’s display device differs from modern computer monitor’s colour reproduction. In particular, it simulates the slightly-different gamma correction used by the Super Famicom. </center>
 
 ??? note "Gamma ramp - Disabled"
-    ![gamma_ramp_disabled](images/Cores/bsnes_mercury/gamma_ramp_disabled.png)
+    ![](images/Cores/higan/gamma_off.png)
 	
 ??? note "Gamma ramp - Enabled"
-    ![gamma_ramp_enabled](images/Cores/bsnes_mercury/gamma_ramp_enabled.png)
+    ![](images/Cores/higan/gamma_on.png)
 
 ## Controllers
 
-*The bsnes-mercury Accuracy core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+### Device types
 
-### User 1 Device Type(s)
+The bsnes-mercury Accuracy core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-* **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad without analog
+#### User 1 device types
 
-* [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
+- None - Doesn't disable input.
+- **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad
+- [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
 
-### User 2 Device Type(s)
+#### User 2 device types
 
-* **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad without analog
+- None - Doesn't disable input.
+- **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad
+- [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
+- [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad - Allows for up to five players to play together in certain games.
+- [SuperScope](https://en.wikipedia.org/wiki/Super_Scope) - Lightgun
+- [Justifier](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun
+- [Justifiers](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun - Two Justifiers are plugged in, for two-player Justifier games.
 
-* [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
+### Multitap support
 
-* [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad without analog - allows for up to five players to play together in certain games.
+Activating multitap support in compatible games can be configured by switching to the [Multitap device type](https://docs.libretro.com/library/bsnes_mercury_accuracy#controllers) for User 2.
 
-* [SuperScope](https://en.wikipedia.org/wiki/Super_Scope) - Lightgun
+### Controller tables
 
-* [Justifier](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun
+#### Joypad and analog device type table
 
-* [Justifiers](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun - Two Justifiers are plugged in, for two-player Justifier games.
+| User 1 - 5 Input descriptors  | RetroPad Inputs                              | SNES Joypad / Multitap |
+|-------------------------------|----------------------------------------------|------------------------|
+| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                      |
+| Y                             | ![](images/RetroPad/Retro_Y_Round.png)       | Y                      |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                 |
+| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start                  |
+| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up               |
+| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down             |
+| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left             |
+| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right            |
+| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                      |
+| X                             | ![](images/RetroPad/Retro_X_Round.png)       | X                      |
+| L                             | ![](images/RetroPad/Retro_L1.png)            | L                      |
+| R                             | ![](images/RetroPad/Retro_R1.png)            | R                      |
 
-### User 3 - 16 Device Type(s)
+#### Mouse device type table
 
-* **RetroPad** - Joypad without analog
+| User 1 - 2 Input descriptors  | RetroMouse Inputs                       | SNES Mouse               |
+|-------------------------------|------------------------------------------|-------------------------|
+|                               | ![](images/RetroMouse/Retro_Mouse.png)   | SNES Mouse Cursor       |
+|                               | ![](images/RetroMouse/Retro_Left.png)    | SNES Mouse Left Button  |
+|                               | ![](images/RetroMouse/Retro_Right.png)   | SNES Mouse Right Button |
 
-### Controllers graph
+#### Lightgun device type table
 
-| bsnes mercury Accuracy | RetroPad                                               | *SNES Joypad / Multitap*                                |
-|------------------------|--------------------------------------------------------|---------------------------------------------------------|
-| B                      | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)       | ![SNES_B](images/Button_Pack/SNES/SNES_B.png)           |
-| Y                      | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)       | ![SNES_Y](images/Button_Pack/SNES/SNES_Y.png)           |
-| Select                 | ![RetroPad_Select](images/RetroPad/Retro_Select.png)   | ![SNES_Select](images/Button_Pack/SNES/SNES_Select.png) |
-| Start                  | ![RetroPad_Start](images/RetroPad/Retro_Start.png)     | ![SNES_Start](images/Button_Pack/SNES/SNES_Start.png)   |
-| D-Pad Up               | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)    | ![SNES_Dpad](images/Button_Pack/SNES/SNES_Dpad.png)     |
-| D-Pad Down             | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)  | ![SNES_Dpad](images/Button_Pack/SNES/SNES_Dpad.png)     |
-| D-Pad Left             | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)  | ![SNES_Dpad](images/Button_Pack/SNES/SNES_Dpad.png)     |
-| D-Pad Right            | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png) | ![SNES_Dpad](images/Button_Pack/SNES/SNES_Dpad.png)     |
-| A                      | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)       | ![SNES_A](images/Button_Pack/SNES/SNES_A.png)           |
-| X                      | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)       | ![SNES_X](images/Button_Pack/SNES/SNES_X.png)           |
-| L                      | ![RetroPad_L1](images/RetroPad/Retro_L1.png)           | ![SNES_L](images/Button_Pack/SNES/SNES_L.png)           |
-| R                      | ![RetroPad_R1](images/RetroPad/Retro_R1.png)           | ![SNES_R](images/Button_Pack/SNES/SNES_R.png)           |
-
-| **RetroMouse**                                                                                                  | *SNES Mouse* | *SuperScope* | *Justifier(s)* |
-|-----------------------------------------------------------------------------------------------------------------|--------------|--------------|----------------|
-| ![Retro_Mouse](images/RetroMouse/Retro_Mouse.png)                                                               | Pointer      | Pointer      | Pointer        |
-| ![Retro_Left](images/RetroMouse/Retro_Left.png)                                                                 | Left Button  | Trigger      | Trigger        |
-| ![Retro_Middle](images/RetroMouse/Retro_Middle.png)                                                             |              | ???          |                |
-| ![Retro_Right](images/RetroMouse/Retro_Right.png)                                                               | Right Button | Turbo        | Turbo          |
-| ![Retro_Left+Middle](images/RetroMouse/Retro_Left+Middle.png)                                                   |              | Pause        | Pause          |
-| ![Retro_Right+Middle](images/RetroMouse/Retro_Right+Middle.png)                                                 |              | Start        | Start          |
-| ![Retro_Left+Middle](images/RetroMouse/Retro_Left+Middle.png) + ![Retro_Left](images/RetroMouse/Retro_Left.png) |              | Reset        | Reset          |
+| User 2 Input descriptors      | RetroLightgun Inputs | SuperScope           | Justifier(s)        |
+|-------------------------------|----------------------|----------------------|---------------------|
+|                               | Gun                  | SuperScope Crosshair | Justifier Crosshair |
+|                               | Gun Trigger          | SuperScope Trigger   | Justifier Trigger   |
+|                               | Gun Cursor           | SuperScope Cursor    |                     |
+|                               | Gun Turbo            | SuperScope Turbo     | Justifier Offscreen |
+|                               | Gun Pause            | SuperScope Pause     | Justifier Start     |
 
 ## Compatibility
 
 The bsnes-mercury Accuracy core fully emulates all SNES games that have ever been officially released. 
 
-### Super Gameboy Support
-
-!!! warning
-	Super Gameboy support in this core is command-line only, Windows only and has buggy save state support and visual glitches. **Use the [higan Accuracy](https://buildbot.libretro.com/docs/library/higan_accuracy) core for simplified, functional, and easily accessible Super Gameboy support.**
-
-Super Gameboy is supported via the Subsystem API. In RetroArch the Subsystem API is only available via [CLI](https://buildbot.libretro.com/docs/guides/cli-intro/).
-
-For SGB support, you need both the sgb.boot.rom (in RetroArch's system directory) and a SNES Super Game Boy ROM.
-
-To launch SGB games, launch RetroArch like this:
-    retroarch -L {path to bsnes core} {path to SNES Super Game Boy ROM} --subsystem sgb {path to GB rom}
-	
-**Super Game Boy ROM and GB roms must be unzipped**
-	
-### MSU-1 Support
-
--	
-
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/bsnes-mercury)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
-* [Official Website](https://byuu.org/)
-* [Official Upstream Downloads](https://byuu.org/emulation/higan/)
+- [Libretro bsnes-mercury Accuracy Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/bsnes_mercury_accuracy_libretro.info)
+- [Libretro bsnes-mercury Accuracy Github Repository](https://github.com/libretro/bsnes-mercury)
+- [Report Libretro bsnes-mercury Accuracy Core Issues Here](https://github.com/libretro/bsnes-mercury/issues)
+- [Official higan Website](https://byuu.org/)
+- [Official higan Upstream Downloads](https://byuu.org/emulation/higan/)
