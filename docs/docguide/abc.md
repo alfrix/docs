@@ -1,5 +1,4 @@
-This is a list of cores available through RetroArch's Online Updater
-Also includes the Ubuntu Nightly PPA and internal cores
+// This is a list of cores available through RetroArch's Online Updater
 
 3D Engine
 4DO
@@ -107,6 +106,7 @@ Snes9x 2005
 Snes9x 2005 Plus
 Snes9x 2010
 Stella
+TempGBA
 TGB Dual
 TyrQuake
 UME 2014

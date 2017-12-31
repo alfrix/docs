@@ -2,11 +2,11 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_pce_fast.md). Changes are proposed using "Pull Requests."
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_pce_fast.md). Changes are proposed using "Pull Requests."**
 
-There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
 
-You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
@@ -85,7 +85,7 @@ Required or optional firmware files go in RetroArch's system directory.
 | gexpress.pce  | Game Express CD Card - Optional       |                                  |
 
 !!! attention
-	Which BIOS file the Beetle PCE FAST core will use can be configured by the ['CD BIOS' core option](https://docs.libretro.com/library/beetle_pce_fast#core-options).
+	Which PCE CD BIOS file the Beetle PCE FAST core will use can be configured by the ['CD BIOS' core option](https://docs.libretro.com/library/beetle_pce_fast#core-options).
 
 ## Features
 
@@ -163,99 +163,99 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 - **CD Image Cache (Restart)** (**Off**/On)
 
-<center> Loads the complete image in memory at startup. Can potentially decrease loading times at the cost of increased startup time. </center>
+	Loads the complete image in memory at startup. Can potentially decrease loading times at the cost of increased startup time.
 
 - **CD Bios (Restart)** (**System Card 3**/Games Express/System Card 1/System Card 2)
 
-<center> Select which CD BIOS to use. </center>
+	Select which PC Engine CD BIOS to use.
 
 - **No Sprite Limit (Restart)** (**Off**/On)
 
-<center> Self-explanatory. </center>
+	Remove 16-sprites-per-scanline hardware limit.
 
 - **CPU Overclock Multiplier (Restart)** (**1**/2/3/4/5/6/7/8/9/10/20/30/40/50)
 
-<center> Awaiting description. </center>
+	Overclock the emulated CPU.
 
 - **Horizontal Overscan (352 Width Mode Only)** (300 to 352 in increments of 2. **352 in default**.)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **Initial scanline** (0 to 40 in increments of 1. **3 is default.**)
 
-<center> Adjust first display scanline. </center>
+	Adjust first display scanline.
 
 - **Last scanline** (208 to 242 in increments of 1. **242 is default.**)
 
-<center> Adjust last display scanline. </center>
+	Adjust last display scanline.
 
 - **(CD) CDDA Volume %** (0 to 200 in increments of 10. **100 is default**.)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **(CD) ADPCM Volume %** (0 to 200 in increments of 10. **100 is default**.)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **(CD) CD PSG Volume %** (0 to 200 in increments of 10. **100 is default**.)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **(CD) CD Speed** (**1**/2/4/8),
 
-<center> Set the speed of the emulated CD drive. </center>
+	Set the speed of the emulated CD drive.
 
 - **Turbo Delay** (**Fast**/Medium/Slow)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **Turbo ON/OFF Toggle** (**Off**/On)
 
-<center> Look at the [Controllers table section](https://docs.libretro.com/library/beetle_pce_fast#Controllers-tables) for more information. </center>
+	Enables Turbo ON/OFF inputs. Look at the [Controllers table section](https://docs.libretro.com/library/beetle_pce_fast#controller-tables) for more information.
 
 - **Alternate Turbo Hotkey** (**Off**/On)
 
-<center> Look at the [Controllers table section](https://docs.libretro.com/library/beetle_pce_fast#Controllers-tables) for more information. </center>
+	Enables Alternate Turbo ON/OFF inputs. You can avoid remapping Button III and IV when switching to 6-button gamepad mode with this. Look at the [Controllers table section](https://docs.libretro.com/library/beetle_pce_fast#controller-tables) for more information.
 
 - **P1 Turbo I** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P1 Turbo II** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P2 Turbo I** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P2 Turbo II** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P3 Turbo I** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P3 Turbo II** (**Off**On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P4 Turbo I** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P4 Turbo II** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P5 Turbo I** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **P5 Turbo II** (**Off**/On)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 ## Controllers
 
@@ -273,36 +273,40 @@ The Beetle PCE FAST core supports the following device type(s) in the controls m
 
 #### Joypad and analog device type table
 
-| User 1 - 5 Input descriptors  | RetroPad Inputs                              | PCE Joypad 2-button mode  | PCE Joypad 6-button mode |
-|-------------------------------|----------------------------------------------|---------------------------|--------------------------|
-| II                            | ![](images/RetroPad/Retro_B_Round.png)       | II                        | II                       |
-| III                           | ![](images/RetroPad/Retro_Y_Round.png)       | II Turbo On/Off           | III                      |
-| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                    | Select                   |
-| Run                           | ![](images/RetroPad/Retro_Start.png)         | Run                       | Run                      |
-| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up                  | D-Pad Up                 |
-| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down                | D-Pad Down               |
-| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left                | D-Pad Left               |
-| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right               | D-Pad Right              |
-| I                             | ![](images/RetroPad/Retro_A_Round.png)       | I                         | I                        |
-| IV                            | ![](images/RetroPad/Retro_X_Round.png)       | I Turbo On/Off            | IV                       |
-| V                             | ![](images/RetroPad/Retro_L1.png)            |                           | V                        |
-| VI                            | ![](images/RetroPad/Retro_R1.png)            |                           | VI                       |
-| Mode Switch                   | ![](images/RetroPad/Retro_L2.png)            | Mode Switch               | Mode Switch              |
-|                               | ![](images/RetroPad/Retro_L3.png)            | Alternate II Turbo On/Off |                          |
-|                               | ![](images/RetroPad/Retro_R3.png)            | Alternate I Turbo On/Off  |                          |
+| User 1 - 5 Remap descriptors  | RetroPad Inputs                              | PCE Joypad 2-button mode    | PCE Joypad 6-button mode |
+|-------------------------------|----------------------------------------------|-----------------------------|--------------------------|
+| II                            | ![](images/RetroPad/Retro_B_Round.png)       | II                          | II                       |
+| III                           | ![](images/RetroPad/Retro_Y_Round.png)       | II Turbo On/Off †           | III                      |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                      | Select                   |
+| Run                           | ![](images/RetroPad/Retro_Start.png)         | Run                         | Run                      |
+| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up                    | D-Pad Up                 |
+| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down                  | D-Pad Down               |
+| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left                  | D-Pad Left               |
+| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right                 | D-Pad Right              |
+| I                             | ![](images/RetroPad/Retro_A_Round.png)       | I                           | I                        |
+| IV                            | ![](images/RetroPad/Retro_X_Round.png)       | I Turbo On/Off †            | IV                       |
+| V                             | ![](images/RetroPad/Retro_L1.png)            |                             | V                        |
+| VI                            | ![](images/RetroPad/Retro_R1.png)            |                             | VI                       |
+| Mode Switch                   | ![](images/RetroPad/Retro_L2.png)            | Mode Switch                 | Mode Switch              |
+|                               | ![](images/RetroPad/Retro_L3.png)            | Alternate II Turbo On/Off § |                          |
+|                               | ![](images/RetroPad/Retro_R3.png)            | Alternate I Turbo On/Off  § |                          |
 
 !!! attention
 	Which PCE Joypad button mode is in use can be configured by the Mode Switch input.
+
+†
 	
 !!! attention
 	The regular Turbo inputs for 2-button mode are only active when the ['Turbo ON/OFF Toggle' core option](https://docs.libretro.com/library/beetle_pce_fast#core-options) is set to On.
+	
+§
 	
 !!! attention
 	The Alternate Turbo inputs for 2-button mode are only active when the ['Turbo ON/OFF Toggle' core option](https://docs.libretro.com/library/beetle_pce_fast#core-options) is set to On and the ['Alternate Turbo Hotkey' core option](https://docs.libretro.com/library/beetle_sgx#core-options) is set to On.
 
 #### Mouse device type table
 
-| User 1 - 2 Input descriptors  | RetroMouse Inputs                        | Mouse              |
+| User 1 - 5 Remap descriptors  | RetroMouse Inputs                        | Mouse              |
 |-------------------------------|------------------------------------------|--------------------|
 |                               | ![](images/RetroMouse/Retro_Mouse.png)   | -                  |
 |                               | ![](images/RetroMouse/Retro_Left.png)    | -                  |

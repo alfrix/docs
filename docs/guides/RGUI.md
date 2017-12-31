@@ -2,8 +2,6 @@
 
 RGUI is a simple built-in GUI for RetroArch. It was originally introduced in the Wii port of RetroArch in order to provide the console experience, where everything is controlled from a joypad. RGUI was later refitted for PC and mobile ports.
 
-RGUI is currently only supported on hardware accelerated video drivers (OpenGL / D3D).
-
 ![RGUI startup screen](images/rgui/rgui.png)
 
 ## Features
