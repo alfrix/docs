@@ -2,11 +2,11 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_sgx.md). Changes are proposed using "Pull Requests."
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_sgx.md). Changes are proposed using "Pull Requests."**
 
-There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
 
-You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
@@ -82,7 +82,7 @@ Required or optional firmware files go in RetroArch's system directory.
 | gexpress.pce  | Game Express CD Card - Optional       |                                  |
 
 !!! attention
-	Which BIOS file the Beetle SGX core will use can be configured by the ['CD BIOS' core option](https://docs.libretro.com/library/beetle_sgx#core-options).
+	Which PCE CD BIOS file the Beetle SGX core will use can be configured by the ['CD BIOS' core option](https://docs.libretro.com/library/beetle_sgx#core-options).
 
 ## Features
 
@@ -160,75 +160,85 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 - **CD Image Cache (Restart)** (**Off**/On) 
 
-<center> Loads the complete image in memory at startup. Can potentially decrease loading times at the cost of increased startup time. </center>
+	Loads the complete image in memory at startup. Can potentially decrease loading times at the cost of increased startup time.
 
 - **CD Bios (Restart)** (**System Card 3**/Games Express/System Card 1/System Card 2)
 
-<center> Select which CD BIOS to use. </center>
+	Select which PC Engine CD BIOS to use.
 
 - **Force SuperGrafx Emulation (Restart)** (**Off**/On)
+	
+	This is helpful to run homebrew games or isolate games that will not run in SuperGrafx mode. (like Space Harrier).
 
-<center> Awaiting description. </center>
-
+!!! attention
+	**Savestates are not compatible with each mode.** It's better to leave this option at default (Off) unless needed. Known Supergrafx games (like Dai-Makaimura, Aldyns) will automatically switch to SuperGrafx regardless of this option.
+	
 - **No Sprite Limit (Restart)** (**Off**/On)
 
-<center> Self-explanatory. </center>
+	Remove 16-sprites-per-scanline hardware limit.
 
 - **CPU Overclock Multiplier (Restart)** (**1**/2/3/4/5/6/7/8/9/10/20/30/40/50)
 
-<center> Awaiting description. </center>
+	Overclock the emulated CPU.
 
 - **Horizontal Overscan (352 Width Mode Only)** (300 to 352 in increments of 2. **352 in default**.)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **Initial scanline** (0 to 40 in increments of 1. **3 is default.**)
 
-<center> Adjust first display scanline. </center>
+	Adjust first display scanline.
 
 - **Last scanline** (208 to 242 in increments of 1. **242 is default.**)
 
-<center> Adjust last display scanline. </center>
+	Adjust last display scanline.
 
 - **(CD) CDDA Volume %** (0 to 200 in increments of 10. **100 is default**.)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **(CD) ADPCM Volume %** (0 to 200 in increments of 10. **100 is default**.)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **(CD) CD PSG Volume %** (0 to 200 in increments of 10. **100 is default**.)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **(CD) CD Speed** (**1**/2/4/8)
 
-<center> Set the speed of the emulated CD drive. </center>
+	Set the speed of the emulated CD drive.
 
 - **Turbo Delay** (**3**/4/5/6/7/8/9/10/11/12/13/14/15/30/60/2)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 - **Turbo ON/OFF Toggle** (**Off**/On)
 
-<center> Look at the [Controllers table section](https://docs.libretro.com/library/beetle_sgx#Controllers-tables) for more information. </center>
+	Enables Turbo ON/OFF inputs. Look at the [Controllers table section](https://docs.libretro.com/library/beetle_sgx/#controller-tables) for more information.
 
 - **Alternate Turbo Hotkey** (**Off**/On)
 
-<center> Look at the [Controllers table section](https://docs.libretro.com/library/beetle_sgx#Controllers-tables) for more information.  </center>
+	Enables Alternate Turbo ON/OFF inputs. You can avoid remapping Button III and IV when switching to 6-button gamepad mode with this. Look at the [Controllers table section](https://docs.libretro.com/library/beetle_sgx/#controller-tables) for more information.
+
+- **Mouse Sensitivity** (1.00 to 5.00 in increments of 0.25. **1.00 is default**.)
+
+	Configure the Mouse device type's sensitivity.
 
 - **Aspect Ratio** (**auto**/6:5/4:3)
 
-<center> Configure the core provided aspect ratio.. </center>
+	Select an auto (PAR) aspect ratio, or a 6:5 (Used to be default) aspect ratio, or a 4:3 TV aspect ratio.
 
+!!! attention
+	When using games that constantly switches between 256 and 352 modes and using auto aspect, its best to set Horizontal width to 342 as to minimize resizing and extra black lines since this width is in ratio of 256-width mode(or something like that, just test with Asuka 100% which is one of the game that switches between these modes)
+	
 ## Controllers
 
 ### Device types
 
 The Beetle SGX core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 - 2 device types
+#### User 1 - 5 device types
 
 - None - Doesn't disable input.
 - **PCE Joypad** - Joypad
@@ -238,40 +248,44 @@ The Beetle SGX core supports the following device type(s) in the controls menu, 
 
 #### Joypad and analog device type table
 
-| User 1 - 5 Input descriptors  | RetroPad Inputs                              | PCE Joypad 2-button mode  | PCE Joypad 6-button mode |
-|-------------------------------|----------------------------------------------|---------------------------|--------------------------|
-| II                            | ![](images/RetroPad/Retro_B_Round.png)       | II                        | II                       |
-| III                           | ![](images/RetroPad/Retro_Y_Round.png)       | II Turbo On/Off           | III                      |
-| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                    | Select                   |
-| Run                           | ![](images/RetroPad/Retro_Start.png)         | Run                       | Run                      |
-| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up                  | D-Pad Up                 |
-| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down                | D-Pad Down               |
-| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left                | D-Pad Left               |
-| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right               | D-Pad Right              |
-| I                             | ![](images/RetroPad/Retro_A_Round.png)       | I                         | I                        |
-| IV                            | ![](images/RetroPad/Retro_X_Round.png)       | I Turbo On/Off            | IV                       |
-| V                             | ![](images/RetroPad/Retro_L1.png)            |                           | V                        |
-| VI                            | ![](images/RetroPad/Retro_R1.png)            |                           | VI                       |
-| Mode Switch                   | ![](images/RetroPad/Retro_L2.png)            | Mode Switch               | Mode Switch              |
-|                               | ![](images/RetroPad/Retro_L3.png)            | Alternate II Turbo On/Off |                          |
-|                               | ![](images/RetroPad/Retro_R3.png)            | Alternate I Turbo On/Off  |                          |
+| User 1 - 5 Remap descriptors  | RetroPad Inputs                              | PCE Joypad 2-button mode    | PCE Joypad 6-button mode |
+|-------------------------------|----------------------------------------------|-----------------------------|--------------------------|
+| II                            | ![](images/RetroPad/Retro_B_Round.png)       | II                          | II                       |
+| III                           | ![](images/RetroPad/Retro_Y_Round.png)       | II Turbo On/Off †           | III                      |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                      | Select                   |
+| Run                           | ![](images/RetroPad/Retro_Start.png)         | Run                         | Run                      |
+| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up                    | D-Pad Up                 |
+| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down                  | D-Pad Down               |
+| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left                  | D-Pad Left               |
+| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right                 | D-Pad Right              |
+| I                             | ![](images/RetroPad/Retro_A_Round.png)       | I                           | I                        |
+| IV                            | ![](images/RetroPad/Retro_X_Round.png)       | I Turbo On/Off †            | IV                       |
+| V                             | ![](images/RetroPad/Retro_L1.png)            |                             | V                        |
+| VI                            | ![](images/RetroPad/Retro_R1.png)            |                             | VI                       |
+| Mode Switch                   | ![](images/RetroPad/Retro_L2.png)            | Mode Switch                 | Mode Switch              |
+|                               | ![](images/RetroPad/Retro_L3.png)            | Alternate II Turbo On/Off § |                          |
+|                               | ![](images/RetroPad/Retro_R3.png)            | Alternate I Turbo On/Off  § |                          |
 
 !!! attention
 	Which PCE Joypad button mode is in use can be configured by the Mode Switch input.
+
+†
 	
 !!! attention
 	The regular Turbo inputs for 2-button mode are only active when the ['Turbo ON/OFF Toggle' core option](https://docs.libretro.com/library/beetle_sgx#core-options) is set to On.
+
+§	
 	
 !!! attention
 	The Alternate Turbo inputs for 2-button mode are only active when the ['Turbo ON/OFF Toggle' core option](https://docs.libretro.com/library/beetle_sgx#core-options) is set to On and the ['Alternate Turbo Hotkey' core option](https://docs.libretro.com/library/beetle_sgx#core-options) is set to On.
 
 #### Mouse device type table
 
-| User 1 - 2 Input descriptors  | RetroMouse Inputs                        | Mouse              |
+| User 1 - 5 Remap descriptors  | RetroMouse Inputs                        | Mouse              |
 |-------------------------------|------------------------------------------|--------------------|
-|                               | ![](images/RetroMouse/Retro_Mouse.png)   | -                  |
-|                               | ![](images/RetroMouse/Retro_Left.png)    | -                  |
-|                               | ![](images/RetroMouse/Retro_Right.png)   | -                  |
+|                               | ![](images/RetroMouse/Retro_Mouse.png)   | Mouse Cursor       |
+|                               | ![](images/RetroMouse/Retro_Left.png)    | Left Button        |
+|                               | ![](images/RetroMouse/Retro_Right.png)   | Right Button       |
 
 ## Compatibility
 

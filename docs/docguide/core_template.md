@@ -293,7 +293,7 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 - **Core Option** (**Setting1**/Setting2)
 
-<center> Awaiting description. </center>
+	Awaiting description.
 
 ??? note "Core Option - Setting"
 	![](images\Cores\folder\screenshot_name.png)
@@ -354,7 +354,7 @@ Rumble only works in the (Core name) core when
 
 #### Joypad and analog device type table
 
-| User # Input descriptors      | RetroPad Inputs                              | (Device name)      |
+| User # Remap descriptors      | RetroPad Inputs                              | (Device name)      |
 |-------------------------------|----------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroPad/Retro_B_Round.png)       | -                  |
 | Action 2                      | ![](images/RetroPad/Retro_Y_Round.png)       | -                  |
@@ -379,7 +379,7 @@ Rumble only works in the (Core name) core when
 
 #### Keyboard device type table
 
-| User # Input descriptors      | RetroKeyboard Inputs          | (Device name)      |
+| User # Remap descriptors      | RetroKeyboard Inputs          | (Device name)      |
 |-------------------------------|-------------------------------|--------------------|
 | Action 1                      | Keyboard Backspace            | -                  |
 | Action 2                      | Keyboard Tab                  | -                  |
@@ -520,7 +520,7 @@ Rumble only works in the (Core name) core when
 
 #### Mouse device type table
 
-| User # Input descriptors      | RetroMouse Inputs                        | (Device name)      |
+| User # Remap descriptors      | RetroMouse Inputs                        | (Device name)      |
 |-------------------------------|------------------------------------------|--------------------|
 | Action 1                      | ![](images/RetroMouse/Retro_Mouse.png)   | -                  |
 | Action 2                      | ![](images/RetroMouse/Retro_Left.png)    | -                  |
@@ -535,7 +535,7 @@ Rumble only works in the (Core name) core when
 
 #### Lightgun device type table
 
-| User # Input descriptors      | RetroLightgun Inputs | (Device name)      |
+| User # Remap descriptors      | RetroLightgun Inputs | (Device name)      |
 |-------------------------------|----------------------|--------------------|
 | Action 1                      | Gun                  | -                  |
 | Action 2                      | Gun Trigger          | -                  |
@@ -552,7 +552,7 @@ Rumble only works in the (Core name) core when
 
 #### Pointer device type table
 
-| User # Input descriptors      | RetroPointer Inputs | (Device name)      |
+| User # Remap descriptors      | RetroPointer Inputs | (Device name)      |
 |-------------------------------|---------------------|--------------------|
 | Action 1                      | Pointer             | -                  |
 | Action 2                      | Pointer Pressed     | -                  |
