@@ -157,10 +157,10 @@ Notable Cx4 Games:
 | st011.program.rom      | ST011 co-processor firmware - Optional | 95222ebf1c0c2990bcf25db43743f032 |
 | st018.data.rom         | ST018 co-processor firmware - Optional | 49c898b60d0f15e90d0ba780dd12f366 |
 | st018.program.rom      | ST018 co-processor firmware - Optional | dda40ccd57390c96e49d30a041f9a9e7 |
-| SGB1.sfc/sgb1.boot.rom | SGB Boot BIOS - Optional               | d574d4f9c12f305074798f54c091a8b4 |
-| SGB1.sfc/program.rom   | SGB Boot Image - Optional              |                                  |
-| SGB2.sfc/sgb2.boot.rom | SGB Boot BIOS - Optional               | d574d4f9c12f305074798f54c091a8b4 |
-| SGB2.sfc/program.rom   | SGB Boot Image - Optional              |                                  |
+| SGB1.sfc/sgb1.boot.rom | Super Game Boy BIOS - Optional         |                                  |
+| SGB1.sfc/program.rom   | Super Game Boy ROM - Optional          |                                  |
+| SGB2.sfc/sgb2.boot.rom | Super Game Boy 2 BIOS - Optional       |                                  |
+| SGB2.sfc/program.rom   | Super Game Boy 2 ROM - Optional        |                                  |
 
 !!! attention
 	Firmware files for SGB emulation need to be in directories called SGB1.sfc and SGB2.sfc in RetroArch's system directory. Look at the [Super GameBoy support section](https://docs.libretro.com/library/nside_balanced#super-gameboy-support) for more information.
@@ -244,6 +244,9 @@ Load a SGB-supported GB/GBC rom.
 **Done**
 
 ![](images/Cores/higan/sgb.png)
+
+!!! warning
+	There may be graphical glitches when Rewind is set to On in RetroArch's settings.
 
 ### MSU-1 Support
 

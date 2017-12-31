@@ -2,7 +2,7 @@
 
 ### SNES
 
-- [SNES / Super Famicom (Beetle bsnes)](https://docs.libretro.com/library/beetle_snes/)
+- [SNES / Super Famicom (Beetle bsnes)](https://docs.libretro.com/library/beetle_bsnes/)
 - [SNES / Super Famicom (bsnes Accuracy)](https://docs.libretro.com/library/bsnes_accuracy/)
 - [SNES / Super Famicom (bsnes Balanced)](https://docs.libretro.com/library/bsnes_balanced/)
 - [SNES / Super Famicom (bsnes C++98 (v085))](https://docs.libretro.com/library/bsnes_cplusplus98/)

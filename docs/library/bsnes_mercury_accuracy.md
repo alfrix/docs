@@ -160,7 +160,7 @@ Notable Cx4 Games:
 | st011.program.rom | ST011 co-processor firmware            | 95222ebf1c0c2990bcf25db43743f032 |
 | st018.data.rom    | ST018 co-processor firmware            | 49c898b60d0f15e90d0ba780dd12f366 |
 | st018.program.rom | ST018 co-processor firmware            | dda40ccd57390c96e49d30a041f9a9e7 |
-| sgb.boot.rom      | SGB Boot BIOS                          | d574d4f9c12f305074798f54c091a8b4 |
+| sgb.boot.rom      | Super Game Boy 1 or 2 BIOS             |                                  |
 
 ## Features
 

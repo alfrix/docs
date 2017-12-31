@@ -115,7 +115,7 @@ pages:
         - 'Nintendo DS (DeSmuME)': 'library/desmume.md'
         - 'Nintendo DS (melonDS)': 'library/melonds.md'
         - 'Pokémon Mini (PokeMini)': 'library/pokemini.md'
-        - 'SNES / Super Famicom (Beetle bsnes)': 'library/beetle_snes.md'
+        - 'SNES / Super Famicom (Beetle bsnes)': 'library/beetle_bsnes.md'
         - 'SNES / Super Famicom (bsnes Accuracy)': 'library/bsnes_accuracy.md'
         - 'SNES / Super Famicom (bsnes Balanced)': 'library/bsnes_balanced.md'
         - 'SNES / Super Famicom (bsnes C++98 (v085))': 'library/bsnes_cplusplus98.md'
