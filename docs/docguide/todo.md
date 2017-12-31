@@ -186,19 +186,33 @@
 
 ### [〰️] bsnes-mercury Balanced
 
+- Improve background section
+- Imrpove why use this core section
 - Add a MSU-1 support guide
-- Does this support BS-X games?
 - Test the Super Gameboy guide to see if it works
-- Does this support Sufami Turbo games?
-- Needs Crop overscan core option screenshots
+- Improve Super GameBoy support section.
+- Needs Crop overscan core option screenshots 
+- New Lightgun API
+- Multi-Mouse support?
+- Sufami Turbo support?
+- Satellaview/BS-X support?
+- Verify controllers table.
+- Add internal sample rate.
 
 ### [〰️] bsnes-mercury Performance
 
+- Improve background section
+- Imrpove why use this core section
 - Add a MSU-1 support guide
-- Does this support BS-X games?
 - Test the Super Gameboy guide to see if it works
-- Does this support Sufami Turbo games?
-- Needs Crop overscan core option screenshots
+- Improve Super GameBoy support section.
+- Needs Crop overscan core option screenshots 
+- New Lightgun API
+- Multi-Mouse support?
+- Sufami Turbo support?
+- Satellaview/BS-X support?
+- Verify controllers table.
+- Add internal sample rate.
 
 ### [〰️] bsnes Accuracy
 

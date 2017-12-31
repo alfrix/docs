@@ -72,7 +72,6 @@ The content should now start running!
 - [SNES / Super Famicom (bsnes Balanced)](https://docs.libretro.com/library/bsnes_balanced/)
 - [SNES / Super Famicom (bsnes C++98 (v085))](https://docs.libretro.com/library/bsnes_cplusplus98/)
 - [SNES / Super Famicom (bsnes Performance)](https://docs.libretro.com/library/bsnes_performance/)
-- [SNES / Super Famicom (bsnes-mercury Accuracy)](https://docs.libretro.com/library/bsnes_mercury_accuracy/)
 - [SNES / Super Famicom (bsnes-mercury Balanced)](https://docs.libretro.com/library/bsnes_mercury_balanced/)
 - [SNES / Super Famicom (bsnes-mercury Performance)](https://docs.libretro.com/library/bsnes_mercury_performance/)
 - [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
@@ -89,7 +88,7 @@ A summary of the licenses behind RetroArch and its cores have found [here](https
 
 The bsnes-mercury Accuracy core is licensed under
 
-- [GPLv3](https://github.com/libretro/bsnes-libretro/blob/libretro/COPYING)
+- [GPLv3](https://github.com/libretro/bsnes-mercury/blob/master/LICENSE)
 
 ## Extensions
 
@@ -180,7 +179,7 @@ RetroArch-level settings or features that the bsnes-mercury Accuracy core respec
 | RetroArch Cheats  | ✔         |
 | Native Cheats     | ✕         |
 | Controls          | ✔         |
-| Remapping         | ✕         |
+| Remapping         | ✔         |
 | Multi-Mouse       | -         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
@@ -209,7 +208,7 @@ The bsnes-mercury Accuracy core saves/loads to/from these directories.
 
 ### Geometry and timing
 
-- The Snes9x core's internal FPS is 60 except for PAL games. PAL games are 50 fps.
+- The bsnes-mercury Accuracy core's internal FPS is 60 except for PAL games. PAL games are 50 fps.
 - The bsnes-mercury Accuracy core's internal sample rate is (Rate)
 - The bsnes-mercury Accuracy core's core provided aspect ratio is dependent on the ['Preferred aspect ratio' core option](https://docs.libretro.com/library/bsnes_mercury_accuracy#core-options).
 
