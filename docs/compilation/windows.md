@@ -10,7 +10,7 @@ We recommend MinGW-W64 from MSYS2. You can download MSYS2 installer from [here](
 
 Follow the installation instructions and once finished start the MSYS2 shell.
 
-MSYS2 shell is a maintenance shell. We are going to use this shell to install the toolchain and other packages. First order of business is to update MSYS2:
+MSYS2 shell is a maintenance shell. We are going to use this shell to install the toolchain and other packages. First order of business is to update MSYS2. Start the MSYS2 Shell and run the following commands:
 
     :::bash
     $ pacman --noconfirm -Sy
@@ -62,7 +62,9 @@ Once these packages are installed close MSYS2 shell and open MinGW-w32 shell or 
 ### Building RetroArch
 
 The first step is to obtain RetroArch's source tree.
-You can clone the repository directly from [GitHub](https://github.com/libretro/RetroArch)
+You can find the repository directly at [GitHub](https://github.com/libretro/RetroArch)
+
+Start the MINGW64 or the MINGW32 shell depending on what you want to compile and run the following commands:
 
     :::bash
     $ git clone https://github.com/libretro/RetroArch.git retroarch
