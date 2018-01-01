@@ -240,7 +240,7 @@ The Beetle SGX core supports the following device type(s) in the controls menu, 
 
 #### User 1 - 5 device types
 
-- None - Doesn't disable input.
+- None - Input disabled.
 - **PCE Joypad** - Joypad
 - Mouse - Mouse
 
