@@ -2,7 +2,7 @@
 
 ## Contribute to this documentation
 
-**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/). Changes are proposed using "Pull Requests."**
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_cygne.md). Changes are proposed using "Pull Requests."**
 
 **There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
 
@@ -41,6 +41,8 @@ After this has finished downloading, the core should now be ready for use!
 - Browse to the folder that contains the content you want to run.
 
 - Select the content that you want to run.
+
+<center> ![](images\Cores\all\screenshot_name.png) </center>
 
 - If you are asked which core to select, choose 'WonderSwan/Color (Beetle Cygne)'.
 
@@ -97,7 +99,7 @@ RetroArch-level settings or features that the Beetle Cygne core respects.
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✔         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
@@ -111,7 +113,7 @@ The Beetle Cygne core saves/loads to/from these directories.
 
 **RetroArch's Save directory**
 
-- 'content-name'.sav (Cartridge backup save)
+- 'content-name'.srm (Cartridge backup save)
 
 **RetroArch's State directory**
 
@@ -137,9 +139,11 @@ The Beetle Cygne core supports the following device type(s) in the controls menu
 
 ### Controller tables
 
+### Controller tables
+
 #### Joypad and analog device type table
 
-| User 1 Input descriptors      | RetroPad Inputs                              | RetroPad                           |
+| User 1 Remap descriptors      | RetroPad Inputs                              | RetroPad                           |
 |-------------------------------|----------------------------------------------|------------------------------------|
 | B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                                  |
 |                               | ![](images/RetroPad/Retro_Select.png)        | Rotate screen and the active D-Pad |
