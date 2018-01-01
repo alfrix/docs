@@ -56,10 +56,10 @@ pages:
   - For Users:
     - Core Documentation:
       - Atari Cores:      
-        - 'Atari 2600 (Stella)': 'library/Stella.md'
+        - 'Atari 2600 (Stella)': 'library/stella.md'
         - 'Atari 7800 (ProSystem)': 'library/prosystem.md'
         - 'Atari 8-bit computer systems and 5200 (Atari800)': 'library/atari800.md'
-        - 'Atari Jaguar (Virtual Jaguar)': 'library/virtualjaguar.md'
+        - 'Atari Jaguar (Virtual Jaguar)': 'library/virtual_jaguar.md'
         - 'Atari Lynx (Beetle Handy)': 'library/beetle_handy.md'
         - 'Atari Lynx (Handy)': 'library/handy.md'
         - 'Atari ST/STE/TT/Falcon (Hatari)': 'library/hatari.md'
@@ -74,10 +74,10 @@ pages:
         - 'Rick Dangerous (XRick)': 'library/xrick.md'
         - 'Tomb Raider (OpenLara)': 'library/openlara.md'
       - Multi System Cores:
-        - 'Arcade (MAME 2003)': 'library/mame2003.md'
+        - 'Arcade (MAME 2003)': 'library/mame_2003.md'
       - Misc Cores:
         - '3D Engine': 'library/3d_engine.md'
-        - '3DO (4DO)': 'library/4DO.md'
+        - '3DO (4DO)': 'library/4do.md'
         - 'Amstrad CPC (Caprice32)': 'library/caprice32.md'
         - 'Amstrad CPC (CrocoDS)': 'library/crocods.md'
         - 'ChaiLove': 'library/chailove.md'
@@ -142,7 +142,7 @@ pages:
         - 'Sega MS/GG/MD/CD (Genesis Plus GX)': 'library/genesis_plus_gx.md'
         - 'Sega MS/MD/CD/32X (PicoDrive)': 'library/picodrive.md'
         - 'Sega Saturn (Beetle Saturn)': 'library/beetle_saturn.md'
-        - 'Sega Saturn (Yabause)': 'library/Yabause.md'
+        - 'Sega Saturn (Yabause)': 'library/yabause.md'
       - Sony Cores:
         - 'PlayStation (Beetle PSX)': 'library/beetle_psx.md'
         - 'PlayStation (Beetle PSX HW)': 'library/beetle_psx_hw.md'

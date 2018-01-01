@@ -19,7 +19,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | Core                                             			           | License                                                                                   | Non-commercial |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------|
 | [3D Engine](../library/3d_engine.md)             			           | [GPLv3](https://github.com/libretro/libretro-3dengine/blob/master/license)                |                |
-| [4DO](../library/4DO.md)                         			           | Non-commercial                                                                            | Non-commercial |
+| [4DO](../library/4do.md)                         			           | Non-commercial                                                                            | Non-commercial |
 | [2048](../library/2048.md)                       			           | [Public Domain](https://github.com/libretro/libretro-2048/blob/master/COPYING)            |                |
 | [Atari800](../library/atari800.md)               			           | [GPLv2](https://github.com/atari800/atari800/blob/master/COPYING)                         |                |
 | [Beetle bsnes](../library/beetle_bsnes.md)       			           | [GPLv2](https://github.com/libretro/beetle-bsnes-libretro/blob/master/COPYING)            |                |
@@ -82,7 +82,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Lutro](../library/lutro.md)							    	       | [MIT](https://github.com/libretro/libretro-lutro/blob/master/LICENSE)                     |                |
 | MAME																   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | MAME 2000												    	       | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
-| [MAME 2003](../library/mame2003.md)								   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
+| [MAME 2003](../library/mame_2003.md)								   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | MAME 2010                                                 		   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | MAME 2014                                                 		   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | MAME 2016                                                 		   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
@@ -123,7 +123,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Snes9x 2005](../library/snes9x_2005.md)                             | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
 | [Snes9x 2005 Plus](../library/snes9x_2005_plus.md)                   | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
 | [Snes9x 2010](../library/snes9x_2010.md)                             | [Non-commcercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt) | Non-commercial |
-| [Stella](../library/Stella.md)                                       | [GPLv2](https://github.com/stella-emu/stella/blob/master/License.txt)                     |                |
+| [Stella](../library/stella.md)                                       | [GPLv2](https://github.com/stella-emu/stella/blob/master/License.txt)                     |                |
 | [TGB Dual](../library/tgb_dual.md)                                   | [GPLv2](https://github.com/libretro/tgbdual-libretro/blob/master/docs/COPYING-2.0.txt)    |                |
 | [TyrQuake](../library/tyrquake.md)                                   | [GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)                         |                |
 | UME 2014                                                             | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
@@ -136,6 +136,6 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | VICE PLUS4                                                           | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
 | VICE VIC20                                                           | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
 | Video Processor                                                      | GPLv3                                                                                     |                |
-| [Virtual Jaguar](../library/virtualjaguar.md)                        | [GPLv3](https://github.com/libretro/virtualjaguar-libretro/blob/master/docs/GPLv3)        |                |
+| [Virtual Jaguar](../library/virtual_jaguar.md)                       | [GPLv3](https://github.com/libretro/virtualjaguar-libretro/blob/master/docs/GPLv3)        |                |
 | [XRick](../library/xrick.md)                                         | [GPLv3](https://github.com/libretro/xrick-libretro/blob/master/README)                    |                |
-| [Yabause](../library/Yabause.md)									   | [GPLv2](https://github.com/libretro/yabause/blob/master/yabause/COPYING)                  |                |
+| [Yabause](../library/yabause.md)									   | [GPLv2](https://github.com/libretro/yabause/blob/master/yabause/COPYING)                  |                |
