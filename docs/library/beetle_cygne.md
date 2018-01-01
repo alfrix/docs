@@ -42,8 +42,6 @@ After this has finished downloading, the core should now be ready for use!
 
 - Select the content that you want to run.
 
-<center> ![](images\Cores\all\screenshot_name.png) </center>
-
 - If you are asked which core to select, choose 'WonderSwan/Color (Beetle Cygne)'.
 
 The content should now start running!
