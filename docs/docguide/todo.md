@@ -535,6 +535,10 @@
 
 ### [〰️] PPSSPP
 
+- Improve background section
+- Complete why use this core section.
+- Complete and improve core option descriptions.
+
 ### [〰️] PrBoom
 
 ### [〰️] ProSystem
