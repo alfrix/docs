@@ -1,6 +1,6 @@
 # Libretro Documentation
 
-This is the source for the [libretro documentation](https://buildbot.libretro.com/docs/), powered by [MkDocs](http://www.mkdocs.org/).
+This is the source for the [libretro documentation](https://docs.libretro.com), powered by [MkDocs](http://www.mkdocs.org/).
 
 [MkDocs documentation](http://www.mkdocs.org/)
 
