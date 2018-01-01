@@ -216,31 +216,64 @@
 
 ### [〰️] bsnes Accuracy
 
+- Improve background section
+- Imrpove why use this core section
 - Add a MSU-1 support guide
-- Does this support BS-X games?
 - Test the Super Gameboy guide to see if it works
-- Does this support Sufami Turbo games?
+- Improve Super GameBoy support section.
+- Needs Crop overscan core option screenshots 
+- New Lightgun API
+- Multi-Mouse support?
+- Sufami Turbo support?
+- Satellaview/BS-X support?
+- Verify controllers table.
+- Add internal sample rate.
 
 ### [〰️] bsnes Balanced
 
+- Improve background section
+- Imrpove why use this core section
 - Add a MSU-1 support guide
-- Does this support BS-X games?
 - Test the Super Gameboy guide to see if it works
-- Does this support Sufami Turbo games?
+- Improve Super GameBoy support section.
+- Needs Crop overscan core option screenshots 
+- New Lightgun API
+- Multi-Mouse support?
+- Sufami Turbo support?
+- Satellaview/BS-X support?
+- Verify controllers table.
+- Add internal sample rate.
+
 
 ### [〰️] bsnes C++98 (v085)
 
-- Does this support Sufami Turbo games?
-- Does this support Super Gameboy games?
-- Does this support MSU-1 enhanced games?
-- Does this support BS-X games?
+- New Lightgun API
+- Multi-Mouse support?
+- Sufami Turbo support?
+- Super Game Boy support?
+- Satellaview/BS-X support?
+- MSU-1 support?
+- Other controllers?
+- Verify controllers table.
+- Add internal sample rate.
+- Complete compatibility section.
+- Add core provided aspect ratio.
 
 ### [〰️] bsnes Peformance
 
+- Improve background section
+- Imrpove why use this core section
 - Add a MSU-1 support guide
-- Does this support BS-X games?
 - Test the Super Gameboy guide to see if it works
-- Does this support Sufami Turbo games?
+- Improve Super GameBoy support section.
+- Needs Crop overscan core option screenshots 
+- New Lightgun API
+- Multi-Mouse support?
+- Sufami Turbo support?
+- Satellaview/BS-X support?
+- Verify controllers table.
+- Add internal sample rate.
+
 
 ### [〰️] Caprice32
 

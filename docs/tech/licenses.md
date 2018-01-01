@@ -22,7 +22,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [4DO](../library/4DO.md)                         			           | Non-commercial                                                                            | Non-commercial |
 | [2048](../library/2048.md)                       			           | [Public Domain](https://github.com/libretro/libretro-2048/blob/master/COPYING)            |                |
 | [Atari800](../library/atari800.md)               			           | [GPLv2](https://github.com/atari800/atari800/blob/master/COPYING)                         |                |
-| [Beetle bsnes](../library/beetle_snes.md)       			           | [GPLv2](https://github.com/libretro/beetle-bsnes-libretro/blob/master/COPYING)            |                |
+| [Beetle bsnes](../library/beetle_bsnes.md)       			           | [GPLv2](https://github.com/libretro/beetle-bsnes-libretro/blob/master/COPYING)            |                |
 | [Beetle Cygne](../library/beetle_wswan.md)       			           | [GPLv2](https://github.com/libretro/beetle-wswan-libretro/blob/master/COPYING)            |                |
 | [Beetle GBA](../library/beetle_gba.md)           			           | [GPLv2](https://github.com/libretro/beetle-gba-libretro/blob/master/COPYING)              |                |
 | [Beetle Handy](../library/beetle_lynx.md)        			           | [GPLv2](https://github.com/libretro/beetle-lynx-libretro/blob/master/COPYING)             |                |
@@ -71,7 +71,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | Fuse                                                                 | [GPLv3](https://github.com/libretro/fuse-libretro/blob/master/LICENSE)                    |                |
 | [Gambatte](../library/gambatte.md)                                   | [GPLv2](https://github.com/libretro/gambatte-libretro/blob/master/COPYING)                |                |
 | [Game Music Emu](../library/game_music_emu.md)            		   | [GPLv3](https://github.com/libretro/libretro-gme/blob/master/LICENSE)                     |                |
-| [Gearboy](../library/gearboy.md)                                                   	       | [GPLv3](https://github.com/libretro/Gearboy/blob/master/LICENSE)                          |                |
+| [Gearboy](../library/gearboy.md)                                     | [GPLv3](https://github.com/libretro/Gearboy/blob/master/LICENSE)                          |                |
 | [Genesis Plus GX](../library/genesis_plus_gx.md)          		   | [Non-commercial](https://github.com/libretro/Genesis-Plus-GX/blob/master/LICENSE.txt)     | Non-commercial |
 | [gpSP](../library/gpsp.md)                                           | [GPLv2](https://github.com/libretro/gpsp/blob/master/COPYING)                             |                |
 | [GW](../library/gw.md)                                               | [zlib](https://github.com/libretro/gw-libretro/blob/master/LICENSE)                       |                |
