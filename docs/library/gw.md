@@ -1,68 +1,108 @@
 # Handheld Electronic (GW)
 
+## Contribute to this documentation
+
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/gw.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
+
 ## Background
 
 A libretro core for Game & Watch simulators.
 
 It runs simulators converted from source code for the games available at [MADrigal](http://www.madrigaldesign.it/sim/).
 
-### Usage
+### Why use this core?
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+Awaiting description.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+### How to get and install the GW core:
 
-3. Browse through the list and select 'Handheld Electronic (GW)'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-4. After this has finished downloading, you will now need a Handheld Electronic game. We will be using Donkey Kong Jr. (Coleco) as an example. You can obtain Donkey Kong Jr. (Coleco) by going back to the previous menu screen. From there, select 'Content Downloader'.
+<center> ![](images\Cores\all\updater.png) </center>
 
-5. Select 'Handheld Electronic Game', then select 'Donkey Kong Jr. (Coleco).zip'. This should download and extract this file to RetroArch's Downloads directory.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
 
-#### How to play (after installation):
+<center> ![](images\Cores\all\info.png) </center>
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
+- Browse through the list and select 'Handheld Electronic (GW)'.
 
-2. Select 'Donkey Kong Jr. (Coleco).mgw'
+<center> ![](images\Cores\gw\gw.png) </center>
 
-3. If you are asked which core to select, choose 'Handheld Electronic (GW)'.
+After this has finished downloading, the core should now be ready for use!
 
-The game should now start running!
+#### How to start (after installation):
 
-### Author(s):
+1. Go back to RetroArch's main menu screen. Select 'Load Content'.
 
-Andre Leiradella
+2. Browse to the folder that contains the content you want to run.
 
-## Contribute to this documentation
+3. Select the content that you want to run.
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/gw.md). Changes are proposed using "Pull Requests."
+4. If you are asked which core to select, choose 'Handheld Electronic (GW)'.
+
+The content should now start running!
+
+##### Extra example
+
+As an extra example showcasing loading content with GW core, we will load the Donkey Kong (Coleco) game hosted on RetroArch's Content Downloader.
+
+1. First, you need to obtain Donkey Kong (Coleco)'s data files. You can do this by going to RetroArch's main menu screen. From there, select 'Content Downloader'.
+
+2. Select 'Handheld Electronic Game', then select 'Donkey Kong (Coleco).zip'. This should download and extract this file to RetroArch's Downloads directory.
+
+3. Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
+
+4. Select 'Donkey Kong (Coleco).mgw'
+
+5. If you are asked which core to select, choose 'Handheld Electronic (GW)'.
+
+The content should now start running!
+
+### Authors
+
+- Andre Leiradella
 
 ## License
 
-zlib
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The GW core is licensed under
+
+- [zlib](https://github.com/libretro/gw-libretro/blob/master/LICENSE)
 
 ## Extensions
 
-*Content that can be loaded by the GW core have the following file extensions.*
+Content that can be loaded by the GW core have the following file extensions:
 
-mgw
+- .mgw
 
-## Database(s)
-*RetroArch database(s) that are associated with the GW core*
+## Databases
 
-* Handheld Electronic Game
+RetroArch database(s) that are associated with the GW core:
+
+- [Handheld Electronic Game](https://github.com/libretro/libretro-database/blob/master/rdb/Handheld%20Electronic%20Game.rdb)
 
 ## Features
 
+RetroArch-level settings or features that the GW core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✕         |
+| Screenshots       | ✔         |
 | Saves             | ✕         |
 | States            | ✕         |
 | Rewind            | ✕         |
 | Netplay           | ✕         |
+| Core Options      | ✕         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -70,44 +110,68 @@ mgw
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+
+### Directories
 
 The GW core's directory name is 'Game & Watch'
 
+### Geometry and timing
+
+- The GW core's internal FPS is 60
+- The GW core's internal sample rate is 44100 Hz
+- The GW core's core provided aspect ratio is (Ratio)
+
 ## Controllers
 
-*The GW core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+### Device types
 
-### User 1 Device Type(s)
+The GW core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-* **Controller** - Joypad
+#### User 1 - 2 device types
 
-### User 2 - 16 Device Type(s)
+- None - Input disabled.
+- **Controller** - Joypad
 
-* **RetroPad** - Joypad
+### Controller tables
 
-### Controllers graph
+#### Joypad and analog device type table
 
-| GW        | RetroPad                                                       |
-|-----------|----------------------------------------------------------------|
-| B         | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| Y         | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-| Select    | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
-| Start     | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| Up        | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| Down      | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| Left      | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| Right     | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| A         | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-| X         | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
-| L1        | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
-| R1        | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
-| L2        | ![RetroPad_L2](images/RetroPad/Retro_L2_Temp.png)              |
-| R2        | ![RetroPad_R2](images/RetroPad/Retro_R2.png)                   |
-| L3        | ![RetroPad_L3](images/RetroPad/Retro_L3.png)                   |
-| R3        | ![RetroPad_R3](images/RetroPad/Retro_R3.png)                   |
+| User 1 Remap descriptors      | RetroPad Inputs                              | Controller         |
+|-------------------------------|----------------------------------------------|--------------------|
+| B                             | ![](images/RetroPad/Retro_B_Round.png)       | †                  |
+| Y                             | ![](images/RetroPad/Retro_Y_Round.png)       | †                  |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | Menu               |
+| Start                         | ![](images/RetroPad/Retro_Start.png)         | Select             |
+| Up                            | ![](images/RetroPad/Retro_Dpad_Up.png)       | †                  |
+| Down                          | ![](images/RetroPad/Retro_Dpad_Down.png)     | †                  |
+| Left                          | ![](images/RetroPad/Retro_Dpad_Left.png)     | †                  |
+| Right                         | ![](images/RetroPad/Retro_Dpad_Right.png)    | †                  |
+| A                             | ![](images/RetroPad/Retro_A_Round.png)       | †                  |
+| X                             | ![](images/RetroPad/Retro_X_Round.png)       | †                  |
+| L1                            | ![](images/RetroPad/Retro_L1.png)            | †                  |
+| R1                            | ![](images/RetroPad/Retro_R1.png)            | †                  |
+| L2                            | ![](images/RetroPad/Retro_L2.png)            | †                  |
+| R2                            | ![](images/RetroPad/Retro_R2.png)            | †                  |
+| L3                            | ![](images/RetroPad/Retro_L3.png)            | †                  |
+| R3                            | ![](images/RetroPad/Retro_R3.png)            | †                  |
+
+† What these inputs do are game specific.
+
+!!! attention
+	Without having anything selected, you can use the Select input to see a Controller overlay to see what the game specific inputs are.
+
+## Compatibility
+
+Awaiting description.
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/gw-libretro)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
-* [Official Website](http://www.madrigaldesign.it/sim/)
+- [Libretro GW Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/gw_libretro.info)
+- [Libretro GW Github Repository](https://github.com/libretro/gw-libretro)
+- [Report Libretro GW Core Issues Here](https://github.com/libretro/gw-libretro/issues)
+- [MADrigal Website](http://www.madrigaldesign.it/sim/)
