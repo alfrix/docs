@@ -103,6 +103,10 @@
 
 ### [〰️] Beetle NeoPop
 
+- Improve background section.
+- Complete why use this core section.
+- Complete compatibility section.
+
 ### [〰️] Beetle PC-FX
 
 ### [〰️] Beetle PCE FAST
@@ -640,7 +644,15 @@
 
 ### [✕] UME 2014
 
-### [✕] Uzem
+### [〰️] Uzem
+
+- Improve background section.
+- Complete why use this core section.
+- Add core updater screenshot.
+- Add content example screenshot.
+- Complete author section.
+- Complete compatiblity section.
+- Can't complete documentation, core doesn't start. https://github.com/libretro/libretro-uzem/issues/2
 
 ### [〰️] VBA-M
 

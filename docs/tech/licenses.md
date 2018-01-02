@@ -127,7 +127,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [TGB Dual](../library/tgb_dual.md)                                   | [GPLv2](https://github.com/libretro/tgbdual-libretro/blob/master/docs/COPYING-2.0.txt)    |                |
 | [TyrQuake](../library/tyrquake.md)                                   | [GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)                         |                |
 | UME 2014                                                             | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
-| Uzem                                                                 | [GPLv3](https://github.com/Uzebox/uzebox/blob/master/gpl-3.0.txt)                         |                |
+| [Uzem](../library/uzem.md)                                           | [GPLv3](https://github.com/Uzebox/uzebox/blob/master/gpl-3.0.txt)                         |                |
 | [VBA-M](../library/vba_m.md)                                         | [GPLv2](https://github.com/libretro/vbam-libretro/blob/master/doc/gpl.txt)                |                |
 | [VBA Next](../library/vba_next.md)                                   | GPLv2                                                                                     |                |
 | [vecx](../library/vecx.md)                                           | [GPLv3](https://github.com/libretro/libretro-vecx/blob/master/LICENSE.md)                 |                |

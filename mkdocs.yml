@@ -91,6 +91,7 @@ pages:
         - 'Neo Geo Pocket/Color (Beetle NeoPop)': 'library/beetle_neopop.md'
         - 'PocketCDG': 'library/pocketcdg.md'
         - 'ScummVM': 'library/scummvm.md'
+        - 'Uzebox (Uzem)': 'library/uzem.md'
         - 'Vectrex (vecx)': 'library/vecx.md'
         - 'WonderSwan/Color (Beetle Cygne)': 'library/beetle_cygne.md'
         - 'ZX81 (EightyOne)': 'library/eightyone.md'
