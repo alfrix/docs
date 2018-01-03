@@ -87,6 +87,7 @@ pages:
         - 'Game Music Emu': 'library/game_music_emu.md'
         - 'Imageviewer': 'library/imageviewer.md'
         - 'Lua Engine (Lutro)': 'library/lutro.md'
+        - 'MSX (fMSX)': 'library/fmsx.md'
         - 'MSX/SVI/ColecoVision/SG-1000 (blueMSX)': 'library/bluemsx.md'
         - 'Neo Geo Pocket/Color (Beetle NeoPop)': 'library/beetle_neopop.md'
         - 'PocketCDG': 'library/pocketcdg.md'
