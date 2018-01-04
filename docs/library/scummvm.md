@@ -1,62 +1,128 @@
 # ScummVM
 
-[ScummVM](http://scummvm.org) is an interpreter for point-and-click adventure games that can be used as a libretro core.
+## Contribute to this documentation
+
+**DOCUMENTATION IS A WORK IN PROGRESS**
+
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/scummvm.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
-ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed!
+ScummVM is an interpreter program which allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed
 
-### Author(s)
+### Why use this core?
 
-[ScummVM Team](http://www.scummvm.org/credits/)
+Awaiting description.
 
-## Contribute to this documentation
+### How to get and install the ScummVM core:
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/scummvm.md). Changes are proposed using "Pull Requests."
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+
+<center> ![](images\Cores\all\updater.png) </center>
+
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'ScummVM'.
+
+<center> ![](images\Cores\updater\screenshot_name.png) </center>
+
+After this has finished downloading, the core should now be ready for use!
+
+#### How to start (after installation):
+
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
+
+<center> ![](images\Cores\all\load.png) </center>
+
+- Browse to the folder that contains the content you want to run.
+
+- Select the content that you want to run.
+
+<center> ![](images\Cores\all\screenshot_name.png) </center>
+
+- If you are asked which core to select, choose 'ScummVM'.
+
+The content should now start running!
+
+### Authors
+
+- [ScummVM Team](http://www.scummvm.org/credits/)
 
 ## License
 
-GPLv2
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The ScummVM core is licensed under
+
+- [GPLv2](https://github.com/libretro/scummvm/blob/master/COPYING)
 
 ## Extensions
 
+Content that can be loaded by the ScummVM core have the following file extensions:
+
 - .scummvm
 
-## Database(s)
+## Databases
 
-*RetroArch database(s) that are associated with the ScummVM core*
+RetroArch database(s) that are associated with the ScummVM core:
 
-* [ScummVM.dat](https://github.com/libretro/libretro-database/blob/master/dat/ScummVM.dat)
+- [ScummVM](https://github.com/libretro/libretro-database/blob/master/rdb/ScummVM.rdb)
 
 ## Features
 
+RetroArch-level settings or features that the ScummVM core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
 | Saves             | ✔         |
 | States            | ✕         |
 | Rewind            | ✕         |
 | Netplay           | ✕         |
+| Core Options      | ✕         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✕         |
-| Remapping         | ✕         |
+| Controls          | ✔         |
+| Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
 
-### Installation
+### Directories
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+The ScummVM core's directory name is 'scummvm'
 
-2. Just to make sure we have the latest info files, select 'Update Core Info Files'. Wait until this is done. Then, select 'Core Updater'.
+The ScummVM core saves/loads to/from these directories.
 
-3. Browse through the list and select 'ScummVM'.
+**RetroArch's Save directory**
 
-4. Launch ScummVM by using: Main Menu > Load Core > ScummVM
+- Game saves
+
+**RetroArch's System directory**
+
+- scummvm.ini
+
+### Geometry and timing
+
+- The ScummVM core's internal FPS is 60
+- The ScummVM core's internal sample rate is 44100 Hz
+- The ScummVM core's core provided aspect ratio is 4/3
 
 ### Scanning Support
 
@@ -77,16 +143,63 @@ To allow launching ScummVM games from the menu, you'll need to do the following:
 
 This is an example of what the playlist would look like:
 
+```
     /storage/roms/scummvm/monkey/monkey.scummvm
     The Secret of Monkey Island
     /tmp/cores/scummvm_libretro.so
     ScummVM
     b0e2af30|crc
     ScummVM.lpl
+```
+	
+## Controllers
+
+### Device types
+
+The ScummVM core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
+
+#### User 1 device types
+
+- None - Doesn't disable input.
+- **RetroPad** - Joypad
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
+
+### Controller tables
+
+#### Joypad and analog device type table
+
+| User 1 Remap descriptors      | RetroPad Inputs                              | RetroPad         |
+|-------------------------------|----------------------------------------------|------------------|
+| Mouse Button 2                | ![](images/RetroPad/Retro_B_Round.png)       | Mouse Button 2   |
+|                               | ![](images/RetroPad/Retro_Y_Round.png)       |                  |
+| ScummVM GUI                   | ![](images/RetroPad/Retro_Select.png)        | ScummVM GUI      |
+| Esc                           | ![](images/RetroPad/Retro_Start.png)         | Esc              |
+| Mouse Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | Mouse Up         |
+| Mouse Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | Mouse Down       |
+| Mouse Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | Mouse Left       |
+| Mouse Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | Mouse Right      |
+| Mouse Button 1                | ![](images/RetroPad/Retro_A_Round.png)       | Mouse Button 1   |
+|                               | ![](images/RetroPad/Retro_Left_Stick.png) X  | Mouse Left/Right |
+|                               | ![](images/RetroPad/Retro_Left_Stick.png) Y  | Mouse Up/Down    |
+|                               | ![](images/RetroPad/Retro_Right_Stick.png) X |                  |
+|                               | ![](images/RetroPad/Retro_Right_Stick.png) Y |                  |
+
+#### Mouse device type table
+
+| RetroMouse Inputs                        | Mouse              |
+|------------------------------------------|--------------------|
+| ![](images/RetroMouse/Retro_Mouse.png)   | Mouse Cursor       |
+| ![](images/RetroMouse/Retro_Left.png)    | Mouse Left Button  |
+| ![](images/RetroMouse/Retro_Right.png)   | Mouse Right Button |
+
+## Compatibility
+
+[ScummVM Compatibility List](https://www.scummvm.org/compatibility/)
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/scummvm)
-* [Report Core Issues Here](https://github.com/libretro/scummvm/issues)
-* [Official Website](http://scummvm.org/)
-* [Official Repository](https://github.com/scummvm/scummvm)
+- [Libretro ScummVM Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/scummvm_libretro.info)
+- [Libretro ScummVM Github Repository](https://github.com/libretro/scummvm)
+- [Report Libretro ScummVM Core Issues Here](https://github.com/libretro/scummvm/issues)
+- [Official ScummVM Website](http://scummvm.org/)
+- [Official ScummVM Github Repository](https://github.com/scummvm/scummvm)
