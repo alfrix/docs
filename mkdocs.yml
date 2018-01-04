@@ -39,10 +39,9 @@ pages:
         - 'PlayStation Portable': 'compilation/psp.md'
         - 'PlayStation Vita/TV': 'compilation/psvita.md'
     - Documentation guide:
+      - 'To Do': 'docguide/todo.md'
       - 'Core Template': 'docguide/core_template.md'
       - 'See Also': 'docguide/see_also.md'
-      - 'To Do': 'docguide/todo.md'
-      - 'Libretro Wiki': 'docguide/wiki.md'
     - Technical:
       - 'Licenses': 'tech/licenses.md'
       - Protocols:
@@ -115,6 +114,7 @@ pages:
         - 'NES / Famicom (Nestopia UE)': 'library/nestopia_ue.md'
         - 'NES / Famicom (QuickNES)': 'library/quicknes.md'
         - 'Nintendo 3DS (Citra)': 'library/citra.md'
+        - 'Nintendo 64 (Mupen64Plus)': 'library/mupen64plus.md'
         - 'Nintendo DS (DeSmuME)': 'library/desmume.md'
         - 'Nintendo DS (melonDS)': 'library/melonds.md'
         - 'Pokémon Mini (PokeMini)': 'library/pokemini.md'
