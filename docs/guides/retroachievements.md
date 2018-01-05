@@ -105,7 +105,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [mGBA](https://github.com/libretro/mgba)                      | ✔         | |
 | [VBA Next](https://github.com/libretro/vba-next)              | ✔         | |
 | [VBA-M](https://github.com/libretro/vbam-libretro)            | ✔         | |
-| [Beetle GBA](https://github.com/libretro/beetle-gba-libretro) | ?         | [Core currently doesn't start at all](https://github.com/libretro/libretro-meta/issues/103) |
+| [Beetle GBA](https://github.com/libretro/beetle-gba-libretro) | ✕         | |
 | [gpSP](https://github.com/libretro/gpsp)                      | ✕         | |
 | [Meteor](https://github.com/libretro/meteor-libretro)         | ✕         | |
 
@@ -120,8 +120,8 @@ You can also check the progress of your friends and add comments on their trophi
 
 | Core                                                              | Supported |
 |-------------------------------------------------------------------|:---------:|
-| [Mupen 64 Plus](https://github.com/libretro/mupen64plus-libretro) | ✔         |
-| [Parallel N64](https://github.com/libretro/parallel-n64)          | ✔         |
+| [Mupen64Plus](https://github.com/libretro/mupen64plus-libretro)   | ✔         |
+| [ParaLLEl N64](https://github.com/libretro/parallel-n64)          | ✔         |
 
 ### Atari Lynx
 
