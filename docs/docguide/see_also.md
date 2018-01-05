@@ -18,7 +18,7 @@
 - [SNES / Super Famicom (Snes9x 2010)](https://docs.libretro.com/library/snes9x_2010/)
 - [SNES / Super Famicom (Snes9x)](https://docs.libretro.com/library/snes9x/)
 
-### Arcade
+### Multi System
 
 - [Arcade (FB Alpha 2012 CPS-1)](https://docs.libretro.com/library/fb_alpha_2012_cps_1/)
 - [Arcade (FB Alpha 2012 CPS-2)](https://docs.libretro.com/library/fb_alpha_2012_cps_2/)
@@ -31,6 +31,8 @@
 - [Arcade (MAME 2014)](https://docs.libretro.com/library/mame_2014/)
 - [Arcade (MAME 2016)](https://docs.libretro.com/library/mame_2016/)
 - [Arcade (MAME)](https://docs.libretro.com/library/mame/)
+- [MULTI (MESS 2014)](https://docs.libretro.com/library/mess_2014/)
+- [MULTI (UME 2014)](https://docs.libretro.com/library/ume_2014/)
 
 ### Atari Lynx
 
@@ -113,11 +115,6 @@
 
 - [MSX (fMSX)](https://docs.libretro.com/library/fmsx/)
 - [MSX/SVI/ColecoVision/SG-1000 (blueMSX)](https://docs.libretro.com/library/bluemsx/)
-
-### Multi
-
-- [MULTI (MESS 2014)](https://docs.libretro.com/library/mess_2014/)
-- [MULTI (UME 2014)](https://docs.libretro.com/library/ume_2014/)
 
 ### NEC PC-98
 
