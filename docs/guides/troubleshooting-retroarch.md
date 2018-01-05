@@ -18,6 +18,20 @@ If you're unsure about the result, run this test several times and see if the re
 ### Threaded video
 If your video driver has very bad performance, it is possible to run it on a thread to avoid almost all video driver overhead. Set video_threaded = true in config. Butter smooth VSync behavior in this case is impossible however, and latency might increase slighly. Use only if you cannot obtain full speed otherwise.
 
+### Low frame rate
+
+Make sure your system meets the requirement of the core you picked.
+
+ See if your core options aren't set too high for your system.
+ 
+Disable shaders.
+
+Lower the video scale setting.
+	
+Try another video driver.
+	
+Try enabling threaded video in the video options.
+
 ### Windows Vista and up video problems
 Windows Vista and up suffer problems with OpenGL in windowed mode where it appears to be impossible to obtain proper, smooth VSync behavior no matter what you do. If you are annoyed by this problem, and still want to play in windowed mode, you should use the D3D driver which doesn't have this problem. Disabling Aero sometimes helps OpenGL VSync behavior.
 
