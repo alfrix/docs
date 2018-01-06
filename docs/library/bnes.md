@@ -2,11 +2,13 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/bnes.md). Changes are proposed using "Pull Requests."
+**DOCUMENTATION IS A WORK IN PROGRESS**
 
-There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/bnes.md). Changes are proposed using "Pull Requests."**
 
-You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
@@ -16,25 +18,33 @@ A port of bNES v083 to libretro.
 
 Awaiting description.
 
-### How to get and install the bnes core:
+### How to install the bnes core:
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+<center> ![](images\Cores\all\updater.png) </center>
 
-3. Browse through the list and select 'NES / Famicom (bnes)'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'NES / Famicom (bnes)'.
+
+<center> ![](images\Cores\updater\bnes.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
 
-#### How to start (after installation):
+#### How to start the (Core name) core:
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content'.
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
 
-2. Browse to the folder that contains the content you want to run.
+<center> ![](images\Cores\all\load.png) </center>
 
-3. Select the content that you want to run.
+- Browse to the folder that contains the content you want to run.
 
-4. If you are asked which core to select, choose 'NES / Famicom (bnes)'.
+- Select the content that you want to run.
+
+- If you are asked which core to select, choose 'NES / Famicom (bnes)'.
 
 The content should now start running!
 
@@ -55,6 +65,8 @@ The content should now start running!
 ## License
 
 A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The bnes core is licensed under
 
 - [GPLv3](https://github.com/libretro/bnes-libretro/blob/master/license)
 
@@ -94,17 +106,34 @@ RetroArch-level settings or features that the bnes core respects.
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✔         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✔         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
 ### Directories
 
 The bnes core's directory name is 'bnes'
 
 The bnes core saves/loads to/from these directories.
+
+**RetroArch's Config directory**
+
+- bnes.cfg (Core Overrides)
+- 'content-name'.cfg (Game Overrides)
+- 'content-name'.opt (Game-options)
+
+**RetroArch's Input Remapping directory**
+
+- bnes.rmp (Core Remap)
+- 'content-name'.rmp (Game Remap)
+
+**RetroArch's Video Shader directory**
+
+- bnes.'shader-preset-extension' (Core Shader Preset)
+- 'content-name'.'shader-preset-extension' (Game Shader Preset)
 
 **RetroArch's Save directory**
 
@@ -116,17 +145,15 @@ The bnes core saves/loads to/from these directories.
 
 ### Geometry and timing
 
-- The bnes core's internal FPS is 60
-- The bnes core's internal sample rate is 32000 Hz
+- The bnes core's core provided FPS is 60
+- The bnes core's core provided sample rate is 32000 Hz
 - The bnes core's core provided aspect ratio is (Ratio)
 
 ## Controllers
 
-### Device types
-
 The bnes core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 - 4 device types
+### User 1 - 2 device types
 
 - None - Doesn't disable input.
 - **RetroPad** - Joypad
@@ -134,13 +161,13 @@ The bnes core supports the following device type(s) in the controls menu, bolded
 
 ### Controller tables
 
-#### Joypad and analog device type table
+#### Joypad
 
-| Users 1 - 4 Input descriptors | RetroPad Inputs                              |
+| User 1 - 2 Remap descriptors  | RetroPad Inputs                              |
 |-------------------------------|----------------------------------------------|
 | B                             | ![](images/RetroPad/Retro_B_Round.png)       |
-| Select                        | ![](images/RetroPad/Retro_Select.png)        |
-| Start                         | ![](images/RetroPad/Retro_Start.png)         |
+| Select                        | ![](images/RetroPad/Retro_Select.png)        | 
+| Start                         | ![](images/RetroPad/Retro_Start.png)         | 
 | D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       |
 | D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     |
 | D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     |
@@ -159,7 +186,7 @@ The bnes core supports the following device type(s) in the controls menu, bolded
 
 ??? note "(1)"
     ![](images/Cores/bnes/crisisforce.png)
-	
+
 ## External Links
 
 - [Libretro bnes Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/bnes_libretro.info)

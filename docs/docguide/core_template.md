@@ -21,6 +21,13 @@ Awaiting description.
 
 // Put background information for the core here.
 
+### Requirements
+// Optional section.
+
+Awaiting description.
+
+// Fill in hardware or software requirements for the core here.
+
 ### Why use this core?
 // Optional section.
 
@@ -234,11 +241,19 @@ The (Core name) core saves/loads to/from these directories.
 
 **RetroArch's Config directory**
 
-- . ()
+- (Core name).cfg (Core Overrides)
+- 'content-name'.cfg (Game Overrides)
+- 'content-name'.opt (Game-options)
 
-**RetroArch's Download directory**
+**RetroArch's Input Remapping directory**
 
-- . ()
+- (Core name).rmp (Core Remap)
+- 'content-name'.rmp (Game Remap)
+
+**RetroArch's Video Shader directory**
+
+- (Core name).'shader-preset-extension' (Core Shader Preset)
+- 'content-name'.'shader-preset-extension' (Game Shader Preset)
 
 **RetroArch's Save directory**
 
