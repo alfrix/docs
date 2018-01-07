@@ -191,5 +191,5 @@ Awaiting description.
 
 - [Libretro Gearboy Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/gearboy_libretro.info)
 - [Libretro Gearboy Github Repository](https://github.com/libretro/Gearboy)
-- [Report Libretro Gearboy Core Issues Here](https://github.com/libretro/libretro-meta/issues)
+- [Report Libretro Gearboy Core Issues Here](https://github.com/drhelius/Gearboy/issues)
 - [Official Gearboy Github Repository](https://github.com/drhelius/Gearboy)
