@@ -2,9 +2,13 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/vba_next.md). Changes are proposed using "Pull Requests."
+**DOCUMENTATION IS A WORK IN PROGRESS**
 
-There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/vba_next.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
@@ -14,25 +18,33 @@ VBA-Next is a Game Boy Advance emulator based on VBA-M 2011 with backported patc
 
 Awaiting description.
 
-### How to get and install the VBA Next core:
+### How to install the VBA Next core:
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+<center> ![](images\Cores\all\updater.png) </center>
 
-3. Browse through the list and select 'Game Boy Advance (VBA Next)'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'Game Boy Advance (VBA Next)'.
+
+<center> ![](images\Cores\updater\vba_next.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
 
-#### How to start (after installation):
+#### How to start the (Core name) core:
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content'.
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
 
-2. Browse to the folder that contains the content you want to run.
+<center> ![](images\Cores\all\load.png) </center>
 
-3. Select the content that you want to run.
+- Browse to the folder that contains the content you want to run.
 
-4. If you are asked which core to select, choose 'Game Boy Advance (VBA Next)'.
+- Select the content that you want to run.
+
+- If you are asked which core to select, choose 'Game Boy Advance (VBA Next)'.
 
 The content should now start running!
 
@@ -50,12 +62,13 @@ The content should now start running!
 - [Game Boy Advance (gpSP)](https://docs.libretro.com/library/gpsp/)
 - [Game Boy Advance (Meteor)](https://docs.libretro.com/library/meteor/)
 - [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
-- [Game Boy Advance (VBA Next)](https://docs.libretro.com/library/vba_next/)
-- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vbam/)
+- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vba_m/)
 
 ## License
 
 A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The VBA Next core is licensed under
 
 - GPLv2
 
@@ -81,10 +94,10 @@ Required or optional firmware files go in RetroArch's system directory.
 
 !!! warning
 	In order for the Game Boy Advance BIOS to be used, the 'Use bios if available' core option must be set to On.
-	
+
 ## Features
 
-RetroArch features that the VBA Next core respects.
+RetroArch-level settings or features that the VBA Next core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -111,12 +124,29 @@ RetroArch features that the VBA Next core respects.
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
 ### Directories
 
 The VBA Next core's directory name is 'VBA Next'
 
-The VBA Next core loads from and saves to to these directories.
+The VBA Next core saves/loads to/from these directories.
+
+**RetroArch's Config directory**
+
+- VBA Next.cfg (Core Overrides)
+- 'content-name'.cfg (Game Overrides)
+- 'content-name'.opt (Game-options)
+
+**RetroArch's Input Remapping directory**
+
+- VBA Next.rmp (Core Remap)
+- 'content-name'.rmp (Game Remap)
+
+**RetroArch's Video Shader directory**
+
+- VBA Next.'shader-preset-extension' (Core Shader Preset)
+- 'content-name'.'shader-preset-extension' (Game Shader Preset)
 
 **RetroArch's Save directory**
 
@@ -124,15 +154,13 @@ The VBA Next core loads from and saves to to these directories.
 
 **RetroArch's State directory**
 
-- 'content-name-.state# (State)
+- 'content-name'.state# (State)
 
 ### Geometry and timing
 
-The VBA Next core's internal FPS is 59.7275005696.
-
-The VBA Next core's internal sample rate is 32000 Hz
-
-The VBA Next core's core provided aspect ratio is 3/2
+- The VBA Next core's core provided FPS is 59.727
+- The VBA Next core's core provided sample rate is 32000 Hz
+- The VBA Next core's core provided aspect ratio is 3/2
 
 ## Core options
 
@@ -142,53 +170,59 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 - **Use bios if available (Restart)** (Off/**On**)
 
-<center> Self-explanatory. Look at the [BIOS section](https://docs.libretro.com/library/vba_next/#bios) for more information. </center>
+	Self-explanatory. Look at the [BIOS section](https://docs.libretro.com/library/vba_next/#bios) for more information.
 
 ??? note "Use bios if available - On"
 	![](images\Cores\vba_next\bios.png)
 
 ## Controllers
 
-### Device types
-
 The VBA Next core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 device types
+### User 1 device types
 
 - None - Doesn't disable input
 - **RetroPad** - Joypad
-- RetroPad w/Analog - Joypad - **There is no reason to switch to this**.
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
 
 ### Controller tables
 
-#### Joypad and analog device type table
+#### Joypad
 
-| User 1 input descriptors      | RetroPad Inputs                              | RetroPad           |
-|-------------------------------|----------------------------------------------|--------------------|
-| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                  |
-| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select             |
-| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start              |
-| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up           |
-| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down         |
-| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left         |
-| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right        |
-| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                  |
-| L                             | ![](images/RetroPad/Retro_L1.png)            | L                  |
-| R                             | ![](images/RetroPad/Retro_R1.png)            | R                  |
+| User 1 Remap descriptors | RetroPad Inputs                              |
+|--------------------------|----------------------------------------------|
+| B                        | ![](images/RetroPad/Retro_B_Round.png)       |
+| Select                   | ![](images/RetroPad/Retro_Select.png)        |
+| Start                    | ![](images/RetroPad/Retro_Start.png)         |
+| D-Pad Up                 | ![](images/RetroPad/Retro_Dpad_Up.png)       | 
+| D-Pad Down               | ![](images/RetroPad/Retro_Dpad_Down.png)     | 
+| D-Pad Left               | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| D-Pad Right              | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| A                        | ![](images/RetroPad/Retro_A_Round.png)       |
+| L                        | ![](images/RetroPad/Retro_L1.png)            |
+| R                        | ![](images/RetroPad/Retro_R1.png)            |
 
 ## Compatibility
 
-| Game                                  | Issue                          |
-|---------------------------------------|--------------------------------|
-|**Advanced Dungeons & Dragons - Deathkeep**| Random softlocks (music related?). |
-|**Alone in the Dark**|Unreadable text within books. Audio glitches. |
-|**DinoPark Tycoon**| 	Graphics glitches. |
-|**Eye of Typhoon, The**| 	Runs too fast. |
-|**Horde, The**| 	Graphics glitches. Minor graphical inaccuracy in bird's eye map. |
-|**Primal Rage**|Primal Rage|
-|**Psychic Detective**|Psychic Detective|
-|**Psychic Detective**|Psychic Detective|
-|**Tetsujin Return**| 	Graphics glitches. Missing graphics for obstacles in the driving scenes. |
+| Game                                              | Issue                                                                                              |
+|---------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| Boktai Trilogy 	                                | The solar sensor is not emulated.                                                                  | 
+| Croket! 2 – Yami no Bank to Banqueen              | Heavy slowdown when approaching the snowman in the beginning.                                      |
+| Digimon Racing (Europe) 	                        | Freezes during the intro. This can be avoided by enabling linking in the standalone VBA-M release. |
+| Drome Racers 	                                    | Only shows a black screen after the THQ logo.                                                      |
+| Hamtaro: Ham-Ham Games 	                        | Locks up if the opening cinematics aren’t skipped.                                                 |
+| Hot Wheels - Stunt Track Challenge                | Resets itself when trying to go in-game.                                                           |
+| Jurassic Park III: Park Builder 	                | Unreadable glitched text.                                                                          |
+| Koro Koro Puzzle Happy Panechu! 	                | The tilt sensor is not emulated.                                                                   |
+| Moto GP 	                                        | Black screen, loud screeching noise.                                                               |
+| Phantasy Star Collection 	                        | Digital Eclipse logo sound effect is missing. Phantasy Star 1 flickers.                            |
+| SSX 3 	                                        | Graphics glitches. Seems pitch-related. (1)                                                        |
+| Super Mario Advance 2: Super Mario World (Europe) | The program crashes during the final fight, when Bowser approaches (zoom mode 7)                   |
+| WarioWare: Twisted!                               | The tilt sensor is not emulated.                                                                   |
+| Yoshi’s Universal Gravitation                     | The tilt sensor is not emulated.                                                                   |
+
+??? note "1"
+	![](images/Cores/vba_next/ssx.png)
 
 ## External Links
 
