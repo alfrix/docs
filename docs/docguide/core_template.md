@@ -235,9 +235,9 @@ The (Core name) core saves/loads to/from these directories.
 
 // Fill in the (Core name).
 
-**RetroArch.exe directory**
+**RetroArch's Home directory**
 
-- . ()
+- retroarch-core-options.cfg (Core-options)
 
 **RetroArch's Config directory**
 
@@ -303,7 +303,7 @@ The (Core name) core has the following option(s) that can be tweaked from the co
 
 Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
-- **Core Option** (**Setting1**/Setting2)
+- **Core Option** [option-string] (**Setting1**/Setting2)
 
 	Awaiting description.
 
@@ -456,7 +456,7 @@ Rumble only works in the (Core name) core when
 | Keyboard q                   | -             |
 | Keyboard r                   | -             |
 | Keyboard s                   | -             |
-| Keyboard t                   | -             | 
+| Keyboard t                   | -             |
 | Keyboard u                   | -             |
 | Keyboard v                   | -             |
 | Keyboard w                   | -             |
@@ -551,7 +551,8 @@ Rumble only works in the (Core name) core when
 | RetroPointer Inputs                                                                                                  | (Device name) |
 |----------------------------------------------------------------------------------------------------------------------|---------------|
 | ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | -             | 
-| ![](images/RetroMouse/Retro_Left.png) or ![](images/Button_Pack/Gestures/Gesture_Tap.png) Pointer Pressed            | -             |  
+| ![](images/RetroMouse/Retro_Left.png) or ![](images/Button_Pack/Gestures/Gesture_Tap.png) Pointer Pressed            | -             |
+
 #### Lightgun
 
 | RetroLightgun Inputs                                 | (Device name) |
