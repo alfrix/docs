@@ -119,7 +119,7 @@ RetroArch-level settings or features that the VBA Next core respects.
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✔         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✔         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
