@@ -84,7 +84,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [bsnes-mercury Accuracy](https://github.com/libretro/bsnes-mercury)          | ✔         | |
 | [bsnes-mercury Balanced](https://github.com/libretro/bsnes-mercury)          | ✔         | |
 | [bsnes-mercury Performance](https://github.com/libretro/bsnes-mercury)       | ✔         | |
-| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro)            | ?         | [Core currently doesn't start at all](https://github.com/libretro/beetle-bsnes-libretro/issues/3) |
+| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro)            | ✕         | [
 | [bsnes C++98 (v085)](https://github.com/libretro/bsnes-libretro-cplusplus98) | ✔         | |
 
 ### Game Boy / Game Boy Color
