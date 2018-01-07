@@ -2,6 +2,8 @@
 
 ## Contribute to this documentation
 
+**DOCUMENTATION IS A WORK IN PROGRESS**
+
 **In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/gearboy.md). Changes are proposed using "Pull Requests."**
 
 **There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
@@ -26,7 +28,7 @@ Gearboy is a Nintendo Game Boy / GameBoy Color emulator written in C++.
 - Compressed rom support (ZIP deflate).
 - Multi platform. Runs on Windows, Linux, Mac OS X, Raspberry Pi and iOS.
 
-### How to get and install the Gearboy core:
+### How to install the Gearboy core:
 
 - Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
@@ -38,11 +40,11 @@ Gearboy is a Nintendo Game Boy / GameBoy Color emulator written in C++.
 
 - Browse through the list and select 'Game Boy / Game Boy Color (Gearboy)'.
 
-<center> ![](images\Cores\gearboy\gearboy.png) </center>
+<center> ![](images\Cores\updater\gearboy.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
 
-#### How to start (after installation):
+#### How to start the Gearboy core:
 
 - Go back to RetroArch's main menu screen. Select 'Load Content'.
 
@@ -51,8 +53,6 @@ After this has finished downloading, the core should now be ready for use!
 - Browse to the folder that contains the content you want to run.
 
 - Select the content that you want to run.
-
-<center> ![](images\Cores\all\gb.png) </center>
 
 - If you are asked which core to select, choose 'Game Boy / Game Boy Color (Gearboy)'.
 
@@ -71,6 +71,8 @@ The content should now start running!
 - [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
 - [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
 - [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
+- [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
 
 ## License
 
@@ -121,29 +123,46 @@ RetroArch-level settings or features that the Gearboy core respects.
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) |✕         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
 ### Directories
 
 The Gearboy core's directory name is 'Gearboy'
 
+The Gearboy core saves/loads to/from these directories.
+
+**RetroArch's Config directory**
+
+- Gearboy.cfg (Core Overrides)
+- 'content-name'.cfg (Game Overrides)
+- 'content-name'.opt (Game-options)
+
+**RetroArch's Input Remapping directory**
+
+- Gearboy.rmp (Core Remap)
+- 'content-name'.rmp (Game Remap)
+
+**RetroArch's Video Shader directory**
+
+- Gearboy.'shader-preset-extension' (Core Shader Preset)
+- 'content-name'.'shader-preset-extension' (Game Shader Preset)
+
 ### Geometry and timing
 
-- The Gearboy core's internal FPS is 59.727
-- The Gearboy core's internal sample rate is 44100 Hz
+- The Gearboy core's core provided FPS is 59.727
+- The Gearboy core's core provided sample rate is 44100 Hz
 - The Gearboy core's core provided aspect ratio is (Ratio)
 
 ## Controllers
 
-### Device types
-
 The Gearboy core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 device types
+### User 1 device types
 
 - None - Doesn't disable input.
 - **RetroPad** - Joypad
@@ -151,18 +170,18 @@ The Gearboy core supports the following device type(s) in the controls menu, bol
 
 ### Controller tables
 
-#### Joypad and analog device type table
+#### Joypad
 
-| User 1 Input descriptors      | RetroPad Inputs                              | Nintendo Gameboy   |
-|-------------------------------|----------------------------------------------|--------------------|
-| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                  |
-| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select             |
-| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start              |
-| Up                            | ![](images/RetroPad/Retro_Dpad_Up.png)       | Up                 |
-| Down                          | ![](images/RetroPad/Retro_Dpad_Down.png)     | Down               |
-| Left                          | ![](images/RetroPad/Retro_Dpad_Left.png)     | Left               |
-| Right                         | ![](images/RetroPad/Retro_Dpad_Right.png)    | Right              |
-| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                  |
+| User 1 Remap descriptors for 'Nintendo Gameboy' device type | RetroPad Inputs                              |
+|-------------------------------------------------------------|----------------------------------------------|
+| B                                                           | ![](images/RetroPad/Retro_B_Round.png)       |
+| Select                                                      | ![](images/RetroPad/Retro_Select.png)        |
+| Start                                                       | ![](images/RetroPad/Retro_Start.png)         |
+| Up                                                          | ![](images/RetroPad/Retro_Dpad_Up.png)       |
+| Down                                                        | ![](images/RetroPad/Retro_Dpad_Down.png)     |
+| Left                                                        | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| Right                                                       | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| A                                                           | ![](images/RetroPad/Retro_A_Round.png)       |
 
 ## Compatibility
 
