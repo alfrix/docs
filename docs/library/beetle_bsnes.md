@@ -1,12 +1,8 @@
 # SNES / Super Famicom (Beetle bsnes)
 
-**[This core currently doesn't start](https://github.com/libretro/beetle-bsnes-libretro/issues/3) so this documentation will remain incomplete until it is fixed.**
-
-**[This core currently doesn't start](https://github.com/libretro/beetle-bsnes-libretro/issues/3) so this documentation will remain incomplete until it is fixed.**
-
-**[This core currently doesn't start](https://github.com/libretro/beetle-bsnes-libretro/issues/3) so this documentation will remain incomplete until it is fixed.**
-
 ## Contribute to this documentation
+
+**DOCUMENTATION IS A WORK IN PROGRESS**
 
 **In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_bsnes.md). Changes are proposed using "Pull Requests."**
 
@@ -22,7 +18,7 @@ Standalone port of Mednafen bSNES to libretro, itself a old fork of bsnes 0.59.
 
 This core exists as a side effect of porting/forking mednafen for its other cores in the past. There's no reason to use this core now that there's other more compatible and faster SNES cores.
 
-### How to get and install the Beetle bsnes core:
+### How to install the Beetle bsnes core:
 
 - Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
@@ -34,11 +30,11 @@ This core exists as a side effect of porting/forking mednafen for its other core
 
 - Browse through the list and select 'SNES / Super Famicom (Beetle bsnes)'.
 
-<center> ![](images\Cores\higan\beetle_bsnes.png) </center>
+<center> ![](images\Cores\updater\beetle_bsnes.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
 
-#### How to start (after installation):
+#### How to start the Beetle bsnes core:
 
 - Go back to RetroArch's main menu screen. Select 'Load Content'.
 
@@ -47,8 +43,6 @@ After this has finished downloading, the core should now be ready for use!
 - Browse to the folder that contains the content you want to run.
 
 - Select the content that you want to run.
-
-<center> ![](images\Cores\all\snes.png) </center>
 
 - If you are asked which core to select, choose 'SNES / Super Famicom (Beetle bsnes)'.
 
@@ -84,7 +78,7 @@ A summary of the licenses behind RetroArch and its cores have found [here](https
 
 The Beetle bsnes core is licensed under
 
-[GPLv2](https://github.com/libretro/beetle-bsnes-libretro/blob/master/COPYING)
+- [GPLv2](https://github.com/libretro/beetle-bsnes-libretro/blob/master/COPYING)
 
 ## Extensions
 
@@ -106,27 +100,100 @@ RetroArch database(s) that are associated with the Beetle bsnes core:
 
 ## Features
 
-Awaiting description.
+RetroArch-level settings or features that the Beetle bsnes core respects.
+
+| Feature           | Supported |
+|-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
+| Saves             | ✔         |
+| States            | ✔         |
+| Rewind            | ✔         |
+| Netplay           | ✔         |
+| Core Options      | ✕         |
+| RetroAchievements | ✕         |
+| RetroArch Cheats  | ✕         |
+| Native Cheats     | ✕         |
+| Controls          | ✔         |
+| Remapping         | ✕         |
+| Multi-Mouse       | ✕         |
+| Rumble            | ✕         |
+| Sensors           | ✕         |
+| Camera            | ✕         |
+| Location          | ✕         |
+| Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✔         |
+| LEDs              | ✕         |
 
 ### Directories
 
-Awaiting description.
+The Beetle bsnes core's directory name is 'Mednafen bSNES'
+
+The Beetle bsnes core saves/loads to/from these directories.
+
+**RetroArch's Config directory**
+
+- Mednafen bSNES.cfg (Core Overrides)
+- 'content-name'.cfg (Game Overrides)
+- 'content-name'.opt (Game-options)
+
+**RetroArch's Input Remapping directory**
+
+- Mednafen bSNES.rmp (Core Remap)
+- 'content-name'.rmp (Game Remap)
+
+**RetroArch's Video Shader directory**
+
+- Mednafen bSNES.'shader-preset-extension' (Core Shader Preset)
+- 'content-name'.'shader-preset-extension' (Game Shader Preset)
+
+**RetroArch's Save directory**
+
+- 'content-name'.srm (Cartridge battery save)
+- 'content-name'.rtc (Real time clock save)
+
+**RetroArch's State directory**
+
+- 'content-name'.state# (State)
 
 ### Geometry and timing
 
-Awaiting description.
-
-### Usage
-
-Awaiting description.
-
-## Core options
-
-Awaiting description.
+- The Beetle bsnes core's core provided FPS is 60
+- The Beetle bsnes core's core provided sample rate is 44100 Hz
+- The Beetle bsnes core's core provided aspect ratio is 4/3
 
 ## Controllers
 
-Awaiting description.
+The Beetle bsnes core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
+
+### User # - # device types
+
+- None - Doesn't disable input
+- **RetroPad** - Joypad
+- RetroPad w/Analog  - Joypad - There's no reason to switch to this.
+
+### Controller tables
+
+#### Joypad
+
+| User # Remap descriptors | RetroPad Inputs                              | RetroPad      |
+|--------------------------|----------------------------------------------|---------------|
+|                          | ![](images/RetroPad/Retro_B_Round.png)       | B             |
+|                          | ![](images/RetroPad/Retro_Y_Round.png)       | Y             |
+|                          | ![](images/RetroPad/Retro_Select.png)        | Select        |
+|                          | ![](images/RetroPad/Retro_Start.png)         | Start         |
+|                          | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up      |
+|                          | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down    |
+|                          | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left    |
+|                          | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right   |
+|                          | ![](images/RetroPad/Retro_A_Round.png)       | A             |
+|                          | ![](images/RetroPad/Retro_X_Round.png)       | X             |
+|                          | ![](images/RetroPad/Retro_L1.png)            | L             |
+|                          | ![](images/RetroPad/Retro_R1.png)            | R             |
 
 ## Compatibility
 

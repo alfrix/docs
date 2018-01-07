@@ -2,7 +2,13 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/picodrive.md). Changes are proposed using "Pull Requests."
+**DOCUMENTATION IS A WORK IN PROGRESS**
+
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/picodrive.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
@@ -11,18 +17,37 @@ PicoDrive is an open-source Sega 8/16 bit and 32X emulator which was written hav
 ### Why use this core?
 
 - Only libretro core that supports 32x emulation.
-
 - If your preferred device is too weak to run any other cores.
 
-### How to get and install the PicoDrive core:
+### How to install the PicoDrive core:
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+<center> ![](images\Cores\all\updater.png) </center>
 
-3. Browse through the list and select 'Sega MS/MD/CD/32X (PicoDrive)'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+
+<center> ![](images\Cores\all\info.png) </center>
+
+- Browse through the list and select 'Sega MS/MD/CD/32X (PicoDrive)'.
+
+<center> ![](images\Cores\updater\picodrive.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
+
+#### How to start the PicoDrive core:
+
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
+
+<center> ![](images\Cores\all\load.png) </center>
+
+- Browse to the folder that contains the content you want to run.
+
+- Select the content that you want to run.
+
+- If you are asked which core to select, choose 'Sega MS/MD/CD/32X (PicoDrive)'.
+
+The content should now start running!
 
 ### Authors
 
@@ -31,14 +56,18 @@ After this has finished downloading, the core should now be ready for use!
 
 ## See also
 
-- [Sega Master System (Emux)](https://buildbot.libretro.com/docs/library/emux_sms/)
-- [Sega MS/GG/MD/CD (Genesis Plus GX)](https://buildbot.libretro.com/docs/library/genesis_plus_gx/)
+### Sega 16-bit
+
+- [Sega Master System (Emux SMS)](https://docs.libretro.com/library/emux_sms/)
+- [Sega MS/GG/MD/CD (Genesis Plus GX)](https://docs.libretro.com/library/genesis_plus_gx/)
 
 ## License
 
-A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
-- [MAME](https://github.com/libretro/picodrive/blob/master/COPYING)
+The PicoDrive core is licensed under
+
+- [Non-commercial](https://github.com/libretro/picodrive/blob/master/COPYING)
 
 ## Extensions
 
@@ -65,7 +94,7 @@ RetroArch database(s) that are associated with the PicoDrive core:
 
 ## BIOS
 
-*Required or optional firmware files go in RetroArch's system directory.*
+Required or optional firmware files go in RetroArch's system directory.
 
 |   Filename    |    Description            |              md5sum              |
 |:-------------:|:-------------------------:|:--------------------------------:|
@@ -75,16 +104,21 @@ RetroArch database(s) that are associated with the PicoDrive core:
 
 ## Features
 
+RetroArch-level settings or features that the PicoDrive core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
 | Saves             | ✔         |
 | States            | ✔         |
 | Rewind            | ✔         |
 | Netplay           | ✔         |
+| Core Options      | ✔         |
 | RetroAchievements | ✔         |
 | RetroArch Cheats  | ✔         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -92,51 +126,140 @@ RetroArch database(s) that are associated with the PicoDrive core:
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✔         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
-### Saves/States
+### Directories
 
 The PicoDrive core's directory name is 'PicoDrive'
 
-Game data is saved/loaded to and from where save files are stored.
+The PicoDrive core saves/loads to/from these directories.
 
-- .srm (Battery save)
+**RetroArch's Config directory**
 
-Save states are saved/loaded to and from where state files are stored.
+- PicoDrive.cfg (Core Overrides)
+- 'content-name'.cfg (Game Overrides)
+- 'content-name'.opt (Game-options)
 
-- .state (State)
+**RetroArch's Input Remapping directory**
+
+- PicoDrive.rmp (Core Remap)
+- 'content-name'.rmp (Game Remap)
+
+**RetroArch's Video Shader directory**
+
+- PicoDrive.'shader-preset-extension' (Core Shader Preset)
+- 'content-name'.'shader-preset-extension' (Game Shader Preset)
+
+**RetroArch's Save directory**
+
+- 'content-name'.srm (Cartridge backup save)
+
+**RetroArch's State directory**
+
+- 'content-name'.state# (State)
+
+### Geometry and timing
+
+- The PicoDrive core's core provided FPS is 60 for NTSC games and 50 for PAL games.
+- The PicoDrive core's core provided sample rate is 44100 Hz
+- The PicoDrive core's core provided aspect ratio is dependent on the ['Core-provided aspect ratio' core option](https://docs.libretro.com/picodrive/#core-options).
+
+### Loading Sega CD content
+
+PicoDrive needs a cue-sheet that points to an image file. A cue sheet, or cue file, is a metadata file which describes how the tracks of a CD or DVD are laid out.
+
+If you have e.g. `foo.bin`, you should create a text file and save it as `foo.cue`. If you're playing a single-track Sega CD game, then the cue file contents should look like this:
+
+`foobin.cue`
+```
+ FILE "foo.bin" BINARY
+  TRACK 01 MODE1/2352
+   INDEX 01 00:00:00
+```
+
+After that, you can load the `foo.cue` file in RetroArch with the PicoDrive core.
+
+!!! attention
+    Certain Sega CD games are multi-track, so their .cue files might be more complicated.
+
+## Multiple-disk games
+
+If foo is a multiple-disk game, you should have .cue files for each one, e.g. `foo (Disc 1).cue`, `foo (Disc 2).cue`, `foo (Disc 3).cue`.
+
+To take advantage of PicoDrive's Disk Control feature for disk swapping, an index file (a m3u file) should be made.
+
+Create a text file and save it as `foo.m3u`. Then enter your game's .cue files on it. The m3u file contents should look something like this:
+
+`foo.m3u`
+```
+foo (Disc 1).cue
+foo (Disc 2).cue
+foo (Disc 3).cue
+```
+
+After that, you can load the `foo.m3u` file in RetroArch with the PicoDrive core.
 
 ## Core options
 
-The PicoDrive core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
+The PicoDrive core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
-- **Input device 1** (**3 button pad**/6 button pad/None): Choose which kind of controller is plugged in slot 1.
-- **Input device 2** (**3 button pad**/6 button pad/None): Choose which kind of controller is plugged in slot 2.
-- **No sprite limit** (**Off**/On): Enable this to remove the sprite limit.
-- **MegaCD RAM cart** (**Off**/On): Emulate a MegaCD RAM cart.
-- **Region** (**Auto**/Japan NTSC/Japan PAL/US/Europe): Force a specific region.
-- **Core-provided aspect ratio** (**PAR**/ 4/3 /CRT): Choose the core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. 
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
+
+- **Input device 1** (**3 button pad**/6 button pad/None)
+
+	Choose which kind of controller is plugged in slot 1.
+	
+- **Input device 2** (**3 button pad**/6 button pad/None)
+
+	Choose which kind of controller is plugged in slot 2.
+
+- **No sprite limit** (**Off**/On)
+
+	Enable this to remove the sprite limit.
+
+- **MegaCD RAM cart** (**Off**/On)
+
+	Emulate a MegaCD RAM cart.
+
+- **Region** (**Auto**/Japan NTSC/Japan PAL/US/Europe)
+
+	Force a specific region.
+
+- **Core-provided aspect ratio** (**PAR**/ 4/3 /CRT)
+
+	Choose the core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video seetings. 
 
 ??? note "Core-provided aspect ratio - PAR"
-	![PAR](images\Cores\picodrive\PAR.png)
+	![](images\Cores\picodrive\par.png)
 	
 ??? note "Core-provided aspect ratio - 4/3"
-	![4by3](images\Cores\picodrive\4by3.png)
+	![](images\Cores\picodrive\4by3.png)
 
 ??? note "Core-provided aspect ratio - CRT"
-	![CRT](images\Cores\picodrive\CRT.png)	
+	![](images\Cores\picodrive\crt.png)	
 
-- **Show Overscan** (**Off**/On): Crop out the potentially random glitchy video output that would have been hidden by the bezel around the edge of a standard-definition television screen.
+- **Show Overscan** (**Off**/On)
+
+	Crop out the potentially random glitchy video output that would have been hidden by the bezel around the edge of a standard-definition television screen.
 
 ??? note "Show Overscan - Off"
-	![overscan_off](images\Cores\picodrive\overscan_off.png)
+	![](images\Cores\picodrive\overscan_off.png)
 	
 ??? note "Show Overscan - On"
-	![overscan_on](images\Cores\picodrive\overscan_on.png)	
+	![](images\Cores\picodrive\overscan_on.png)	
 
-- **68k overclock** (**Off**/+25%/+50%/+75%/+100%/+200%/+400%): Overclock the emulated [68k chip](http://segaretro.org/M68000)
+- **68k overclock** (**Off**/+25%/+50%/+75%/+100%/+200%/+400%)
 
-- **Dynamic recompilers** (Off/**On**): Enable dynamic recompilers which help to improve performance. **This core option is not available on all hardware.**
+	Overclock the emulated [68k chip](http://segaretro.org/M68000)
+
+- **Dynamic recompilers** (Off/**On**)
+
+	Enable dynamic recompilers which help to improve performance. **This core option is not available on all hardware.**
 
 ## Controllers
 
@@ -144,25 +267,28 @@ The PicoDrive core supports the following device type(s) in the controls menu, b
 
 ### User 1 - 2 device types
 
-- **RetroPad** - Joypad with analog
-- RetroPad w/Analog - **There is no reason to switch to this.**
+- None - Doesn't disable input.
+- **RetroPad** - Joypad
+- RetroPad w/Analog  - Joypad - There's no reason to switch to this.
 
-### Controllers graph
+### Controller tables
 
-| PicoDrive   | RetroPad                                                       |
-|-------------|----------------------------------------------------------------|
-| B           | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| A           | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-| Mode        | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
-| Start       | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| D-Pad Up    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| D-Pad Down  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| D-Pad Left  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| D-Pad Right | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| C           | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-| Y           | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
-| X           | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
-| Z           | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
+#### Joypad
+
+| User 1 - 2 Remap descriptors | RetroPad Inputs                              | 3 button pad  | 6 button pad |
+|------------------------------|----------------------------------------------|---------------|--------------|
+| B                            | ![](images/RetroPad/Retro_B_Round.png)       | B             | B            |
+| A                            | ![](images/RetroPad/Retro_Y_Round.png)       | A             | A            |
+| Mode                         | ![](images/RetroPad/Retro_Select.png)        |               | Mode         |
+| Start                        | ![](images/RetroPad/Retro_Start.png)         | Start         | Start        |
+| D-Pad Up                     | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up      | D-Pad Up     |
+| D-Pad Down                   | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down    | D-Pad Down   |
+| D-Pad Left                   | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left    | D-Pad Left   |
+| D-Pad Right                  | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right   | D-Pad Right  |
+| C                            | ![](images/RetroPad/Retro_A_Round.png)       | C             | C            |
+| Y                            | ![](images/RetroPad/Retro_X_Round.png)       |               | Y            |
+| X                            | ![](images/RetroPad/Retro_L1.png)            |               | X            |
+| Z                            | ![](images/RetroPad/Retro_R1.png)            |               | Z            |
 
 ## Compatibility
 
@@ -183,5 +309,5 @@ The PicoDrive core supports the following device type(s) in the controls menu, b
 - [Libretro PicoDrive Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/picodrive_libretro.info)
 - [Libretro PicoDrive Github Repository](https://github.com/libretro/picodrive)
 - [Report Libretro PicoDrive Core Issues Here](https://github.com/libretro/picodrive/issues)
-* [Official Website](http://notaz.gp2x.de/pico.php)
-* [Official Repository](https://github.com/notaz/picodrive)
+- [Official PicoDrive Website](http://notaz.gp2x.de/pico.php)
+- [Official PicoDrive Github Repository](https://github.com/notaz/picodrive)
