@@ -106,7 +106,7 @@ RetroArch-level settings or features that the Beetle GBA core respects.
 | Rewind            | ✔         |
 | Netplay           | ✔ (not link-cable emulation) |
 | Core Options      | ✔         |
-| RetroAchievements | ✕         |
+| RetroAchievements | ✔         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
 | Controls          | ✕         |

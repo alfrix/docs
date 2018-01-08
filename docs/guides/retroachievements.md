@@ -58,6 +58,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [Nestopia UE](https://github.com/libretro/nestopia)   | ✕         | |
 | [bnes](https://github.com/libretro/bnes-libretro)     | ✕         | |
 | [Emux NES](https://github.com/libretro/emux)          | ✕         | |
+| [Mesen](https://github.com/SourMesen/Mesen)           | ✔         | |
 
 ### Master System / MegaDrive - Genesis
 
@@ -84,7 +85,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [bsnes-mercury Accuracy](https://github.com/libretro/bsnes-mercury)          | ✔         | |
 | [bsnes-mercury Balanced](https://github.com/libretro/bsnes-mercury)          | ✔         | |
 | [bsnes-mercury Performance](https://github.com/libretro/bsnes-mercury)       | ✔         | |
-| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro)            | ✕         | [
+| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro)            | ✕         | |
 | [bsnes C++98 (v085)](https://github.com/libretro/bsnes-libretro-cplusplus98) | ✔         | |
 
 ### Game Boy / Game Boy Color
@@ -105,7 +106,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [mGBA](https://github.com/libretro/mgba)                      | ✔         | |
 | [VBA Next](https://github.com/libretro/vba-next)              | ✔         | |
 | [VBA-M](https://github.com/libretro/vbam-libretro)            | ✔         | |
-| [Beetle GBA](https://github.com/libretro/beetle-gba-libretro) | ✕         | |
+| [Beetle GBA](https://github.com/libretro/beetle-gba-libretro) | ✔         | |
 | [gpSP](https://github.com/libretro/gpsp)                      | ✕         | |
 | [Meteor](https://github.com/libretro/meteor-libretro)         | ✕         | |
 
