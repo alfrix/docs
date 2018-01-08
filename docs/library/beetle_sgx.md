@@ -74,6 +74,8 @@ RetroArch database(s) that are associated with the Beetle SGX core:
 
 Required or optional firmware files go in RetroArch's system directory.
 
+Any CD-ROM System BIOS will work, but some them are known to be incompatible with certain games. 
+
 |   Filename    |    Description                        |              md5sum              |
 |:-------------:|:-------------------------------------:|:--------------------------------:|
 | syscard3.pce  | Super CD-ROM2 System V3.xx - Required | 38179df8f4ac870017db21ebcbf53114 |

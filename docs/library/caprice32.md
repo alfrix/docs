@@ -80,6 +80,11 @@ Save states are saved/loaded to and from where the loaded content is.
 
 - .SNA (State)
 
+Content directory
+
+- .SNA (state)
+
+
 ### Virtual Keyboard
 
 The Caprice32 core has a virtual keyboard GUI that can be accessed through the User 1's RetroPad Y input. 

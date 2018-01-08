@@ -126,7 +126,7 @@ The QuickNES core loads from and saves to to these directories.
 
 The QuickNES core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 - 4 device types
+#### User 1 - 2 device types
 
 - None - Doesn't disable input.
 - **RetroPad** - Joypad
@@ -136,7 +136,7 @@ The QuickNES core supports the following device type(s) in the controls menu, bo
 
 #### Joypad and analog device type table
 
-| User 1 - 4 Input descriptors  | RetroPad Inputs                              |  RetroPad          |
+| User 1 - 2 Input descriptors  | RetroPad Inputs                              |  RetroPad          |
 |-------------------------------|----------------------------------------------|--------------------|
 | B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                  |
 | Select                        | ![](images/RetroPad/Retro_Select.png)        | Select             |

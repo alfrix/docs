@@ -111,6 +111,12 @@ Atari800 config settings are saved/loaded to and from .atari800.cfg in RetroArch
 
 - .atari800.cfg (Config)
 
+RetroArch.exe directory
+
+- .atari800.cfg (config)
+- .atari000.wav in exe directory (startup noise?)
+- .atari000.pcx in exe directory (screenshot)
+
 ### Core provided aspect ratio
 
 Atari800's core provided aspect ratio is 4/3.
