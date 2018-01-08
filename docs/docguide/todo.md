@@ -385,6 +385,11 @@
 
 ### [✕] FreeJ2ME
 
+### [✕] FreeIntv
+- First and only standalone libretro emulator core for Mattel Intellivision
+- Uses a unique onscreen keyboard to get around the keypad limitations of the RetroPad abstraction
+- More information https://sourceforge.net/projects/freeintv/ and http://neocomputer.org/projects/freeintv/
+
 ### [〰️] Fuse
 
 - Improve background section.
