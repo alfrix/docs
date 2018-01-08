@@ -282,7 +282,16 @@ Activating multitap support in compatible games can be configured by switching t
 
 ## Compatibility
 
-The bsnes Performance core fully emulates all SNES games that have ever been officially released. 
+| Game                                             | Issue                                                                          |
+|--------------------------------------------------|--------------------------------------------------------------------------------|
+| A.S.P. Air Strike Patrol                         | Black lines show up during gameplay. The shadow below the aircraft is missing. |
+| Funaki Masakatsu Hybrid Wrestler – Tougi Denshou | Corrupted graphics on the Pancrase logo screen.                                |
+| Mecarobot Golf                                   | The ground "wobbles" during gameplay.                                          |
+| Mega Man X2                                      | Only displays a black screen.                                                  |
+| Mega Man X3                                      | Only displays a black screen.                                                  |
+| Mortal Kombat II                                 | Various glitched graphics.                                                     |
+| NHL ’94                                          | Corrupted line on the NHL logo screen.                                         |
+| Tetris Attack                                    | Lots of flickering on the VS. CPU mode map screen.                             |
 
 ## External Links
 

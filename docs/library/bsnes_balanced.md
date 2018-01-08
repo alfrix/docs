@@ -282,7 +282,9 @@ Activating multitap support in compatible games can be configured by switching t
 
 ## Compatibility
 
-The bsnes Balanced core fully emulates all SNES games that have ever been officially released. 
+| Game                     | Issue                                                                          |
+|--------------------------|--------------------------------------------------------------------------------|
+| A.S.P. Air Strike Patrol | Black lines show up during gameplay. The shadow below the aircraft is missing. |
 
 ## External Links
 
