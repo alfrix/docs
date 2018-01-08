@@ -2,14 +2,12 @@
 
 - Move on to updating the RetroPie wiki when Libretro documentation is finished. https://github.com/RetroPie/RetroPie-Setup/wiki
 - Move on to updating the Emulation General when Libretro documentation is finished. http://emulation.gametechwiki.com/index.php/Main_Page
-- Put a notice on the ancient Emulation General wikia telling users that it should no longer be used http://emulation-general.wikia.com/wiki/Emulation_General_Wiki
 - Shut down the Libretro Wiki when all its information has been ported over to Libretro/Docs https://wiki.libretro.com/index.php?title=Main_Page
 - Setup a way for others to translate Libretro/Docs to other languages.
 - Encourage others to submit documentation to Libretro/Docs.
 - Spread the word about Libretro/Docs; monitor it's acknowledgement on other sites https://www.google.com/search?source=hp&q=libretro+docs
 - Produce and upload official tutorials to the Libretro Youtube channel https://www.youtube.com/user/Libretro/
 - Create a documentation guide for those who are new to the project.
-- Put a DO NOT PUT REGULAR RETROARCH ISSUES HERE notice in libretro/docs README
 - Improve libretro/docs readability.
 
 ## Specifications / Techincal
@@ -82,7 +80,8 @@
 
 ### [!!!] Beetle bsnes
 
-- Can't complete documentation, core doesn't start. https://github.com/libretro/beetle-bsnes-libretro/issues/3
+- Test how much players this core supports.
+- Complete compatibility section.
 
 ### [〰️] Beetle Cygne
 
@@ -90,14 +89,8 @@
 
 ### [!!!] Beetle GBA
 
-- Can't complete documentation, core doesn't start. https://github.com/libretro/libretro-meta/issues/103
 - Complete why use this core section
 - Complete compatbility section
-- Complete feature table
-- Complete director section.
-- Complete geometry and timing section
-- Complete core option section
-- Complete controllers section
 
 ### [〰️] Beetle Handy
 
@@ -108,6 +101,10 @@
 - Complete compatibility section.
 
 ### [〰️] Beetle PC-FX
+
+- Imrpove background section
+- Complete why use this core section.
+- Add content example screenshot.
 
 ### [〰️] Beetle PCE FAST
 
@@ -167,9 +164,14 @@
 
 ### [〰️] blueMSX
 
+- Complete why use this core section.
+- Complete compatibility section.
+- Test save support.
+- Add core provided aspect ratio.
+- Add RetroPad Keyboard Map inputs
+
 ### [〰️] bnes
 
-- Improve background section.
 - Complete why use this core section.
 - Add core provided aspect ratio
 
@@ -308,13 +310,22 @@
 
 ### [✕] Dolphin
 
-### [✕] DOSBox
+### [〰️] DOSBox
+
+- Improve background section
+- Complete why use this core section.
+- Complete compatibility section.
+- Add internal sample rate.
+- Improve core otpion descriptions.
 
 ### [✕] Dungeon Crawl Stone Soup
 
 ### [✕] EasyRPG
 
 ### [〰️] EightyOne
+
+- Add core provided aspect ratio.
+- Add screenshots for the High Resolution core option.
 
 ### [!!!] Emux CHIP-8
 
@@ -364,11 +375,26 @@
 
 ### [✔] FFmpeg
 
-### [✕] fMSX
+### [〰️] fMSX
+
+- Improve background section
+- Complete why use this core section.
+- Complete compatibility section.
+- Add core provided aspect ratio.
+- Complete core option descriptions.
 
 ### [✕] FreeJ2ME
 
-### [✕] Fuse
+### [〰️] Fuse
+
+- Improve background section.
+- Complete why use this core section.
+- Complete BIOS section
+- Complete compatibility section.
+- Complete feature table.
+- Add core provided aspect ratio.
+- Add internal FPS
+- Improve core option descriptions.
 
 ### [〰️] Gambatte
 
@@ -403,6 +429,11 @@
 - Add core provided aspect ratio
 
 ### [〰️] GW
+
+- Improve background section.
+- Complete why use this core section.
+- Complete compatibility section.
+- Add core provided aspect ratio.
 
 ### [〰️] Handy
 
@@ -442,6 +473,23 @@
 
 ### [✔] melonDS
 
+### [〰️] Mesen
+
+- Why is there two save files
+- Complete why use this core section.
+- Test mutlitap support.
+- Add NTSC Filter core option screenshots.
+- Add Vertical blending core option screenshots.
+- Add Palette core option screenshots.
+- Make a Overclock core option video.
+- Add Vertical Overscan core option screenshots.
+- Add Horizontal Overscan core option screenshots.
+- Add a Aspect Ratio core option video.
+- Add a Sprite Limit core option video.
+- Add Screen Rotation core option screenshots.
+- Test Power pad supprt.
+- Test other controllers support.
+
 ### [✕] MESS 2014
 
 ### [〰️] Meteor
@@ -469,7 +517,14 @@
 - Add a powerup explanation section.
 - Add a endscreen explanation section.
 
-### [✕] Mupen64Plus
+### [〰️] Mupen64Plus
+
+- Improve background section.
+- Complete why use this core section.
+- Add internal sample rate
+- Add core provided aspect ratio.
+- Complete core option descriptions.
+- Complete compatibility section.
 
 ### [✕] Mupen64Plus GLES3
 
@@ -506,7 +561,10 @@
 - Complete compatbiility section.
 - Add core provided aspect ratio.
 
-### [✕] O2EM
+### [〰️] O2EM
+
+- Complete why use this core section.
+- Complete compatibility section.
 
 ### [〰️] OpenLara
 
@@ -525,7 +583,10 @@
 - Explain what the default setting for the Pad Type core options does.
 - Add negcon inputs to controllers table
 
-### [✔] PicoDrive
+### [〰️] PicoDrive
+
+- Improve why use this core section.
+- Improve core option descriptions.
 
 ### [〰️] PocketCDG
 
@@ -557,6 +618,11 @@
 
 ### [〰️] Redream
 
+NO LONGER UPDATED
+UPDATE ISSUE TRACKER LINK
+UPDATE EVERYTHING
+https://redream.io/quickstart
+
 ### [〰️] Reicast
 
 ### [!!!] RemoteJoy
@@ -570,6 +636,9 @@
 - Complete compatibility section.
 
 ### [〰️] ScummVM
+
+- Complete why use this core section.
+- Add keyboard table.
 
 ### [〰️] Snes9x
 
