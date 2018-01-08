@@ -56,6 +56,7 @@
 - [NES / Famicom (bnes)](https://docs.libretro.com/library/bnes/)
 - [NES / Famicom (Emux NES)](https://docs.libretro.com/library/emux_nes/)
 - [NES / Famicom (FCEUmm)](https://docs.libretro.com/library/fceumm/)
+- [NES / Famicom (Mesen)](https://docs.libretro.com/library/mesen/)
 - [NES / Famicom (Nestopia UE)](https://docs.libretro.com/library/nestopia_ue/)
 - [NES / Famicom (QuickNES)](https://docs.libretro.com/library/quicknes/)
 

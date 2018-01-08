@@ -58,6 +58,7 @@ You can also check the progress of your friends and add comments on their trophi
 | [Nestopia UE](https://github.com/libretro/nestopia)   | ✕         | |
 | [bnes](https://github.com/libretro/bnes-libretro)     | ✕         | |
 | [Emux NES](https://github.com/libretro/emux)          | ✕         | |
+| [Mesen](https://github.com/SourMesen/Mesen)           | ✔         | |
 
 ### Master System / MegaDrive - Genesis
 

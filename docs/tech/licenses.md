@@ -87,6 +87,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | MAME 2014                                                 		   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | MAME 2016                                                 		   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | [melonDS](../library/melonds.md)                                     | [GPLv3](https://github.com/libretro/melonDS/blob/master/LICENSE)                          |                |
+| [Mesen](../library/mesen.md)                                         | [GPLv3](https://github.com/SourMesen/Mesen/blob/master/README.md)                         |                |
 | MESS 2014                                                 		   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | [Meteor](../library/meteor.md)                            		   | [GPLv3](https://github.com/libretro/meteor-libretro/blob/master/COPYING)                  |                |
 | [mGBA](../library/mgba.md)                                           | [MPLv2.0](https://github.com/libretro/mgba/blob/master/LICENSE)                           |                |

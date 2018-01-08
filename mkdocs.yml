@@ -113,6 +113,7 @@ pages:
         - 'NES / Famicom (bnes)': 'library/bnes.md'
         - 'NES / Famicom (Emux NES)': 'library/emux_nes.md'
         - 'NES / Famicom (FCEUmm)': 'library/fceumm.md'
+        - 'NES / Famicom (Mesen)': 'library/mesen.md'
         - 'NES / Famicom (Nestopia UE)': 'library/nestopia_ue.md'
         - 'NES / Famicom (QuickNES)': 'library/quicknes.md'
         - 'Nintendo 3DS (Citra)': 'library/citra.md'

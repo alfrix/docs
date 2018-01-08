@@ -69,6 +69,7 @@ MAME 2010
 MAME 2014
 MAME 2016
 melonDS
+Mesen
 MESS 2014
 Meteor
 mGBA
