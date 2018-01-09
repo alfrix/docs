@@ -615,6 +615,13 @@
 
 ### [〰️] PX68k
 
+- Complete background section.
+- Complete compatibility section.
+- Find out what sram.dat is.
+- Add core provided FPS.
+- Add keyboard inputs.
+- Add Joypad inputs.
+
 ### [〰️] QuickNES
 
 - Complete Why use this core? section.

@@ -92,6 +92,7 @@ pages:
         - 'Neo Geo Pocket/Color (Beetle NeoPop)': 'library/beetle_neopop.md'
         - 'Odyssey2 / Videopac+ (O2EM)': 'library/o2em.md'
         - 'PocketCDG': 'library/pocketcdg.md'
+        - 'PX68k': 'library/px68k.md'
         - 'ScummVM': 'library/scummvm.md'
         - 'Uzebox (Uzem)': 'library/uzem.md'
         - 'Vectrex (vecx)': 'library/vecx.md'
