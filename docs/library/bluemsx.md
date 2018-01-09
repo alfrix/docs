@@ -89,8 +89,6 @@ RetroArch database(s) that are associated with the blueMSX core:
 
 ## BIOS
 
-https://github.com/libretro/blueMSX-libretro/tree/master/system/bluemsx
-
 The blueMSX core requires the 'Databases' and 'Machines' folders from a full installation of blueMSX.
 
 You can download the 'Databases' and 'Machines' folders from here  [https://github.com/libretro/blueMSX-libretro/tree/master/system/bluemsx](https://github.com/libretro/blueMSX-libretro/tree/master/system/bluemsx) or you can get them from an official full standalone blueMSX emulator installation. (link to blueMSX official website at bottom of page)
@@ -122,7 +120,7 @@ RetroArch-level settings or features that the blueMSX core respects.
 | Location          | ✕         |
 | Subsystem         | ✕         |
 | [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
-| Disk Control      | ✕         |
+| Disk Control      | ✔         |
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✕         |

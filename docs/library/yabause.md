@@ -93,7 +93,7 @@ The Yabause core supports four controller setting(s):
 
 ## Compatibility
 
-[Yabause Core Compatibility List](https://yabause.org/compatibility-list/)
+[Yabause Core Compatibility List](https://wiki.yabause.org/index.php5?title=Compatibility_list)
 
 ## External Links
 

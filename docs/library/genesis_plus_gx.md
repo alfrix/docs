@@ -134,9 +134,9 @@ RetroArch features that the Genesis Plus GX core respects.
 
 The Genesis Plus GX core's directory name is 'Genesis Plus GX'
 
-The Genesis Plus GX loads from and saves to to these directories.
+The Genesis Plus GX core loads from and saves to to these directories.
 
-RetroArch's Save directory
+**RetroArch's Save directory**
 
 - 'content-name'.srm (MS/GG/MD/Pico/SG-1000 Cartridge Backup save)
 - scd_E.brm (Mega CD EU BIOS Backup RAM) **When the 'CD System BRAM' core option is set to per bios**
@@ -145,7 +145,7 @@ RetroArch's Save directory
 - 'content-name'.brm (Sega CD/MegaCD Per-game Backup RAM) **When the 'CD System BRAM' core option is set to per game**
 - cart.brm (Sega/Mega CD RAM CART)
 
-RetroArch's State directory
+**RetroArch's State directory**
 
 - 'content-name'.state# (State)
 
@@ -215,7 +215,7 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 - **YM2612 DAC quantization** (**Off**/On): 
 
-<center> Awaiting description. </center>
+<center> for Mame core only. Awaiting description. </center>
 
 - **YM2612/YM3438 core** (**mame**/nuked (ym2612)/nuked (asic ym3438)/nuked (discrete ym3438): 
 
@@ -223,7 +223,7 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 - **Sound output** (**stereo**/mono): 
 
-<center> Awaiting description. </center>
+<center> Self-explanatory. </center>
 
 - **Audio filter** (**Off**/low-pass):
 

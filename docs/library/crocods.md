@@ -73,6 +73,10 @@ Save states are saved/loaded to and from where state files are stored.
 
 - .state
 
+State directory
+
+- .state ()
+
 ## Core options
 
 The CrocoDS core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.

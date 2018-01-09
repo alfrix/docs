@@ -156,6 +156,10 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 	
 ??? note "Palette - black & white"
 	![](images\Cores\beetle_vb\black&white.png)
+	
+- **Right Analog to Digital** (**Off**/On)
+
+	Self-explanatory.
 
 ## Controllers
 
@@ -189,6 +193,8 @@ The Beetle VB core supports the following device type(s) in the controls menu, b
 | Right D-Pad Left              | ![](images/RetroPad/Retro_R2.png)            |
 | Right D-Pad Down              | ![](images/RetroPad/Retro_L3.png)            |
 | Right D-Pad Right             | ![](images/RetroPad/Retro_R3.png)            |
+| Right D-Pad X                 | ![](images/RetroPad/Retro_Right_Stick.png) X |
+| Right D-Pad Y                 | ![](images/RetroPad/Retro_Right_Stick.png) Y |
 
 ## Compatibility
 

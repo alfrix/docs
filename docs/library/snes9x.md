@@ -152,9 +152,9 @@ The Snes9x core saves/loads to/from these directories.
 
 ### MSU-1 support
 
-MSU-1 support in the Snes9x core follows the SD2SNES naming format, i.e.
+MSU-1 support in the Snes9x core follows the SD2SNES/Snes9x naming format, i.e.
+
 ```
-gamename\
 gamename.sfc
 gamename.msu
 gamename-#.pcm
@@ -162,7 +162,7 @@ gamename-#.pcm
 
 Loading a manifest.bml file or having a xml file isn't necessary. **Just load gamename.sfc.**
 
-Here's an example of a working MSU-1 setup done with Secret of Mana MSU-1. Please note that som_msu1.sfc is being [softpatched](https://docs.libretro.com/guides/softpatching/) in this example.
+Here's an example of a working MSU-1 setup done with [Secret of Mana MSU-1](https://www.romhacking.net/hacks/2467/). Please note that som_msu1.sfc is being [softpatched](https://docs.libretro.com/guides/softpatching/) in this example.
 
 ![](images/Cores/snes9x/msu.png)
 

@@ -95,6 +95,11 @@ Save data is saved/loaded to and from where the loaded content is.
 
 - .sav (Save)
 
+Content directory
+
+- .sav (Save)
+- config.cfg (Config)
+
 ### Core provided aspect ratio
 
 TyrQuake's core provided aspect ratio is 4/3.
