@@ -49,15 +49,15 @@ The Virtual Jaguar core has the following options that can be tweaked from the c
 - **Doom Res Hack** (**Off**/On): Needed for Doom to run in its correct resolution.
 
 ??? note "*Doom Res Hack - Disabled*"
-    ![doom_res_hack_disabled](images\Cores\virtualjaguar\doom_res_hack_disabled.png)
+    ![doom_res_hack_disabled](images\Cores\virtual_jaguar\doom_res_hack_disabled.png)
 
 ??? note "*Doom Res Hack - Enabled*"
-    ![doom_res_hack_disabled](images\Cores\virtualjaguar\doom_res_hack_enabled.png)
+    ![doom_res_hack_disabled](images\Cores\virtual_jaguar\doom_res_hack_enabled.png)
 
 - **Bios (Restart)** (**Off**/On): Enables bios loading sequence.
 
 ??? note "*Bios - Enabled*"
-    ![Bios_enabled](images\Cores\virtualjaguar\Bios_enabled.png)
+    ![Bios_enabled](images\Cores\virtual_jaguar\Bios_enabled.png)
 
 - **Pal (Restart)** (**Off**/On): NTSC to PAL switch. Setting this to on switches to PAL mode.
 
@@ -103,11 +103,11 @@ A reference compatibility table can be found on the bottom of this [page](https:
 |**Towers II**       |Heavy flickering.                                      |
 |**Wolfenstein 3D**  |Doesn't boot.                                          |
 
-??? note "*(1)*"
-    ![Fault](images\Compatibility\virtualjaguar-Cybermorph.png)
+??? note "(1)"
+    ![](images\Cores\virtual_jaguar\cyber.png)
 
-??? note "*(2)*"
-    ![Fault](images\Compatibility\virtualjaguar-Kasumi_Ninja.png)
+??? note "(2)"
+    ![](images\Cores\virtual_jaguar\ninja.png)
 
 ## External Links
 
