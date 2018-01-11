@@ -68,10 +68,10 @@ Save states are saved/loaded to and from where state files are stored.
 - **High Resolution (restart)** (**Off**/On): Doubles internal resolution.
 
 ??? note "High Resolution - Off"
-	![high_resolution_off](images\Cores\4DO\high_resolution_off.png)
+	![high_resolution_off](images\Cores\4do\high_resolution_off.png)
 	
 ??? note "High Resolution - On"
-	![high_resolution_on](images\Cores\4DO\high_resolution_on.png)
+	![high_resolution_on](images\Cores\4do\high_resolution_on.png)
 	
 ## Controllers
 

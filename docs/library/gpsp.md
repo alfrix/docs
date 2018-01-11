@@ -166,7 +166,7 @@ The gpSP core supports the following device type(s) in the controls menu, bolded
 |**Boktai Trilogy**                     |The solar sensor is not emulated. |
 |**DemiKids - Light/Dark Version**      |Crashes when entering a battle. |
 |**Digimon Racing (Europe)**            |Freezes during the intro.   |
-|**Dragon Ball Z - The Legacy of Goku** |Graphics glitches. See [Image](images/Compatibility/gpsp_DBZ-Legacy_of_Goku.png)     |
+|**Dragon Ball Z - The Legacy of Goku** |Graphics glitches. (1)  |
 |**Final Fantasy VI**                   |Background/tiling order issues.  |
 |**Game Boy Advance Video - Dragon Ball GT - Volume 1**|White screen.     |
 |**Grand Theft Auto Advance**           |Crashes after first dialog.      |
@@ -177,14 +177,23 @@ The gpSP core supports the following device type(s) in the controls menu, bolded
 |**R-Type III - The Third Lightning**   |Softlocks at Irem startup screen.|
 |**Rock 'n Roll Racing**                |Corrupted graphics, not playable.|
 |**Rockman & Forte**                    |Doesn't continue after GBA BIOS screen.|
-|**Sims 2, The - Pets**|Graphics glitches. Heavy flickering, black objects. See [Image](images/Compatibility/gpsp_The_Sims2_Pets.png)|
+|**Sims 2, The - Pets**|Graphics glitches. Heavy flickering, black objects. (2)  |
 |**Street Racing Syndicate**            |Freezes at startup screen, doesn't continue.|
 |**Super Monkey Ball Jr.**              |Softlocks at startup screen.|
-|**Super Street Fighter II Turbo/X Revival**|Small graphics glitch. Selecting speed 'Turbo 1' and beyond on the character select screen makes the game speed window not fully visible. See [Image](images/Compatibility/gpsp_SSF2_TurboX_Revival.png)|
+|**Super Street Fighter II Turbo/X Revival**|Small graphics glitch. Selecting speed 'Turbo 1' and beyond on the character select screen makes the game speed window not fully visible. (3)  |
 |**Tales of Phantasia (USA version)**   |Softlocks during the introduction sequence (just before the small guy hits the tall guy in the right).|
 |**WarioWare: Twisted!**                |The tilt sensor is not emulated.|
 |**Wolfenstein 3D**                     |Softlocks at id Software startup screen.|
 |**Yoshi’s Universal Gravitation**      |The tilt sensor is not emulated.|
+
+??? note "(1)"
+	![](images/Cores/gpsp/goku.png)
+
+??? note "(2)"
+	![](images/Cores/gpsp/sims.png)
+
+??? note "(3)"
+	![](images/Cores/gpsp/fighter.png)
 
 ## External Links
 
