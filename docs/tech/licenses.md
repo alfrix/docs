@@ -84,17 +84,17 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [higan Accuracy](../library/higan_accuracy.md)                                   | [GPLv3](https://gitlab.com/higan/higan/blob/master/LICENSE.txt)                           |                |
 | [Imageviewer](../library/imageviewer.md)				  	   |                                                                                           |                |
 | [Lutro](../library/lutro.md)				                	   | [MIT](https://github.com/libretro/libretro-lutro/blob/master/LICENSE)                     |                |
-| MAME										   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
-| MAME 2000							                   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
-| [MAME 2003](../library/mame_2003.md)						   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
-| MAME 2003 Midway                                                                 | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
-| MAME 2009                                                                        | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
-| MAME 2010                                                 	         	   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
-| MAME 2014                                                 		           | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
+| MAME										   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                        |                |
+| MAME 2000							                   | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| [MAME 2003](../library/mame_2003.md)						   | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MAME 2003 Midway                                                                 | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MAME 2009                                                                        | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MAME 2010                                                 	         	   | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MAME 2014                                                 		           | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
 | MAME 2016                                                 		           | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | [melonDS](../library/melonds.md)                                                 | [GPLv3](https://github.com/libretro/melonDS/blob/master/LICENSE)                          |                |
 | [Mesen](../library/mesen.md)                                                     | [GPLv3](https://github.com/SourMesen/Mesen/blob/master/README.md)                         |                |
-| MESS 2014                                                 		           | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
+| MESS 2014                                                 		           | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)                   | Non-commercial |
 | [Meteor](../library/meteor.md)                            		           | [GPLv3](https://github.com/libretro/meteor-libretro/blob/master/COPYING)                  |                |
 | [mGBA](../library/mgba.md)                                                       | [MPLv2.0](https://github.com/libretro/mgba/blob/master/LICENSE)                           |                |
 | mpv                                                                              | [GPLv3](https://github.com/libretro/libretro-mpv/blob/master/LICENSE)                     |                |
@@ -135,8 +135,8 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Stella](../library/stella.md)                                                   | [GPLv2](https://github.com/stella-emu/stella/blob/master/License.txt)                     |                |
 | TempGBA                                                                          | [GPLv2](https://github.com/libretro/TempGBA-libretro/blob/master/copyright)               |                |
 | [TGB Dual](../library/tgb_dual.md)                                               | [GPLv2](https://github.com/libretro/tgbdual-libretro/blob/master/docs/COPYING-2.0.txt)    |                |
-| [TyrQuake](../library/tyrquake.md)                                               | [GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)                         |                |
-| UME 2014                                                                         | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
+| [TyrQuake](../library/tyrquake.md)                                               | [GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)                        |                |
+| UME 2014                                                                         | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)                   | Non-commercial |
 | [Uzem](../library/uzem.md)                                                       | [GPLv3](https://github.com/Uzebox/uzebox/blob/master/gpl-3.0.txt)                         |                |
 | [VBA-M](../library/vba_m.md)                                                     | [GPLv2](https://github.com/libretro/vbam-libretro/blob/master/doc/gpl.txt)                |                |
 | [VBA Next](../library/vba_next.md)                                               |                                                                                           |                |
