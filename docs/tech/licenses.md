@@ -13,7 +13,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | Software                                             			                   | License                                                                                   | Non-commercial |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------|
 | [Lakka](http://www.lakka.tv/)                                                    | [Non-Commercial](http://www.lakka.tv/doc/FAQ/)                                            | Non-Commercial |
-| [4DO](../library/4do.md)                         			                       | Non-commercial                                                                            | Non-commercial |
+| [4DO](../library/4do.md)                         			                       | [Non-commercial](https://github.com/libretro/4do-libretro/blob/master/libfreedo/freedocore.h)      | Non-commercial |
 | [Dinothawr](../library/dinothawr.md)             			                       | [Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)               | Non-commercial |
 | FB Alpha                                         			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
 | FB Alpha 2012                                    			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
@@ -52,7 +52,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | Core                                             			           | License                                                                                   | Non-commercial |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------|
 | [3D Engine](../library/3d_engine.md)             			           | [GPLv3](https://github.com/libretro/libretro-3dengine/blob/master/license)                |                |
-| [4DO](../library/4do.md)                         			           | Non-commercial                                                                            | Non-commercial |
+| [4DO](../library/4do.md)                         			           | [Non-commercial](https://github.com/libretro/4do-libretro/blob/master/libfreedo/freedocore.h) | Non-commercial |
 | [2048](../library/2048.md)                       			           | [Public Domain](https://github.com/libretro/libretro-2048/blob/master/COPYING)            |                |
 | [Atari800](../library/atari800.md)               			           | [GPLv2](https://github.com/atari800/atari800/blob/master/COPYING)                         |                |
 | [Beetle bsnes](../library/beetle_bsnes.md)       			           | [GPLv2](https://github.com/libretro/beetle-bsnes-libretro/blob/master/COPYING)            |                |
