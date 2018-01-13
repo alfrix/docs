@@ -53,7 +53,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Dinothawr](../library/dinothawr.md)             			           | [Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)               | Non-commercial |
 | Dolphin                                          			           | [GPLv2](https://github.com/dolphin-emu/dolphin/blob/master/license.txt)                   |                |
 | DOSBox                                           			           | [GPLv2](https://github.com/libretro/dosbox-libretro/blob/master/COPYING)                  |                |
-| Dummy Core                                                                       | MIT                                                                                       |                |                                                                                           |                |
+| Dummy Core                                                                       | MIT                                                                                       |                |
 | Dungeon Crawl Stone Soup                                                         | [GPLv2+](https://github.com/libretro/crawl-ref/blob/master/crawl-ref/licence.txt)         |                |
 | EasyRPG                                                                          | [GPLv3](https://github.com/libretro/easyrpg-libretro/blob/master/COPYING)                 |                |
 | [EightyOne](../library/eightyone.md)             			           | [GPLv3](https://github.com/libretro/81-libretro/blob/master/LICENSE)                      |                |
@@ -145,7 +145,40 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | VICE C128                                                                        | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
 | VICE PLUS4                                                                       | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
 | VICE VIC20                                                                       | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
-| Video Processor                                                                  | [BSD-2-Clause](https://github.com/jaredmcneill/libretro-v4l2/blob/master/LICENSE)         |                |                                                                                     |                |
+| Video Processor                                                                  | [BSD-2-Clause](https://github.com/jaredmcneill/libretro-v4l2/blob/master/LICENSE)         |                |
 | [Virtual Jaguar](../library/virtual_jaguar.md)                                   | [GPLv3](https://github.com/libretro/virtualjaguar-libretro/blob/master/docs/GPLv3)        |                |
 | [XRick](../library/xrick.md)                                                     | [GPLv3](https://github.com/libretro/xrick-libretro/blob/master/README)                    |                |
 | [Yabause](../library/yabause.md)						   | [GPLv2](https://github.com/libretro/yabause/blob/master/yabause/COPYING)                  |                |
+
+## Non-commercial
+
+This extra section further emphasizes what software is NON-COMMERCIAL.
+
+| Software                                             			                   | License                                                                                   | Non-commercial |
+|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------|
+| [Lakka](http://www.lakka.tv/)                                                    | [Non-Commercial](http://www.lakka.tv/doc/FAQ/)                                            | Non-Commercial |
+| [4DO](../library/4do.md)                         			                       | Non-commercial                                                                            | Non-commercial |
+| [Dinothawr](../library/dinothawr.md)             			                       | [Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)               | Non-commercial |
+| FB Alpha                                         			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
+| FB Alpha 2012                                    			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
+| FB Alpha 2012 CPS-1                              			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
+| FB Alpha 2012 CPS-2                              			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
+| FB Alpha 2012 CPS-3                                                              | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
+| FB Alpha 2012 Neo Geo                            		                           | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
+| fMSX                                                                             | [Non-commercial](https://github.com/libretro/fmsx-libretro/blob/master/LICENSE)           | Non-commercial |
+| [Genesis Plus GX](../library/genesis_plus_gx.md)          		               | [Non-commercial](https://github.com/libretro/Genesis-Plus-GX/blob/master/LICENSE.txt)     | Non-commercial |
+| MAME 2000							                                               | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| [MAME 2003](../library/mame_2003.md)						                       | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MAME 2003 Midway                                                                 | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MAME 2009                                                                        | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MAME 2010                                                 	         	       | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MAME 2014                                                 		               | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| MESS 2014                                                 		               | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+| [PicoDrive](../library/picodrive.md)                                             | [MAME (Non-commercial)](https://github.com/libretro/picodrive/blob/master/COPYING)        | Non-commercial |
+| [Snes9x](../library/snes9x.md)                                                   | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
+| [Snes9x 2002](../library/snes9x_2002.md)                                         | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial | 
+| [Snes9x 2005](../library/snes9x_2005.md)                                         | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
+| [Snes9x 2005 Plus](../library/snes9x_2005_plus.md)                               | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
+| [Snes9x 2010](../library/snes9x_2010.md)                                         | [Non-commcercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt) | Non-commercial |
+| UME 2014                                                                         | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
+
