@@ -20,7 +20,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | Core                                             			           | License                                                                                   | Non-commercial |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------|
 | [3D Engine](../library/3d_engine.md)             			           | [GPLv3](https://github.com/libretro/libretro-3dengine/blob/master/license)                |                |
-| [4DO](../library/4do.md)                         			           |                                                                                           |                |
+| [4DO](../library/4do.md)                         			           | Non-commercial                                                                            | Non-commercial |
 | [2048](../library/2048.md)                       			           | [Public Domain](https://github.com/libretro/libretro-2048/blob/master/COPYING)            |                |
 | [Atari800](../library/atari800.md)               			           | [GPLv2](https://github.com/atari800/atari800/blob/master/COPYING)                         |                |
 | [Beetle bsnes](../library/beetle_bsnes.md)       			           | [GPLv2](https://github.com/libretro/beetle-bsnes-libretro/blob/master/COPYING)            |                |
@@ -53,7 +53,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Dinothawr](../library/dinothawr.md)             			           | [Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)               | Non-commercial |
 | Dolphin                                          			           | [GPLv2](https://github.com/dolphin-emu/dolphin/blob/master/license.txt)                   |                |
 | DOSBox                                           			           | [GPLv2](https://github.com/libretro/dosbox-libretro/blob/master/COPYING)                  |                |
-| Dummy Core                                                                       | [GPLv3](https://github.com/libretro/RetroArch/blob/master/cores/dynamic_dummy.c)          |                |                                                                                           |                |
+| Dummy Core                                                                       | MIT                                                                                       |                |                                                                                           |                |
 | Dungeon Crawl Stone Soup                                                         | [GPLv2+](https://github.com/libretro/crawl-ref/blob/master/crawl-ref/licence.txt)         |                |
 | EasyRPG                                                                          | [GPLv3](https://github.com/libretro/easyrpg-libretro/blob/master/COPYING)                 |                |
 | [EightyOne](../library/eightyone.md)             			           | [GPLv3](https://github.com/libretro/81-libretro/blob/master/LICENSE)                      |                |
@@ -82,9 +82,9 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Handy](../library/handy.md)					    		   | [zlib](https://sourceforge.net/projects/handy/)                                           |                |
 | [Hatari](../library/hatari.md)						   | [GPLv2](https://github.com/libretro/hatari/blob/master/readme.txt)                        |                |
 | [higan Accuracy](../library/higan_accuracy.md)                                   | [GPLv3](https://gitlab.com/higan/higan/blob/master/LICENSE.txt)                           |                |
-| [Imageviewer](../library/imageviewer.md)				  	   |                                                                                           |                |
+| [Imageviewer](../library/imageviewer.md)				  	   | MIT                                                                                       |                |
 | [Lutro](../library/lutro.md)				                	   | [MIT](https://github.com/libretro/libretro-lutro/blob/master/LICENSE)                     |                |
-| MAME										   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                        |                |
+| MAME										   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | MAME 2000							                   | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
 | [MAME 2003](../library/mame_2003.md)						   | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
 | MAME 2003 Midway                                                                 | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
@@ -94,7 +94,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | MAME 2016                                                 		           | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | [melonDS](../library/melonds.md)                                                 | [GPLv3](https://github.com/libretro/melonDS/blob/master/LICENSE)                          |                |
 | [Mesen](../library/mesen.md)                                                     | [GPLv3](https://github.com/SourMesen/Mesen/blob/master/README.md)                         |                |
-| MESS 2014                                                 		           | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)                   | Non-commercial |
+| MESS 2014                                                 		           | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
 | [Meteor](../library/meteor.md)                            		           | [GPLv3](https://github.com/libretro/meteor-libretro/blob/master/COPYING)                  |                |
 | [mGBA](../library/mgba.md)                                                       | [MPLv2.0](https://github.com/libretro/mgba/blob/master/LICENSE)                           |                |
 | mpv                                                                              | [GPLv3](https://github.com/libretro/libretro-mpv/blob/master/LICENSE)                     |                |
@@ -119,12 +119,12 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [PPSSPP](../library/ppsspp.md)                                                   | [GPLv2](https://github.com/libretro/ppsspp/blob/master/LICENSE.TXT)                       |                |
 | [PrBoom](../library/prboom.md)                                                   | [GPLv2](https://github.com/libretro/libretro-prboom/blob/master/COPYING)                  |                |
 | [ProSystem](..//library/prosystem.md)                                            | [GPLv2](https://github.com/libretro/prosystem-libretro/blob/master/License.txt)           |                |
-| PX68k                                                                            |                                                                                           |                |
+| PX68k                                                                            | [kero_src.txt](https://github.com/libretro/px68k-libretro/blob/master/doc/kero_src.txt)   |                |                                                                                          |                |
 | [QuickNES](../library/quicknes.md)                                               | [LGPLv2.1+](https://github.com/kode54/QuickNES/blob/master/COPYING)                       |                |
 | [Redream (libretro fork)](../library/redream.md)                                 | [GPLv3](https://github.com/libretro/redream/blob/master/LICENSE.txt)                      |                |
 | [Reicast](../library/reicast.md)                                                 | [GPLv2](https://github.com/libretro-mirrors/reicast-emulator/blob/master/LICENSE)         |                |
-| RemoteJoy                                                                        |                                                                                           |                |
-| Remote RetroPad                                                                  |                                                                                           |                |
+| RemoteJoy                                                                        | GPLv2                                                                                     |                |
+| Remote RetroPad                                                                  | [MIT](https://github.com/libretro/libretro-samples/blob/master/license)                   |                |
 | [SameBoy](../library/sameboy.md)                                                 | [MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)                            |                |
 | [ScummVM](../library/scummvm.md)                                                 | [GPLv2](https://github.com/libretro/scummvm/blob/master/COPYING)                          |                |
 | [Snes9x](../library/snes9x.md)                                                   | [Non-commercial](https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt)  | Non-commercial |
@@ -135,11 +135,11 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Stella](../library/stella.md)                                                   | [GPLv2](https://github.com/stella-emu/stella/blob/master/License.txt)                     |                |
 | TempGBA                                                                          | [GPLv2](https://github.com/libretro/TempGBA-libretro/blob/master/copyright)               |                |
 | [TGB Dual](../library/tgb_dual.md)                                               | [GPLv2](https://github.com/libretro/tgbdual-libretro/blob/master/docs/COPYING-2.0.txt)    |                |
-| [TyrQuake](../library/tyrquake.md)                                               | [GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)                        |                |
-| UME 2014                                                                         | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)                   | Non-commercial |
+| [TyrQuake](../library/tyrquake.md)                                               | [GPLv2](https://github.com/libretro/tyrquake/blob/master/gnu.txt)                         |                |
+| UME 2014                                                                         | [MAME (Non-commercial)](https://en.wikipedia.org/wiki/MAME#Original_MAME-license)         | Non-commercial |
 | [Uzem](../library/uzem.md)                                                       | [GPLv3](https://github.com/Uzebox/uzebox/blob/master/gpl-3.0.txt)                         |                |
 | [VBA-M](../library/vba_m.md)                                                     | [GPLv2](https://github.com/libretro/vbam-libretro/blob/master/doc/gpl.txt)                |                |
-| [VBA Next](../library/vba_next.md)                                               |                                                                                           |                |
+| [VBA Next](../library/vba_next.md)                                               | GPLv2                                                                                     |                |
 | [vecx](../library/vecx.md)                                                       | [GPLv3](https://github.com/libretro/libretro-vecx/blob/master/LICENSE.md)                 |                |
 | VICE C64                                                                         | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
 | VICE C128                                                                        | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
