@@ -162,7 +162,7 @@ keropi/
 
 - The PX68k core's core provided FPS is (FPS)
 - The PX68k core's core provided sample rate is 44100 Hz
-- The PX68k core's core provided aspect ratio is 4.3
+- The PX68k core's core provided aspect ratio is 4:3
 
 ### Usage
 
