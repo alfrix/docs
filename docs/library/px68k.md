@@ -71,6 +71,7 @@ Content that can be loaded by the PX68k core have the following file extensions:
 - .xdf
 - .hdf
 - .cmd
+- .m3u
 
 ## Databases
 
@@ -185,8 +186,64 @@ You can launch content with:
 
 - retroarch -L sdlpx68k_libretro.so "px68k /somewhere/software/x68000/content1.dim /somewhere/software/x68000/content2.dim"
 
+- retroarch -L px68k_libretro.so ./content.m3u (m3u files are useful for launching multi-disk games, see section below for more details on the format)
+
 - load retroarch , then load core and content from RA menu.
 
+### Multiple-disk games
+
+If foo is a multiple-disk game, you should have .dim files for each one, e.g. foo (Disk 1).dim, foo (Disk 2).dim, foo (Disk 3).dim.
+
+PX68k has a few methods to support loading and swapping multi-disk games.
+
+#### Loading multiple disks at startup
+
+- Use an M3U playlist file
+
+	Create a text file and save it as foo.m3u. Then enter your game's .dim files on it, one per line. The m3u file contents should look something like this:
+
+	`foo.m3u`
+	```
+	foo (Disk 1).dim
+	foo (Disk 2).dim
+	foo (Disk 3).dim
+	```
+	After that, you can load the foo.m3u file in RetroArch with the PX68k core either using the frontend or from the command line.
+
+	The first 2 disks listed in this file are loaded into disk drives FDD0 and FDD1 on the core, respectively. To swap disks for games that use more than 2 disks, use the disk swapping option either from within RetroArch's menu or using the native PX68k menu explained below.
+
+- Use a CMD file
+	
+	This method is similar to the m3u playlist and allows loading up to 2 disks at launch. Create a text file and save it as foo.cmd. The format of this file should have all the games on one line and begins with px68k as in the example below.
+	
+	"px68k /somewhere/software/x68000/content1.dim /somewhere/software/x68000/content2.dim"
+
+	To swap disks for games that use more than 2 disks, use the native PX68k menu explained below.
+
+- From the command line
+	
+	As shown in the usage section, you can use the following format to launch multi-disk games directly from the command line:
+	
+	retroarch -L sdlpx68k_libretro.so "px68k /somewhere/software/x68000/content1.dim /somewhere/software/x68000/content2.dim"
+	 
+	To swap disks for games that use more than 2 disks, use the native PX68k menu explained below.
+
+#### Swapping Disks
+
+Games that have more than 2 disks will often require swapping disks at some point during gameplay. There are 2 supported methods to swap disks in this core.
+
+- Use the disk swapping option from RetroArch GUI. 
+	
+	Open the RetroArch gui, select Quick Menu ->Disk Control to access the disk controls. Eject the disk using the Disk Cycle Tray Status command, then set the new disk index and load the new disk by selecting Disk Cycle Tray Status again.
+
+	The default disk drive that is swapped is FDD1. If you need to swap the disk loaded in FDD0, change the Core Option "Swap Disks on Drive" first before loading the new disk in this menu.
+
+- Use the native PX68k menu
+
+	Press L2 on the controller or F12 on the keyboard to access the PX68k menu, then select the disk slot and choose the file from here. 
+	
+	The starting directory for loading disks is determined by the setting StartDir in the system/keropi/config file.
+	
 ## Core options
 
 The PX68k core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
