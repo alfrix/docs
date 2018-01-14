@@ -280,7 +280,7 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 - **Swap Disks on Drive** [px68k_disk_drive] (**FDD1**/FDD0)
 
-	Awaiting description.
+	By default using the native Disk Swap interface within RetroArch's menu will swap the disk in drive FDD1. Change this option to swap disks in drive FDD0.
 
 ## Controllers
 
