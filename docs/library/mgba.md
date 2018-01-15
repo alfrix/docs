@@ -2,35 +2,45 @@
 
 ## Contribute to this documentation
 
-In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/mgba.md). Changes are proposed using "Pull Requests."
+**DOCUMENTATION IS A WORK IN PROGRESS**
+
+**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/mgba.md). Changes are proposed using "Pull Requests."**
+
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/meta/todo/)**
+
+**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
 ## Background
 
-mGBA is an emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.
+mGBA is an emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. It also supports Game Boy and Game Boy Color games.
 
-### Why use this core?
+### How to install the mGBA core:
 
-Awaiting description.
+- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
 
-### How to get and install the mGBA core:
+<center> ![](images\Cores\all\updater.png) </center>
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+<center> ![](images\Cores\all\info.png) </center>
 
-3. Browse through the list and select 'Game Boy Advance (mGBA)'.
+- Browse through the list and select 'Game Boy Advance (mGBA)'.
+
+<center> ![](images\Cores\updater\mgba.png) </center>
 
 After this has finished downloading, the core should now be ready for use!
 
-#### How to start (after installation):
+#### How to start the mGBA core:
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content'.
+- Go back to RetroArch's main menu screen. Select 'Load Content'.
 
-2. Browse to the folder that contains the content you want to run.
+<center> ![](images\Cores\all\load.png) </center>
 
-3. Select the content that you want to run.
+- Browse to the folder that contains the content you want to run.
 
-4. If you are asked which core to select, choose 'Game Boy Advance (mGBA)'.
+- Select the content that you want to run.
+
+- If you are asked which core to select, choose 'Game Boy Advance (mGBA)'.
 
 The content should now start running!
 
@@ -46,18 +56,23 @@ The content should now start running!
 - [Game Boy Advance (gpSP)](https://docs.libretro.com/library/gpsp/)
 - [Game Boy Advance (Meteor)](https://docs.libretro.com/library/meteor/)
 - [Game Boy Advance (VBA Next)](https://docs.libretro.com/library/vba_next/)
-- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vbam/)
+- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vba_m/)
 
 ### GB/GBC
 
-- [Game Boy / Game Boy Color (Emux)](https://docs.libretro.com/library/emux_gb/)
+- [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
 - [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
 - [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
 - [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
+- [Game Boy / Game Boy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
+- [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
 
 ## License
 
 A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+
+The mGBA core is licensed under
 
 - [MPLv2.0](https://github.com/libretro/mgba/blob/master/LICENSE)
 
@@ -87,10 +102,10 @@ Required or optional firmware files go in RetroArch's system directory.
 
 !!! warning
 	In order for the Game Boy Advance BIOS to be used, the 'Use BIOS file if found' core option must be set to On.
-	
+
 ## Features
 
-RetroArch features that the mGBA core respects.
+RetroArch-level settings or features that the mGBA core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -112,41 +127,52 @@ RetroArch features that the mGBA core respects.
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✔         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✔         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
 ### Directories
 
 The mGBA core's directory name is 'mGBA'
 
-The mGBA loads from and saves to to these directories.
+The mGBA core saves/loads to/from these directories.
 
-RetroArch's Save directory
+**RetroArch's Home directory**
+
+- retroarch-core-options.cfg (Core-options)
+
+**RetroArch's Config directory**
+
+- mGBA.cfg (Core Overrides)
+- 'content-name'.cfg (Game Overrides)
+- 'content-name'.opt (Game-options)
+
+**RetroArch's Input Remapping directory**
+
+- mGBA.rmp (Core Remap)
+- 'content-name'.rmp (Game Remap)
+
+**RetroArch's Video Shader directory**
+
+- mGBA.'shader-preset-extension' (Core Shader Preset)
+- 'content-name'.'shader-preset-extension' (Game Shader Preset)
+
+**RetroArch's Save directory**
 
 - 'content-name'.srm (Cartridge battery save)
 
-RetroArch's State directory
+**RetroArch's State directory**
 
-- 'content-name'.state# (State)
+- 'cotent-name'.state# (State)
 
 ### Geometry and timing
 
-The mGBA core's internal FPS is (FPS).
-
-The mGBA core's internal sample rate is 32768 Hz.
-
-The mGBA core's core provided aspect ratio is (Ratio).
-
-### Rumble
-
-Rumble only works in the mGBA core when
-
-- The content being ran has rumble support. (e.g. Cartridges with a Rumble Pak)
-- The joypad input driver being used has rumble support. (e.g. Xinput)
-- The joypad device being used has rumble support. (e.g. Xbox 360 Controller)
+- The mGBA core's core provided FPS is (FPS)
+- The mGBA core's core provided sample rate is 32768 Hz
+- The mGBA core's core provided aspect ratio is (Ratio)
 
 ## Core options
 
@@ -154,76 +180,79 @@ The mGBA core has the following option(s) that can be tweaked from the core opti
 
 Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
-- **Solar sensor level** (0 to 10 in increments of 1. **0 is default.**)
+- **Solar sensor level** [mgba_solar_sensor_level] (0 to 10 in increments of 1. **0 is default.**)
 
-<center> Can be used for games that employed the use of a solar sensor on their cartridges. </center>
+	Can be used for games that employed the use of a solar sensor on their cartridges.
+	
+- **Allow opposing directional input** [mgba_allow_opposing_directions] (**Off**/On)
 
-- **Allow opposing directional input** (**Off**/On)
-
-<center> Awaiting description. </center>
-
-- **Use BIOS file if found** (Off/**On**)
-
-<center> Uses a Game Boy Advance BIOS present in RetroArch's system directory. Please look at the [BIOS section](https://buildbot.libretro.com/.docs/library/mgba/index.html#bios) for more information. </center>
-
-- **Skip BIOS intro** (**Off**/On)
-
-<center> Skips the BIOS intro when a Game Boy Advance BIOS present in RetroArch's system directory is used. The 'Use BIOS file if found' core option must be set to On for proper operation. </center>
-
-<center>
+	Self-explanatory.
+	
+- **Use BIOS file if found** [mgba_use_bios] (Off/**On**)
+	
+	Uses a Game Boy Advance BIOS present in RetroArch's system directory. Look at the [BIOS section](file:///C:/rootw/Backup/port/git/docs/site/library/mgba/index.html#bios) for more information.
+	
+- **Skip BIOS intro** [mgba_skip_bios] (**Off**/On)
+	
+	Skips the BIOS intro when a Game Boy Advance BIOS present in RetroArch's system directory is used. The 'Use BIOS file if found' core option must be set to On for proper operation.
 
 ??? note "Skip BIOS intro - Off"
-    ![bios](images\Cores\mgba\bios.png)
+    ![](images\Cores\mgba\bios.png)	
+
+- **Idle loop removal** [mgba_idle_optimization] (**Remove Known**/Detect and Remove/Don't Remove)
+
+	Awaiting description.
 	
-</center>
+- **Frameskip** [mgba_frameskip] (0 to 10 in increments of 1. **0 is default**)
 
-- **Idle loop removal** (**Remove Known**/Detect and Remove/Don't Remove)
-
-<center> Awaiting description. </center>
+	Choose how much frames should be skipped to improve performance at the expense of visual smoothness.
 
 ## Controllers
 
-### Device types
-
 The mGBA core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 device types
+### User 1 device types
 
 - None - Doesn't disable input.
 - **RetroPad** - Joypad
-- RetroPad w/Analog - Joypad - There is no reason to switch to this.
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
+
+### Rumble support
+
+Rumble only works in the mGBA core when
+
+- The content being ran has rumble support. (e.g. Cartridges with a Rumble Pak)
+- The joypad input driver being used has rumble support. (e.g. Xinput)
+- The joypad device being used has rumble support.
 
 ### Controller tables
 
-#### Joypad and analog device type table
+#### Joypad
 
-| User 1 input descriptors      | RetroPad Inputs                              | RetroPad              |
-|-------------------------------|----------------------------------------------|-----------------------|
-| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                     |
-| Turbo B                       | ![](images/RetroPad/Retro_Y_Round.png)       | Turbo B               |
-| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                |
-| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start                 |
-| Up                            | ![](images/RetroPad/Retro_Dpad_Up.png)       | Up                    |
-| Down                          | ![](images/RetroPad/Retro_Dpad_Down.png)     | Down                  |
-| Left                          | ![](images/RetroPad/Retro_Dpad_Left.png)     | Left                  |
-| Right                         | ![](images/RetroPad/Retro_Dpad_Right.png)    | Right                 |
-| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                     |
-| Turbo A                       | ![](images/RetroPad/Retro_X_Round.png)       | Turbo A               |
-| L                             | ![](images/RetroPad/Retro_L1.png)            | L                     |
-| R                             | ![](images/RetroPad/Retro_R1.png)            | R                     |
-| Turbo L                       | ![](images/RetroPad/Retro_L2.png)            | Turbo L               |
-| Turbo R                       | ![](images/RetroPad/Retro_R2.png)            | Turbo R               |
-| Darken Solar Sensor           | ![](images/RetroPad/Retro_L3.png)            | Darken Solar Sensor   |
-| Brighten Solar Sensor         | ![](images/RetroPad/Retro_R3.png)            | Brighten Solar Sensor |
-
-## Compatibility
-
-Awaiting description.
+| User 1 Remap descriptors | RetroPad Inputs                              |
+|--------------------------|----------------------------------------------|
+| B                        | ![](images/RetroPad/Retro_B_Round.png)       |
+| Turbo B                  | ![](images/RetroPad/Retro_Y_Round.png)       |
+| Select                   | ![](images/RetroPad/Retro_Select.png)        |
+| Start                    | ![](images/RetroPad/Retro_Start.png)         |
+| Up                       | ![](images/RetroPad/Retro_Dpad_Up.png)       |
+| Down                     | ![](images/RetroPad/Retro_Dpad_Down.png)     |
+| Left                     | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| Right                    | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| A                        | ![](images/RetroPad/Retro_A_Round.png)       |
+| Turbo A                  | ![](images/RetroPad/Retro_X_Round.png)       |
+| L                        | ![](images/RetroPad/Retro_L1.png)            |
+| R                        | ![](images/RetroPad/Retro_R1.png)            |
+| Turbo L                  | ![](images/RetroPad/Retro_L2.png)            |
+| Turbo R                  | ![](images/RetroPad/Retro_R2.png)            |
+| Darken Solar Sensor      | ![](images/RetroPad/Retro_L3.png)            |
+| Brighten Solar Sensor    | ![](images/RetroPad/Retro_R3.png)            |
 
 ## External Links
 
-- [Libretro mGBA Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/mgba_libretro.info)
-- [Libretro mGBA Github Repository](https://github.com/libretro/mgba)
-- [Report Libretro mGBA Core Issues Here](https://github.com/libretro/mgba/issues)
 - [Official mGBA Website](https://mgba.io/)
 - [Official mGBA Github Repository](https://github.com/mgba-emu/mgba)
+
+- [Libretro mGBA Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/mgba_libretro.info)
+- [Libretro mGBA Github Repository](https://github.com/libretro/mgba)
+- [Report Libretro mGBA Core Issues Here](https://github.com/mgba-emu/mgba/issues)
