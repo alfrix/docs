@@ -6,7 +6,7 @@
 
 **In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/mesen.md). Changes are proposed using "Pull Requests."**
 
-**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/meta/todo/)**
 
 **You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
@@ -30,7 +30,7 @@ Mesen is a cross-platform NES/Famicom emulator for Windows & Linux built in C++ 
 
 After this has finished downloading, the core should now be ready for use!
 
-#### How to start the Mesen core:
+#### How to start the (Core name) core:
 
 - Go back to RetroArch's main menu screen. Select 'Load Content'.
 
@@ -55,6 +55,7 @@ The content should now start running!
 - [NES / Famicom (bnes)](https://docs.libretro.com/library/bnes/)
 - [NES / Famicom (Emux NES)](https://docs.libretro.com/library/emux_nes/)
 - [NES / Famicom (FCEUmm)](https://docs.libretro.com/library/fceumm/)
+- [NES / Famicom (Mesen)](https://docs.libretro.com/library/mesen/)
 - [NES / Famicom (Nestopia UE)](https://docs.libretro.com/library/nestopia_ue/)
 - [NES / Famicom (QuickNES)](https://docs.libretro.com/library/quicknes/)
 
@@ -96,7 +97,7 @@ RetroArch-level settings or features that the Mesen core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
-| Restart           | ✕         |
+| Restart           | ✔         |
 | Screenshots       | ✔         |
 | Saves             | ✔         |
 | States            | ✔         |
@@ -107,14 +108,14 @@ RetroArch-level settings or features that the Mesen core respects.
 | RetroArch Cheats  | ✔         |
 | Native Cheats     | ✕         |
 | Controls          | ✔         |
-| Remapping         | ✕         |
+| Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕\         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
@@ -149,7 +150,6 @@ The Mesen core saves/loads to/from these directories.
 
 **RetroArch's Save directory**
 
-- 'content-name'.srm (Cartridge battery save)
 - 'content-name'.sav (Cartridge battery save)
 
 **RetroArch's State directory**
@@ -159,6 +159,8 @@ The Mesen core saves/loads to/from these directories.
 **RetroArch's System directory**
 
 ```
+
+MesenPalette.pal (Custom Palette file)
 HdPacks/'content-name'/
 						- HD pack files
 ```
@@ -167,7 +169,18 @@ HdPacks/'content-name'/
 
 - The Mesen core's core provided FPS is 60 for NTSC games and 50 for PAL games.
 - The Mesen core's core provided sample rate is 48000 Hz
-- The Mesen core's core provided aspect ratio is dependent on the ['Aspect Ratio' core option](https://docs.libretro.com/mesen/#core-options).
+- The Mesen core's core provided aspect ratio is dependent on the ['Aspect Ratio' core option](https://docs.libretro.com/library/mesen/#core-options).
+
+### Custom Palettes
+
+To use custom color palettes in the Mesen core, the ['Palette' core option](https://docs.libretro.com/library/mesen/#core-options) must be set to Custom and the custom color palette file you want to use must be in RetroArch's system directory. 
+
+Make sure the custom palette file is named 'MesenPalette.pal'
+
+Custom color palettes for the NES can be generated with either of these tools.
+
+- [Bisqwit's NTSC NES palette generator](http://bisqwit.iki.fi/utils/nespalette.php)
+- [Drag's NTSC NES palette generator](http://drag.wootest.net/misc/palgen.html)
 
 ### HD packs
 
@@ -206,14 +219,10 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 	
 	Bisqwit filters are slower.
 
-- **NTSC filter: Vertical blending** [mesen_ntsc_vertical_blend] (**Off**/On)
-
-	Toggle vertical resolution blending in NTSC fllters.
-
-- **Palette** [mesen_palette] (**Default**/Composite Direct (by FirebrandX)/Nes Classic/Nestopia (RGB)/Original Hardware (by FirebrandX)/PVM Style (by FirebrandX)/Sony CXA2025AS/Unsaturated v6 (by FirebrandX)/YUV v3 (by FirebrandX))
+- **Palette** [mesen_palette] (**Default**/Composite Direct (by FirebrandX)/Nes Classic/Nestopia (RGB)/Original Hardware (by FirebrandX)/PVM Style (by FirebrandX)/Sony CXA2025AS/Unsaturated v6 (by FirebrandX)/YUV v3 (by FirebrandX)/Custom)
 
 	Mesen comes with a number of built-in palette options - you can select them from here.
-
+	
 - **Overclock** [mesen_overclock] (**None**/Low/Medium/High/Very High)
 
 	Use this to overclock or underclock the CPU.
@@ -243,7 +252,7 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 	The NES’ internal aspect ratio is almost square (Default (No Stretching)), but it used to be displayed on CRT TVs that had a rectangular picture. To simulate a CRT TV, you can use the Auto option - it will switch between NTSC and PAL aspect ratios depending on the game you are playing. Using anything other than the Default (No Stretching) option may cause pixels to have irregular sizes. You can reduce this effect by using a combination of video filters and the bilinear filtering option.
 
-- **Controller Turbo Speed** [mesen_controllerturbospeed] (**Fast**/Very Fast/Slow/Normal)
+- **Controller Turbo Speed** [mesen_controllerturbospeed] (**Fast**/Very Fast/Disabled/Slow/Normal)
 
 	Configure the controller's turbo buttons' speed.
 
@@ -295,42 +304,147 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 The Mesen core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-### User # - # device types
+### User 1 - 2 device types
 
-- None - Doesn't disable input
-- **RetroPad** - Joypad
-- RetroPad w/Analog - Joypad - There's no reason to switch to this.
+- None - Input disabled.
+- **Auto** - Joypad - Automatically selects an input device according to the data in the game database.
+- [Standard Controller](https://wiki.nesdev.com/w/index.php/Standard_controller) - Joypad - Manually selects a standard game controller.
+- [Zapper](https://wiki.nesdev.com/w/index.php/Zapper) - Pointer - Manually selects a Zapper light gun.
+- [Power Pad](https://wiki.nesdev.com/w/index.php/Power_Pad) - Joypad - Manually selects a Power Pad peripheral.
+- [Arkanoid](https://wiki.nesdev.com/w/index.php/Arkanoid_controller) - Mouse - Manually selects an Arkanoid controller.
+- [SNES Controller](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller) - Joypad - Manually selects a SNES Controller.
+- [SNES Mouse](https://wiki.nesdev.com/w/index.php/Mouse) - Mouse - Manually selects a SNES Mouse.
+
+### User 3 device types
+
+- None - Input disabled.
+- **Auto** - Joypad - Automatically selects an input device according to the data in the game database.
+- [Standard Controller](https://wiki.nesdev.com/w/index.php/Standard_controller) - Joypad - Manually selects a standard game controller.
+
+### User 4 device types
+
+- None - Input disabled.
+- **Auto** - Joypad - Automatically selects an input device according to the data in the game database.
+- [Standard Controller](https://wiki.nesdev.com/w/index.php/Standard_controller) - Joypad - Manually selects a standard game controller.
+
+### User 5 device types
+
+- None - Input disabled.
+- **Auto** - Joypad - Automatically selects an input device according to the data in the game database.
+- [Arkanoid](https://wiki.nesdev.com/w/index.php/Arkanoid_controller) - Mouse - Manually selects an Arkanoid controller.
+- [Ascii Turbo Fire](https://en.wikipedia.org/wiki/Turbo_File_(ASCII)) - None - Manually selects an Ascii Turbo Fire device.
+- Bandai Hypershot - Pointer - Manually selects a Bandai Hypershot light gun.
+- Battle Box - None - Manually selects a Battle Box device.
+- [Exciting Boxing](https://wiki.nesdev.com/w/index.php/Exciting_Boxing_Punching_Bag) - Joypad - Manually selects an Exciting Boxing punching bag.
+- [Family Trainer](https://wiki.nesdev.com/w/index.php/Power_Pad) - Joypad - Manually selects a Family Trainer peripheral.
+- [Four Player Adapter](https://wiki.nesdev.com/w/index.php/Four_Score) - None - Manually selects a Four Player Adapter device.
+- [Hori Track](https://wiki.nesdev.com/w/index.php/Mouse#Hori_Track) - Mouse - Manually selects a Hori Track trackball.
+- [Konami Hypershot](https://wiki.nesdev.com/w/index.php/Konami_Hyper_Shot) - Joypad - Manually selects a Konami Hypershot controller.
+- [Pachinko](https://wiki.nesdev.com/w/index.php/Coconuts_Pachinko) - Joypad - Manually selects a Pachinko controller.
+- [Partytap](https://wiki.nesdev.com/w/index.php/Partytap) - Joypad - Manually selects Partytap controllers.
+
+### Other controllers
+
+- [Oeka Kids Tablet](https://wiki.nesdev.com/w/index.php/Oeka_Kids_tablet) - Pointer - The Mesen core will automatically select the Oeka Kids Tablet input device according to the data in the game database. It cannot be manually selected as a device type in RetroArch's controls menu.
+
+### Multitap support
+
+Multitap support can be activated in the Mesen core by switching User 5's device type to Four Player Adapter.
 
 ### Controller tables
 
 #### Joypad
 
-| User # Remap descriptors | RetroPad Inputs                              | RetroPad               |
-|--------------------------|----------------------------------------------|------------------------|
-|                          | ![](images/RetroPad/Retro_B_Round.png)       | B                      |
-|                          | ![](images/RetroPad/Retro_Y_Round.png)       | A                      |
-|                          | ![](images/RetroPad/Retro_Select.png)        | Select                 |
-|                          | ![](images/RetroPad/Retro_Start.png)         | Start                  |
-|                          | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up               |
-|                          | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down             |
-|                          | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left             |
-|                          | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right            |
-|                          | ![](images/RetroPad/Retro_A_Round.png)       | Turbo B                |
-|                          | ![](images/RetroPad/Retro_X_Round.png)       | Turbo A                |
-|                          | ![](images/RetroPad/Retro_L1.png)            | (FDS) Insert Next Disk |
-|                          | ![](images/RetroPad/Retro_R1.png)            | (FDS) Switch Disk Side |
-|                          | ![](images/RetroPad/Retro_L2.png)            | (VS) Insert Coin 0     |
-|                          | ![](images/RetroPad/Retro_R2.png)            | (VS) Insert Coin 1     |
+| User Remap descriptors for 'Standard Controller' | RetroPad Inputs                              |
+|--------------------------------------------------|----------------------------------------------|
+| A                                                | ![](images/RetroPad/Retro_B_Round.png)       |
+| B                                                | ![](images/RetroPad/Retro_Y_Round.png)       |
+| Select                                           | ![](images/RetroPad/Retro_Select.png)        |
+| Start                                            | ![](images/RetroPad/Retro_Start.png)         |
+| D-Pad Up                                         | ![](images/RetroPad/Retro_Dpad_Up.png)       |
+| D-Pad Down                                       | ![](images/RetroPad/Retro_Dpad_Down.png)     |
+| D-Pad Left                                       | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| D-Pad Right                                      | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| Turbo A                                          | ![](images/RetroPad/Retro_A_Round.png)       |
+| Turbo B                                          | ![](images/RetroPad/Retro_X_Round.png)       |
+| (FDS) Insert Next Disk                           | ![](images/RetroPad/Retro_L1.png)            |
+| (FDS) Switch Disk Side                           | ![](images/RetroPad/Retro_R1.png)            |
+| (VS) Insert Coin 1                               | ![](images/RetroPad/Retro_L2.png)            |
+| (VS) Insert Coin 2                               | ![](images/RetroPad/Retro_R2.png)            |
+| (Famicom) Microphone                             | ![](images/RetroPad/Retro_L3.png)            |
 
 !!! attention
 	The (FDS) Insert Next Disk and (FDS) Switch Disk Side inputs will NOT do anything while the ['FDS: Automatically insert disks' core option](https://docs.libretro.com/library/mesen/#core-options) is enabled.
 
+| User Remap descriptors for 'SNES Controller' device type | RetroPad Inputs                              |
+|----------------------------------------------------------|----------------------------------------------|
+| B                                                        | ![](images/RetroPad/Retro_B_Round.png)       |
+| Y                                                        | ![](images/RetroPad/Retro_Y_Round.png)       |
+| Select                                                   | ![](images/RetroPad/Retro_Select.png)        |
+| Start                                                    | ![](images/RetroPad/Retro_Start.png)         |
+| D-Pad Up                                                 | ![](images/RetroPad/Retro_Dpad_Up.png)       |
+| D-Pad Down                                               | ![](images/RetroPad/Retro_Dpad_Down.png)     |
+| D-Pad Left                                               | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| D-Pad Right                                              | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| A                                                        | ![](images/RetroPad/Retro_A_Round.png)       |
+| X                                                        | ![](images/RetroPad/Retro_X_Round.png)       |
+| L                                                        | ![](images/RetroPad/Retro_L1.png)            |
+| R                                                        | ![](images/RetroPad/Retro_R1.png)            |
+
+| User Remap descriptors for 'Power Pad' and 'Family Trainer' device types   | RetroPad Inputs                              |
+|----------------------------------------------------------------------------|----------------------------------------------|
+| Powerpad B1                                                                | ![](images/RetroPad/Retro_B_Round.png)       |
+| Powerpad B3                                                                | ![](images/RetroPad/Retro_Y_Round.png)       |
+| Powerpad B11                                                               | ![](images/RetroPad/Retro_Select.png)        |
+| Powerpad B12                                                               | ![](images/RetroPad/Retro_Start.png)         |
+| Powerpad B9                                                                | ![](images/RetroPad/Retro_Dpad_Up.png)       |
+| Powerpad B10                                                               | ![](images/RetroPad/Retro_Dpad_Down.png)     |
+| Powerpad B7                                                                | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| Powerpad B8                                                                | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| Powerpad B2                                                                | ![](images/RetroPad/Retro_A_Round.png)       |
+| Powerpad B4                                                                | ![](images/RetroPad/Retro_X_Round.png)       |
+| Powerpad B5                                                                | ![](images/RetroPad/Retro_L1.png)            |
+| Powerpad B6                                                                | ![](images/RetroPad/Retro_R1.png)            |
+	
+| User Remap descriptors for 'Exciting Boxing' device type   | RetroPad Inputs                              |
+|------------------------------------------------------------|----------------------------------------------|
+| Left Hook                                                  | ![](images/RetroPad/Retro_B_Round.png)       |
+| Left Jab                                                   | ![](images/RetroPad/Retro_Y_Round.png)       |
+| Move Left                                                  | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| Move Right                                                 | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| Right Hook                                                 | ![](images/RetroPad/Retro_A_Round.png)       |
+| Right Jab                                                  | ![](images/RetroPad/Retro_X_Round.png)       |
+| Body                                                       | ![](images/RetroPad/Retro_L1.png)            |
+| Straight                                                   | ![](images/RetroPad/Retro_R1.png)            |
+
+| User Remap descriptors for 'Pachinko' device type   | RetroPad Inputs                              |
+|-----------------------------------------------------|----------------------------------------------|
+| Release Trigger                                     | ![](images/RetroPad/Retro_L1.png)            |
+| Press Trigger                                       | ![](images/RetroPad/Retro_R1.png)            |
+
+| User Remap descriptors for 'Partytap' device type   | RetroPad Inputs                              |
+|-----------------------------------------------------|----------------------------------------------|
+| Partytap P1                                         | ![](images/RetroPad/Retro_B_Round.png)       |
+| Partytap P3                                         | ![](images/RetroPad/Retro_Y_Round.png)       |
+| Partytap P2                                         | ![](images/RetroPad/Retro_A_Round.png)       |
+| Partytap P4                                         | ![](images/RetroPad/Retro_X_Round.png)       |
+| Partytap P5                                         | ![](images/RetroPad/Retro_L1.png)            |
+| Partytap P6                                         | ![](images/RetroPad/Retro_R1.png)            |
+
 #### Mouse
 
-| RetroMouse Inputs                                   | Zapper           |
-|-----------------------------------------------------|------------------|
-| ![](images/RetroMouse/Retro_Mouse.png) Mouse Cursor | Zapper Crosshair |
-| ![](images/RetroMouse/Retro_Left.png) Mouse 1       | Zapper Trigger   |
+| RetroMouse Inputs                                   | Arkanoid Inputs | Hori Track Inputs | SNES Mouse Inputs       |
+|-----------------------------------------------------|-----------------|-------------------|-------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) Mouse Cursor | Arkanoid Move   | -                 | SNES Mouse Cursor       |
+| ![](images/RetroMouse/Retro_Left.png) Mouse 1       | Arkanoid Fire   | -                 | SNES Mouse Left Button  |
+| ![](images/RetroMouse/Retro_Right.png) Mouse 2      |                 | -                 | SNES Mouse Right Button | 
+
+#### Pointer
+
+| RetroPointer Inputs                                                                                                  | Zapper Inputs    | Oeka Kids Tablet Inputs | Bandai Hypershot Inputs    |
+|----------------------------------------------------------------------------------------------------------------------|------------------|-------------------------|----------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | Zapper Crosshair | Oeka Kids Tablet Stylus | Bandai Hypershot Crosshair |
+| ![](images/RetroMouse/Retro_Left.png) or ![](images/Button_Pack/Gestures/Gesture_Tap.png) Pointer Pressed            | Zapper Trigger   | Oeka Kids Tablet Tap    | Bandai Hypershot Trigger   |
 
 ## Compatibility
 

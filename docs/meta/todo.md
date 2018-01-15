@@ -479,20 +479,15 @@
 
 ### [〰️] Mesen
 
-- Why is there two save files
-- Complete why use this core section.
-- Test mutlitap support.
+- Add HD Pack Before-After screenshots.
 - Add NTSC Filter core option screenshots.
-- Add Vertical blending core option screenshots.
 - Add Palette core option screenshots.
-- Make a Overclock core option video.
 - Add Vertical Overscan core option screenshots.
 - Add Horizontal Overscan core option screenshots.
-- Add a Aspect Ratio core option video.
-- Add a Sprite Limit core option video.
+- Add Aspect Ratio core option screenshots.
+- Add Sprite Limit core option screenshots.
 - Add Screen Rotation core option screenshots.
-- Test Power pad supprt.
-- Test other controllers support.
+- Add Hori Track inputs.
 
 ### [✕] MESS 2014
 
