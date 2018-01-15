@@ -10,17 +10,27 @@ See below for a summary of the licenses behind RetroArch and its cores:
 
 **This section emphasizes what software is NON-COMMERCIAL.**
 
+**SOFTWARE LISTED IN THE TABLE BELOW ARE PROTECTED BY NON-COMMERCIAL LICENSES.**
+
+**ANY COMMERCIAL USES OF THE SOFTWARE IN THE TABLE BELOW IS STRICTLY FORBIDDEN WITHOUT COPYRIGHT HOLDERS' APPROVAL.**
+
+**THE SOFTWARE IN THE TABLE BELOW MAY NOT BE SOLD, NOR MAY THEY BE USED IN A COMMERCIAL PRODUCT OR ACTIVITY WITHOUT COYRIGHT HOLDERS' APPROVAL.**
+
+**THE SOFTWARE IN THE TABLE BELOW CANNOT BE SHIPPED PREINSTALLED ON ANY DEVICES WITHOUT COPYRIGHT HOLDERS' APPROVAL.**
+
+**EVERY LICENSE ENTRY IN THE TABLE BELOW HAS A HYPERLINK FOR PROOF OF THE SOFTWARE'S LICENSE**
+
 | Software                                             			                   | License                                                                                   | Non-commercial |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------|
-| [Lakka](http://www.lakka.tv/)                                                    | [Non-Commercial](http://www.lakka.tv/doc/FAQ/)                                            | Non-Commercial |
+| [Lakka](http://www.lakka.tv/)                                                    | [Non-commercial](http://www.lakka.tv/doc/FAQ/)                                            | Non-commercial |
 | [4DO](../library/4do.md)                         			                       | [Non-commercial](https://github.com/libretro/4do-libretro/blob/master/libfreedo/freedocore.h)      | Non-commercial |
 | [Dinothawr](../library/dinothawr.md)             			                       | [Non-commercial](https://github.com/libretro/Dinothawr/blob/master/LICENSE)               | Non-commercial |
-| FB Alpha                                         			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012                                    			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012 CPS-1                              			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012 CPS-2                              			                       | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012 CPS-3                                                              | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012 Neo Geo                            		                           | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
+| FB Alpha                                         			                       | [Non-commercial](https://github.com/libretro/fbalpha/blob/master/src/license.txt)         | Non-commercial |
+| FB Alpha 2012                                    			                       | [Non-commercial](https://github.com/libretro/fbalpha2012/blob/master/docs/license.txt)                                        | Non-commercial |
+| FB Alpha 2012 CPS-1                              			                       | [Non-commercial](https://github.com/libretro/fbalpha2012_cps1/blob/master/src/license.txt)                                        | Non-commercial |
+| FB Alpha 2012 CPS-2                              			                       | [Non-commercial](https://github.com/libretro/fbalpha2012_cps2/blob/master/src/license.txt)                                        | Non-commercial |
+| FB Alpha 2012 CPS-3                                                              | [Non-commercial](https://github.com/libretro/fbalpha2012_cps3/blob/master/docs/license.txt)                                        | Non-commercial |
+| FB Alpha 2012 Neo Geo                            		                           | [Non-commercial](https://github.com/libretro/fbalpha2012_neogeo/blob/master/src/license.txt)                                        | Non-commercial |
 | fMSX                                                                             | [Non-commercial](https://github.com/libretro/fmsx-libretro/blob/master/LICENSE)           | Non-commercial |
 | [Genesis Plus GX](../library/genesis_plus_gx.md)          		               | [Non-commercial](https://github.com/libretro/Genesis-Plus-GX/blob/master/LICENSE.txt)     | Non-commercial |
 | MAME 2000							                                               | [MAME (Non-commercial)](https://github.com/libretro/mame2000-libretro/blob/master/readme.txt) | Non-commercial |
@@ -44,7 +54,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 |---------------------------------------------------------|--------------------------------------------------------------------|----------------|
 | [LibRetro API](https://www.libretro.com/index.php/api/) | [MIT](https://www.libretro.com/index.php/api/)                     |                |
 | [RetroArch](http://www.retroarch.com/)                  | [GPLv3](https://github.com/libretro/RetroArch/blob/master/COPYING) |                |
-| [Lakka](http://www.lakka.tv/)                           | [Non-Commercial](http://www.lakka.tv/doc/FAQ/)                     | Non-Commercial |
+| [Lakka](http://www.lakka.tv/)                           | [Non-commercial](http://www.lakka.tv/doc/FAQ/)                     | Non-commercial |
 | [libretro/docs](https://docs.libretro.com/)             | [MIT](https://github.com/libretro/docs/blob/master/LICENSE)        |                |
 
 ## Cores
@@ -93,12 +103,12 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Emux GB](../library/emux_gb.md)                                                 | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
 | [Emux NES](../library/emux_nes.md)                                               | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
 | [Emux SMS](../library/emux_sms.md)                                               | [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)                             |                |
-| FB Alpha                                         			           | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012                                    			           | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012 CPS-1                              			           | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012 CPS-2                              			           | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012 CPS-3                                                              | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
-| FB Alpha 2012 Neo Geo                            		                   | [Non-commercial](https://www.fbalpha.com/license/)                                        | Non-commercial |
+| FB Alpha                                         			                       | [Non-commercial](https://github.com/libretro/fbalpha/blob/master/src/license.txt)         | Non-commercial |
+| FB Alpha 2012                                    			                       | [Non-commercial](https://github.com/libretro/fbalpha2012/blob/master/docs/license.txt)                                        | Non-commercial |
+| FB Alpha 2012 CPS-1                              			                       | [Non-commercial](https://github.com/libretro/fbalpha2012_cps1/blob/master/src/license.txt)                                        | Non-commercial |
+| FB Alpha 2012 CPS-2                              			                       | [Non-commercial](https://github.com/libretro/fbalpha2012_cps2/blob/master/src/license.txt)                                        | Non-commercial |
+| FB Alpha 2012 CPS-3                                                              | [Non-commercial](https://github.com/libretro/fbalpha2012_cps3/blob/master/docs/license.txt)                                        | Non-commercial |
+| FB Alpha 2012 Neo Geo                            		                   | [Non-commercial](https://github.com/libretro/fbalpha2012_neogeo/blob/master/src/license.txt)                                        | Non-commercial |
 | [FCEUmm](../library/fceumm.md)                                                   | [GPLv2](https://github.com/libretro/libretro-fceumm/blob/master/Copying)                  |                |
 | [FFmpeg](../library/ffmpeg.md)                                                   | [LGPLv2, GPLv2](https://github.com/libretro/FFmpeg/blob/master/LICENSE.md)                |                |
 | fMSX                                                                             | [Non-commercial](https://github.com/libretro/fmsx-libretro/blob/master/LICENSE)           | Non-commercial |
