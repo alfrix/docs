@@ -507,12 +507,9 @@
 
 ### [〰️] mGBA
 
-- Improve background section.
-- Complete why use this core section
-- Add internal FPS
+- Add core provided FPS.
 - Add core provided aspect ratio
 - Complete core option descriptions.
-- Complete compatbility section.
 
 ### [〰️] Mr.Boom
 
