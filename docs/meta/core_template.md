@@ -11,7 +11,7 @@
 
 // Add (core-doc-filename).md to the end of the URL.
 
-**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
+**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/meta/todo/)**
 
 **You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
 
@@ -27,18 +27,6 @@ Awaiting description.
 Awaiting description.
 
 // Fill in hardware or software requirements for the core here.
-
-### Why use this core?
-// Optional section.
-
-Awaiting description.
-
-// Possible topics to talk about.
-/// What can the core do?
-/// Does the core have notable enhancements or differences compared to standalone or other cores?
-/// Is the core recommended for netplay?
-/// Is the core designed to run on specific hardware or platforms?
-/// Is the core recommended for romhacks?
 
 ### How to install the (Core name) core:
 
@@ -136,7 +124,7 @@ The content should now start running!
 - [Other Core](https://docs.libretro.com/library/)
 
 // Add links to related core docs here.
-// https://docs.libretro.com/docguide/see_also/
+// https://docs.libretro.com/meta/see_also/
 
 ## License
 
@@ -600,8 +588,9 @@ Awaiting description.
 ## External Links
 // Put relevant links here.
 
+- [Official/Original (Core name) Website](https://link)
+- [Official/Original (Core name) (Website name) Repository](https://link)
+
 - [Libretro (Core name) Core info file](https://link)
 - [Libretro (Core name) (Website name) Repository](https://link)
 - [Report Libretro (Core name) Core Issues Here](https://link)
-- [Official/Original (Core name) Website](https://link)
-- [Official/Original (Core name) (Website name) Repository](https://link)
