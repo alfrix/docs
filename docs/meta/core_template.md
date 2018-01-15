@@ -354,7 +354,7 @@ Rumble only works in the (Core name) core when
 
 #### Joypad
 
-| User # Remap descriptors | RetroPad Inputs                              | (Device name)             |
+| User # Remap descriptors | RetroPad Inputs                              | (Device name) Inputs      |
 |--------------------------|----------------------------------------------|---------------------------|
 | Action 1                 | ![](images/RetroPad/Retro_B_Round.png)       | -                         |
 | Action 2                 | ![](images/RetroPad/Retro_Y_Round.png)       | -                         |
@@ -379,7 +379,7 @@ Rumble only works in the (Core name) core when
 
 #### Keyboard
 
-| RetroKeyboard Inputs         | (Device name) Core Inputs |
+| RetroKeyboard Inputs         | (Device name) Inputs      |
 |------------------------------|---------------------------|
 | Keyboard Backspace           | -                         |
 | Keyboard Tab                 | -                         |
@@ -521,7 +521,7 @@ Rumble only works in the (Core name) core when
 
 #### Mouse
 
-| RetroMouse Inputs                                   | (Device name) Core Inputs |
+| RetroMouse Inputs                                   | (Device name) Inputs      |
 |-----------------------------------------------------|---------------------------|
 | ![](images/RetroMouse/Retro_Mouse.png) Mouse Cursor | -                         |
 | ![](images/RetroMouse/Retro_Left.png) Mouse 1       | -                         |
@@ -536,14 +536,14 @@ Rumble only works in the (Core name) core when
 
 #### Pointer
 
-| RetroPointer Inputs                                                                                                  | (Device name) Core Inputs |
+| RetroPointer Inputs                                                                                                  | (Device name) Inputs      |
 |----------------------------------------------------------------------------------------------------------------------|---------------------------|
 | ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | -                         | 
 | ![](images/RetroMouse/Retro_Left.png) or ![](images/Button_Pack/Gestures/Gesture_Tap.png) Pointer Pressed            | -                         |
 
 #### Lightgun
 
-| RetroLightgun Inputs                                 | (Device name) Core Inputs |
+| RetroLightgun Inputs                                 | (Device name) Inputs      |
 |------------------------------------------------------|---------------------------|
 | ![](images/RetroMouse/Retro_Mouse.png) Gun Crosshair | -                         |
 | Gun Trigger                                          | -                         |
@@ -558,7 +558,7 @@ Rumble only works in the (Core name) core when
 | Gun D-pad Left                                       | -                         |
 | Gun D-pad Right                                      | -                         |
 
-| RetroLightgun Inputs                                                                       | (Device name) Core Inputs |
+| RetroLightgun Inputs                                                                       | (Device name) Inputs      |
 |--------------------------------------------------------------------------------------------|---------------------------|
 | ![](images/RetroMouse/Retro_Mouse.png) Gun Crosshair                                       | -                         |
 | ![](images/RetroMouse/Retro_Left.png) Gun Trigger                                          | -                         |
@@ -590,7 +590,6 @@ Awaiting description.
 
 - [Official/Original (Core name) Website](https://link)
 - [Official/Original (Core name) (Website name) Repository](https://link)
-
 - [Libretro (Core name) Core info file](https://link)
 - [Libretro (Core name) (Website name) Repository](https://link)
 - [Report Libretro (Core name) Core Issues Here](https://link)
