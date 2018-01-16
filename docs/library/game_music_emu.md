@@ -14,11 +14,11 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## See also
 
-[FFmpeg](https://doc.libretro.com/library/ffmpeg/)
+[FFmpeg](https://docs.libretro.com/library/ffmpeg/)
 
-[Imageviewer](https://doc.libretro.com/library/imageviewer/)
+[Imageviewer](https://docs.libretro.com/library/imageviewer/)
 
-[PocketCDG](https://doc.libretro.com/library/pocketcdg/)
+[PocketCDG](https://docs.libretro.com/library/pocketcdg/)
 
 ## License
 
