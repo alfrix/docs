@@ -18,9 +18,9 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## See also
 
-[Sega MS/GG/MD/CD (Genesis Plus GX)](https://doc.libretro.com/library/genesis_plus_gx/)
+[Sega MS/GG/MD/CD (Genesis Plus GX)](https://docs.libretro.com/library/genesis_plus_gx/)
 
-[Sega MS/MD/CD/32X (PicoDrive)](https://doc.libretro.com/library/picodrive/)
+[Sega MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
 
 ## License
 

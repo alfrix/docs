@@ -14,7 +14,7 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## See also
 
-[Quake 1 (TyrQuake)](https://doc.libretro.com/library/tyrquake.md/)
+[Quake 1 (TyrQuake)](https://docs.libretro.com/library/tyrquake.md/)
 
 ## License
 

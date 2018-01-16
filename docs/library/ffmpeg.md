@@ -14,11 +14,11 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## See also
 
-[Imageviewer](https://doc.libretro.com/library/imageviewer/)
+[Imageviewer](https://docs.libretro.com/library/imageviewer/)
 
-[Game Music Emu](https://doc.libretro.com/library/game_music_emu/)
+[Game Music Emu](https://docs.libretro.com/library/game_music_emu/)
 
-[PocketCDG](https://doc.libretro.com/library/pocketcdg/)
+[PocketCDG](https://docs.libretro.com/library/pocketcdg/)
 
 ## License
 
