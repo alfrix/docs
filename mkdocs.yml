@@ -44,6 +44,7 @@ pages:
       - 'Core Template': 'meta/core_template.md'
       - 'See Also': 'meta/see_also.md'
     - Technical:
+      - 'Debugging': 'tech/debugging.md'
       - 'Licenses': 'tech/licenses.md'
       - Protocols:
         - 'Netplay': 'tech/netplay.md'
