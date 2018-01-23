@@ -8,6 +8,10 @@
 
 ![crt-aperture](images/crt/crt-aperture.png)
 
+* crt-caligari
+
+![crt-caligari](images/crt/crt-caligari.png)
+
 * crt-cgwg-fast
 
 ![crt-cgwg-fast](images/crt/crt-cgwg-fast.png)
@@ -36,6 +40,10 @@
 
 ![crt-interlaced-halation](images/crt/crt-interlaced-halation.png)
 
+* crt-lottes-fast
+
+![crt-lottes-fast](images/crt/crt-lottes-fast.png)
+
 * crt-lottes-multipass-interlace-glow
 
 ![crt-lottes-multipass-interlace-glow](images/crt/crt-lottes-multipass-interlace-glow.png)
@@ -51,6 +59,14 @@
 * crt-nes-mini
 
 ![crt-nes-mini](images/crt/crt-nes-mini.png)
+
+* crt-potato-cool
+
+![crt-potato-cool](images/crt/crt-potato-cool.png)
+
+* crt-potato-warm
+
+![crt-potato-warm](images/crt/crt-potato-warm.png)
 
 * crt-royale
 
@@ -96,6 +112,10 @@
 
 ![gtuv50](images/crt/gtuv50.png)
 
+* meta-crt
+
+![meta-crt](images/crt/meta-crt.png)
+
 * ntsc-shadowmask-interlacing
 
 ![ntsc-shadowmask-interlacing](images/crt/ntsc-shadowmask-interlacing.png)
@@ -119,6 +139,10 @@
 * phosphorlut
 
 ![phosphorlut](images/crt/phosphorlut.png)
+
+* zfast-crt
+
+![zfast-crt](images/crt/zfast-crt.png)
 
 ## Comments
 
