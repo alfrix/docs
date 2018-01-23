@@ -10,7 +10,7 @@
 
 * crt-caligari
 
-![crt-caligar](images/crt/crt-caligari.png)
+![crt-caligari](images/crt/crt-caligari.png)
 
 * crt-cgwg-fast
 
