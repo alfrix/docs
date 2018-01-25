@@ -88,6 +88,7 @@ pages:
         - 'FFmpeg': 'library/ffmpeg.md'
         - 'Game Music Emu': 'library/game_music_emu.md'
         - 'Imageviewer': 'library/imageviewer.md'
+        - 'Mattel - Intellivision (FreeIntv)': 'library/freeintv.md'
         - 'Lua Engine (Lutro)': 'library/lutro.md'
         - 'MSX (fMSX)': 'library/fmsx.md'
         - 'MSX/SVI/ColecoVision/SG-1000 (blueMSX)': 'library/bluemsx.md'
