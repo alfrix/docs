@@ -376,7 +376,9 @@ Activating multitap support in compatible games can be configured by switching t
 
 ## Compatibility
 
-The nSide Balanced core fully emulates all SNES games that have ever been officially released.
+| Game                     | Issue                                                                          |
+|--------------------------|--------------------------------------------------------------------------------|
+| A.S.P. Air Strike Patrol | Black lines show up during gameplay. The shadow below the aircraft is missing. |
 
 Incompatible with ROM hacks made to take advantage of emulator quirks, much like real hardware.
 
