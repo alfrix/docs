@@ -28,7 +28,7 @@ Awaiting description.
 
 // Fill in hardware or software requirements for the core here.
 
-### How to install the (Core name) core:
+### How to install the (Core name) core in RetroArch:
 
 // Fill in the (Core name).
 
@@ -36,7 +36,7 @@ Awaiting description.
 
 <center> ![](images\Cores\all\updater.png) </center>
 
-- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+- Just to make sure we have the latest info files, select 'Update Core Info Files'. Wait until this is done. Then, select 'Core Updater'.
 
 <center> ![](images\Cores\all\info.png) </center>
 
