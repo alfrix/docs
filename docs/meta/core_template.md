@@ -515,6 +515,7 @@ Awaiting description.
 - [Libretro (Core name) Core info file](https://link)
 - [Libretro (Core name) (Website name) Repository](https://link)
 - [Report Libretro (Core name) Core Issues Here](https://link)
+<<<<<<< HEAD
 
 ### See also
 // Optional section.
@@ -523,3 +524,5 @@ Awaiting description.
 
 // Add links to related core docs here.
 // https://docs.libretro.com/meta/see_also/
+=======
+>>>>>>> 462b736dae0404b134ed554a3bfbcf55f70d391d
