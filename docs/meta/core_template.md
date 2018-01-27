@@ -200,7 +200,7 @@ The (Core name) core saves/loads to/from these directories.
 
 // Fill in the (Core name) and the FPS, sample rate, aspect ratio info.
 
-### Usage
+## Usage
 // Optional section.
 // Explain how to use the core if further explaination is needed.
 
