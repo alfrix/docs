@@ -200,6 +200,7 @@ pages:
       - 'Creating a Theme': 'guides/themes.md'
       - 'RGUI Interface': 'guides/RGUI.md'
     - Feature Specific:
+      - 'Core Compatibility': 'guides/compatibility.md'
       - 'Input and Joypad Drivers': 'guides/input-joypad-drivers.md'
       - 'Linux KMS Mode': 'guides/kms-mode.md'
       - 'Netplay Getting Started / FAQ': 'guides/netplay-faq.md'
