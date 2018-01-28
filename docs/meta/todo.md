@@ -504,7 +504,7 @@
 
 - Add core provided FPS.
 - Add core provided aspect ratio
-- Complete core option descriptions.
+- Complete description for Idle loop removal core option.
 
 ### [〰️] Mr.Boom
 
