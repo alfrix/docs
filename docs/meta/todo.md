@@ -116,24 +116,16 @@
 
 ### [〰️] Beetle PSX
 
-- Improve background section.
-- Complete 'Why use this core?' section.
 - Test Multimouse support.
-- Complete compatibility section.
-- Add more core option screenshots.
-- Add internal sample rate.
-- Add internal FPS.
+- Add core provided sample rate.
+- Add core provided FPS.
 - Add core provided aspect ratio.
 
 ### [〰️] Beetle PSX HW
 
-- Improve background section.
-- Complete 'Why use this core?' section.
 - Test Multimouse support.
-- Complete compatibility section.
-- Add more core option screenshots.
-- Add internal sample rate.
-- Add internal FPS.
+- Add core provided sample rate.
+- Add core provided FPS.
 - Add core provided aspect ratio.
 
 ### [〰️] Beetle Saturn
