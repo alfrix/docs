@@ -77,8 +77,8 @@ You can also check the progress of your friends and add comments on their trophi
 | [Snes9x 2005](https://github.com/libretro/snes9x2005)                        | ✔         | |
 | [Snes9x 2005 Plus](https://github.com/libretro/snes9x2005)                   | ✔         | |
 | [Snes9x 2002](https://github.com/libretro/snes9x2002)                        | ✔         | |
-| higan Accuracy                                                               | ✕         | |
-| nSide Balanced                                                               | ✕         | |
+| higan Accuracy                                                               | ✕         | Achievement support isn't going to be added |
+| nSide Balanced                                                               | ✕         | Achievement support isn't going to be added |
 | [bsnes Accuracy](https://github.com/libretro/bsnes-libretro)                 | ✔         | |
 | [bsnes Balanced](https://github.com/libretro/bsnes-libretro)                 | ✔         | |
 | [bsnes Performance](https://github.com/libretro/bsnes-libretro)              | ✔         | |

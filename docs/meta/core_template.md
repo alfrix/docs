@@ -3,18 +3,6 @@
 // Copy the display name entry from the core info file and paste it here for the title.
 // https://github.com/libretro/libretro-super/tree/master/dist/info
 
-## Contribute to this documentation
-
-**DOCUMENTATION IS A WORK IN PROGRESS**
-
-**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/). Changes are proposed using "Pull Requests."**
-
-// Add (core-doc-filename).md to the end of the URL.
-
-**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/meta/todo/)**
-
-**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
-
 ## Background
 
 Awaiting description.
@@ -28,50 +16,11 @@ Awaiting description.
 
 // Fill in hardware or software requirements for the core here.
 
-### How to install the (Core name) core in RetroArch:
-
-// Fill in the (Core name).
-
-- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
-
-<center> ![](images\Cores\all\updater.png) </center>
-
-- Just to make sure we have the latest info files, select 'Update Core Info Files'. Wait until this is done. Then, select 'Core Updater'.
-
-<center> ![](images\Cores\all\info.png) </center>
-
-- Browse through the list and select '(Title)'.
-
-<center> ![](images\Cores\updater\screenshot_name.png) </center>
-
-// Fill in the (Title).
-// Fill in the title screenshot
-
-After this has finished downloading, the core should now be ready for use!
-
-#### How to start the (Core name) core:
-// Optional section.
-// This section is for cores that are predominantly ran by loading content.
-
-- Go back to RetroArch's main menu screen. Select 'Load Content'.
-
-<center> ![](images\Cores\all\load.png) </center>
-
-- Browse to the folder that contains the content you want to run.
-
-- Select the content that you want to run.
-
-- If you are asked which core to select, choose '(Title)'.
-
-// Fill in the (Title).
-
-The content should now start running!
-
 #### How to start the (Core name) core:
 // Optional section.
 // This section is for cores that need files from RetroArch's content downloader.
 
-- You now need to obtain (Core name)'s data files. You can do this by going back to the previous menu screen. From there, select 'Content Downloader'.
+- To start the (Core name) core, you need to obtain (Core name)'s data files. You can do this by going to RetroArch's main menu screen and selecting 'Online Updater'. From there, select 'Content Downloader'.
 
 <center> ![](images\Cores\all\download.png) </center>
 
@@ -103,7 +52,7 @@ The content should now start running!
 // Optional section.
 // This section is for cores that don't need any content to be started.
 
-- Go back to RetroArch's main menu screen. Select 'Load Core', then '(Core name)'.
+- To start the (Core name) core, go to RetroArch's main menu screen. Select 'Load Core', then '(Core name)'.
 
 // Fill in the (Core name).
 
@@ -111,24 +60,15 @@ The content should now start running!
 
 The content should now start running!
 
-### Authors
+### Author/License
+
+The (Core name) core has been authored by
 
 - [Author](http://link)
 
+// Fill in the (Core name)
 // Copy the author entry from the core info file and paste it here. Link is optional.
 // https://github.com/libretro/libretro-super/tree/master/dist/info
-
-## See also
-// Optional section.
-
-- [Other Core](https://docs.libretro.com/library/)
-
-// Add links to related core docs here.
-// https://docs.libretro.com/meta/see_also/
-
-## License
-
-A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 The (Core name) core is licensed under
 
@@ -137,6 +77,8 @@ The (Core name) core is licensed under
 // Fill in the (Core name)
 // Copy the license entry from the core info file and a url to license information and paste it here.
 //(https://github.com/libretro/libretro-super/tree/master/dist/info)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 // Optional section.
@@ -166,7 +108,7 @@ RetroArch database(s) that are associated with the (Core name) core:
 ## BIOS
 // Optional section.
 
-Required or optional firmware files go in RetroArch's system directory.
+Required or optional firmware files go in the frontend's system directory.
 
 |   Filename    |    Description         |              md5sum              |
 |:-------------:|:----------------------:|:--------------------------------:|
@@ -178,7 +120,7 @@ Required or optional firmware files go in RetroArch's system directory.
 
 ## Features
 
-RetroArch-level settings or features that the (Core name) core respects.
+Frontend-level settings or features that the (Core name) core respects.
 
 // Fill in the (Core name).
 
@@ -189,10 +131,10 @@ RetroArch-level settings or features that the (Core name) core respects.
 | Saves             | -         |
 | States            | -         |
 | Rewind            | -         |
-| Netplay           | -         |
+| Netplay (State based) | -         |
 | Core Options      | -         |
 | RetroAchievements | -         |
-| RetroArch Cheats  | -         |
+| Cheats (Cheats menu) | -         |
 | Native Cheats     | -         |
 | Controls          | -         |
 | Remapping         | -         |
@@ -217,41 +159,21 @@ RetroArch-level settings or features that the (Core name) core respects.
 The (Core name) core's directory name is '(Directory name)'
 
 // Fill in the (Core name) and the (Directory name).
-// The (Directory name) is the name of the directory the core creates in RetroArch's save and state directories.
+// The (Directory name) is the name of the directory the core creates in the frontend's save and state directories.
 
 The (Core name) core saves/loads to/from these directories.
 
 // Fill in the (Core name).
 
-**RetroArch's Home directory**
-
-- retroarch-core-options.cfg (Core-options)
-
-**RetroArch's Config directory**
-
-- (Core name).cfg (Core Overrides)
-- 'content-name'.cfg (Game Overrides)
-- 'content-name'.opt (Game-options)
-
-**RetroArch's Input Remapping directory**
-
-- (Core name).rmp (Core Remap)
-- 'content-name'.rmp (Game Remap)
-
-**RetroArch's Video Shader directory**
-
-- (Core name).'shader-preset-extension' (Core Shader Preset)
-- 'content-name'.'shader-preset-extension' (Game Shader Preset)
-
-**RetroArch's Save directory**
+**Frontend's Save directory**
 
 - . ()
 
-**RetroArch's State directory**
+**Frontend's State directory**
 
 - . ()
 
-**RetroArch's System directory**
+**Frontend's System directory**
 
 - . ()
 
@@ -278,7 +200,7 @@ The (Core name) core saves/loads to/from these directories.
 
 // Fill in the (Core name) and the FPS, sample rate, aspect ratio info.
 
-### Usage
+## Usage
 // Optional section.
 // Explain how to use the core if further explaination is needed.
 
@@ -326,7 +248,7 @@ The (Core name) core supports the following device type(s) in the controls menu,
 
 ### Other controllers
 // Optional section.
-// This section is for cores that have controllers that cannot be manually selected through RetroArch's Controls menu.
+// This section is for cores that have controllers that cannot be manually selected through the frontend's Controls menu.
 
 - (Device name) - (Device type) - Optional description.
 
@@ -339,7 +261,7 @@ Rumble only works in the (Core name) core when
 // Fill in the (Core name).
 
 - The content being ran has rumble support.
-- The joypad input driver being used has rumble support. (e.g. Xinput)
+- The frontend being used has rumble support.
 - The joypad device being used has rumble support.
 
 // Explain how to activate rumble.
@@ -593,3 +515,14 @@ Awaiting description.
 - [Libretro (Core name) Core info file](https://link)
 - [Libretro (Core name) (Website name) Repository](https://link)
 - [Report Libretro (Core name) Core Issues Here](https://link)
+<<<<<<< HEAD
+
+### See also
+// Optional section.
+
+- [Other Core](https://docs.libretro.com/library/)
+
+// Add links to related core docs here.
+// https://docs.libretro.com/meta/see_also/
+=======
+>>>>>>> 462b736dae0404b134ed554a3bfbcf55f70d391d

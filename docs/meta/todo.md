@@ -42,7 +42,7 @@
 - RetroKeyboard images
 - RetroMouse images
 - RetroLightgun images
-- RetroPointer images
+- RetroPointer images (Mouse and Touch)
 
 ## All cores
 

@@ -38,7 +38,7 @@ pages:
         - 'PlayStation3': 'compilation/ps3.md'
         - 'PlayStation Portable': 'compilation/psp.md'
         - 'PlayStation Vita/TV': 'compilation/psvita.md'
-    - Documentation guide:
+    - Meta:
       - 'Core List': 'meta/abc.md'
       - 'To Do': 'meta/todo.md'
       - 'Core Template': 'meta/core_template.md'
@@ -200,6 +200,7 @@ pages:
       - 'Creating a Theme': 'guides/themes.md'
       - 'RGUI Interface': 'guides/RGUI.md'
     - Feature Specific:
+      - 'Core Compatibility': 'guides/compatibility.md'
       - 'Input and Joypad Drivers': 'guides/input-joypad-drivers.md'
       - 'Linux KMS Mode': 'guides/kms-mode.md'
       - 'Netplay Getting Started / FAQ': 'guides/netplay-faq.md'

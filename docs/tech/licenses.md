@@ -8,17 +8,9 @@ See below for a summary of the licenses behind RetroArch and its cores:
 
 ## Non-commercial
 
-**This section emphasizes what software is NON-COMMERCIAL.**
+**SOFTWARE LISTED IN THE TABLE BELOW ARE PROTECTED BY NON-COMMERCIAL LICENSES. EVERY ENTRY HAS A HYPERLINK FOR PROOF OF THE SOFTWARE'S LICENSE**
 
-**SOFTWARE LISTED IN THE TABLE BELOW ARE PROTECTED BY NON-COMMERCIAL LICENSES.**
-
-**ANY COMMERCIAL USES OF THE SOFTWARE IN THE TABLE BELOW IS STRICTLY FORBIDDEN WITHOUT COPYRIGHT HOLDERS' APPROVAL.**
-
-**THE SOFTWARE IN THE TABLE BELOW MAY NOT BE SOLD, NOR MAY THEY BE USED IN A COMMERCIAL PRODUCT OR ACTIVITY WITHOUT COYRIGHT HOLDERS' APPROVAL.**
-
-**THE SOFTWARE IN THE TABLE BELOW CANNOT BE SHIPPED PREINSTALLED ON ANY DEVICES WITHOUT COPYRIGHT HOLDERS' APPROVAL.**
-
-**EVERY LICENSE ENTRY IN THE TABLE BELOW HAS A HYPERLINK FOR PROOF OF THE SOFTWARE'S LICENSE**
+**SOFTWARE LISTED IN THE TABLE BELOW MAY NOT BE SOLD, NOR MAY THEY BE USED IN A COMMERCIAL PRODUCT OR ACTIVITY WITHOUT COPYRIGHT HOLDERS' APPROVAL.**
 
 | Software                                             			                   | License                                                                                   | Non-commercial |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------|
