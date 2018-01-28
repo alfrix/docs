@@ -39,7 +39,7 @@ pages:
         - 'PlayStation Portable': 'compilation/psp.md'
         - 'PlayStation Vita/TV': 'compilation/psvita.md'
     - Meta:
-      - 'Core List': 'meta/abc.md'
+      - 'Core List': 'meta/core_list.md'
       - 'To Do': 'meta/todo.md'
       - 'Core Template': 'meta/core_template.md'
       - 'See Also': 'meta/see_also.md'
