@@ -56,6 +56,21 @@ pages:
         - 'Overlays': 'specs/overlay.md'
   - For Users:
     - Core Documentation:
+      - Core Compatibility:
+        - '3DO': 'library/compatibility/3do.md'
+        - 'Atari Jaguar': 'library/compatibility/jaguar.md'
+        - 'Atari Lynx': 'library/compatibility/lynx.md'
+        - 'Bandai Wonderswan': 'library/compatibility/wswan.md'
+        - 'NEC PC-FX': 'library/compatibility/pcfx.md'
+        - 'Nintendo DS': 'library/compatibility/ds.md'
+        - 'Nintendo Game Boy Advance': 'library/compatibility/gba.md'
+        - 'Nintendo Game Boy Color': 'library/compatibility/gbc.md'
+        - 'Nintendo NES': 'library/compatibility/nes.md'
+        - 'Nintendo SNES': 'library/compatibility/snes.md'        
+        - 'Sega 32X': 'library/compatibility/32x.md'
+        - 'Sega Dreamcast': 'library/compatibility/dc.md'
+        - 'Sega Saturn': 'library/compatibility/saturn.md'
+        - 'Sony Playstation': 'library/compatibility/psx.md'
       - Atari Cores:      
         - 'Atari 2600 (Stella)': 'library/stella.md'
         - 'Atari 7800 (ProSystem)': 'library/prosystem.md'
@@ -200,7 +215,6 @@ pages:
       - 'Creating a Theme': 'guides/themes.md'
       - 'RGUI Interface': 'guides/RGUI.md'
     - Feature Specific:
-      - 'Core Compatibility': 'guides/compatibility.md'
       - 'Input and Joypad Drivers': 'guides/input-joypad-drivers.md'
       - 'Linux KMS Mode': 'guides/kms-mode.md'
       - 'Netplay Getting Started / FAQ': 'guides/netplay-faq.md'
