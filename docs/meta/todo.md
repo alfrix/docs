@@ -87,7 +87,7 @@
 - Complete why use this core section
 - Complete compatbility section
 
-### [〰️] Beetle Handy
+### [✔] Beetle Handy
 
 ### [〰️] Beetle NeoPop
 

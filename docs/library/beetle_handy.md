@@ -1,77 +1,123 @@
-# Atari Lynx (Beetle Handy)
+# Atari - Lynx (Beetle Handy)
 
 ## Background
 
-Beetle/Mednafen Lynx is an Atari Lynx video game system emulator that can be used as a libretro core. Specifically it's a port of Mednafen Lynx which is a fork of Handy.
+Beetle Lynx is an Atari Lynx video game system emulator that can be used as a libretro core. Specifically it's a port of Mednafen Lynx which is a fork of Handy.
 
-Author(s): K. Wilkins|Mednafen Team
+!!! attention
+	Beetle Handy is incompatible with modern No-Intro romsets as they require headers to work properly. The regular Handy core does not have this issue.
 
-## Contribute to this documentation
+### Author/License
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/beetle_lynx.md). Changes are proposed using "Pull Requests."
+The Beetle Handy core has been authored by
 
-## License
+- K. Wilkins
+- [Mednafen Team](https://mednafen.github.io/)
 
-Zlib, GPLv2
+The Beetle Handy core is licensed under
+
+- [zlib](https://github.com/libretro/beetle-lynx-libretro/blob/master/mednafen/lynx/license.txt), [GPLv2](https://github.com/libretro/beetle-lynx-libretro/blob/master/COPYING)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
-lnx
+Content that can be loaded by the Beetle Handy core have the following file extensions:
+
+- .lnx
+
+## Databases
+
+RetroArch database(s) that are associated with the Beetle Handy core:
+
+- [Atari - Lynx](https://github.com/libretro/libretro-database/blob/master/rdb/Atari%20-%20Lynx.rdb)
 
 ## BIOS
 
-|   Filename    |    Description        |              md5sum              |
-|:-------------:|:---------------------:|:--------------------------------:|
-|lynxboot.img   |Lynx Boot Image        | fcd403db69f54290b51035d82f835e7b |
+Required or optional firmware files go in the frontend's system directory.
+
+|   Filename    |    Description             |              md5sum              |
+|:-------------:|:--------------------------:|:--------------------------------:|
+| lynxboot.img  | Lynx Boot Image - Required | fcd403db69f54290b51035d82f835e7b |
 
 ## Features
 
+Frontend-level settings or features that the Beetle Handy core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
-| Saves             | ✔         |
+| Restart           | ✔         |
+| Screenshots       | ✔         |
+| Saves             | ✕         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | ✕         |
-| RetroAchievements | ✕         |
-| RetroArch Cheats  | ✕         |
+| Netplay (State based) | ✔ (not link-cable emulation)         |
+| Core Options      | ✕         |
+| RetroAchievements | ✔         |
+| Cheats (Cheats menu) | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
+| Remapping         | ✕         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✔         |
+| LEDs              | ✕         |
 
-## Options
+### Directories
 
-The Beetle Handy core does not feature core options.
+The Beetle Handy core's directory name is 'Mednafen Lynx'
+
+The Beetle Handy core saves/loads to/from these directories.
+
+**Frontend's State directory**
+
+- 'content-name'.state# (State)
+
+### Geometry and timing
+
+- The Beetle Handy core's core provided FPS is 75
+- The Beetle Handy core's core provided sample rate is 44100 Hz
+- The Beetle Handy core's core provided aspect ratio is 80/51
+
+## Loading content
+
+Beetle Handy is incompatible with modern No-Intro romsets as they require headers to work properly. The regular Handy core does not have this issue.
 
 ## Controllers
 
-The Beetle Handy core supports one controller setting(s):
+The Beetle Handy core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-* RetroPad
+### User 1 device types
 
-![beetle_lynx_retropad](images/Controllers/beetle_lynx_retropad.png)
+- None - Doesn't disable input.
+- **RetroPad** - Joypad
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
 
-| Beetle Handy | [RetroPad](RetroPad)                                           |
-|--------------|----------------------------------------------------------------|
-| B            | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-|              | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-|              | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
-| Pause        | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| D-pad        | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad.png)               |
-| A            | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-|              | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
-| Option 1     | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
-| Option 2     | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
-|              | ![RetroPad_L2](images/RetroPad/Retro_L2_Temp.png)              |
-|              | ![RetroPad_R2](images/RetroPad/Retro_R2.png)                   |
-|              | ![RetroPad_L3](images/RetroPad/Retro_L3.png)                   |
-|              | ![RetroPad_R3](images/RetroPad/Retro_R3.png)                   |
-|              | ![RetroPad_Left_Stick](images/RetroPad/Retro_Left_Stick.png)   |
-|              | ![RetroPad_Right_Stick](images/RetroPad/Retro_Right_Stick.png) |
+### Controller tables
+
+![](images/Controllers/beetle_lynx_retropad.png)
+
+#### Joypad
+
+| User 1 Remap descriptors | RetroPad Inputs                           | Beetle Handy Inputs |
+|--------------------------|-------------------------------------------|---------------------|
+| NULL                     | ![](images/RetroPad/Retro_B_Round.png)    | B                   |
+| NULL                     | ![](images/RetroPad/Retro_Start.png)      | Pause               |
+| NULL                     | ![](images/RetroPad/Retro_Dpad_Up.png)    | D-Pad Up            |
+| NULL                     | ![](images/RetroPad/Retro_Dpad_Down.png)  | D-Pad Down          |
+| NULL                     | ![](images/RetroPad/Retro_Dpad_Left.png)  | D-Pad Left          |
+| NULL                     | ![](images/RetroPad/Retro_Dpad_Right.png) | D-Pad Right         |
+| NULL                     | ![](images/RetroPad/Retro_A_Round.png)    | A                   |
+| NULL                     | ![](images/RetroPad/Retro_L1.png)         | Option 1            |
+| NULL                     | ![](images/RetroPad/Retro_R1.png)         | Option 2            |
 
 Supported combinations
 
@@ -80,13 +126,23 @@ Supported combinations
 
 ## Compatibility
 
-| Game                                  | Issue                          |
-|---------------------------------------|--------------------------------|
-|**RoadBlasters**                       |Graphics glitches. Minor flickering and glitches after starting a race.|
+!!! attention
+	Beetle Handy is incompatible with modern No-Intro romsets as they require headers to work properly. The regular Handy core does not have this issue.
+
+| Game             | Issue                                                                   |
+|------------------|-------------------------------------------------------------------------|
+|  RoadBlasters  | Graphics glitches. Minor flickering and glitches after starting a race.   |
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/beetle-lynx-libretro)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta/issues)
-* [Official Website](http://mednafen.sourceforge.net/)
-* [Official Upstream Downloads](https://mednafen.github.io/releases/)
+- [Official Mednafen Website](https://mednafen.github.io/)
+- [Official Mednafen Downloads](https://mednafen.github.io/releases/)
+- [Libretro Beetle Handy Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/mednafen_lynx_libretro.info)
+- [Libretro Beetle Handy Github Repository](https://github.com/libretro/beetle-lynx-libretro)
+- [Report Libretro Beetle Handy Core Issues Here](https://github.com/libretro/beetle-lynx-libretro/issues)
+
+### See also
+
+#### Atari - Lynx
+
+- [Atari - Lynx (Handy)](https://docs.libretro.com/library/handy/)
