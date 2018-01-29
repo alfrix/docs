@@ -430,7 +430,7 @@
 - Complete compatibility section.
 - Add core provided aspect ratio.
 
-### [〰️] Handy
+### [✔] Handy
 
 ### [✕] Hatari
 
