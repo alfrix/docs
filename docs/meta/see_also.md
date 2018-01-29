@@ -123,7 +123,7 @@
 
 #### MrBoom
 
-- [Mr.Boom (Bomberman)](https://docs.libretro.com/library/mrboom/)
+- [Mr.Boom (Bomberman)](https://docs.libretro.com/library/mr_boom/)
 
 #### NEC - PC Engine - TurboGrafx 16
 
@@ -202,17 +202,17 @@
 #### Nintendo - Nintendo DS (Download Play)
 
 - [Nintendo - DS (DeSmuME)](https://docs.libretro.com/library/desmume/)
-- [Nintendo - DS (melonDS)](https://docs.libretro.com/melonds)
+- [Nintendo - DS (melonDS)](https://docs.libretro.com/library/melonds)
 
 #### Nintendo - Nintendo DS Decrypted
 
 - [Nintendo - DS (DeSmuME)](https://docs.libretro.com/library/desmume/)
-- [Nintendo - DS (melonDS)](https://docs.libretro.com/melonds)
+- [Nintendo - DS (melonDS)](https://docs.libretro.com/library/melonds)
 
 #### Nintendo - Nintendo DS
 
 - [Nintendo - DS (DeSmuME)](https://docs.libretro.com/library/desmume/)
-- [Nintendo - DS (melonDS)](https://docs.libretro.com/melonds)
+- [Nintendo - DS (melonDS)](https://docs.libretro.com/library/melonds)
 
 #### Nintendo - Nintendo Entertainment System
 
@@ -305,11 +305,11 @@
 
 #### SNK - Neo Geo Pocket
 
-- [SNK - Neo Geo Pocket / Color (Beetle NeoPop)](https://docs.libretro.com/library/beetle_ngp/)
+- [SNK - Neo Geo Pocket / Color (Beetle NeoPop)](https://docs.libretro.com/library/beetle_neopop/)
 
 #### SNK - Neo Geo Pocket Color
 
-- [SNK - Neo Geo Pocket / Color (Beetle NeoPop)](https://docs.libretro.com/library/beetle_ngp/)
+- [SNK - Neo Geo Pocket / Color (Beetle NeoPop)](https://docs.libretro.com/library/beetle_neopop/)
 
 #### ScummVM
 
@@ -321,8 +321,8 @@
 
 #### Sega - Dreamcast
 
-- [Sega - Dreamcast (Redream)](https://docs.libretro.com/library/redrean/)
-- [Sega - Dreamcast (Reicast)](https://docs.libetro.com/library/reicast/)
+- [Sega - Dreamcast (Redream)](https://docs.libretro.com/library/redream/)
+- [Sega - Dreamcast (Reicast)](https://docs.libretro.com/library/reicast/)
 
 #### Sega - Game Gear
 
@@ -381,18 +381,18 @@
 
 #### Sony - PlayStation
 
-[Sony - PlayStation (Beetle PSX HW)](https://docs.libretro.com/library/beetle_psx_hw/)
-[Sony - PlayStation (Beetle PSX)](https://docs.libretro.com/library/beetle_psx/)
-[Sony - PlayStation (PCSX ReARMed)](https://docs.libretro.com/library/pcsx_rearmed/)
+- [Sony - PlayStation (Beetle PSX HW)](https://docs.libretro.com/library/beetle_psx_hw/)
+- [Sony - PlayStation (Beetle PSX)](https://docs.libretro.com/library/beetle_psx/)
+- [Sony - PlayStation (PCSX ReARMed)](https://docs.libretro.com/library/pcsx_rearmed/)
 
 #### The 3DO Company - 3DO
 
-[The 3DO Company - 3DO (4DO)](https://docs.libretro.com/library/4do/)
+- [The 3DO Company - 3DO (4DO)](https://docs.libretro.com/library/4do/)
 
 #### Tomb Raider
 
-[Tomb Raider (OpenLara)](https://docs.libretro.com/library/openlara/)
+- [Tomb Raider (OpenLara)](https://docs.libretro.com/library/openlara/)
 
 #### Uzebox
 
-[Uzebox (Uzem)](https://docs.libretro.com/library/uzem/)
+- [Uzebox (Uzem)](https://docs.libretro.com/library/uzem/)
