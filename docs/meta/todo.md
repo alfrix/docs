@@ -15,7 +15,7 @@
 - Complete controller API documentation https://buildbot.libretro.com/docs/specs/api/#input-device-abstraction
 - Add Subsystem API documentation https://buildbot.libretro.com/docs/specs/api/
 
-### Licenses
+## Licenses
 
 - Find a license source for Imageviewer
 - Find a license source for Neko Project II
@@ -303,6 +303,8 @@
 - Complete compatibility section.
 - Add internal sample rate.
 - Improve core otpion descriptions.
+
+### [✕] Dummy Core
 
 ### [✕] Dungeon Crawl Stone Soup
 
