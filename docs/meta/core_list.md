@@ -1,5 +1,3 @@
-// This is a list of cores available through RetroArch
-
 - 3D Engine
 - 4DO
 - 2048

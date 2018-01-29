@@ -33,10 +33,10 @@ The RetroArch loading process is:-
 !!! note
     Core specific overrides that are not in game specific overrides persist and will be loaded.
     Also once you have created an override any future changes will need to be saved via the Quick Menu.
-
+	
 ### Options *(.opt)* & Shader Presets *(.cgp|.glslp|.slangp)*
 
-Custom per game core options and shader presets work slightly different. These are full configurations and are loaded instead of the base settings.
+Custom per game core options and shader presets work slightly different. These are full configurations and are loaded instead of the base shader preset and core option settings.
 
 ## Configuartion Files & Location
 
@@ -45,7 +45,6 @@ Custom per game core options and shader presets work slightly different. These a
 
 !!! warning
     Some settings cannot be saved in an override file from the menu. You can manually add settings to the override file to workaround most situations.
-
 
 **The default and global settings file**
 
@@ -64,6 +63,9 @@ The options files list the settings found under `Quick Menu -> Options`. The `re
 
 A game specific options file is created when you select `Quick Menu -> Options -> Game-options file`. *(located in "/config/"corename"/"name-of-game.opt". The path is set under `Settings->Directory->Config`)*
 
+!!! attention
+	Load Content Specific Core Options Automatically must be set to On in RetroArch's Configuration settings in order for game specific options to be automatically loaded upon content load.
+
 ### Override Configs
 
 The override system activates on loading of content. RetroArch looks for configs with the logic as explained previously.
@@ -71,8 +73,8 @@ The override system activates on loading of content. RetroArch looks for configs
 #### Per Core/Game Overrides
 
 - Load `retroarch.cfg`
-    - Apply `"name-of-game".cfg`
-        - Apply `name-of-core.cfg`
+    - Apply `name-of-core.cfg`
+		- Apply `"name-of-game".cfg`
 
 **Per Core Override**
 
@@ -90,7 +92,6 @@ These settings files are created as above with the `Quick Menu -> Save Game Over
 
 Input remaps use the same logic as core/game overrides and use the `.rmp` extension. They can be adjusted and saved from `Quick Menu -> Controls -> Save Game or Core Remap`. Set the save directory in `Settings -> Directory -> Input Remapping` *(by default they will save to /config/remaps/"name-of-core"/"name-of-core/game".rmp)*
 
-
 ### Shader Presets
 
 Shader Presets are combinations of one or more shaders. They can be adjusted and saved from `Quick Menu -> Shaders -> Save Core/Game Preset`. Set the save directory in `Settings -> Directory -> Video Shader` *(by default they will save to /shaders/presets/"name-of-core"/"name-of-core/game".cgp|glslp|slangp)*
@@ -101,6 +102,6 @@ So if you create your "perfect" combination of shaders you can recall this with 
 
 There are plenty of user created default presets that come bundled with the RetroArch installation and these can be updated from `Main Menu -> Online Updater -> Update Cg|Glsl|Slang Shaders`
 
-[Example Screenshots](https://buildbot.libretro.com/docs/shader/introduction.md)
+[Example Screenshots](https://docs.libretro.com/shader/introduction/)
 
 Explore the navigation bar

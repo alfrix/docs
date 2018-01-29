@@ -53,12 +53,12 @@ You can also check the progress of your friends and add comments on their trophi
 
 | Core                                                  | Supported | Notes |
 |-------------------------------------------------------|:---------:|-------|
-| [QuickNES](https://github.com/libretro/QuickNES_Core) | ✔         | On Android has a [known issue](https://github.com/libretro/RetroArch/issues/3973) |
+| [Mesen](https://github.com/SourMesen/Mesen)           | ✔         | |
 | [FCEUmm](https://github.com/libretro/libretro-fceumm) | ✔         | |
+| [QuickNES](https://github.com/libretro/QuickNES_Core) | ✔         | On Android has a [known issue](https://github.com/libretro/RetroArch/issues/3973) |
 | [Nestopia UE](https://github.com/libretro/nestopia)   | ✕         | |
 | [bnes](https://github.com/libretro/bnes-libretro)     | ✕         | |
 | [Emux NES](https://github.com/libretro/emux)          | ✕         | |
-| [Mesen](https://github.com/SourMesen/Mesen)           | ✔         | |
 
 ### Master System / MegaDrive - Genesis
 
@@ -77,25 +77,25 @@ You can also check the progress of your friends and add comments on their trophi
 | [Snes9x 2005](https://github.com/libretro/snes9x2005)                        | ✔         | |
 | [Snes9x 2005 Plus](https://github.com/libretro/snes9x2005)                   | ✔         | |
 | [Snes9x 2002](https://github.com/libretro/snes9x2002)                        | ✔         | |
-| higan Accuracy                                                               | ✕         | Achievement support isn't going to be added |
-| nSide Balanced                                                               | ✕         | Achievement support isn't going to be added |
 | [bsnes Accuracy](https://github.com/libretro/bsnes-libretro)                 | ✔         | |
 | [bsnes Balanced](https://github.com/libretro/bsnes-libretro)                 | ✔         | |
 | [bsnes Performance](https://github.com/libretro/bsnes-libretro)              | ✔         | |
 | [bsnes-mercury Accuracy](https://github.com/libretro/bsnes-mercury)          | ✔         | |
 | [bsnes-mercury Balanced](https://github.com/libretro/bsnes-mercury)          | ✔         | |
 | [bsnes-mercury Performance](https://github.com/libretro/bsnes-mercury)       | ✔         | |
-| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro)            | ✕         | |
 | [bsnes C++98 (v085)](https://github.com/libretro/bsnes-libretro-cplusplus98) | ✔         | |
+| higan Accuracy                                                               | ✕         | Achievement support isn't going to be added |
+| nSide Balanced                                                               | ✕         | Achievement support isn't going to be added |
+| [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro)            | ✕         | |
 
 ### Game Boy / Game Boy Color
 
 | Core                                                      | Supported | Notes |
 |-----------------------------------------------------------|:---------:|-------|
 | [Gambatte](https://github.com/libretro/gambatte-libretro) | ✔         | |
+| [SameBoy](https://github.com/libretro/SameBoy)            | ✔         | |
 | [mGBA](https://github.com/libretro/mgba)                  | ✕         | Achievements only work for the Game Boy Advance |
 | [Emux GB](https://github.com/libretro/emux)               | ✕         | |
-| [SameBoy](https://github.com/libretro/SameBoy)            | ✔         | |
 | [TGB Dual](https://github.com/libretro/tgbdual-libretro)  | ✕         | |
 | [Gearboy](https://github.com/libretro/gearboy)            | ✕         | |
 
@@ -126,6 +126,7 @@ You can also check the progress of your friends and add comments on their trophi
 
 ### Atari Lynx
 
-| Core                                                | Supported | Notes |
-|-----------------------------------------------------|:---------:|:-----:|
-| [Handy](https://github.com/libretro/libretro-handy) | ✔         | *Support added in 22-October-2017. In order to work needs to update RetroArch too.* |
+| Core                                                             | Supported | Notes |
+|------------------------------------------------------------------|:---------:|:-----:|
+| [Handy](https://github.com/libretro/libretro-handy)              | ✔         |       |
+| [Beetle Handy](https://github.com/libretro/beetle-lynx-libretro) | ✔         | Beetle Handy is incompatible with modern No-Intro romsets as they require headers to work properly. The regular Handy core does not have this issue. |

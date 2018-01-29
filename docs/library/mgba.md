@@ -1,80 +1,20 @@
 # Game Boy Advance (mGBA)
 
-## Contribute to this documentation
-
-**DOCUMENTATION IS A WORK IN PROGRESS**
-
-**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/mgba.md). Changes are proposed using "Pull Requests."**
-
-**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/meta/todo/)**
-
-**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
-
 ## Background
 
 mGBA is an emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. It also supports Game Boy and Game Boy Color games.
 
-### How to install the mGBA core:
+### Author/License
 
-- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
-
-<center> ![](images\Cores\all\updater.png) </center>
-
-- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
-
-<center> ![](images\Cores\all\info.png) </center>
-
-- Browse through the list and select 'Game Boy Advance (mGBA)'.
-
-<center> ![](images\Cores\updater\mgba.png) </center>
-
-After this has finished downloading, the core should now be ready for use!
-
-#### How to start the mGBA core:
-
-- Go back to RetroArch's main menu screen. Select 'Load Content'.
-
-<center> ![](images\Cores\all\load.png) </center>
-
-- Browse to the folder that contains the content you want to run.
-
-- Select the content that you want to run.
-
-- If you are asked which core to select, choose 'Game Boy Advance (mGBA)'.
-
-The content should now start running!
-
-### Authors
+The mGBA core has been authored by
 
 - endrift
-
-## See also
-
-### GBA
-
-- [Game Boy Advance (Beetle GBA)](https://docs.libretro.com/library/beetle_gba/)
-- [Game Boy Advance (gpSP)](https://docs.libretro.com/library/gpsp/)
-- [Game Boy Advance (Meteor)](https://docs.libretro.com/library/meteor/)
-- [Game Boy Advance (VBA Next)](https://docs.libretro.com/library/vba_next/)
-- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vba_m/)
-
-### GB/GBC
-
-- [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
-- [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
-- [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
-- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
-- [Game Boy / Game Boy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
-- [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
-- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
-
-## License
-
-A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 The mGBA core is licensed under
 
 - [MPLv2.0](https://github.com/libretro/mgba/blob/master/LICENSE)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
@@ -94,7 +34,7 @@ RetroArch database(s) that are associated with the mGBA core:
 
 ## BIOS
 
-Required or optional firmware files go in RetroArch's system directory.
+Required or optional firmware files go in the frontend's system directory.
 
 |   Filename    |    Description                  |              md5sum              |
 |:-------------:|:-------------------------------:|:--------------------------------:|
@@ -105,7 +45,7 @@ Required or optional firmware files go in RetroArch's system directory.
 
 ## Features
 
-RetroArch-level settings or features that the mGBA core respects.
+Frontend-level settings or features that the mGBA core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -114,10 +54,10 @@ RetroArch-level settings or features that the mGBA core respects.
 | Saves             | ✔         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | ✔ (not link-cable emulation) |
+| Netplay (State based) | ✔ (not link-cable emulation)        |
 | Core Options      | ✔         |
-| RetroAchievements | ✔ (GBA only) |
-| RetroArch Cheats  | ✔         |
+| RetroAchievements | ✔ (GBA only)        |
+| Cheats (Cheats menu) | ✔         |
 | Native Cheats     | ✕         |
 | Controls          | ✔         |
 | Remapping         | ✔         |
@@ -140,31 +80,11 @@ The mGBA core's directory name is 'mGBA'
 
 The mGBA core saves/loads to/from these directories.
 
-**RetroArch's Home directory**
-
-- retroarch-core-options.cfg (Core-options)
-
-**RetroArch's Config directory**
-
-- mGBA.cfg (Core Overrides)
-- 'content-name'.cfg (Game Overrides)
-- 'content-name'.opt (Game-options)
-
-**RetroArch's Input Remapping directory**
-
-- mGBA.rmp (Core Remap)
-- 'content-name'.rmp (Game Remap)
-
-**RetroArch's Video Shader directory**
-
-- mGBA.'shader-preset-extension' (Core Shader Preset)
-- 'content-name'.'shader-preset-extension' (Game Shader Preset)
-
-**RetroArch's Save directory**
+**Frontend's Save directory**
 
 - 'content-name'.srm (Cartridge battery save)
 
-**RetroArch's State directory**
+**Frontend's State directory**
 
 - 'cotent-name'.state# (State)
 
@@ -190,7 +110,7 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 	
 - **Use BIOS file if found** [mgba_use_bios] (Off/**On**)
 	
-	Uses a Game Boy Advance BIOS present in RetroArch's system directory. Look at the [BIOS section](file:///C:/rootw/Backup/port/git/docs/site/library/mgba/index.html#bios) for more information.
+	Uses a Game Boy Advance BIOS present in RetroArch's system directory. Look at the [BIOS section](https://docs.libretro.com/library/mgba/#bios) for more information.
 	
 - **Skip BIOS intro** [mgba_skip_bios] (**Off**/On)
 	
@@ -222,12 +142,14 @@ The mGBA core supports the following device type(s) in the controls menu, bolded
 Rumble only works in the mGBA core when
 
 - The content being ran has rumble support. (e.g. Cartridges with a Rumble Pak)
-- The joypad input driver being used has rumble support. (e.g. Xinput)
+- The frontend being used has rumble support.
 - The joypad device being used has rumble support.
 
 ### Controller tables
 
 #### Joypad
+
+![](images/Controllers/mgba_retropad.png)
 
 | User 1 Remap descriptors | RetroPad Inputs                              |
 |--------------------------|----------------------------------------------|
@@ -248,11 +170,34 @@ Rumble only works in the mGBA core when
 | Darken Solar Sensor      | ![](images/RetroPad/Retro_L3.png)            |
 | Brighten Solar Sensor    | ![](images/RetroPad/Retro_R3.png)            |
 
+## Compatibility
+
+Please file game bugs on the issue tracker [here](https://github.com/mgba-emu/mgba/issues)
+
 ## External Links
 
 - [Official mGBA Website](https://mgba.io/)
 - [Official mGBA Github Repository](https://github.com/mgba-emu/mgba)
-
 - [Libretro mGBA Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/mgba_libretro.info)
 - [Libretro mGBA Github Repository](https://github.com/libretro/mgba)
 - [Report Libretro mGBA Core Issues Here](https://github.com/mgba-emu/mgba/issues)
+
+### See also
+
+#### GBA
+
+- [Game Boy Advance (Beetle GBA)](https://docs.libretro.com/library/beetle_gba/)
+- [Game Boy Advance (gpSP)](https://docs.libretro.com/library/gpsp/)
+- [Game Boy Advance (Meteor)](https://docs.libretro.com/library/meteor/)
+- [Game Boy Advance (VBA Next)](https://docs.libretro.com/library/vba_next/)
+- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vba_m/)
+
+#### GB/GBC
+
+- [Game Boy / Game Boy Color (Emux GB)](https://docs.libretro.com/library/emux_gb/)
+- [Game Boy / Game Boy Color (Gambatte)](https://docs.libretro.com/library/gambatte/)
+- [Game Boy / Game Boy Color (SameBoy)](https://docs.libretro.com/library/sameboy/)
+- [Game Boy / Game Boy Color (TGB Dual)](https://docs.libretro.com/library/tgb_dual/)
+- [Game Boy / Game Boy Color (Gearboy)](https://docs.libretro.com/library/gearboy/)
+- [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
+- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)

@@ -60,7 +60,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Beetle bsnes](../library/beetle_bsnes.md)       			           | [GPLv2](https://github.com/libretro/beetle-bsnes-libretro/blob/master/COPYING)            |                |
 | [Beetle Cygne](../library/beetle_cygne.md)       			           | [GPLv2](https://github.com/libretro/beetle-wswan-libretro/blob/master/COPYING)            |                |
 | [Beetle GBA](../library/beetle_gba.md)           			           | [GPLv2](https://github.com/libretro/beetle-gba-libretro/blob/master/COPYING)              |                |
-| [Beetle Handy](../library/beetle_handy.md)        			           | zlib, [GPLv2](https://github.com/libretro/beetle-lynx-libretro/blob/master/COPYING)       |                |
+| [Beetle Handy](../library/beetle_handy.md)        			           | [zlib](https://github.com/libretro/beetle-lynx-libretro/blob/master/mednafen/lynx/license.txt), [GPLv2](https://github.com/libretro/beetle-lynx-libretro/blob/master/COPYING)       |                |
 | [Beetle NeoPop](../library/beetle_neopop.md)        			           | [GPLv2](https://github.com/libretro/beetle-ngp-libretro/blob/master/COPYING)              |                |
 | [Beetle PC-FX](../library/beetle_pc_fx.md)        			           | [GPLv2](https://github.com/libretro/beetle-pcfx-libretro/blob/master/COPYING)             |                |
 | [Beetle PCE FAST](../library/beetle_pce_fast.md) 			           | [GPLv2](https://github.com/libretro/beetle-pce-fast-libretro/blob/master/COPYING)         |                |
@@ -113,7 +113,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Genesis Plus GX](../library/genesis_plus_gx.md)          		           | [Non-commercial](https://github.com/libretro/Genesis-Plus-GX/blob/master/LICENSE.txt)     | Non-commercial |
 | [gpSP](../library/gpsp.md)                                                       | [GPLv2](https://github.com/libretro/gpsp/blob/master/COPYING)                             |                |
 | [GW](../library/gw.md)                                                           | [zlib](https://github.com/libretro/gw-libretro/blob/master/LICENSE)                       |                |
-| [Handy](../library/handy.md)					    		   | [zlib](https://sourceforge.net/projects/handy/)                                           |                |
+| [Handy](../library/handy.md)					    		   | [zlib](https://github.com/libretro/libretro-handy/blob/master/lynx/license.txt)                                           |                |
 | [Hatari](../library/hatari.md)						   | [GPLv2](https://github.com/libretro/hatari/blob/master/readme.txt)                        |                |
 | [higan Accuracy](../library/higan_accuracy.md)                                   | [GPLv3](https://gitlab.com/higan/higan/blob/master/LICENSE.txt)                           |                |
 | [Imageviewer](../library/imageviewer.md)				  	   | MIT                                                                                       |                |

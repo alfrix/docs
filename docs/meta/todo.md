@@ -2,7 +2,6 @@
 
 - Move on to updating the RetroPie wiki when Libretro documentation is finished. https://github.com/RetroPie/RetroPie-Setup/wiki
 - Move on to updating the Emulation General when Libretro documentation is finished. http://emulation.gametechwiki.com/index.php/Main_Page
-- Shut down the Libretro Wiki when all its information has been ported over to Libretro/Docs https://wiki.libretro.com/index.php?title=Main_Page
 - Setup a way for others to translate Libretro/Docs to other languages.
 - Encourage others to submit documentation to Libretro/Docs.
 - Spread the word about Libretro/Docs; monitor it's acknowledgement on other sites https://www.google.com/search?source=hp&q=libretro+docs
@@ -16,14 +15,11 @@
 - Complete controller API documentation https://buildbot.libretro.com/docs/specs/api/#input-device-abstraction
 - Add Subsystem API documentation https://buildbot.libretro.com/docs/specs/api/
 
-### Licenses
+## Licenses
 
-- Find a license source for 4DO
 - Find a license source for Imageviewer
 - Find a license source for Neko Project II
-- Find a license source for PX68k
 - Find a license source for RemoteJoy
-- Find a license source for Remote RetroPad
 - Find a license source for VBA Next
 
 ## Guide
@@ -91,7 +87,7 @@
 - Complete why use this core section
 - Complete compatbility section
 
-### [〰️] Beetle Handy
+### [✔] Beetle Handy
 
 ### [〰️] Beetle NeoPop
 
@@ -116,24 +112,16 @@
 
 ### [〰️] Beetle PSX
 
-- Improve background section.
-- Complete 'Why use this core?' section.
 - Test Multimouse support.
-- Complete compatibility section.
-- Add more core option screenshots.
-- Add internal sample rate.
-- Add internal FPS.
+- Add core provided sample rate.
+- Add core provided FPS.
 - Add core provided aspect ratio.
 
 ### [〰️] Beetle PSX HW
 
-- Improve background section.
-- Complete 'Why use this core?' section.
 - Test Multimouse support.
-- Complete compatibility section.
-- Add more core option screenshots.
-- Add internal sample rate.
-- Add internal FPS.
+- Add core provided sample rate.
+- Add core provided FPS.
 - Add core provided aspect ratio.
 
 ### [〰️] Beetle Saturn
@@ -279,7 +267,6 @@
 - Verify controllers table.
 - Add internal sample rate.
 
-
 ### [〰️] Caprice32
 
 - Complete Why use this core section.
@@ -316,6 +303,8 @@
 - Complete compatibility section.
 - Add internal sample rate.
 - Improve core otpion descriptions.
+
+### [✕] Dummy Core
 
 ### [✕] Dungeon Crawl Stone Soup
 
@@ -358,6 +347,8 @@
 
 ### [✕] FB Alpha 2012 CPS-2
 
+### [✕] FB Alpha 2012 CPS-3
+
 ### [✕] FB Alpha 2012 Neo Geo
 
 ### [〰️] FCEUmm
@@ -382,12 +373,12 @@
 - Add core provided aspect ratio.
 - Complete core option descriptions.
 
-### [✕] FreeJ2ME
-
-### [✕] FreeIntv
+### [〰️] FreeIntv
 - First and only standalone libretro emulator core for Mattel Intellivision
 - Uses a unique onscreen keyboard to get around the keypad limitations of the RetroPad abstraction
 - More information https://sourceforge.net/projects/freeintv/ and http://neocomputer.org/projects/freeintv/
+
+### [✕] FreeJ2ME
 
 ### [〰️] Fuse
 
@@ -439,7 +430,7 @@
 - Complete compatibility section.
 - Add core provided aspect ratio.
 
-### [〰️] Handy
+### [✔] Handy
 
 ### [✕] Hatari
 
@@ -468,6 +459,10 @@
 ### [✕] MAME 2000
 
 ### [〰️] MAME 2003
+
+### [✕] MAME 2003 Midway
+
+### [✕] MAME 2009
 
 ### [✕] MAME 2010
 
@@ -504,7 +499,9 @@
 
 - Add core provided FPS.
 - Add core provided aspect ratio
-- Complete core option descriptions.
+- Complete description for Idle loop removal core option.
+
+### [✕] mpv
 
 ### [〰️] Mr.Boom
 
@@ -579,6 +576,8 @@
 - Explain what the default setting for the Pad Type core options does.
 - Add negcon inputs to controllers table
 
+### [✕] PCSX ReARMed [Interpreter]
+
 ### [〰️] PicoDrive
 
 - Improve why use this core section.
@@ -631,6 +630,8 @@ https://redream.io/quickstart
 ### [!!!] RemoteJoy
 
 - Not worth documenting?
+
+### [✕] Remote RetroPad
 
 ### [〰️] SameBoy
 
@@ -701,6 +702,8 @@ https://redream.io/quickstart
 
 ### [〰️] Stella
 
+### [✕] TempGBA
+
 ### [〰️] TGB Dual
 
 - Complete why use this core section.
@@ -744,6 +747,8 @@ https://redream.io/quickstart
 ### [✕] VICE PLUS4
 
 ### [✕] VICE VIC20
+
+### [✕] Video Processor
 
 ### [〰️] Virtual Jaguar
 

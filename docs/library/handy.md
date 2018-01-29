@@ -1,94 +1,147 @@
-# Atari Lynx (Handy)
+# Atari - Lynx (Handy)
 
 ## Background
 
-Handy is an Atari Lynx video game system emulator that can be used as a libretro core.  Handy was the original name of the Lynx project that was started at Epyx and then finished by Atari..
+Handy is an Atari Lynx video game system emulator that can be used as a libretro core.  Handy was the original name of the Lynx project that was started at Epyx and then finished by Atari.
 
-Author(s): K. Wilkins
+### Author/License
 
-## Contribute to this documentation
+The Handy core has been authored by
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/blob/master/docs/library/handy.md). Changes are proposed using "Pull Requests."
+- K. Wilkins
 
-## License
+The Handy core is licensed under
 
-Zlib
+- [zlib](https://sourceforge.net/projects/handy/)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
-lnx
+Content that can be loaded by the Handy core have the following file extensions:
+
+- .lnx
+
+## Databases
+
+RetroArch database(s) that are associated with the Handy core:
+
+- [Atari - Lynx](https://github.com/libretro/libretro-database/blob/master/rdb/Atari%20-%20Lynx.rdb)
 
 ## BIOS
 
-|   Filename    |    Description        |              md5sum              |
-|:-------------:|:---------------------:|:--------------------------------:|
-|lynxboot.img   |Lynx Boot Image        | fcd403db69f54290b51035d82f835e7b |
+Required or optional firmware files go in the frontend's system directory.
+
+|   Filename    |    Description             |              md5sum              |
+|:-------------:|:--------------------------:|:--------------------------------:|
+| lynxboot.img  | Lynx Boot Image - Optional | fcd403db69f54290b51035d82f835e7b |
 
 ## Features
 
+Frontend-level settings or features that the Handy core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
-| Saves             | ✔         |
+| Restart           | ✔         |
+| Screenshots       | ✔         |
+| Saves             | ✕         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | ✕         |
-| RetroAchievements | ✕         |
-| RetroArch Cheats  | ✕         |
+| Netplay (State based) | ✔ (not link-cable emulation) |
+| Core Options      | ✔         |
+| RetroAchievements | ✔         |
+| Cheats (Cheats menu) | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✕         |
+| Controls          | ✔         |
+| Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
-## Options
+### Directories
 
-The Handy core has the following options that can be tweaked from the core options menu. The default setting is bolded.
+The Handy core's directory name is 'Handy'
 
-- **Display Rotation (Restart required)** (**None**/90/240): Rotates the display.
+The Handy core saves/loads to/from these directories.
+
+**Frontend's State directory**
+
+- 'content-name'.state# (State)
+
+### Geometry and timing
+
+- The Handy core's core provided FPS is 75
+- The Handy core's core provided sample rate is 22050 Hz
+- The Handy core's core provided aspect ratio is dependent on the ['Display rotation' core option](https://docs.libretro.com/library/handy/#core-options/). When set to None, the aspect ratio will be 80/51. When set to 90 or 240, the aspect ratio will be 51/80.
+
+## Core options
+
+The Handy core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
+
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
+
+- **Display rotation** [handy_rot] (**None**/90/240)
+
+	Self-explanatory. Need to restart content.
 
 ## Controllers
 
-The Handy core supports one controller setting(s):
+The Handy core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-* RetroPad
+### User 1 device types
 
-![handy_retropad](images/Controllers/handy_retropad.png)
+- None - Doesn't disable input.
+- **RetroPad** - Joypad
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
 
-| Handy     | [RetroPad](RetroPad)                                           |
-|-----------|----------------------------------------------------------------|
-| B         | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-|           | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-|           | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
-| Pause     | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| D-pad     | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad.png)               |
-| A         | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-|           | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
-| Option 1  | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
-| Option 2  | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
-|           | ![RetroPad_L2](images/RetroPad/Retro_L2_Temp.png)              |
-|           | ![RetroPad_R2](images/RetroPad/Retro_R2.png)                   |
-|           | ![RetroPad_L3](images/RetroPad/Retro_L3.png)                   |
-|           | ![RetroPad_R3](images/RetroPad/Retro_R3.png)                   |
-|           | ![RetroPad_Left_Stick](images/RetroPad/Retro_Left_Stick.png)   |
-|           | ![RetroPad_Right_Stick](images/RetroPad/Retro_Right_Stick.png) |
+### Controller tables
+
+![](images/Controllers/handy_retropad.png)
+
+#### Joypad
+
+| User 1 Remap descriptors | RetroPad Inputs                              |
+|--------------------------|----------------------------------------------|
+| B                        | ![](images/RetroPad/Retro_B_Round.png)       |
+| Pause                    | ![](images/RetroPad/Retro_Start.png)         |
+| D-Pad Up                 | ![](images/RetroPad/Retro_Dpad_Up.png)       |
+| D-Pad Down               | ![](images/RetroPad/Retro_Dpad_Down.png)     |
+| D-Pad Left               | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| D-Pad Right              | ![](images/RetroPad/Retro_Dpad_Right.png)    | 
+| A                        | ![](images/RetroPad/Retro_A_Round.png)       | 
+| Option 1                 | ![](images/RetroPad/Retro_L1.png)            |
+| Option 2                 | ![](images/RetroPad/Retro_R1.png)            |
 
 Supported combinations
 
-* Option 1 + Pause = Restarts game
-* Option 2 + Pause = Flips Screen
+- Option 1 + Pause = Restarts game
+- Option 2 + Pause = Flips Screen
 
 ## Compatibility
 
-| Game                                  | Issue                          |
-|---------------------------------------|--------------------------------|
-|**RoadBlasters**                       |Graphics glitches. Minor flickering and glitches after starting a race.|
+| Game         | Issue                                                                   |
+|--------------|-------------------------------------------------------------------------|
+| RoadBlasters | Graphics glitches. Minor flickering and glitches after starting a race. |
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/libretro-handy)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta/issues)
-* [Official Website](http://handy.sourceforge.net/)
-* [Official Upstream Downloads](http://handy.sourceforge.net/download.htm)
+- [Official Handy Website](http://handy.sourceforge.net/)
+- [Official Handy Downloads](http://handy.sourceforge.net/download.htm)
+- [Libretro Handy Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/handy_libretro.info)
+- [Libretro Handy Github Repository](https://github.com/libretro/libretro-handy)
+- [Report Libretro Handy Core Issues Here](https://github.com/libretro/libretro-handy/issues)
+
+### See also
+
+#### Atari - Lynx
+
+- [Atari - Lynx (Beetle Handy)](https://docs.libretro.com/library/beetle_handy/)
