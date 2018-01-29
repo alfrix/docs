@@ -126,6 +126,7 @@ You can also check the progress of your friends and add comments on their trophi
 
 ### Atari Lynx
 
-| Core                                                | Supported | Notes |
-|-----------------------------------------------------|:---------:|:-----:|
-| [Handy](https://github.com/libretro/libretro-handy) | ✔         | *Support added in 22-October-2017. In order to work needs to update RetroArch too.* |
+| Core                                                             | Supported | Notes |
+|------------------------------------------------------------------|:---------:|:-----:|
+| [Handy](https://github.com/libretro/libretro-handy)              | ✔         |       |
+| [Beetle Handy](https://github.com/libretro/beetle-lynx-libretro) | ✔         | Beetle Handy is incompatible with modern No-Intro romsets as they require headers to work properly. The regular Handy core does not have this issue. |
