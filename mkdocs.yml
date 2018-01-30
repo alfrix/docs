@@ -45,6 +45,7 @@ pages:
       - 'See Also': 'meta/see_also.md'
     - Technical:
       - 'Debugging': 'tech/debugging.md'
+      - 'Adding Menu Entries': 'tech/new-menu-options.md'
       - 'Licenses': 'tech/licenses.md'
       - Protocols:
         - 'Netplay': 'tech/netplay.md'
