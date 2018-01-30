@@ -519,7 +519,13 @@
 
 ### [✕] Neko Project II
 
-### [✕] Neko Project II Kai
+### [〰️] Neko Project II Kai
+
+- Complete background section.
+- Complete compatibility section.
+- Complete core option descriptions.
+- Document np2.cfg
+- Add a disk switching guide
 
 ### [〰️] Nestopia UE
 
@@ -604,7 +610,6 @@
 - Complete background section.
 - Complete compatibility section.
 - Find out what sram.dat is.
-- Add core provided FPS.
 - Add keyboard inputs.
 - Add Joypad inputs.
 
