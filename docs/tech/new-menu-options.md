@@ -5,7 +5,7 @@
 msg_hash_us.c  
 msg_hash_us.h  
 msg_hash_\*\*.c (If you speak more than one language)  
-msg_hash_\*\*.h (If you speak more than one language)
+msg_hash_\*\*.h (If you speak more than one language)  
 msg_hash_lbl.h  
 msg_hash.h  
 menu_cbs_sublabel.c  
