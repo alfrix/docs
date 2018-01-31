@@ -300,7 +300,7 @@
 - Add internal sample rate.
 - Improve core otpion descriptions.
 
-### [✕] Dummy Core
+### [✔] Dummy Core
 
 ### [✕] Dungeon Crawl Stone Soup
 
@@ -517,7 +517,19 @@
 
 ### [✕] Mupen64Plus GLES3
 
-### [✕] Neko Project II
+### [〰️] Neko Project II
+
+- Complete background section.
+- Complete compatibility section.
+- Complete core option descriptions.
+- Document np2.cfg
+- Add a disk switching guide
+- Find out what the .bmp files are.
+- Add license info.
+- Core info file is missing BIOS info.
+- Complete BIOS section.
+- Complete joypad section
+- Complete keyboard section
 
 ### [〰️] Neko Project II Kai
 
@@ -526,6 +538,7 @@
 - Complete core option descriptions.
 - Document np2.cfg
 - Add a disk switching guide
+- Find out what the .bmp files are.
 
 ### [〰️] Nestopia UE
 
