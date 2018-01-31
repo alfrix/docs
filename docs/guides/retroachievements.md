@@ -124,9 +124,15 @@ You can also check the progress of your friends and add comments on their trophi
 | [Mupen64Plus](https://github.com/libretro/mupen64plus-libretro)   | ✔         |
 | [ParaLLEl N64](https://github.com/libretro/parallel-n64)          | ✔         |
 
-### Atari Lynx
+### Lynx
 
 | Core                                                             | Supported | Notes |
 |------------------------------------------------------------------|:---------:|:-----:|
 | [Handy](https://github.com/libretro/libretro-handy)              | ✔         |       |
 | [Beetle Handy](https://github.com/libretro/beetle-lynx-libretro) | ✔         | Beetle Handy is incompatible with modern No-Intro romsets as they require headers to work properly. The regular Handy core does not have this issue. |
+
+### Virtual Boy
+
+| Core                                                        | Supported | Notes |
+|-------------------------------------------------------------|:---------:|:-----:|
+| [Beetle VB](https://github.com/libretro/beetle-vb-libretro) | ✔         |       |

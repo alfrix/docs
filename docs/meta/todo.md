@@ -17,10 +17,8 @@
 
 ## Licenses
 
-- Find a license source for Imageviewer
-- Find a license source for Neko Project II
-- Find a license source for RemoteJoy
-- Find a license source for VBA Next
+- Add a license file to VBA Next repository
+- Add a license file to Neko Project II repository
 
 ## Guide
 
@@ -144,8 +142,6 @@
 
 ### [〰️] Beetle VB
 
-- Improve background section.
-- Complete why use this core section.
 - Complete compatibility section.
 - Combine the anagylph and palette core option screenshots into one image.
 
@@ -523,7 +519,13 @@
 
 ### [✕] Neko Project II
 
-### [✕] Neko Project II Kai
+### [〰️] Neko Project II Kai
+
+- Complete background section.
+- Complete compatibility section.
+- Complete core option descriptions.
+- Document np2.cfg
+- Add a disk switching guide
 
 ### [〰️] Nestopia UE
 
@@ -608,7 +610,6 @@
 - Complete background section.
 - Complete compatibility section.
 - Find out what sram.dat is.
-- Add core provided FPS.
 - Add keyboard inputs.
 - Add Joypad inputs.
 

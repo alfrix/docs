@@ -110,10 +110,9 @@ RetroArch database(s) that are associated with the (Core name) core:
 
 Required or optional firmware files go in the frontend's system directory.
 
-|   Filename    |    Description         |              md5sum              |
-|:-------------:|:----------------------:|:--------------------------------:|
-| optional.bin  | Description - Optional |                                  |
-| required.bin  | Description - Required |                                  |
+| Filename          | Description                     | md5sum                           |
+|:-----------------:|:-------------------------------:|:--------------------------------:|
+| bios_filename.bin | Description - Optional/Required |                                  |
 
 // Copy the firmware information from the core info file and paste it here (
 // https://github.com/libretro/libretro-super/tree/master/dist/info)--
@@ -130,11 +129,13 @@ Frontend-level settings or features that the (Core name) core respects.
 | Screenshots       | -         |
 | Saves             | -         |
 | States            | -         |
+| Saves             | -         |
+| States            | -         |
 | Rewind            | -         |
-| Netplay (State based) | -         |
+| Netplay           | -         |
 | Core Options      | -         |
 | RetroAchievements | -         |
-| Cheats (Cheats menu) | -         |
+| RetroArch Cheats  | -         |
 | Native Cheats     | -         |
 | Controls          | -         |
 | Remapping         | -         |

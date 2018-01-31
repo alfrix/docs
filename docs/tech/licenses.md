@@ -116,7 +116,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [Handy](../library/handy.md)					    		   | [zlib](https://github.com/libretro/libretro-handy/blob/master/lynx/license.txt)                                           |                |
 | [Hatari](../library/hatari.md)						   | [GPLv2](https://github.com/libretro/hatari/blob/master/readme.txt)                        |                |
 | [higan Accuracy](../library/higan_accuracy.md)                                   | [GPLv3](https://gitlab.com/higan/higan/blob/master/LICENSE.txt)                           |                |
-| [Imageviewer](../library/imageviewer.md)				  	   | MIT                                                                                       |                |
+| [Imageviewer](../library/imageviewer.md)				  	   | [MIT](https://github.com/libretro/RetroArch/blob/master/cores/libretro-imageviewer/LICENSE)                                                                                       |                |
 | [Lutro](../library/lutro.md)				                	   | [MIT](https://github.com/libretro/libretro-lutro/blob/master/LICENSE)                     |                |
 | MAME										   | [BSD-3-Clause & GNU GPLv2](http://mamedev.org/legal.html)                                 |                |
 | MAME 2000							                                               | [MAME (Non-commercial)](https://github.com/libretro/mame2000-libretro/blob/master/readme.txt) | Non-commercial |
@@ -157,7 +157,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [QuickNES](../library/quicknes.md)                                               | [LGPLv2.1+](https://github.com/kode54/QuickNES/blob/master/COPYING)                       |                |
 | [Redream (libretro fork)](../library/redream.md)                                 | [GPLv3](https://github.com/libretro/redream/blob/master/LICENSE.txt)                      |                |
 | [Reicast](../library/reicast.md)                                                 | [GPLv2](https://github.com/libretro-mirrors/reicast-emulator/blob/master/LICENSE)         |                |
-| RemoteJoy                                                                        | GPLv2                                                                                     |                |
+| RemoteJoy                                                                        | [GPLv2](https://github.com/libretro/libretro-remotejoy/blob/master/LICENSE)               |                |
 | Remote RetroPad                                                                  | [MIT](https://github.com/libretro/libretro-samples/blob/master/license)                   |                |
 | [SameBoy](../library/sameboy.md)                                                 | [MIT](https://github.com/libretro/SameBoy/blob/master/LICENSE)                            |                |
 | [ScummVM](../library/scummvm.md)                                                 | [GPLv2](https://github.com/libretro/scummvm/blob/master/COPYING)                          |                |
