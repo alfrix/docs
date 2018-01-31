@@ -300,7 +300,7 @@
 - Add internal sample rate.
 - Improve core otpion descriptions.
 
-### [✕] Dummy Core
+### [✔] Dummy Core
 
 ### [✕] Dungeon Crawl Stone Soup
 

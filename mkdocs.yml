@@ -100,6 +100,7 @@ pages:
         - 'ChaiLove': 'library/chailove.md'
         - 'CHIP-8 (Emux CHIP-8)': 'library/emux_chip8.md'
         - 'DOS (DOSBox)': 'library/dosbox.md'
+        - 'Dummy core': 'library/dummy.md'
         - 'FFmpeg': 'library/ffmpeg.md'
         - 'Game Music Emu': 'library/game_music_emu.md'
         - 'Imageviewer': 'library/imageviewer.md'
