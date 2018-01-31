@@ -100,6 +100,10 @@ The Neko Project II Kai core's directory name is 'Neko Project II kai'
 
 The Neko Project II Kai core saves/loads to/from these directories.
 
+-**Frontend's Home directory**
+
+- ######.bmp (???)
+
 **Frontend's State directory**
 
 - 'content-name'.state# (State)
@@ -246,7 +250,7 @@ The Neko Project II Kai core supports the following device type(s) in the contro
 
 ### User 1 device types
 
-- None - Input disabled.
+- None - Doesn't disable input.
 - **RetroPad** - Joypad
 - RetroPad w/Analog - Joypad - There's no reason to switch to this.
 
