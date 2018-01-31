@@ -129,8 +129,6 @@ Frontend-level settings or features that the (Core name) core respects.
 | Screenshots       | -         |
 | Saves             | -         |
 | States            | -         |
-| Saves             | -         |
-| States            | -         |
 | Rewind            | -         |
 | Netplay           | -         |
 | Core Options      | -         |
@@ -165,6 +163,10 @@ The (Core name) core's directory name is '(Directory name)'
 The (Core name) core saves/loads to/from these directories.
 
 // Fill in the (Core name).
+
+-**Frontend's Home directory**
+
+- . ()
 
 **Frontend's Save directory**
 
