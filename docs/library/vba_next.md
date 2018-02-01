@@ -1,76 +1,22 @@
-# Game Boy Advance (VBA Next)
-
-## Contribute to this documentation
-
-**DOCUMENTATION IS A WORK IN PROGRESS**
-
-**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/vba_next.md). Changes are proposed using "Pull Requests."**
-
-**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
-
-**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
+# Nintendo - Game Boy Advance (VBA Next)
 
 ## Background
 
-VBA-Next is a Game Boy Advance emulator based on VBA-M 2011 with backported patches for performance and compatibility improvements.
+VBA Next is a Game Boy Advance emulator based on VBA-M 2011 with backported patches for performance and compatibility improvements.
 
-### Why use this core?
+### Author/License
 
-Awaiting description.
-
-### How to install the VBA Next core:
-
-- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
-
-<center> ![](images\Cores\all\updater.png) </center>
-
-- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
-
-<center> ![](images\Cores\all\info.png) </center>
-
-- Browse through the list and select 'Game Boy Advance (VBA Next)'.
-
-<center> ![](images\Cores\updater\vba_next.png) </center>
-
-After this has finished downloading, the core should now be ready for use!
-
-#### How to start the (Core name) core:
-
-- Go back to RetroArch's main menu screen. Select 'Load Content'.
-
-<center> ![](images\Cores\all\load.png) </center>
-
-- Browse to the folder that contains the content you want to run.
-
-- Select the content that you want to run.
-
-- If you are asked which core to select, choose 'Game Boy Advance (VBA Next)'.
-
-The content should now start running!
-
-### Authors
+The VBA Next core has been authored by
 
 - Forgotten
 - VBA-M Team
 - Squarepusher
 
-## See also
-
-### GBA
-
-- [Game Boy Advance (Beetle GBA)](https://docs.libretro.com/library/beetle_gba/)
-- [Game Boy Advance (gpSP)](https://docs.libretro.com/library/gpsp/)
-- [Game Boy Advance (Meteor)](https://docs.libretro.com/library/meteor/)
-- [Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
-- [Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vba_m/)
-
-## License
-
-A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
-
 The VBA Next core is licensed under
 
-- GPLv2
+- [GPLv2](https://github.com/libretro/vba-next/blob/master/LICENSE)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
@@ -86,18 +32,18 @@ RetroArch database(s) that are associated with the VBA Next core:
 
 ## BIOS
 
-Required or optional firmware files go in RetroArch's system directory.
+Required or optional firmware files go in the frontend's system directory.
+
+!!! warning
+	In order for the Game Boy Advance BIOS to be used, the 'Use bios if available' core option must be set to On.
 
 |   Filename    |    Description                    |              md5sum              |
 |:-------------:|:---------------------------------:|:--------------------------------:|
 | gba_bios.bin  | Game Boy Advance Image - Optional | a860e8c0b6d573d191e4ec7db1b1e4f6 |
 
-!!! warning
-	In order for the Game Boy Advance BIOS to be used, the 'Use bios if available' core option must be set to On.
-
 ## Features
 
-RetroArch-level settings or features that the VBA Next core respects.
+Frontend-level settings or features that the VBA Next core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -106,7 +52,7 @@ RetroArch-level settings or features that the VBA Next core respects.
 | Saves             | ✔         |
 | States            | ✔         |
 | Rewind            | ✔         |
-| Netplay           | ✔ (not link-cable emulation) |
+| Netplay           | ✔ (not link-cable emulation)         |
 | Core Options      | ✔         |
 | RetroAchievements | ✔         |
 | RetroArch Cheats  | ✕         |
@@ -132,27 +78,11 @@ The VBA Next core's directory name is 'VBA Next'
 
 The VBA Next core saves/loads to/from these directories.
 
-**RetroArch's Config directory**
-
-- VBA Next.cfg (Core Overrides)
-- 'content-name'.cfg (Game Overrides)
-- 'content-name'.opt (Game-options)
-
-**RetroArch's Input Remapping directory**
-
-- VBA Next.rmp (Core Remap)
-- 'content-name'.rmp (Game Remap)
-
-**RetroArch's Video Shader directory**
-
-- VBA Next.'shader-preset-extension' (Core Shader Preset)
-- 'content-name'.'shader-preset-extension' (Game Shader Preset)
-
-**RetroArch's Save directory**
+**Frontend's Save directory**
 
 - 'content-name'.srm (Cartridge battery save)
 
-**RetroArch's State directory**
+**Frontend's State directory**
 
 - 'content-name'.state# (State)
 
@@ -168,10 +98,10 @@ The VBA Next core has the following option(s) that can be tweaked from the core 
 
 Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
-- **Use bios if available (Restart)** (Off/**On**)
+- **Use bios if available (Restart)** [vbanext_bios] (Off/**On**)
 
 	Self-explanatory. Look at the [BIOS section](https://docs.libretro.com/library/vba_next/#bios) for more information.
-
+	
 ??? note "Use bios if available - On"
 	![](images\Cores\vba_next\bios.png)
 
@@ -189,18 +119,20 @@ The VBA Next core supports the following device type(s) in the controls menu, bo
 
 #### Joypad
 
-| User 1 Remap descriptors | RetroPad Inputs                              |
-|--------------------------|----------------------------------------------|
-| B                        | ![](images/RetroPad/Retro_B_Round.png)       |
-| Select                   | ![](images/RetroPad/Retro_Select.png)        |
-| Start                    | ![](images/RetroPad/Retro_Start.png)         |
-| D-Pad Up                 | ![](images/RetroPad/Retro_Dpad_Up.png)       | 
-| D-Pad Down               | ![](images/RetroPad/Retro_Dpad_Down.png)     | 
-| D-Pad Left               | ![](images/RetroPad/Retro_Dpad_Left.png)     |
-| D-Pad Right              | ![](images/RetroPad/Retro_Dpad_Right.png)    |
-| A                        | ![](images/RetroPad/Retro_A_Round.png)       |
-| L                        | ![](images/RetroPad/Retro_L1.png)            |
-| R                        | ![](images/RetroPad/Retro_R1.png)            |
+![](images/Controllers/gba.png)
+
+| User 1 Remap descriptors | RetroPad Inputs                           |
+|--------------------------|-------------------------------------------|
+| B                        | ![](images/RetroPad/Retro_B_Round.png)    |
+| Select                   | ![](images/RetroPad/Retro_Select.png)     |
+| Start                    | ![](images/RetroPad/Retro_Start.png)      |
+| D-Pad Up                 | ![](images/RetroPad/Retro_Dpad_Up.png)    |
+| D-Pad Down               | ![](images/RetroPad/Retro_Dpad_Down.png)  |
+| D-Pad Left               | ![](images/RetroPad/Retro_Dpad_Left.png)  |
+| D-Pad Right              | ![](images/RetroPad/Retro_Dpad_Right.png) |
+| A                        | ![](images/RetroPad/Retro_A_Round.png)    |
+| L                        | ![](images/RetroPad/Retro_X_Round.png)    |
+| R                        | ![](images/RetroPad/Retro_L1.png)         |
 
 ## Compatibility
 
@@ -229,3 +161,14 @@ The VBA Next core supports the following device type(s) in the controls menu, bo
 - [Libretro VBA Next Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/vba_next_libretro.info)
 - [Libretro VBA Next Github Repository](https://github.com/libretro/vba-next)
 - [Report Libretro VBA Next Core Issues Here](https://github.com/libretro/vba-next/issues)
+
+### See also
+
+#### Nintendo - Game Boy Advance
+
+- [Nintendo - Game Boy Advance (Beetle GBA)](https://docs.libretro.com/library/beetle_gba/)
+- [Nintendo - Game Boy Advance (gpSP)](https://docs.libretro.com/library/gpsp/)
+- [Nintendo - Game Boy Advance (Meteor)](https://docs.libretro.com/library/meteor/)
+- [Nintendo - Game Boy Advance (mGBA)](https://docs.libretro.com/library/mgba/)
+- [Nintendo - Game Boy Advance (TempGBA)](https://docs.libretro.com/library/tempgba/)
+- [Nintendo - Game Boy Advance (VBA-M)](https://docs.libretro.com/library/vba_m/)

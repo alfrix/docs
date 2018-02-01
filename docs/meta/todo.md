@@ -17,7 +17,6 @@
 
 ## Licenses
 
-- Add a license file to VBA Next repository
 - Add a license file to Neko Project II repository
 
 ## Guide
@@ -740,9 +739,7 @@ https://redream.io/quickstart
 - Improve background section.
 - Complete why use this core section.
 
-### [〰️] VBA Next
-
-- Complete why use this core section
+### [✔] VBA Next
 
 ### [〰️] vecx
 
