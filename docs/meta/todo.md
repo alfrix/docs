@@ -734,10 +734,7 @@ https://redream.io/quickstart
 - Complete compatiblity section.
 - Can't complete documentation, core doesn't start. https://github.com/libretro/libretro-uzem/issues/2
 
-### [〰️] VBA-M
-
-- Improve background section.
-- Complete why use this core section.
+### [✔] VBA-M
 
 ### [✔] VBA Next
 
