@@ -623,11 +623,7 @@
 - Add keyboard inputs.
 - Add Joypad inputs.
 
-### [〰️] QuickNES
-
-- Complete Why use this core? section.
-- Improve background section.
-- Add internal FPS
+### [✔] QuickNES
 
 ### [〰️] Redream
 
