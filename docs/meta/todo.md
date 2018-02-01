@@ -648,7 +648,6 @@ https://redream.io/quickstart
 
 ### [〰️] ScummVM
 
-- Complete why use this core section.
 - Add keyboard table.
 
 ### [〰️] Snes9x
