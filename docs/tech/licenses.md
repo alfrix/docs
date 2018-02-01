@@ -173,7 +173,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | UME 2014                                                                         | [MAME (Non-commercial)](https://github.com/libretro/mame2014-libretro/blob/master/docs/license.txt)         | Non-commercial |
 | [Uzem](../library/uzem.md)                                                       | [GPLv3](https://github.com/Uzebox/uzebox/blob/master/gpl-3.0.txt)                         |                |
 | [VBA-M](../library/vba_m.md)                                                     | [GPLv2](https://github.com/libretro/vbam-libretro/blob/master/doc/gpl.txt)                |                |
-| [VBA Next](../library/vba_next.md)                                               | GPLv2                                                                                     |                |
+| [VBA Next](../library/vba_next.md)                                               | [GPLv2](https://github.com/libretro/vba-next/blob/master/LICENSE)                         |                |
 | [vecx](../library/vecx.md)                                                       | [GPLv3](https://github.com/libretro/libretro-vecx/blob/master/LICENSE.md)                 |                |
 | VICE C64                                                                         | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
 | VICE C128                                                                        | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
