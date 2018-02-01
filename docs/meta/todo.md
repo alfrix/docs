@@ -153,10 +153,7 @@
 - Add core provided aspect ratio.
 - Add RetroPad Keyboard Map inputs
 
-### [〰️] bnes
-
-- Complete why use this core section.
-- Add core provided aspect ratio
+### [✔] bnes
 
 ### [〰️] bsnes-mercury Accuracy
 
