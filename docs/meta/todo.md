@@ -63,10 +63,7 @@
 
 ### [✔] 4DO
 
-### [〰️] 2048
-
-- Complete why use this core section.
-- Complete compatbiility section.
+### [✔] 2048
 
 ### [✕] Atari800
 
