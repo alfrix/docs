@@ -84,8 +84,8 @@ You can also check the progress of your friends and add comments on their trophi
 | [bsnes-mercury Balanced](https://github.com/libretro/bsnes-mercury)          | ✔         | |
 | [bsnes-mercury Performance](https://github.com/libretro/bsnes-mercury)       | ✔         | |
 | [bsnes C++98 (v085)](https://github.com/libretro/bsnes-libretro-cplusplus98) | ✔         | |
-| higan Accuracy                                                               | ✕         | Achievement support isn't going to be added |
-| nSide Balanced                                                               | ✕         | Achievement support isn't going to be added |
+| higan Accuracy                                                               | ✕         | [Achievement support isn't going to be added](https://forums.libretro.com/t/is-higan-105-accuracy-supposed-to-be-slow-on-a-3-ghz-ivy-bridge-i7/13405/7?u=esoptron) |
+| nSide Balanced                                                               | ✕         | [Achievement support isn't going to be added](https://forums.libretro.com/t/is-higan-105-accuracy-supposed-to-be-slow-on-a-3-ghz-ivy-bridge-i7/13405/7?u=esoptron) |
 | [Beetle bsnes](https://github.com/libretro/beetle-bsnes-libretro)            | ✕         | |
 
 ### Game Boy / Game Boy Color
