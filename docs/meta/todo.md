@@ -554,11 +554,7 @@
 - Add core provided aspect ratio
 - Verify controllers table
 
-### [〰️] NXEngine
-
-- Complete why use this core section.
-- Complete compatbiility section.
-- Add core provided aspect ratio.
+### [✔] NXEngine
 
 ### [〰️] O2EM
 
