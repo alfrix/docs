@@ -155,7 +155,7 @@ Frontend-level settings or features that the (Core name) core respects.
 
 ### Directories
 
-The (Core name) core's directory name is '(Directory name)'
+The (Core name) core's internal core name is '(Directory name)'
 
 // Fill in the (Core name) and the (Directory name).
 // The (Directory name) is the name of the directory the core creates in the frontend's save and state directories.
