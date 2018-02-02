@@ -408,12 +408,7 @@
 - Add internal sample rate
 - This core needs to be ported to the new Lightgun API
 
-### [〰️] gpSP
-
-- Complete why use this core section.
-- Add internal FPS
-- Add internal sample rate
-- Add core provided aspect ratio
+### [✔] gpSP
 
 ### [〰️] GW
 
