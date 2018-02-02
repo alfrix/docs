@@ -1,64 +1,20 @@
-# Pokémon Mini (PokeMini)
-
-## Contribute to this documentation
-
-**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/pokemini.md). Changes are proposed using "Pull Requests."**
-
-**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
-
-**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
+# Nintendo - Pokémon Mini (PokeMini)
 
 ## Background
 
 Pokémon Mini handheld console emulator.
 
-### Why use this core?
+### Author/License
 
-Awaiting description.
-
-### How to get and install the PokeMini core:
-
-- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
-
-<center> ![](images\Cores\all\updater.png) </center>
-
-- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
-
-<center> ![](images\Cores\all\info.png) </center>
-
-- Browse through the list and select 'Pokémon Mini (PokeMini)'.
-
-<center> ![](images\Cores\pokemini\pokemini.png) </center>
-
-After this has finished downloading, the core should now be ready for use!
-
-#### How to start (after installation):
-
-- Go back to RetroArch's main menu screen. Select 'Load Content'.
-
-<center> ![](images\Cores\all\load.png) </center>
-
-- Browse to the folder that contains the content you want to run.
-
-- Select the content that you want to run.
-
-<center> ![](images\Cores\pokemini\galactix.png) </center>
-
-- If you are asked which core to select, choose 'Pokémon Mini (PokeMini)'.
-
-The content should now start running!
-
-### Authors
+The PokeMini core has been authored by
 
 - JustBurn
-
-## License
-
-A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 The PokeMini core is licensed under
 
 - [GPLv3](https://github.com/libretro/PokeMini/blob/master/LICENSE)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
@@ -74,7 +30,7 @@ RetroArch database(s) that are associated with the PokeMini core:
 
 ## BIOS
 
-Required or optional firmware files go in RetroArch's system directory.
+Required or optional firmware files go in the frontend's system directory.
 
 |   Filename    |    Description                |              md5sum              |
 |:-------------:|:-----------------------------:|:--------------------------------:|
@@ -82,7 +38,7 @@ Required or optional firmware files go in RetroArch's system directory.
 
 ## Features
 
-RetroArch-level settings or features that the PokeMini core respects.
+Frontend-level settings or features that the PokeMini core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -104,11 +60,12 @@ RetroArch-level settings or features that the PokeMini core respects.
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
 ### Directories
 
@@ -116,17 +73,15 @@ The PokeMini core's directory name is 'PokeMini'
 
 ### Geometry and timing
 
-- The PokeMini core's internal FPS is 72
-- The PokeMini core's internal sample rate is 44100 Hz
+- The PokeMini core's core provided FPS is 72
+- The PokeMini core's core provided sample rate is 44100 Hz
 - The PokeMini core's core provided aspect ratio is 4/3
 
 ## Controllers
 
-### Device types
-
 The PokeMini core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 device types
+### User 1 device types
 
 - None - Doesn't disable input.
 - **RetroPad** - Joypad
@@ -134,27 +89,23 @@ The PokeMini core supports the following device type(s) in the controls menu, bo
 
 ### Controller tables
 
-#### Joypad and analog device type table
+#### Joypad
 
-| User 1 Input descriptors      | RetroPad Inputs                              | RetroPad           |
-|-------------------------------|----------------------------------------------|--------------------|
-|                               | ![](images/RetroPad/Retro_B_Round.png)       | B                  |
-|                               | ![](images/RetroPad/Retro_Start.png)         | Power Button       |
-|                               | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up           |
-|                               | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down         |
-|                               | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left         |
-|                               | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right        |
-|                               | ![](images/RetroPad/Retro_A_Round.png)       | A                  |
-|                               | ![](images/RetroPad/Retro_L1.png)            | Shock Detector     |
-|                               | ![](images/RetroPad/Retro_R1.png)            | C                  |
-
-## Compatibility
-
-Awaiting description.
+| RetroPad Inputs                              | PokeMini Core Inputs |
+|----------------------------------------------|----------------------|
+| ![](images/RetroPad/Retro_B_Round.png)       | B                    |
+| ![](images/RetroPad/Retro_Start.png)         | Power Button         |
+| ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up             |
+| ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down           |
+| ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left           |
+| ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right          |
+| ![](images/RetroPad/Retro_A_Round.png)       | A                    |
+| ![](images/RetroPad/Retro_L1.png)            | Shake                |
+| ![](images/RetroPad/Retro_R1.png)            | C                    |
 
 ## External Links
 
+- [Official PokeMini SourceForge Repository](https://sourceforge.net/projects/pokemini/)
 - [Libretro PokeMini Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/pokemini_libretro.info)
 - [Libretro PokeMini Github Repository](https://github.com/libretro/PokeMini)
 - [Report Libretro PokeMini Core Issues Here](https://github.com/libretro/PokeMini/issues)
-- [Official PokeMini SourceForge Repository](https://sourceforge.net/projects/pokemini/)

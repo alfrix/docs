@@ -589,11 +589,7 @@
 
 - Complete core option descriptions
 
-### [〰️] PokeMini
-
-- Improve background section.
-- Complete why use this core section.
-- Complte compatibility section.
+### [✔] PokeMini
 
 ### [〰️] PPSSPP
 
