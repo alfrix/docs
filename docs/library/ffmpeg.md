@@ -114,6 +114,10 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 - **FFT Multisample** [ffmpeg_fft_multisample] (**1x**/2x/4x)
 
 	Modify the antialiasing of the music visualizer.
+	
+- **Colorspace** [ffmpeg_color_space] (**auto**/BT.70/BT.601/FCC/SMPTE240M)
+
+	Choose [colorspaces](https://trac.ffmpeg.org/wiki/colorspace) from different broadcast regions/standards.
 
 ## Controllers
 
