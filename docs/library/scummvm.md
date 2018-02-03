@@ -1,66 +1,20 @@
 # ScummVM
 
-## Contribute to this documentation
-
-**DOCUMENTATION IS A WORK IN PROGRESS**
-
-**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/scummvm.md). Changes are proposed using "Pull Requests."**
-
-**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
-
-**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
-
 ## Background
 
 ScummVM is an interpreter program which allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files. The clever part about this: ScummVM just replaces the executables shipped with the games, allowing you to play them on systems for which they were never designed
 
-### Why use this core?
+### Author/License
 
-Awaiting description.
-
-### How to get and install the ScummVM core:
-
-- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
-
-<center> ![](images\Cores\all\updater.png) </center>
-
-- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
-
-<center> ![](images\Cores\all\info.png) </center>
-
-- Browse through the list and select 'ScummVM'.
-
-<center> ![](images\Cores\updater\screenshot_name.png) </center>
-
-After this has finished downloading, the core should now be ready for use!
-
-#### How to start (after installation):
-
-- Go back to RetroArch's main menu screen. Select 'Load Content'.
-
-<center> ![](images\Cores\all\load.png) </center>
-
-- Browse to the folder that contains the content you want to run.
-
-- Select the content that you want to run.
-
-<center> ![](images\Cores\all\screenshot_name.png) </center>
-
-- If you are asked which core to select, choose 'ScummVM'.
-
-The content should now start running!
-
-### Authors
+The ScummVM core has been authored by
 
 - [ScummVM Team](http://www.scummvm.org/credits/)
-
-## License
-
-A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 The ScummVM core is licensed under
 
 - [GPLv2](https://github.com/libretro/scummvm/blob/master/COPYING)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
@@ -76,7 +30,7 @@ RetroArch database(s) that are associated with the ScummVM core:
 
 ## Features
 
-RetroArch-level settings or features that the ScummVM core respects.
+Frontend-level settings or features that the ScummVM core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -103,6 +57,7 @@ RetroArch-level settings or features that the ScummVM core respects.
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
 ### Directories
 
@@ -110,21 +65,21 @@ The ScummVM core's directory name is 'scummvm'
 
 The ScummVM core saves/loads to/from these directories.
 
-**RetroArch's Save directory**
+**Frontend's Save directory**
 
 - Game saves
 
-**RetroArch's System directory**
+**Frontend's System directory**
 
-- scummvm.ini
+- scummvm.ini (ScummVM Config File)
 
 ### Geometry and timing
 
-- The ScummVM core's internal FPS is 60
-- The ScummVM core's internal sample rate is 44100 Hz
+- The ScummVM core's core provided FPS is 60
+- The ScummVM core's core provided sample rate is 44100 Hz
 - The ScummVM core's core provided aspect ratio is 4/3
 
-### Scanning Support
+## Scanning Support
 
 To allow launching ScummVM games from the menu, you'll need to do the following:
 
@@ -151,14 +106,11 @@ This is an example of what the playlist would look like:
     b0e2af30|crc
     ScummVM.lpl
 ```
-	
 ## Controllers
-
-### Device types
 
 The ScummVM core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 device types
+### User 1 device types
 
 - None - Doesn't disable input.
 - **RetroPad** - Joypad
@@ -166,40 +118,44 @@ The ScummVM core supports the following device type(s) in the controls menu, bol
 
 ### Controller tables
 
-#### Joypad and analog device type table
+#### Joypad
 
-| User 1 Remap descriptors      | RetroPad Inputs                              | RetroPad         |
-|-------------------------------|----------------------------------------------|------------------|
-| Mouse Button 2                | ![](images/RetroPad/Retro_B_Round.png)       | Mouse Button 2   |
-|                               | ![](images/RetroPad/Retro_Y_Round.png)       |                  |
-| ScummVM GUI                   | ![](images/RetroPad/Retro_Select.png)        | ScummVM GUI      |
-| Esc                           | ![](images/RetroPad/Retro_Start.png)         | Esc              |
-| Mouse Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | Mouse Up         |
-| Mouse Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | Mouse Down       |
-| Mouse Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | Mouse Left       |
-| Mouse Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | Mouse Right      |
-| Mouse Button 1                | ![](images/RetroPad/Retro_A_Round.png)       | Mouse Button 1   |
-|                               | ![](images/RetroPad/Retro_Left_Stick.png) X  | Mouse Left/Right |
-|                               | ![](images/RetroPad/Retro_Left_Stick.png) Y  | Mouse Up/Down    |
-|                               | ![](images/RetroPad/Retro_Right_Stick.png) X |                  |
-|                               | ![](images/RetroPad/Retro_Right_Stick.png) Y |                  |
+| User 1 Remap descriptors | RetroPad Inputs                              | ScummVM Core Inputs |
+|--------------------------|----------------------------------------------|---------------------|
+| Mouse Button 2           | ![](images/RetroPad/Retro_B_Round.png)       | Mouse Button 2      |
+| ScummVM GUI              | ![](images/RetroPad/Retro_Select.png)        | ScummVM GUI         |
+| Esc                      | ![](images/RetroPad/Retro_Start.png)         | Esc                 |
+| Mouse Up                 | ![](images/RetroPad/Retro_Dpad_Up.png)       | Mouse Up            |
+| Mouse Down               | ![](images/RetroPad/Retro_Dpad_Down.png)     | Mouse Down          |
+| Mouse Left               | ![](images/RetroPad/Retro_Dpad_Left.png)     | Mouse Left          |
+| Mouse Right              | ![](images/RetroPad/Retro_Dpad_Right.png)    | Mouse Right         |
+| Mouse Button 1           | ![](images/RetroPad/Retro_A_Round.png)       | Mouse Button 1      |
+|                          | ![](images/RetroPad/Retro_Left_Stick.png) X  | Mouse Left/Right    |
+|                          | ![](images/RetroPad/Retro_Left_Stick.png) Y  | Mouse Up/Down       |
 
-#### Mouse device type table
+#### Mouse
 
-| RetroMouse Inputs                        | Mouse              |
-|------------------------------------------|--------------------|
-| ![](images/RetroMouse/Retro_Mouse.png)   | Mouse Cursor       |
-| ![](images/RetroMouse/Retro_Left.png)    | Mouse Left Button  |
-| ![](images/RetroMouse/Retro_Right.png)   | Mouse Right Button |
+| RetroMouse Inputs                                   | ScummVM Core Inputs      |
+|-----------------------------------------------------|--------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) Mouse Cursor | Mouse Cursor             |
+| ![](images/RetroMouse/Retro_Left.png) Mouse 1       | Mouse Button 1           |
+| ![](images/RetroMouse/Retro_Right.png) Mouse 2      | Mouse Button 2           |
+
+#### Pointer
+
+| RetroPointer Inputs                                                                                                  | ScummVM Core Inputs |
+|----------------------------------------------------------------------------------------------------------------------|---------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | Mouse Cursor        | 
+| ![](images/RetroMouse/Retro_Left.png) or ![](images/Button_Pack/Gestures/Gesture_Tap.png) Pointer Pressed            | Mouse Button 1      |
 
 ## Compatibility
 
-[ScummVM Compatibility List](https://www.scummvm.org/compatibility/)
+- [ScummVM Compatibility List](https://www.scummvm.org/compatibility/)
 
 ## External Links
 
+- [Official ScummVM Website](http://scummvm.org/)
+- [Official ScummVM Github Repository](https://github.com/scummvm/scummvm)
 - [Libretro ScummVM Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/scummvm_libretro.info)
 - [Libretro ScummVM Github Repository](https://github.com/libretro/scummvm)
 - [Report Libretro ScummVM Core Issues Here](https://github.com/libretro/scummvm/issues)
-- [Official ScummVM Website](http://scummvm.org/)
-- [Official ScummVM Github Repository](https://github.com/scummvm/scummvm)

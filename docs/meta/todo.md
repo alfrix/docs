@@ -17,7 +17,6 @@
 
 ## Licenses
 
-- Add a license file to VBA Next repository
 - Add a license file to Neko Project II repository
 
 ## Guide
@@ -153,10 +152,7 @@
 - Add core provided aspect ratio.
 - Add RetroPad Keyboard Map inputs
 
-### [〰️] bnes
-
-- Complete why use this core section.
-- Add core provided aspect ratio
+### [✔] bnes
 
 ### [〰️] bsnes-mercury Accuracy
 
@@ -626,11 +622,7 @@
 - Add keyboard inputs.
 - Add Joypad inputs.
 
-### [〰️] QuickNES
-
-- Complete Why use this core? section.
-- Improve background section.
-- Add internal FPS
+### [✔] QuickNES
 
 ### [〰️] Redream
 
@@ -655,7 +647,6 @@ https://redream.io/quickstart
 
 ### [〰️] ScummVM
 
-- Complete why use this core section.
 - Add keyboard table.
 
 ### [〰️] Snes9x
@@ -743,14 +734,9 @@ https://redream.io/quickstart
 - Complete compatiblity section.
 - Can't complete documentation, core doesn't start. https://github.com/libretro/libretro-uzem/issues/2
 
-### [〰️] VBA-M
+### [✔] VBA-M
 
-- Improve background section.
-- Complete why use this core section.
-
-### [〰️] VBA Next
-
-- Complete why use this core section
+### [✔] VBA Next
 
 ### [〰️] vecx
 
