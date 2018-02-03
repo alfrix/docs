@@ -63,10 +63,7 @@
 
 ### [✔] 4DO
 
-### [〰️] 2048
-
-- Complete why use this core section.
-- Complete compatbiility section.
+### [✔] 2048
 
 ### [✕] Atari800
 
@@ -408,12 +405,7 @@
 - Add internal sample rate
 - This core needs to be ported to the new Lightgun API
 
-### [〰️] gpSP
-
-- Complete why use this core section.
-- Add internal FPS
-- Add internal sample rate
-- Add core provided aspect ratio
+### [✔] gpSP
 
 ### [〰️] GW
 
@@ -559,11 +551,7 @@
 - Add core provided aspect ratio
 - Verify controllers table
 
-### [〰️] NXEngine
-
-- Complete why use this core section.
-- Complete compatbiility section.
-- Add core provided aspect ratio.
+### [✔] NXEngine
 
 ### [〰️] O2EM
 
@@ -598,11 +586,7 @@
 
 - Complete core option descriptions
 
-### [〰️] PokeMini
-
-- Improve background section.
-- Complete why use this core section.
-- Complte compatibility section.
+### [✔] PokeMini
 
 ### [〰️] PPSSPP
 
