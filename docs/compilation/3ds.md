@@ -1,8 +1,20 @@
-# Nintendo 3DS Compilation / Development Guide
+﻿# Nintendo 3DS Compilation / Development Guide
 
 ## Environment configuration
 
-You need the homebrew Nintendo 3DS SDK ctrulib and DevkitARM toolchain installed. 
+You need the homebrew Nintendo 3DS SDK libctru and DevkitARM toolchain installed. 
+If you are running windows you will need to install [MSYS2](http://www.msys2.org/) and point it to your devkitARM installation like this: 
+
+    Put these lines in RetroArch3DSEnv.sh
+    export DEVKITPRO="/c/devkitPro"
+    export DEVKITARM="$DEVKITPRO/devkitARM"
+    export CTRULIB="$DEVKITPRO/libctru"
+    export CTRBANNERTOOL="/c/Users/Emily/Desktop/RetroArchDev/CompatFiles/bannertool.exe"
+    bash
+The custom bannertool is needed if you want to compile .cia builds due to a broken wav encoder in the windows version of bannertool included with RetroArch. 
+Before building RetroArch you will have to load MSYS2 and launch `RetroArch3DSEnv.sh`, then proceed as you would for linux.
+
+The working bannertool can be compiled from the sources [here](https://github.com/Steveice10/bannertool) using MSYS2.
 
 ## RetroArch Compilation
 
