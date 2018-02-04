@@ -6,6 +6,11 @@ Note: please be aware of whether your system uses DOS/Windows style paths with b
 
 #### Loading a ROM and libretro core (Unix-style path)
     retroarch -L /path/to/libretro/core.so game.rom
+    
+#### Loading a ROM and libretro core with flatpak
+    retroarch -L /path/to/libretro/core.so game.rom
+    flatpak run org.libretro.RetroArch/x86_64/stable -L /home/MYUSERNAME/.var/app/org.libretro.RetroArch/config/retroarch/cores/nestopia_libretro.so Tetris.nes
+
 
 ## Verbose logging output
 To get a better idea on what's going on, use the `--verbose` flag. If you want to report a bug, it is **vital** that this log is included.
