@@ -576,10 +576,7 @@
 
 ### [✕] PCSX ReARMed [Interpreter]
 
-### [〰️] PicoDrive
-
-- Improve why use this core section.
-- Improve core option descriptions.
+### [✔] PicoDrive
 
 ### [〰️] PocketCDG
 
