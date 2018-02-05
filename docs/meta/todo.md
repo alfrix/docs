@@ -398,12 +398,11 @@
 
 ### [〰️] Genesis Plus GX
 
-- Complete why use this core section.
-- Complete core option descriptions.
-- Test Multi-Mouse support
-- Add internal FPS
-- Add internal sample rate
-- This core needs to be ported to the new Lightgun API
+- Complete BIOS md5
+- Test Multi-Mouse support.
+- Complete Mega Drive / Genesis FM core option description.
+- Complete Audio filter core option description.
+- Complete Low-pass filter % core option description.
 
 ### [✔] gpSP
 
@@ -577,10 +576,7 @@
 
 ### [✕] PCSX ReARMed [Interpreter]
 
-### [〰️] PicoDrive
-
-- Improve why use this core section.
-- Improve core option descriptions.
+### [✔] PicoDrive
 
 ### [〰️] PocketCDG
 
