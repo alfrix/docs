@@ -1,54 +1,21 @@
-# Sega MS/GG/MD/CD (Genesis Plus GX)
-
-## Contribute to this documentation
-
-In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/genesis_plus_gx.md). Changes are proposed using "Pull Requests."
+# Sega - MS/GG/MD/CD (Genesis Plus GX)
 
 ## Background
 
 Genesis Plus GX is an open-source Sega 8/16 bit emulator focused on accuracy and portability. The source code, originally based on Genesis Plus 1.3 by Charles MacDonald, has been heavily modified & enhanced, with respect to initial goals and design, in order to improve the accuracy of emulation, implementing new features and adding support for extra peripherals, cartridge & systems hardware.
 
-### Why use this core?
+### Author/License
 
-Awaiting description.
-
-### How to get and install the Genesis Plus GX core:
-
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
-
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
-
-3. Browse through the list and select 'Sega MS/GG/MD/CD (Genesis Plus GX)'.
-
-After this has finished downloading, the core should now be ready for use!
-
-#### How to start (after installation):
-
-1. Go back to RetroArch's main menu screen. Select 'Load Content'.
-
-2. Browse to the folder that contains the content you want to run.
-
-3. Select the content that you want to run.
-
-4. If you are asked which core to select, choose 'Sega MS/GG/MD/CD (Genesis Plus GX)'.
-
-### Authors
+The Genesis Plus GX core has been authored by
 
 - Charles McDonald
 - Eke-Eke
 
-## See also
-
-### Sega 16-bit cores
-
-- [Sega Master System (Emux)](https://docs.libretro.com/library/emux_sms/)
-- [Sega MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
-
-## License
-
-A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+The Genesis Plus GX core is licensed under
 
 - [Non-commercial](https://github.com/libretro/Genesis-Plus-GX/blob/master/LICENSE.txt)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
@@ -80,7 +47,7 @@ RetroArch database(s) that are associated with the Genesis Plus GX core:
 
 ## BIOS
 
-Required or optional firmware files go in RetroArch's system directory.
+Required or optional firmware files go in the frontend's system directory.
 
 |   Filename    |    Description                                  |              md5sum              |
 |:-------------:|:-----------------------------------------------:|:--------------------------------:|
@@ -102,7 +69,7 @@ Required or optional firmware files go in RetroArch's system directory.
 
 ## Features
 
-RetroArch features that the Genesis Plus GX core respects.
+Frontend-level settings or features that the Genesis Plus GX core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -124,38 +91,37 @@ RetroArch features that the Genesis Plus GX core respects.
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
 ### Directories
 
-The Genesis Plus GX core's directory name is 'Genesis Plus GX'
+The Genesis Plus GX core's internal core name is 'Genesis Plus GX'
 
-The Genesis Plus GX core loads from and saves to to these directories.
+The Genesis Plus GX core saves/loads to/from these directories.
 
-**RetroArch's Save directory**
+**Frontend's Save directory**
 
 - 'content-name'.srm (MS/GG/MD/Pico/SG-1000 Cartridge Backup save)
-- scd_E.brm (Mega CD EU BIOS Backup RAM) **When the 'CD System BRAM' core option is set to per bios**
-- scd_U.brm (Sega CD US BIOS Backup RAM) **When the 'CD System BRAM' core option is set to per bios**
-- scd_J.brm (Mega CD JP BIOS Backup RAM) **When the 'CD System BRAM' core option is set to per bios**
-- 'content-name'.brm (Sega CD/MegaCD Per-game Backup RAM) **When the 'CD System BRAM' core option is set to per game**
 - cart.brm (Sega/Mega CD RAM CART)
+- scd_E.brm (Mega CD EU Backup RAM - When the 'CD System BRAM' core option is set to per bios)
+- scd_U.brm (Sega CD US Backup RAM - When the 'CD System BRAM' core option is set to per bios)
+- scd_J.brm (Mega CD JP Backup RAM - When the 'CD System BRAM' core option is set to per bios)
+- 'content-name'.brm (Sega CD/MegaCD Backup RAM - When the 'CD System BRAM' core option is set to per game)
 
-**RetroArch's State directory**
+**Frontend's State directory**
 
 - 'content-name'.state# (State)
 
 ### Geometry and timing
 
-The Genesis Plus GX core's internal FPS is (FPS).
-
-The Genesis Plus GX core's internal sample rate is (Rate)
-
-The Genesis Plus GX core's core provided aspect ratio is dependent on the 'Core-provided aspect ratio' [core option](https://docs.libretro.com/library/genesis_plus_gx/#core-options).
+- The Genesis Plus GX core's core provided FPS is dependent on the loaded content.
+- The Genesis Plus GX core's core provided sample rate is 44100 Hz.
+- The Genesis Plus GX core's core provided aspect ratio is dependent on the 'Core-provided aspect ratio' [core option](https://docs.libretro.com/library/genesis_plus_gx/#core-options).
 
 ### Loading Sega CD games
 
@@ -163,7 +129,6 @@ When loading Sega CD games, Genesis Plus GX needs a cue-sheet that points to an 
 
 If you have e.g. `foo.bin`, you should create a text file and save it as `foo.cue`. If the Sega CD game is single-track, the cue file contents should look like this:
 
-`foobin.cue`
 ```
  FILE "foo.bin" BINARY
   TRACK 01 MODE1/2352
@@ -175,68 +140,71 @@ After that, you can load the `foo.cue` file in RetroArch with the Genesis Plus G
 !!! warning ""
     Certain Sega CD games are multi-track, so their .cue files might be more complicated.
 
+Here's a cue file example done with Lunar - Eternal Blue (USA)
+
+![](images\Cores\genesis_plus_gx\cue.png)
+
+!!! warning
+	For Sega-CD games, ISO + WAV, BIN + CUE and ISO + OGG formats are supported; ISO + MP3 is not supported. 
+	
 ## Core options
 
 The Genesis Plus GX core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
 Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
-- **System hardware** (**auto**/sg-1000/sg-1000 II/mark-III/master system/master system II/game gear/mega drive / genesis): 
+- **System hardware** [genesis_plus_gx_system_hw] (**auto**/sg-1000/sg-1000 II/mark-III/master system/master system II/game gear/mega drive / genesis)
 
-<center> Choose which system is going to be emulated. </center>
+	Choose which system is going to be emulated.
+	
+- **System region** [genesis_plus_gx_region_detect] (**auto**/ntsc-u/pal/ntsc-j)
 
-- **System region** (**auto**/ntsc-u/pal/ntsc-j): 
+	Choose which region the system is from.
+	
+- **System lockups** [genesis_plus_gx_force_dtack] (**enabled**/disabled)
 
-<center> Choose which region the system is from. </center>
+	Emulate system lockups that occur on real hardware.
+	
+- **System bootrom** [genesis_plus_gx_bios] (**disabled**/enabled)
 
-- **System lockups** (Off/**On**):
+	Runs bootrom if available and then starts loaded content after the boot sequence. Look above at the [BIOS section](https://docs.libretro.com/library/genesis_plus_gx/#bios) for more information.
+	
+- **CD System BRAM** [genesis_plus_gx_bram] (**per bios**/per game)
 
-<center> Emulate system lockups that occur on real hardware. </center>
+	The Sega CD's internal memory cannot hold a lot of saves. Setting this core option to per game allows each game to have its own one brm file, thus negating any lack of available space issues.
+	
+- **68k address error** [genesis_plus_gx_addr_error] (**enabled**/disabled)
 
-- **System bootrom** (**Off**/On):
+	Emulate the [68k](http://segaretro.org/M68000) address error that occurs on real hardware. Set this to disabled when playing rom hacks since most emulators used to develop rom hacks don't emulate the error.
+	
+- **Cartridge lock-on** [genesis_plus_gx_lock_on] (**disabled**/game genie/action replay (pro)/sonic & knuckles)
 
-<center> Runs bootrom if available and then starts loaded content after the boot sequence. Look above at the [BIOS section](https://docs.libretro.com/library/genesis_plus_gx/#bios) for more information. </center>
- 
-- **CD System BRAM** (**per bios**/per game):
+	Select lock-on cartridge. Look above at the [BIOS section](https://docs.libretro.com/library/genesis_plus_gx/#bios) for more information.
+	
+- **Master System FM (YM2413)** [genesis_plus_gx_ym2413] (**auto**/disabled/enabled)
 
-<center> The Sega CD's internal memory cannot hold a lot of saves. Setting this core option to per game allows each game to have its own one brm file, thus negating any lack of available space issues. </center>
+	Enable the Master System FM chip. (Enhanced sound output support for [SMS compatible games](http://segaretro.org/FM_Sound_Unit_).
+	
+- **Mega Drive / Genesis FM** [genesis_plus_gx_ym2612] (**mame (ym2612)**/mame (asic ym3438)/mame (enhanced ym3438)/nuked (ym2612)/nuked (asic ym3438)/nuked (discrete ym3438))
 
-- **68k address error** (Off/**On**): 
+	Awaiting description.
+	
+- **Sound output** [genesis_plus_gx_sound_output] (**stereo**/mono)
 
-<center> Emulate the [68k](http://segaretro.org/M68000) address error that occurs on real hardware. Set this to off when playing rom hacks since most emulators used to develop rom hacks don't emulate the error. </center>
+	Self-explanatory.
+	
+- **Audio filter** [genesis_plus_gx_audio_filter] (**disabled**/low-pass)
 
-- **Cartridge lock-on** (**Off**/game genie/action replay (pro)/sonic & knuckles): 
+	Awaiting description.
+	
+- **Low-pass filter %** [genesis_plus_gx_lowpass_range] (5 to 95 in increments of 5. **60 is default*)
 
-<center> Select lock-on cartridge. Look above at the [BIOS section](https://docs.libretro.com/library/genesis_plus_gx/#bios) for more information. </center>
+	Awaiting description.
+	
+- **Blargg NTSC filter** [genesis_plus_gx_blargg_ntsc_filter] (**Off**/monochrome/composite/svidio/rgb)
 
-- **Master System FM** (**auto**/Off/On):
-
-<center> Enable the Master System FM chip. (Enhanced sound output support for [SMS compatible games](http://segaretro.org/FM_Sound_Unit_).) </center>
-
-- **YM2612 DAC quantization** (**Off**/On): 
-
-<center> for Mame core only. Awaiting description. </center>
-
-- **YM2612/YM3438 core** (**mame**/nuked (ym2612)/nuked (asic ym3438)/nuked (discrete ym3438): 
-
-<center> Awaiting description. </center>
-
-- **Sound output** (**stereo**/mono): 
-
-<center> Self-explanatory. </center>
-
-- **Audio filter** (**Off**/low-pass):
-
-<center> Awaiting description. </center>
- 
-- **Low-pass filter %** (5 to 95 in increments of 5. **60 is default**): 
-
-<center> Awaiting description. </center>
-
-- **Blargg NTSC filter** (**Off**/monochrome/composite/svidio/rgb):
-
-<center> Self-explanatory. </center>
-
+	Self-explanatory.
+	
 ??? note "*Blargg NTSC filter - Off*"
     ![](images\Cores\genesis_plus_gx\blargg_off.png)
 
@@ -251,79 +219,75 @@ Settings with (Restart) means that core has to be closed for the new setting to 
 
 ??? note "*Blargg NTSC filter - rgb*"
     ![](images\Cores\genesis_plus_gx\blargg_rgb.png)
-
-- **LCD Ghosting filter** (**Off**/On):
-
-<center> Self-explanatory. </center>
+	
+- **LCD Ghosting filter** [genesis_plus_gx_lcd_filter] (**disabled**/enabled)
 
 ??? note "*LCD Ghosting filter - On*"
-    ![lcd_ghosting_filter_on](images\Cores\genesis_plus_gx\ghost.png)
+    ![](images\Cores\genesis_plus_gx\ghost.png)
+	
+- **Borders** [genesis_plus_gx_overscan] (**disabled**/top/bottom/left/right/full)
 
-- **Borders** (**Off**/ top/bottom/ left/right / full):
+	Self-explanatory.
+	
+- **Game Gear extended screen** [genesis_plus_gx_gg_extra] (**disabled**/enabled)
 
-<center> Self explanatory. </center>
-
-- **Game Gear extended screen** (**Off**/On):
-
-<center> Self-explanatory. </center>
-
+	Self-explanatory.
+	
 ??? note "*Game Gear extended screen - Off*"
     ![](images\Cores\genesis_plus_gx\extend_off.png)
 
 ??? note "*Game Gear extended screen - On*"
     ![](images\Cores\genesis_plus_gx\extend_on.png)
+	
+- **Core-provided aspect ratio** [genesis_plus_gx_aspect_ratio] (**auto**/NTSC PAR/PAL PAR)
 
-- **Core-provided aspect ratio** (**auto**/NTSC PAR/PAL PAR ): 
+	Choose the Core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video settings for this to function properly.
+	
+- **Interlaced mode 2 output** [genesis_plus_gx_render] (**single field**/double field)
 
-<center> Choose the Core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video settings for this to function properly. </center>
-
-- **Interlaced mode 2 output** (**single field**/double field):
-
-<center> Change how interlaced mode 2 output is handled. Games like Sonic 2's multiplayer mode uses Interlaced Mode 2. </center>
-
+	Change how interlaced mode 2 output is handled. Games like Sonic 2's multiplayer mode uses Interlaced Mode 2.
+	
 ??? note "*Interlaced mode 2 output - single field*"
-    ![interlaced_mode_2_output_single_field](images\Cores\genesis_plus_gx\single.png)
+    ![](images\Cores\genesis_plus_gx\single.png)
 	
 ??? note "*Interlaced mode 2 output - double field*"
-    ![interlaced_mode_2_output_double_field](images\Cores\genesis_plus_gx\double.png)	
+    ![](images\Cores\genesis_plus_gx\double.png)	
+	
+- **Show Lightgun crosshair** [genesis_plus_gx_gun_cursor] (**disabled**/enabled)
 
-- **Show Lightgun crosshair** (**Off**/On):
-
-<center> Shows lightgun crosshairs for the 'MD Menancer', 'MD Justifiers', and 'MS Light Phaser' Device Types. </center>
-
+	Shows lightgun crosshairs for the 'MD Menancer', 'MD Justifiers', and 'MS Light Phaser' Device Types.
+	
 ??? note "*Lightgun crosshair*"
-    ![lightgun_crosshair](images\Cores\genesis_plus_gx\lightgun.png)
+    ![](images\Cores\genesis_plus_gx\lightgun.png)	
 
-- **Invert Mouse Y-axis** (**Off**/On):
+- **Invert Mouse Y-axis** [genesis_plus_gx_invert_mouse] (**disabled**/enabled)
 
-<center> Inverts the Mouse Y-axis for the 'MD Mouse' Device Type </center>
+	Inverts the Mouse Y-axis for the 'MD Mouse' Device Type.
+	
+- **CPU speed** [genesis_plus_gx_overclock] (**100%**/125%/150%/175%/200%)
 
-- **CPU speed** (100% to 200% in increments of 25%. **100% is default**):
+	Overclock the emulated CPU.
+	
+- **Remove per-line sprite limit** [genesis_plus_gx_no_sprite_limit] (**disabled**/enabled)
 
-<center> Overclock the emulated CPU. </center>
-
-- **Remove per-line sprite limit** (**Off**/On):
-
-<center> Self-explanatory. </center>
+	Self-explanatory.
 
 ## Controllers
 
-### Device types
-
 The Genesis Plus GX core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 device types
+### User 1 device types
 
-- Joypad Port Empty - None - Input disabled.
-- **Joypad Auto** - Joypad - Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller
+- Joypad Port Empty - None - No device is connected, input is disabled.
+- **Joypad Auto** - Joypad - Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller.
 - [MD Joypad 3 Button](https://segaretro.org/Control_Pad_(Mega_Drive)) - Joypad 
 - [MD Joypad 6 Button](https://segaretro.org/Six_Button_Control_Pad_(Mega_Drive)) - Joypad
-- [MS Joypad 2 Button](https://segaretro.org/Control_Pad_(Master_System)) - Joypad - also used for Game Gear
-- [MD Joypad 3 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap
-- [MD Joypad 6 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap
-- [MD Joypad 3 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap
-- [MD Joypad 6 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap
-- MS Joypad 2 Button + Master Tap - Joypad - Enables multitap
+- [MS Joypad 2 Button](https://segaretro.org/Control_Pad_(Master_System)) - Joypad - Also used for Game Gear.
+- [MD Joypad 3 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap for 4-WayPlay games.
+- [MD Joypad 6 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap for 4-WayPlay games.
+- [MD Joypad 3 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap for Teamplayer games.
+- [MD Joypad 6 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap for Teamplayer games.
+- MS Joypad 2 Button + Master Tap - Joypad - Enables Furrtek's Master Tap (unofficial mulitap device).
 - [MS Light Phaser](https://segaretro.org/Light_Phaser) - Lightgun
 - [MS Paddle Control](https://segaretro.org/Paddle_Control) - Analog 
 - [MS Sports Pad](https://segaretro.org/Sports_Pad) - Analog
@@ -331,18 +295,18 @@ The Genesis Plus GX core supports the following device type(s) in the controls m
 - [MD XE-1AP](https://segaretro.org/XE-1_AP) - Analog
 - [MD Mouse](https://segaretro.org/Sega_Mouse) - Mouse
 
-#### User 2 device types
+### User 2 device types
 
-- Joypad Port Empty - None - Input disabled.
-- **Joypad Auto** - Joypad - Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller
+- Joypad Port Empty - None - No device is connected, input is disabled.
+- **Joypad Auto** - Joypad - Depending on the loaded content, the core will automatically emulate a MD Joypad 3 Button controller, or a MD Joypad 6 Button controller or a MS Joypad 2 Button controller.
 - [MD Joypad 3 Button](https://segaretro.org/Control_Pad_(Mega_Drive)) - Joypad
 - [MD Joypad 6 Button](https://segaretro.org/Six_Button_Control_Pad_(Mega_Drive)) - Joypad
-- [MS Joypad 2 Button](https://segaretro.org/Control_Pad_(Master_System)) - Joypad - also used for Game Gear
-- [MD Joypad 3 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap
-- [MD Joypad 6 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap
-- [MD Joypad 3 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap
-- [MD Joypad 6 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap
-- MS Joypad 2 Button + Master Tap - Joypad - Enables multitap
+- [MS Joypad 2 Button](https://segaretro.org/Control_Pad_(Master_System)) - Joypad - Also used for Game Gear.
+- [MD Joypad 3 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap for 4-WayPlay games.
+- [MD Joypad 6 Button + 4-WayPlay](https://segaretro.org/4_Way_Play) - Joypad - Enables multitap for 4-WayPlay games.
+- [MD Joypad 3 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap for Teamplayer games.
+- [MD Joypad 6 Button + Teamplayer](https://segaretro.org/Team_Player) - Joypad - Enables multitap for Teamplayer games.
+- MS Joypad 2 Button + Master Tap - Joypad - Enables Furrtek's Master Tap (unofficial mulitap device).
 - [MD Menancer](https://segaretro.org/Menacer) - Lightgun
 - [MD Justifiers](https://segaretro.org/The_Justifier)  - Lightgun
 - [MS Light Phaser](https://segaretro.org/Light_Phaser) - Lightgun
@@ -354,54 +318,87 @@ The Genesis Plus GX core supports the following device type(s) in the controls m
 
 ### Other controllers
 
-The Genesis Plus GX can also emulate Pico touch controls but this is done automatically and cannot manually selected as a Device Type through RetroArch's Controls menu.
+- PICO tablet - The Genesis Plus GX core can emulate PICO tablet inputs but this is done automatically, based off the game's crc, and cannot be manually selected as a device type.
+
+| Inputs                                                                                                               | PICO tablet               |
+|----------------------------------------------------------------------------------------------------------------------|---------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | PICO tablet Stylus        |
+| ![](images/RetroMouse/Retro_Left.png) Mouse 1                                                                        | PICO tablet Pen           |
+| ![](images/RetroMouse/Retro_Right.png) Mouse 2                                                                       | PICO tablet Red           |
+| Wheel Up                                                                                                             | PICO tablet Previous page |
+| Wheel Down                                                                                                           | PICO tablet Next page     |
+| ![](images/RetroPad/Retro_Dpad_Up.png)                                                                               | PICO tablet Up (White)    |
+| ![](images/RetroPad/Retro_Dpad_Down.png)                                                                             | PICO tablet Down (Orange) |
+| ![](images/RetroPad/Retro_Dpad_Left.png)                                                                             | PICO tablet Left (Purple) |
+| ![](images/RetroPad/Retro_Dpad_Right.png)                                                                            | PICO tablet Right (Green) |
+
+- Terebi Oekaki tablet - The Genesis Plus GX core can emulate Terebi Oekaki table inputs but this is done automatically, based off the game's crc, and cannot be manually selected a device type.
+
+| Inputs                                                                                                               | Terebi Oekaki tablet        |
+|----------------------------------------------------------------------------------------------------------------------|-----------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | Terebi Oekaki tablet Stylus |
+| ![](images/RetroMouse/Retro_Left.png) Mouse 1                                                                        | Terebi Oeka tablet Pen      |
+| ![](images/RetroMouse/Retro_Middle.png) Mouse 3                                                                      | Terebi Oeka tablet Start    |
+
+### Multitap support
+
+Activating multitap support in compatible games can be configured by the 4-WayPlay, Teamplayer, Master Tap device types for the corresponding users.
 
 ### Controller tables
 
-#### Joypad and analog device type table
+#### Joypad
 
-| User 1 - 8 input descriptors  | RetroPad Inputs                              | MD Joypad 3 Button | MD Joypad 6 Button | MS Joypad 2 Button | MS Paddle Control | MS Sports Pad | MD XE-1AP     |
-|-------------------------------|----------------------------------------------|--------------------|--------------------|--------------------|-------------------|---------------|---------------|
-| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                  | B                  | 1                  | 1                 | 1             | E2            |
-| A                             | ![](images/RetroPad/Retro_Y_Round.png)       | A                  | A                  |                    |                   |               | E1            |
-| Mode                          | ![](images/RetroPad/Retro_Select.png)        |                    | Mode               |                    |                   |               | Select        |
-| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start              | Start              | Start              | Start             | Start         | Start         |
-| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up           | D-Pad Up           | D-Pad Up           |                   |               |               |
-| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down         | D-Pad Down         | D-Pad Down         |                   |               |               |
-| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left         | D-Pad Left         | D-Pad Left         |                   |               |               |
-| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right        | D-Pad Right        | D-Pad Right        |                   |               |               |
-| C                             | ![](images/RetroPad/Retro_A_Round.png)       | C                  | C                  | 2                  |                   | 2             |               |
-| Y                             | ![](images/RetroPad/Retro_X_Round.png)       |                    | Y                  |                    |                   |               |               |
-| X                             | ![](images/RetroPad/Retro_L1.png)            |                    | X                  |                    |                   |               | C             |
-| Z                             | ![](images/RetroPad/Retro_R1.png)            |                    | Z                  |                    |                   |               | A             |
-| N/A                           | ![](images/RetroPad/Retro_L2.png)            |                    |                    |                    |                   |               | D             |
-| N/A                           | ![](images/RetroPad/Retro_R2.png)            |                    |                    |                    |                   |               | B             |
-| N/A                           | ![](images/RetroPad/Retro_L3.png)            |                    |                    |                    |                   |               |               |
-| N/A                           | ![](images/RetroPad/Retro_R3.png)            |                    |                    |                    |                   |               |               |
-| N/A                           | ![](images/RetroPad/Retro_Left_Stick.png) X  |                    |                    |                    | Paddle X          | Trackball X   | Thumb-stick X |
-| N/A                           | ![](images/RetroPad/Retro_Left_Stick.png) Y  |                    |                    |                    | Paddle Y          | Trackball Y   | Thumb-stick Y |
-| N/A                           | ![](images/RetroPad/Retro_Right_Stick.png) X |                    |                    |                    |                   |               | Slider Y      |
-| N/A                           | ![](images/RetroPad/Retro_Right_Stick.png) Y |                    |                    |                    |                   |               | Slider X      |
+| User 1- 8 Remap descriptors | RetroPad Inputs                              | MD Joypad 3 Button | MD Joypad 6 Button | MS Joypad 2 Button | MS Paddle Control | MS Sports Pad | MD XE-1AP     |
+|-----------------------------|----------------------------------------------|--------------------|--------------------|--------------------|-------------------|---------------|---------------|
+| B                           | ![](images/RetroPad/Retro_B_Round.png)       | B                  | B                  | 1                  | 1                 | 1             | E2            |
+| A                           | ![](images/RetroPad/Retro_Y_Round.png)       | A                  | A                  |                    |                   |               | E1            |
+| Mode                        | ![](images/RetroPad/Retro_Select.png)        |                    | Mode               |                    |                   |               | Select        |
+| Start                       | ![](images/RetroPad/Retro_Start.png)         | Start              | Start              | Start              | Start             | Start         | Start         |
+| D-Pad Up                    | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up           | D-Pad Up           | D-Pad Up           |                   |               |               |
+| D-Pad Down                  | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down         | D-Pad Down         | D-Pad Down         |                   |               |               |
+| D-Pad Left                  | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left         | D-Pad Left         | D-Pad Left         |                   |               |               |
+| D-Pad Right                 | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right        | D-Pad Right        | D-Pad Right        |                   |               |               |
+| C                           | ![](images/RetroPad/Retro_A_Round.png)       | C                  | C                  | 2                  |                   | 2             |               |
+| Y                           | ![](images/RetroPad/Retro_X_Round.png)       |                    | Y                  |                    |                   |               |               |
+| X                           | ![](images/RetroPad/Retro_L1.png)            |                    | X                  |                    |                   |               | C             |
+| Z                           | ![](images/RetroPad/Retro_R1.png)            |                    | Z                  |                    |                   |               | A             |
+|                             | ![](images/RetroPad/Retro_L2.png)            |                    |                    |                    |                   |               | D             |
+|                             | ![](images/RetroPad/Retro_R2.png)            |                    |                    |                    |                   |               | B             |
+|                             | ![](images/RetroPad/Retro_L3.png)            |                    |                    |                    |                   |               |               |
+|                             | ![](images/RetroPad/Retro_R3.png)            |                    |                    |                    |                   |               |               |
+|                             | ![](images/RetroPad/Retro_Left_Stick.png) X  |                    |                    |                    | Paddle            | Trackball X   | Thumb-stick X |
+|                             | ![](images/RetroPad/Retro_Left_Stick.png) Y  |                    |                    |                    |                   | Trackball Y   | Thumb-stick Y |
+|                             | ![](images/RetroPad/Retro_Right_Stick.png) X |                    |                    |                    |                   |               | Slider Y      |
+|                             | ![](images/RetroPad/Retro_Right_Stick.png) Y |                    |                    |                    |                   |               | Slider X      |
 
-#### Mouse device type table
+#### Mouse
 
-| User # input descriptors      | RetroMouse Inputs                        | MD Mouse           | Graphic Board | Pico       |
-|-------------------------------|------------------------------------------|--------------------|---------------|------------|
-| N/A                           | ![](images/RetroMouse/Retro_Mouse.png)   | Mouse              | Pointer       | Pointer    |
-| N/A                           | ![](images/RetroMouse/Retro_Left.png)    | Left button        | Pen           | Pen button |
-| N/A                           | ![](images/RetroMouse/Retro_Right.png)   | Right button       | Menu          | Red button |
-| N/A                           | Mouse Wheel Down                         | Center button      |               |            |
-| N/A                           | ![](images/RetroMouse/Retro_Middle.png)  | Start              | Do            |            |
+| RetroMouse Inputs                                   | MD Mouse        |
+|-----------------------------------------------------|-----------------|
+| ![](images/RetroMouse/Retro_Mouse.png) Mouse Cursor | MD Mouse Cursor |
+| ![](images/RetroMouse/Retro_Left.png) Mouse 1       | MD Mouse Left   |
+| ![](images/RetroMouse/Retro_Right.png) Mouse 2      | MD Mouse Right  |
+| ![](images/RetroMouse/Retro_Middle.png) Mouse 3     | MD Mouse Start  |
+| Wheel Down                                          | MD Mouse Center |
 
-#### Lightgun device type table
+#### Pointer
 
-| User # input descriptors      | RetroLightgun Inputs |  MD Menancer       | MD Justifiers | MS Light Phaser |
-|-------------------------------|----------------------|--------------------|---------------|-----------------|
-| N/A                           | Gun                  | Crosshair          | Crosshair     | Crosshair       |
-| N/A                           | Gun Trigger          | A                  | A             | A               |
-| N/A                           | Gun Turbo            | B                  | B             | B               |
-| N/A                           | Gun Pause            | C                  | C             | C               |
-| N/A                           | Gun Start            | Start              | Start         | Start           |
+| RetroPointer Inputs                                                                                                  | MS Graphic Board        |
+|----------------------------------------------------------------------------------------------------------------------|-------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | MS Graphic Board Stylus | 
+| ![](images/RetroMouse/Retro_Left.png) Mouse 1                                                                        | MS Graphic Board Pen    |
+| ![](images/RetroMouse/Retro_Right.png) Mouse 2                                                                       | MS Graphic Board Menu   |
+| ![](images/RetroMouse/Retro_Middle.png) Mouse 3                                                                      | MS Graphic Do           |
+
+#### Lightgun
+
+| RetroLightgun Inputs                                                                                                 | MD Menacer           | MD Justifier           | MS Light Phaser           |
+|----------------------------------------------------------------------------------------------------------------------|----------------------|------------------------|---------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | MD Menacer Crosshair | MD Justifier Crosshair | MS Light Phaser Crosshair |
+| ![](images/RetroMouse/Retro_Left.png) Gun Trigger                                                                    | MD Menacer A         | MD Justifier A         | MS Light Phaser A         |
+| ![](images/RetroMouse/Retro_Right.png) Gun Turbo                                                                     | MD Menacer B         | MD Justifier B         | MS Light Phaser B         |
+| ![](images/RetroMouse/Retro_Middle.png) + ![](images/RetroMouse/Retro_Right.png) Gun Start                           | MD Menacer Start     | MD Justifier Start     | MS Light Phaser Start     |
+| ![](images/RetroMouse/Retro_Middle.png) + ![](images/RetroMouse/Retro_Left.png) Gun Pause                            | MD Menacer C         | MD Justifier C         | MS Light Phaser C         |
 
 ## Compatibility
 
@@ -409,7 +406,30 @@ The Genesis Plus GX can also emulate Pico touch controls but this is done automa
 
 ## External Links
 
+- [Official Genesis Plus GX Github Repository](https://github.com/ekeeke/Genesis-Plus-GX)
 - [Libretro Genesis Plus GX Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/genesis_plus_gx_libretro.info)
 - [Libretro Genesis Plus GX Github Repository](https://github.com/libretro/Genesis-Plus-GX)
 - [Report Libretro Genesis Plus GX Core Issues Here](https://github.com/libretro/Genesis-Plus-GX/issues)
-- [Official Genesis Plus GX Github Repository](https://github.com/ekeeke/Genesis-Plus-GX)
+
+### See also
+
+#### Sega - Master System - Mark III
+
+- [Sega - Master System (Emux SMS)](https://docs.libretro.com/library/emux_sms/)
+- [Sega - MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
+
+#### Sega - Mega Drive - Genesis
+
+- [Sega - MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
+
+#### Sega - Mega-CD - Sega CD
+
+- [Sega - MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
+
+#### Sega - PICO
+
+- [Sega - MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
+
+#### Sega - SG-1000
+
+- [MSX/SVI/ColecoVision/SG-1000 (blueMSX)](https://docs.libretro.com/library/bluemsx/)
