@@ -67,10 +67,7 @@
 
 ### [✕] Atari800
 
-### [!!!] Beetle bsnes
-
-- Test how much players this core supports.
-- Complete compatibility section.
+### [✔] Beetle bsnes
 
 ### [〰️] Beetle Cygne
 
