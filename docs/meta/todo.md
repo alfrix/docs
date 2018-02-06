@@ -69,9 +69,7 @@
 
 ### [✔] Beetle bsnes
 
-### [〰️] Beetle Cygne
-
-- Complete why use this core section.
+### [✔]] Beetle Cygne
 
 ### [✔] Beetle GBA
 
