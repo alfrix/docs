@@ -81,12 +81,13 @@
 
 ### [〰️] Beetle PCE FAST
 
-- Improve background section.
-- Complete why use this core section.
 - Add BIOS md5s
-- Complete compatbility section.
-- Complete controllers table section.
-- Complete and improve core option descriptions.
+- Complete Horizontal Overscan (352 Width Mode Only) core option description.
+- Complete (CD) CDDA Volume % core option description
+- Complete (CD) ADOCM Volume % core option description
+- Complete (CD) PSG Volume % core option descriotion
+- Complete Turbo Delay core option description
+- Complete P1/P2/P3/P4/P5 Turbo I/II core option descriptions.
 
 ### [〰️] Beetle PSX
 
