@@ -77,11 +77,7 @@
 
 ### [✔] Beetle NeoPop
 
-### [〰️] Beetle PC-FX
-
-- Imrpove background section
-- Complete why use this core section.
-- Add content example screenshot.
+### [✔] Beetle PC-FX
 
 ### [〰️] Beetle PCE FAST
 
