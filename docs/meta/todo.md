@@ -83,11 +83,7 @@
 
 ### [✔] Beetle Handy
 
-### [〰️] Beetle NeoPop
-
-- Improve background section.
-- Complete why use this core section.
-- Complete compatibility section.
+### [✔] Beetle NeoPop
 
 ### [〰️] Beetle PC-FX
 
