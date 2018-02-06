@@ -73,10 +73,7 @@
 
 - Complete why use this core section.
 
-### [!!!] Beetle GBA
-
-- Complete why use this core section
-- Complete compatbility section
+### [✔] Beetle GBA
 
 ### [✔] Beetle Handy
 
