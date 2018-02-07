@@ -49,6 +49,12 @@ You can also check the progress of your friends and add comments on their trophi
 
 ## **Cores Compatibility**
 
+### Atari 2600
+
+| Core                                                  | Supported | Notes |
+|-------------------------------------------------------|:---------:|-------|
+| [Stella](https://github.com/libretro/stella-libretro) | ✔         | |
+
 ### NES
 
 | Core                                                  | Supported | Notes |

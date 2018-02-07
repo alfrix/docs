@@ -48,7 +48,7 @@
 
 // ️〰️ = Unfinished
 
-// ✕ = Not started or very incomplete
+// ✕ = Not started
 
 // ❗❗❗ = Attention needed
 
@@ -65,11 +65,11 @@
 
 ### [✔] 2048
 
-### [✕] Atari800
+### [〰️] Atari800
 
 ### [✔] Beetle bsnes
 
-### [✔]] Beetle Cygne
+### [✔] Beetle Cygne
 
 ### [✔] Beetle GBA
 
@@ -211,7 +211,6 @@
 - Verify controllers table.
 - Add internal sample rate.
 
-
 ### [〰️] bsnes C++98 (v085)
 
 - New Lightgun API
@@ -247,9 +246,8 @@
 - Compete core option descriptions.
 - Complete and verify controllers table.
 
-### [✔] ChaiLove
+### [〰️] ChaiLove
 
-- Complete why use this core section
 - Add core provided aspect ratio
 
 ### [〰️] Citra
@@ -263,10 +261,17 @@
 
 ### [〰️] DeSmuME
 
-- Complete core provided aspect ratio section.
-- Complete core option descriptions.
+- Complete pointer mode l-analog core option description.
+- Complete pointer mode r-analog core option description.
+- Complete Emulated pointer deadzone percent core option description.
+- Complete Emulated pointer acceleration modifier percent core option description.
+- Complete Enable Edgemark core option description.
 
-### [✔] Dinothawr
+### [〰️] Dinothawr
+
+- Add core provided fps.
+- Add core provided sample rate.
+- Add core provided aspect ratio.
 
 ### [✕] Dolphin
 
@@ -671,6 +676,8 @@ https://redream.io/quickstart
 - Verify the controller tables.
 
 ### [〰️] Stella
+
+- Add core provided FPS
 
 ### [✕] TempGBA
 
