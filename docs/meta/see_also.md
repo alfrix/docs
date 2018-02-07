@@ -396,3 +396,12 @@
 #### Uzebox
 
 - [Uzebox (Uzem)](https://docs.libretro.com/library/uzem/)
+
+---
+
+// Non-Database relations
+
+#### Custom Engine
+
+- [ChaiLove](https://docs.libretro.com/library/chailove/)
+- [Lua Engine (Lutro)](https://docs.libretro.com/library/lutro/)

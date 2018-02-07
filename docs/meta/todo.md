@@ -48,7 +48,7 @@
 
 // ️〰️ = Unfinished
 
-// ✕ = Not started or very incomplete
+// ✕ = Not started
 
 // ❗❗❗ = Attention needed
 
@@ -65,11 +65,11 @@
 
 ### [✔] 2048
 
-### [✕] Atari800
+### [〰️] Atari800
 
 ### [✔] Beetle bsnes
 
-### [✔]] Beetle Cygne
+### [✔] Beetle Cygne
 
 ### [✔] Beetle GBA
 
@@ -211,7 +211,6 @@
 - Verify controllers table.
 - Add internal sample rate.
 
-
 ### [〰️] bsnes C++98 (v085)
 
 - New Lightgun API
@@ -247,9 +246,8 @@
 - Compete core option descriptions.
 - Complete and verify controllers table.
 
-### [✔] ChaiLove
+### [〰️] ChaiLove
 
-- Complete why use this core section
 - Add core provided aspect ratio
 
 ### [〰️] Citra
