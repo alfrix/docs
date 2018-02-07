@@ -672,6 +672,8 @@ https://redream.io/quickstart
 
 ### [〰️] Stella
 
+- Add core provided FPS
+
 ### [✕] TempGBA
 
 ### [〰️] TGB Dual
