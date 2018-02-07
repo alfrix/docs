@@ -216,7 +216,7 @@ The (Core name) core has the following option(s) that can be tweaked from the co
 
 Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
-- **Core Option** [option-string] (**Setting1**/Setting2)
+- **Core Option** [option-string] (**Setting1**|Setting2)
 
 	Awaiting description.
 
@@ -525,4 +525,4 @@ Awaiting description.
 - [Other Core](https://docs.libretro.com/library/)
 
 // Add links to related core docs here.
-// https://docs.libretro.com/meta/see_also/
+// https://docs.libretro.com/meta/see_also
