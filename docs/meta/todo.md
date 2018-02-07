@@ -267,7 +267,11 @@
 - Complete Emulated pointer acceleration modifier percent core option description.
 - Complete Enable Edgemark core option description.
 
-### [✔] Dinothawr
+### [〰️] Dinothawr
+
+- Add core provided fps.
+- Add core provided sample rate.
+- Add core provided aspect ratio.
 
 ### [✕] Dolphin
 
