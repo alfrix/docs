@@ -261,8 +261,11 @@
 
 ### [〰️] DeSmuME
 
-- Complete core provided aspect ratio section.
-- Complete core option descriptions.
+- Complete pointer mode l-analog core option description.
+- Complete pointer mode r-analog core option description.
+- Complete Emulated pointer deadzone percent core option description.
+- Complete Emulated pointer acceleration modifier percent core option description.
+- Complete Enable Edgemark core option description.
 
 ### [✔] Dinothawr
 
