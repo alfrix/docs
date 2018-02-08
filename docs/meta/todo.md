@@ -11,9 +11,9 @@
 
 ## Specifications / Techincal
 
-- Complete RetroPad documentation https://buildbot.libretro.com/docs/specs/retropad/
-- Complete controller API documentation https://buildbot.libretro.com/docs/specs/api/#input-device-abstraction
-- Add Subsystem API documentation https://buildbot.libretro.com/docs/specs/api/
+- Complete RetroPad documentation https://docs.libretro.com/specs/retropad/
+- Complete controller API documentation https://docs.libretro.com/specs/api/#input-device-abstraction
+- Add Subsystem API documentation https://docs.libretro.com/specs/api/
 
 ## Licenses
 

@@ -142,9 +142,9 @@ The TyrQuake core has the following option(s) that can be tweaked from the core 
 ??? note "Resolution - 1920x1080"
 	![](images\Cores\tyrquake\1920x1080.png)	
 
-- **Rumble** (**Off**/On): Enables or disables rumble functionality. Check the [Rumble section](https://buildbot.libretro.com/.docs/library/tyrquake/#rumble) for more information.
+- **Rumble** (**Off**/On): Enables or disables rumble functionality. Check the [Rumble section](https://docs.libretro.com/library/tyrquake/#rumble) for more information.
 
-- **Change retropad layout** (**1: New layout**/2: Old layout): Configure the 'RetroPad' device type's layout. Look at the [RetroPad tables](https://buildbot.libretro.com/.docs/library/tyrquake/joypad-and-analog-device-type-table) below for more information.
+- **Change retropad layout** (**1: New layout**/2: Old layout): Configure the 'RetroPad' device type's layout. Look at the [RetroPad tables](https://docs.libretro.com/library/tyrquake/joypad-and-analog-device-type-table) below for more information.
 	
 ## Controllers
 
@@ -154,7 +154,7 @@ The TyrQuake core supports the following device type(s) in the controls menu, bo
 
 #### User 1 device types
 
-- **RetroPad** - Joypad - Can be configured to use the new layout or the old layout by the ['Change retropad layout' core option](https://buildbot.libretro.com/.docs/library/tyrquake/core-options).
+- **RetroPad** - Joypad - Can be configured to use the new layout or the old layout by the ['Change retropad layout' core option](https://docs.libretro.com/library/tyrquake/core-options).
 - **RetroKeyboard/Mouse** - Keyboard/Mouse - Allows for keyboard and mouse usage.
 
 ### Controller tables
