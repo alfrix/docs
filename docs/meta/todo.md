@@ -396,12 +396,7 @@
 
 ### [✔] gpSP
 
-### [〰️] GW
-
-- Improve background section.
-- Complete why use this core section.
-- Complete compatibility section.
-- Add core provided aspect ratio.
+### [✔] GW
 
 ### [✔] Handy
 
@@ -603,9 +598,7 @@ https://redream.io/quickstart
 
 ### [〰️] Reicast
 
-### [!!!] RemoteJoy
-
-- Not worth documenting?
+### [〰️] RemoteJoy
 
 ### [✕] Remote RetroPad
 
