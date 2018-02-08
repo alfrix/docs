@@ -600,7 +600,15 @@ https://redream.io/quickstart
 
 ### [〰️] RemoteJoy
 
-### [✕] Remote RetroPad
+### [〰️] Remote RetroPad
+
+- Complete background section.
+- Complete usage section.
+- Complete Port core option description.
+- Complete IP address part 1 core option description.
+- Complete IP address part 2 core option description.
+- Complete IP address part 3 core option description.
+- Complete IP address part 4 core option description.
 
 ### [〰️] SameBoy
 

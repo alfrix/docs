@@ -112,6 +112,7 @@ pages:
         - 'SNK - Neo Geo Pocket / Color (Beetle NeoPop)': 'library/beetle_neopop.md'
         - 'Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)': 'library/o2em.md'
         - 'PocketCDG': 'library/pocketcdg.md'
+        - 'Remote RetroPad': 'library/remote_retropad.md'
         - 'Sharp - X68000 (PX68k)': 'library/px68k.md'
         - 'ScummVM': 'library/scummvm.md'
         - 'Uzebox (Uzem)': 'library/uzem.md'
