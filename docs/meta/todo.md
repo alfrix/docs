@@ -563,9 +563,7 @@
 
 ### [✔] PicoDrive
 
-### [〰️] PocketCDG
-
-- Complete core option descriptions
+### [✔] PocketCDG
 
 ### [✔] PokeMini
 
