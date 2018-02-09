@@ -14,6 +14,7 @@ pages:
       - Linux and BSD:
         - 'Overview for Linux/BSD': 'compilation/linux-and-bsd.md'
         - 'Ubuntu': 'compilation/ubuntu.md'
+      - 'Haiku': 'compilation/haiku.md'
       - Microsoft:
         - 'DOS': 'compilation/dos.md'
         - Windows NT3.51:
