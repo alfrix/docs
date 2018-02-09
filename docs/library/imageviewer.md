@@ -4,45 +4,51 @@
 
 View images
 
-### Author(s):
+### Author/License
 
-Team Libretro
+The Imageviewer core has been authored by
 
-## Contribute to this documentation
+- The RetroArch Team
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/imageviewer.md). Changes are proposed using "Pull Requests."
+The Imageviewer core is licensed under
 
-## See also
+- [MIT](https://github.com/libretro/RetroArch/blob/master/cores/libretro-imageviewer/LICENSE)
 
-[FFmpeg](https://docs.libretro.com/library/ffmpeg/)
-
-[Game Music Emu](https://docs.libretro.com/library/game_music_emu/)
-
-[PocketCDG](https://docs.libretro.com/library/pocketcdg/)
-
-## License
-
-GPLv3
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
-*Content that can be loaded by the Imageviewer core have the following file extensions.*
+Content that can be loaded by the Imageviewer core have the following file extensions:
 
-jpg|jpeg|png|bmp|psd|tga|gif|hdr|pic|ppm|pgm
-
+- .jpg
+- .jpeg
+- .png
+- .bmp
+- .psd
+- .tga
+- .gif
+- .hdr
+- .pic
+- .ppm
+- .pgm
 
 ## Features
 
+Frontend-level settings or features that the Imageviewer core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✕         |
+| Screenshots       | ✔         |
 | Saves             | ✕         |
 | States            | ✕         |
 | Rewind            | ✕         |
 | Netplay           | ✕         |
+| Core Options      | ✕         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✕         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -50,30 +56,56 @@ jpg|jpeg|png|bmp|psd|tga|gif|hdr|pic|ppm|pgm
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
-The Imageviewer core's directory name is 'image display'
+### Directories
+
+The Imageviewer core's internal core name is 'image display'
+
+### Geometry and timing
+
+- The Imageviewer core's core provided FPS is 60
+- The Imageviewer core's core provided sample rate is 44100 Hz
+- The Imageviewer core's core provided aspect ratio is dependent on the loaded content.
 
 ## Controllers
 
-*The Imageviewer core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The Imageviewer core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-### User 1 - 16 Device Type(s)
+### User 1 device types
 
-* **RetroPad** - Joypad with analog
+- None - Doesn't disable input. There's no reason to switch to this.
+- **RetroPad** - Joypad - Stay on this.
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
 
-* RetroPad w/Analog - **There is no reason to switch to this.**
+### Controller tables
 
-### Controllers graph
+#### Joypad
 
-| Imageviewer | RetroPad                                                     |
-|-----------|----------------------------------------------------------------|
-| Automatic slideshow - Go to the next file every 2 seconds  | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-| Go forward 5 files  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| Go backward 5 files  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| Go backward 1 file  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| Go forward 1 file  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
+| RetroPad Inputs                           | Imageviewer core Inputs                                    |
+|-------------------------------------------|------------------------------------------------------------|
+| ![](images/RetroPad/Retro_Y_Round.png)    | Automatic slideshow - Go to the next image every 2 seconds |
+| ![](images/RetroPad/Retro_Dpad_Up.png)    | Go forward 5 images                                        |
+| ![](images/RetroPad/Retro_Dpad_Down.png)  | Go backward 5 images                                       |
+| ![](images/RetroPad/Retro_Dpad_Left.png)  | Go backward 1 image                                        |
+| ![](images/RetroPad/Retro_Dpad_Right.png) | Go forward 1 image                                         |
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/RetroArch/tree/master/cores/libretro-imageviewer)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
+- [Libretro Imageviewer Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/imageviewer_libretro.info)
+- [Libretro Imageviewer Github Repository](https://github.com/libretro/RetroArch/tree/master/cores/libretro-imageviewer)
+- [Report Libretro Imageviewer Core Issues Here](https://github.com/libretro/RetroArch/issues)
+
+### See also
+
+#### Media
+
+- [FFmpeg](https://docs.libretro.com/library/ffmpeg/)
+- [Game Music Emu](https://docs.libretro.com/library/game_music_emu/)
+- [mpv](https://docs.libretro.com/library/mpv/)
+- [PocketCDG](https://docs.libretro.com/library/pocketcdg/)

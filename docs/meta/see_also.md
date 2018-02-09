@@ -405,3 +405,11 @@
 
 - [ChaiLove](https://docs.libretro.com/library/chailove/)
 - [Lua Engine (Lutro)](https://docs.libretro.com/library/lutro/)
+
+#### Media
+
+- [FFmpeg](https://docs.libretro.com/library/ffmpeg/)
+- [Game Music Emu](https://docs.libretro.com/library/game_music_emu/)
+- [Imageviewer](https://docs.libretro.com/library/imageviewer/)
+- [mpv](https://docs.libretro.com/library/mpv/)
+- [PocketCDG](https://docs.libretro.com/library/pocketcdg/)
