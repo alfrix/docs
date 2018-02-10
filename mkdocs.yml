@@ -216,6 +216,8 @@ pages:
     - Getting Started:
       - 'Windows': 'guides/windows.md'
       - 'Command-line interface (CLI)': 'guides/cli-intro.md'
+      - 'Generating Logs': 'guides/generating-retroarch-logs.mg'
+      - 'Troubleshooting': 'guides/troubleshooting-retroarch.md'
     - Interface Customization:
       - 'Creating a Theme': 'guides/themes.md'
       - 'RGUI Interface': 'guides/RGUI.md'
@@ -231,7 +233,6 @@ pages:
       - 'Custom Settings': 'guides/overrides.md'
       - 'Optimal Vsync Performance': 'guides/optimal-vsync.md'
       - 'Softpatching ROMs': 'guides/softpatching.md'
-      - 'Troubleshooting': 'guides/troubleshooting-retroarch.md'
 extra:
   logo: 'images/invader.png'
   version: '0.1.0'
