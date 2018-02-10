@@ -122,6 +122,8 @@ To use custom color palettes in the Nestopia UE core, the custom color palette f
 
 Make sure the custom palette file is named 'custom.pal'
 
+Also, the 'Palette' core option must be set to custom.
+
 Custom color palettes for the NES can be generated with either of these tools.
 
 - [Bisqwit's NTSC NES palette generator](http://bisqwit.iki.fi/utils/nespalette.php)
