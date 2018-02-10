@@ -4,7 +4,7 @@
 
 RetroArch and its underlying libretro technology is designed to run across an unusually wide range of hardware, operating system, libretro core, and content combinations. It is not possible for a volunteer-based open source project to test all possible combinations.
 
-The answer to this dilemma involves the "logs", which RetroArch and other libretro software use to record essential information about your issue that other users and volunteers need in order to help troubleshoot problems and improve compatibility with new systems.
+The answer to this dilemma involves "logs", which RetroArch and other libretro software use to record essential information about your issue that other users and volunteers need in order to help troubleshoot problems and improve compatibility with new systems.
 
 ## Creating Log files in Lakka
 [Please see the Troubleshooting Lakka doc](http://www.lakka.tv/doc/Troubleshooting-Lakka/).
