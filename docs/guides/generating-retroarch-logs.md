@@ -2,7 +2,9 @@
 
 ### What are Logs? Why are they so important?
 
-RetroArch and its underlying libretro technology is designed to run across an unusually wide range of hardware, operating system, libretro core, and content combinations. It is not possible for a volunteer-based open source project to test all possible combinations. Therefore libretro and RetroArch software is designed to generate "logs", which record essential information about your issue that other users and volunteers need to help troubleshoot problems and improve compatibility with new systems.
+RetroArch and its underlying libretro technology is designed to run across an unusually wide range of hardware, operating system, libretro core, and content combinations. It is not possible for a volunteer-based open source project to test all possible combinations.
+
+The answer to this dilemma involves the "logs", which RetroArch and other libretro software use to record essential information about your issue that other users and volunteers need in order to help troubleshoot problems and improve compatibility with new systems.
 
 ## Creating Log files in Lakka
 [Please see the Troubleshooting Lakka doc](http://www.lakka.tv/doc/Troubleshooting-Lakka/).
@@ -12,7 +14,7 @@ RetroArch and its underlying libretro technology is designed to run across an un
 ### RetroArch log in Linux
 1. Open a terminal.
 2. Navigate to the RetroArch folder with the `cd` command.
-3. Start retroarch in 'verbose' mode with this command: `retroarch --menu --verbose >> RA-log.txt 2>&1`.
+3. Start retroarch in 'verbose' mode with this command: `retroarch --menu --verbose >> RA-log.txt 2>&1`
 4. Once you exit RetroArch, a file called RA-log.txt is now stored in your home directory.
 
 ### Graphic card logs
