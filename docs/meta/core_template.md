@@ -491,6 +491,10 @@ Rumble only works in the (Core name) core when
 
 #### Other
 
+| Inputs                                                                                                               | Device name (Inputs) |
+|----------------------------------------------------------------------------------------------------------------------|----------------------|
+| Input                                                                                                                |                      |
+
 ## Compatibility
 // Optional section.
 
