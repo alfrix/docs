@@ -316,7 +316,9 @@
 
 ### [〰️] Emux SMS
 
-- Complete why use this core section.
+- Add core provided fps.
+- Add core provided sample rate
+- Add provided aspect ratio.
 
 ### [✕] FB Alpha
 
