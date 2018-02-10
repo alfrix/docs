@@ -216,7 +216,7 @@ pages:
     - Getting Started:
       - 'Windows': 'guides/windows.md'
       - 'Command-line interface (CLI)': 'guides/cli-intro.md'
-      - 'Generating Logs': 'guides/generating-retroarch-logs.mg'
+      - 'Generating Logs': 'guides/generating-retroarch-logs.md'
       - 'Troubleshooting': 'guides/troubleshooting-retroarch.md'
     - Interface Customization:
       - 'Creating a Theme': 'guides/themes.md'
