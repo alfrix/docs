@@ -9,7 +9,7 @@
 - Create a documentation guide for those who are new to the project.
 - Improve libretro/docs readability.
 
-## Specifications / Techincal
+## Specifications / Technical
 
 - Complete RetroPad documentation https://buildbot.libretro.com/docs/specs/retropad/
 - Complete controller API documentation https://buildbot.libretro.com/docs/specs/api/#input-device-abstraction
