@@ -512,13 +512,9 @@
 
 ### [〰️] Nestopia UE
 
-- Complete why use this core section
-- Complete core option descriptions
-- Add internal fps
-- Add internal sample rate
-- Add core provided aspect ratio
-- Improve other controllers section
-- This core needs to be ported to the new lightgun API
+- Complete Game Genie Sound Distortion core option description.
+- Complete RAM Power-on State core option description.
+- Combine palette screenshots into one image.
 
 ### [〰️] nSide Balanced
 
