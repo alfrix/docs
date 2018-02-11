@@ -564,7 +564,7 @@
 
 ### [〰️] PrBoom
 
-### [〰️] ProSystem
+### [✔] ProSystem
 
 ### [〰️] PX68k
 
