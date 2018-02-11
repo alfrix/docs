@@ -419,6 +419,8 @@
 
 ### [〰️] Lutro
 
+- Add core provided aspect ratio.
+
 ### [✕] MAME
 
 ### [✕] MAME 2000
