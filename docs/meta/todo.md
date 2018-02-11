@@ -710,7 +710,7 @@ https://redream.io/quickstart
 
 ### [✕] Video Processor
 
-### [〰️] Virtual Jaguar
+### [✔] Virtual Jaguar
 
 ### [〰️] XRick
 
