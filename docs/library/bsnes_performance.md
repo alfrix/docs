@@ -202,7 +202,7 @@ The bsnes Performance core saves/loads to/from these directories.
 !!! warning
 	Super Gameboy support in this core is **command-line only**, **Windows only** and has **buggy save state support** and **visual glitches**. **Use the [higan Accuracy core](https://docs.libretro.com/library/higan_accuracy#super-gameboy-support) or the [nSide Balanced core](https://docs.libretro.com/library/nside_balanced#super-gameboy-support) for simplified, functional, and easily accessible Super Gameboy support.**
 
-Super Gameboy is supported via the Subsystem API. In RetroArch the Subsystem API is only available via [CLI](https://buildbot.libretro.com/docs/guides/cli-intro/).
+Super Gameboy is supported via the Subsystem API. In RetroArch the Subsystem API is only available via [CLI](https://docs.libretro.com/guides/cli-intro/).
 
 For SGB support, you need both the sgb.boot.rom (in RetroArch's system directory) and a SNES Super Game Boy ROM. 
 

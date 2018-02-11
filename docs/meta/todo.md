@@ -11,9 +11,9 @@
 
 ## Specifications / Technical
 
-- Complete RetroPad documentation https://buildbot.libretro.com/docs/specs/retropad/
-- Complete controller API documentation https://buildbot.libretro.com/docs/specs/api/#input-device-abstraction
-- Add Subsystem API documentation https://buildbot.libretro.com/docs/specs/api/
+- Complete RetroPad documentation https://docs.libretro.com/specs/retropad/
+- Complete controller API documentation https://docs.libretro.com/specs/api/#input-device-abstraction
+- Add Subsystem API documentation https://docs.libretro.com/specs/api/
 
 ## Licenses
 
@@ -105,11 +105,7 @@
 
 ### [〰️] Beetle Saturn
 
-- Improve background section.
-- Complete why use this core section.
 - Test Multimouse support.
-- Complete compatbility section.
-- Improve core option descriptions.
 - Test RetroArch cheats support.
 
 ### [〰️] Beetle SGX
@@ -316,7 +312,9 @@
 
 ### [〰️] Emux SMS
 
-- Complete why use this core section.
+- Add core provided fps.
+- Add core provided sample rate
+- Add provided aspect ratio.
 
 ### [✕] FB Alpha
 
@@ -332,11 +330,6 @@
 
 ### [〰️] FCEUmm
 
-- Complete why use this core section
-- Improve background section
-- Add internal FPS
-- Add internal sample rate
-- Add a screenshot of nes.pal in RetroArch's System directory.
 - Combine aspect ratio screenshots into one image
 - Combine palette core options screenshots into one image like [this](http://emulation.gametechwiki.com/images/thumb/2/2c/5NUrm6U-1-.png/800px-5NUrm6U-1-.png)
 - Combine Crop Overscan core options screenshots into one image
@@ -396,12 +389,7 @@
 
 ### [✔] gpSP
 
-### [〰️] GW
-
-- Improve background section.
-- Complete why use this core section.
-- Complete compatibility section.
-- Add core provided aspect ratio.
+### [✔] GW
 
 ### [✔] Handy
 
@@ -519,13 +507,9 @@
 
 ### [〰️] Nestopia UE
 
-- Complete why use this core section
-- Complete core option descriptions
-- Add internal fps
-- Add internal sample rate
-- Add core provided aspect ratio
-- Improve other controllers section
-- This core needs to be ported to the new lightgun API
+- Complete Game Genie Sound Distortion core option description.
+- Complete RAM Power-on State core option description.
+- Combine palette screenshots into one image.
 
 ### [〰️] nSide Balanced
 
@@ -568,9 +552,7 @@
 
 ### [✔] PicoDrive
 
-### [〰️] PocketCDG
-
-- Complete core option descriptions
+### [✔] PocketCDG
 
 ### [✔] PokeMini
 
@@ -603,11 +585,17 @@ https://redream.io/quickstart
 
 ### [〰️] Reicast
 
-### [!!!] RemoteJoy
+### [〰️] RemoteJoy
 
-- Not worth documenting?
+### [〰️] Remote RetroPad
 
-### [✕] Remote RetroPad
+- Complete background section.
+- Complete usage section.
+- Complete Port core option description.
+- Complete IP address part 1 core option description.
+- Complete IP address part 2 core option description.
+- Complete IP address part 3 core option description.
+- Complete IP address part 4 core option description.
 
 ### [〰️] SameBoy
 

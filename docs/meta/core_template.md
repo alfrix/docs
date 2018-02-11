@@ -483,18 +483,17 @@ Rumble only works in the (Core name) core when
 | Gun D-pad Left                                       | -                         |
 | Gun D-pad Right                                      | -                         |
 
-| RetroLightgun Inputs                                                                       | (Device name) Inputs      |
-|--------------------------------------------------------------------------------------------|---------------------------|
-| ![](images/RetroMouse/Retro_Mouse.png) Gun Crosshair                                       | -                         |
-| ![](images/RetroMouse/Retro_Left.png) Gun Trigger                                          | -                         |
-| ![](images/RetroMouse/Retro_Middle.png) Gun Cursor                                         | -                         |
-| ![](images/RetroMouse/Retro_Right.png) Gun Turbo                                           | -                         |
-| ![](images/RetroMouse/Retro_Middle.png) + ![](images/RetroMouse/Retro_Right.png) Gun Start | -                         |
-| ![](images/RetroMouse/Retro_Middle.png) + ![](images/RetroMouse/Retro_Left.png) Gun Pause  | -                         |
+// Deprecated Lightgun inputs
 
-// DEPRECATED LIGHTGUN TABLE
+#define RETRO_DEVICE_ID_LIGHTGUN_CURSOR           3 /*Use Aux:A*/
+#define RETRO_DEVICE_ID_LIGHTGUN_TURBO            4 /*Use Aux:B*/
+#define RETRO_DEVICE_ID_LIGHTGUN_PAUSE            5 /*Use Start*/
 
-// Fill out the device type tables that will be used.
+#### Other
+
+| Inputs                                                                                                               | Device name (Inputs) |
+|----------------------------------------------------------------------------------------------------------------------|----------------------|
+| Input                                                                                                                |                      |
 
 ## Compatibility
 // Optional section.

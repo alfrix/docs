@@ -241,11 +241,11 @@ The Citra core supports the following device type(s) in the controls menu, bolde
 | ZL                            | ![](images/RetroPad/Retro_L2.png)            | ZL                 |
 | ZR                            | ![](images/RetroPad/Retro_R2.png)            | ZR                 |
 | Home                          | ![](images/RetroPad/Retro_L3.png)            | Home               |
-| N/A                           | ![](images/RetroPad/Retro_R3.png)            | [Right analog function](https://buildbot.libretro.com/.docs/library/citra/#core-options) |
+| N/A                           | ![](images/RetroPad/Retro_R3.png)            | [Right analog function](https://docs.libretro.com/library/citra/#core-options) |
 | N/A                           | ![](images/RetroPad/Retro_Left_Stick.png) X  | Circle Pad X       |
 | N/A                           | ![](images/RetroPad/Retro_Left_Stick.png) Y  | Circle Pad Y       |
-| N/A                           | ![](images/RetroPad/Retro_Right_Stick.png) X | [Right analog function](https://buildbot.libretro.com/.docs/library/citra/#core-options) X |
-| N/A                           | ![](images/RetroPad/Retro_Right_Stick.png) Y | [Right analog function](https://buildbot.libretro.com/.docs/library/citra/#core-options) Y |
+| N/A                           | ![](images/RetroPad/Retro_Right_Stick.png) X | [Right analog function](https://docs.libretro.com/library/citra/#core-options) X |
+| N/A                           | ![](images/RetroPad/Retro_Right_Stick.png) Y | [Right analog function](https://docs.libretro.com/library/citra/#core-options) Y |
 
 #### Pointer device type table
 

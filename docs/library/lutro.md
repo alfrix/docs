@@ -36,7 +36,7 @@ In order to propose improvements to this document, [visit it's corresponding sou
 
 ## See also
 
-[ChaiLove](https://buildbot.libretro.com/docs/library/chailove/)
+[ChaiLove](https://docs.libretro.com/library/chailove/)
 
 ## License
 

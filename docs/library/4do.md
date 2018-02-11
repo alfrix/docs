@@ -1,111 +1,149 @@
-# 3DO (4DO)
+# The 3DO Company - 3DO (4DO)
 
 ## Background
 
 4DO is an open-source, low-level emulator for the 3DO Game Console based on the FreeDO source code.
 
-### Author(s):
+### Author/License
 
-JohnnyDude|FreeDO team
+The 4DO core has been authored by
 
-## Contribute to this documentation
+- JohnnyDude
+- FreeDO team
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/4DO.md). Changes are proposed using "Pull Requests."
+The 4DO core is licensed under
 
-## License
+- [Non-commercial](https://github.com/libretro/4do-libretro/blob/master/libfreedo/freedocore.h)
 
-Non-commercial
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
-*Content that can be loaded by the 4DO core have the following file extensions.*
+Content that can be loaded by the 4DO core have the following file extensions:
 
-iso|cue
+- .iso
+- .cue
 
-## Database(s)
+## Databases
 
-*RetroArch databases that are associated with the 4DO core*
+RetroArch database(s) that are associated with the 4DO core:
 
-* The 3DO Company - 3DO
+- [The 3DO Company - 3DO](https://github.com/libretro/libretro-database/blob/master/rdb/The%203DO%20Company%20-%203DO.rdb)
 
 ## BIOS
 
-*Required or optional firmware files go in RetroArch's system directory.*
+Required or optional firmware files go in the frontend's system directory.
 
-|   Filename    |    Description                  |              md5sum              |
-|:-------------:|:-------------------------------:|:--------------------------------:|
-| panafz10.bin  | Panasonic FZ-10 BIOS - Required | 51f2f43ae2f3508a14d9f56597e2d3ce |
+| Filename     | Description                     | md5sum                           |
+|:------------:|:-------------------------------:|:--------------------------------:|
+| panafz10.bin | Panasonic FZ-10 BIOS - Required | 51f2f43ae2f3508a14d9f56597e2d3ce |
 
 ## Features
 
+Frontend-level settings or features that the 4DO core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
 | Saves             | ✔         |
 | States            | ✔         |
 | Rewind            | ✔         |
 | Netplay           | ✔         |
+| Core Options      | ✔         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
+| Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
 | Sensors           | ✕         |
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕          |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | -         |
+| LEDs              | ✕         |
 
-The 4DO core's directory name is '4DO'
+### Directories
 
-Game data is saved/loaded to and from where save files are stored.
+The 4DO core's internal core name is '4DO'
 
-Save states are saved/loaded to and from where state files are stored. 
+The 4DO core saves/loads to/from these directories.
+
+**Frontend's Save directory**
+
+- 'content-name'.srm (Save)
+
+**Frontend's State directory**
+
+- 'content-name'.state# (State)
+
+### Geometry and timing
+
+- The 4DO core's core provided FPS is 60
+- The 4DO core's core provided sample rate is 44100 Hz
+- The 4DO core's core provided aspect ratio is 4/3
 
 ## Core options
 
-*The 4DO core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
+The 4DO core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
-- **High Resolution (restart)** (**Off**/On): Doubles internal resolution.
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
+- **High Resolution (restart)** [4do_high_resolution] (**disabled**|enabled)
+
+	Doubles internal resolution.
+	
 ??? note "High Resolution - Off"
-	![high_resolution_off](images\Cores\4do\high_resolution_off.png)
+	![](images\Cores\4do\high_off.png)
 	
 ??? note "High Resolution - On"
-	![high_resolution_on](images\Cores\4do\high_resolution_on.png)
+	![](images\Cores\4do\high_on.png)
 	
 ## Controllers
 
-*The 4DO core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The 4DO core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-### User 1 - 16 Device Type(s)
+### User 1 - 2 device types
 
-* **RetroPad** - Joypad with analog
+- None - Doesn't disable input. There's no reason to switch to this.
+- **RetroPad** - Joypad - Stay on this
+- RetroPad w/Analog - Joypad - Seme as RetroPad. There's no reason to switch to this.
 
-* RetroPad w/Analog - **No reason to switch to this**
+### Controller tables
 
-### Controllers graph
+#### Joypad
 
-| 4DO            | RetroPad                                                       |
-|----------------|----------------------------------------------------------------|
-| B              | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| A              | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-| X (Stop)       | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
-| P (Play/Pause) | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| D-Pad Up       | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| D-Pad Down     | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| D-Pad Left     | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| D-Pad Right    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| C              | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-| L              | ![RetroPad_L1](images/RetroPad/Retro_L1.png)                   |
-| R              | ![RetroPad_R1](images/RetroPad/Retro_R1.png)                   |
+![](images/Controllers/3do.png)
+
+| User 1 - 2 Remap descriptors | RetroPad Inputs                              |
+|------------------------------|----------------------------------------------|
+| B                            | ![](images/RetroPad/Retro_B_Round.png)       |
+| A                            | ![](images/RetroPad/Retro_Y_Round.png)       |
+| X (Stop)                     | ![](images/RetroPad/Retro_Select.png)        |
+| P (Play/Pause)               | ![](images/RetroPad/Retro_Start.png)         |
+| D-Pad Up                     | ![](images/RetroPad/Retro_Dpad_Up.png)       |
+| D-Pad Down                   | ![](images/RetroPad/Retro_Dpad_Down.png)     |
+| D-Pad Left                   | ![](images/RetroPad/Retro_Dpad_Left.png)     |
+| D-Pad Right                  | ![](images/RetroPad/Retro_Dpad_Right.png)    |
+| C                            | ![](images/RetroPad/Retro_A_Round.png)       |
+| L                            | ![](images/RetroPad/Retro_L1.png)            |
+| R                            | ![](images/RetroPad/Retro_R1.png)            |
 
 ## Compatibility
 
-[4DO Core Compatibility List](http://wiki.fourdo.com/Compatibility_List)
+- [4DO Core Compatibility List](http://wiki.fourdo.com/Compatibility_List)
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/4do-libretro)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
-* [Official Website](http://www.fourdo.com/)
-* [Official Repository](https://sourceforge.net/projects/fourdo/)
+- [Official 4DO Website](http://www.fourdo.com/)
+- [Official 4DO Wiki](http://wiki.fourdo.com/Main_Page)
+- [Official 4DO SourceForge Repository](https://sourceforge.net/projects/fourdo/)
+- [Libretro 4DO Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/4do_libretro.info)
+- [Libretro 4DO Github Repository](https://github.com/libretro/4do-libretro)
+- [Report Libretro 4DO Core Issues Here](https://github.com/libretro/4do-libretro/issues)

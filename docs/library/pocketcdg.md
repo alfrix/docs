@@ -4,48 +4,41 @@
 
 A MP3 karaoke music player. 
 
-### Usage
+### Author/License
 
-It can load any MP3+CDG file combination. It will then show the lyrics onscreen and on-cue like a true karaoke player, and it will also highlight the text which should be currently sung.
+The PocketCDG core has been authored by
 
-### Author(s):
+- RedBug
 
-RedBug
+The PocketCDG core is licensed under
 
-## Contribute to this documentation
+- [MIT](https://github.com/libretro/libretro-pocketcdg/blob/master/LICENSE)
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/pocketcdg.md). Changes are proposed using "Pull Requests."
-
-## See also
-
-[FFmpeg](https://docs.libretro.com/library/ffmpeg/)
-
-[Imageviewer](https://docs.libretro.com/library/imageviewer/)
-
-[Game Music Emu](https://docs.libretro.com/library/game_music_emu/)
-
-## License
-
-MIT
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
-*Content that can be loaded by the PocketCDG core have the following file extensions.*
+Content that can be loaded by the PocketCDG core have the following file extensions:
 
-cdg
+- .cdg
 
 ## Features
 
+Frontend-level settings or features that the PocketCDG core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✕         |
+| Screenshots       | ✔         |
 | Saves             | ✕         |
 | States            | ✕         |
 | Rewind            | ✕         |
 | Netplay           | ✕         |
+| Core Options      | ✔         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -53,43 +46,72 @@ cdg
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
-The PocketCDG core's directory name is 'pocketcdg'
+### Directories
+
+The PocketCDG core's internal core name is 'pocketcdg'
+
+### Geometry and timing
+
+- The PocketCDG core's core provided FPS is 50
+- The PocketCDG core's core provided sample rate is 44100 Hz
+- The PocketCDG core's core provided aspect ratio is 1
+
+## Usage
+
+The PocketCDG core can load any MP3+CDG file combination. It will then show the lyrics onscreen and on-cue like a true karaoke player, and it will also highlight the text which should be currently sung.
 
 ## Core options
 
-*The PocketCDG core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.*
+The PocketCDG core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
-- **Resize** (**320x240**/Overscan): Awaiting description.
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
+
+- **Resize** [pocketcdg_resize] (**320x240**|Overscan)
+
+	Doesn't seem to do anything
 
 ## Controllers
 
-*The PocketCDG core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The PocketCDG core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-### User 1 - 2 Device Type(s)
+### User 1 device types
 
-* **RetroPad** - Joypad with analog
+- None - Doesn't disable input. There's no reason to switch to this.
+- **RetroPad** - Joypad - Stay on this.
+- RetroKeyboard - Keyboard - Has keymapper support but isn't hooked up to any core inputs. There's no reason to switch to this.
 
-* RetroKeyboard  - *Awaiting description.*
+### Controller tables
 
-### User 3 - 16 Device Type(s)
+#### Joypad
 
-* **RetroPad** - Joypad with analog
-
-### Controllers graph
-
-| PocketCDG | RetroPad                                               |
-|-----------|--------------------------------------------------------|
-| Pause     | ![RetroPad_Select](images/RetroPad/Retro_Select.png)   |
-| Start     | ![RetroPad_Start](images/RetroPad/Retro_Start.png)     |
-| Up        | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)    |
-| Down      | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)  |
-| Left      | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)  |
-| Right     | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png) |
-| Shutdown  | ![RetroPad_R1](images/RetroPad/Retro_R1.png)           |
+| User 1 Remap descriptors | RetroPad Inputs                              | PocketCDG core Inputs     |
+|--------------------------|----------------------------------------------|---------------------------|
+| Pause                    | ![](images/RetroPad/Retro_Select.png)        | Pause                     |
+| Start                    | ![](images/RetroPad/Retro_Start.png)         | Start                     |
+| Up                       | ![](images/RetroPad/Retro_Dpad_Up.png)       | Up                        |
+| Down                     | ![](images/RetroPad/Retro_Dpad_Down.png)     | Down                      |
+| Left                     | ![](images/RetroPad/Retro_Dpad_Left.png)     | Left                      |
+| Right                    | ![](images/RetroPad/Retro_Dpad_Right.png)    | Right                     |
+|                          | ![](images/RetroPad/Retro_R1.png)            | Shutdown                  |
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/libretro-pocketcdg)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
-* [Official Repository](https://github.com/redbug26/pocketcdg-core)
+- [Libretro PocketCDG Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/pocketcdg_libretro.info)
+- [Libretro PocketCDG Github Repository](https://github.com/libretro/libretro-pocketcdg)
+- [Report Libretro PocketCDG Core Issues Here](https://github.com/libretro/libretro-pocketcdg/issues)
+
+### See also
+
+#### Media
+
+- [FFmpeg](https://docs.libretro.com/library/ffmpeg/)
+- [Game Music Emu](https://docs.libretro.com/library/game_music_emu/)
+- [Imageviewer](https://docs.libretro.com/library/imageviewer/)
+- [mpv](https://docs.libretro.com/library/mpv/)

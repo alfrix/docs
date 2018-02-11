@@ -319,26 +319,7 @@ The Genesis Plus GX core supports the following device type(s) in the controls m
 ### Other controllers
 
 - PICO tablet - The Genesis Plus GX core can emulate PICO tablet inputs but this is done automatically, based off the game's crc, and cannot be manually selected as a device type.
-
-| Inputs                                                                                                               | PICO tablet               |
-|----------------------------------------------------------------------------------------------------------------------|---------------------------|
-| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | PICO tablet Stylus        |
-| ![](images/RetroMouse/Retro_Left.png) Mouse 1                                                                        | PICO tablet Pen           |
-| ![](images/RetroMouse/Retro_Right.png) Mouse 2                                                                       | PICO tablet Red           |
-| Wheel Up                                                                                                             | PICO tablet Previous page |
-| Wheel Down                                                                                                           | PICO tablet Next page     |
-| ![](images/RetroPad/Retro_Dpad_Up.png)                                                                               | PICO tablet Up (White)    |
-| ![](images/RetroPad/Retro_Dpad_Down.png)                                                                             | PICO tablet Down (Orange) |
-| ![](images/RetroPad/Retro_Dpad_Left.png)                                                                             | PICO tablet Left (Purple) |
-| ![](images/RetroPad/Retro_Dpad_Right.png)                                                                            | PICO tablet Right (Green) |
-
 - Terebi Oekaki tablet - The Genesis Plus GX core can emulate Terebi Oekaki table inputs but this is done automatically, based off the game's crc, and cannot be manually selected a device type.
-
-| Inputs                                                                                                               | Terebi Oekaki tablet        |
-|----------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | Terebi Oekaki tablet Stylus |
-| ![](images/RetroMouse/Retro_Left.png) Mouse 1                                                                        | Terebi Oeka tablet Pen      |
-| ![](images/RetroMouse/Retro_Middle.png) Mouse 3                                                                      | Terebi Oeka tablet Start    |
 
 ### Multitap support
 
@@ -395,10 +376,25 @@ Activating multitap support in compatible games can be configured by the 4-WayPl
 | RetroLightgun Inputs                                                                                                 | MD Menacer           | MD Justifier           | MS Light Phaser           |
 |----------------------------------------------------------------------------------------------------------------------|----------------------|------------------------|---------------------------|
 | ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | MD Menacer Crosshair | MD Justifier Crosshair | MS Light Phaser Crosshair |
-| ![](images/RetroMouse/Retro_Left.png) Gun Trigger                                                                    | MD Menacer A         | MD Justifier A         | MS Light Phaser A         |
-| ![](images/RetroMouse/Retro_Right.png) Gun Turbo                                                                     | MD Menacer B         | MD Justifier B         | MS Light Phaser B         |
-| ![](images/RetroMouse/Retro_Middle.png) + ![](images/RetroMouse/Retro_Right.png) Gun Start                           | MD Menacer Start     | MD Justifier Start     | MS Light Phaser Start     |
-| ![](images/RetroMouse/Retro_Middle.png) + ![](images/RetroMouse/Retro_Left.png) Gun Pause                            | MD Menacer C         | MD Justifier C         | MS Light Phaser C         |
+| Gun Trigger                                                                                                          | MD Menacer A         | MD Justifier A         | MS Light Phaser A         |
+| Gun Aux B                                                                                                            | MD Menacer B         | MD Justifier B         | MS Light Phaser B         |
+| Gun Start                                                                                                            | MD Menacer Start     | MD Justifier Start     | MS Light Phaser Start     |
+| Gun Start                                                                                                            | MD Menacer C         | MD Justifier C         | MS Light Phaser C         |
+
+#### Other
+
+| Inputs                                                                                                               | PICO tablet               | Terebi Oekaki tablet      |
+|----------------------------------------------------------------------------------------------------------------------|---------------------------|---------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) or ![](images/Button_Pack/Gestures/Gesture_Finger_Front.png) Pointer Position | PICO tablet Stylus        | Terebi Oeka tablet Stylus |
+| ![](images/RetroMouse/Retro_Left.png) Mouse 1                                                                        | PICO tablet Pen           | Terebi Oeka tablet Pen    |
+| ![](images/RetroMouse/Retro_Right.png) Mouse 2                                                                       | PICO tablet Red           |                           |
+| ![](images/RetroMouse/Retro_Middle.png) Mouse 3                                                                      |                           | Terebo Peka tablet Start  |
+| Wheel Up                                                                                                             | PICO tablet Previous page |                           |
+| Wheel Down                                                                                                           | PICO tablet Next page     |                           |
+| ![](images/RetroPad/Retro_Dpad_Up.png)                                                                               | PICO tablet Up (White)    |                           |
+| ![](images/RetroPad/Retro_Dpad_Down.png)                                                                             | PICO tablet Down (Orange) |                           |
+| ![](images/RetroPad/Retro_Dpad_Left.png)                                                                             | PICO tablet Left (Purple) |                           |
+| ![](images/RetroPad/Retro_Dpad_Right.png)                                                                            | PICO tablet Right (Green) |                           |
 
 ## Compatibility
 

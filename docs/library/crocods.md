@@ -28,11 +28,11 @@ After this has finished downloading, the core should now be ready for use!
 
 ## See also
 
-- [Amstrad CPC (Caprice32)](https://buildbot.libretro.com/docs/library/caprice32/)
+- [Amstrad CPC (Caprice32)](https://docs.libretro.com/library/caprice32/)
 
 ## License
 
-A summary of the licenses behind RetroArch and its cores have found [here](https://buildbot.libretro.com/docs/tech/licenses/).
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 - [MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)
 

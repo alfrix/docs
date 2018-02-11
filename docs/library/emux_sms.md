@@ -1,61 +1,60 @@
-# Sega Master System (Emux)
+# Sega - Master System (Emux SMS)
 
 ## Background
 
 Emux is a cross-platform emulator project with a goal of emulating multiple kinds of machines related to gaming, such as consoles or arcades. Its philosophy is very much inspired by the Linux kernel (hence the name), which brilliantly manages to support multiple machines while keeping drivers entirely platform-independent. Emux is designed in the same way, keeping a code base of CPUs and controllers separate from machines.
 
-### Why use this core?
+### Author/License
 
--
+The Emux SMS core has been authored by
 
-### Author(s):
+- Sebastien Ronsse
 
-Sebastien Ronsse
+The Emux SMS core is licensed under
 
-## Contribute to this documentation
+- [GPLv2](https://github.com/libretro/emux/blob/master/COPYING)
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/emux_sms.md). Changes are proposed using "Pull Requests."
-
-## See also
-
-[Sega MS/GG/MD/CD (Genesis Plus GX)](https://docs.libretro.com/library/genesis_plus_gx/)
-
-[Sega MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
-
-## License
-
-GPLv2
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
-*Content that can be loaded by the Emux SMS core have the following file extensions.*
+Content that can be loaded by the Emux SMS core have the following file extensions:
 
-sms|bin|rom
+- .sms
+- .bin
+- .rom
 
-## Database(s)
+## Databases
 
-*RetroArch database(s) that are associated with the Emux SMS core*
+RetroArch database(s) that are associated with the Emux SMS core:
 
-* Sega - Master System - Mark III
+- [Sega - Master System - Mark III](https://github.com/libretro/libretro-database/blob/master/rdb/Sega%20-%20Master%20System%20-%20Mark%20III.rdb)
 
 ## BIOS
 
-|   Filename    |    Description                |              md5sum              |
-|:-------------:|:-----------------------------:|:--------------------------------:|
-| bios.sms      | Master System BIOS - Required | 840481177270d5642a14ca71ee72844c |
+Required or optional firmware files go in the frontend's system directory.
+
+| Filename | Description                   | md5sum                           |
+|:--------:|:-----------------------------:|:--------------------------------:|
+| bios.sms | Master System BIOS - Required | 840481177270d5642a14ca71ee72844c |
 
 ## Features
 
+Frontend-level settings or features that the Emux SMS core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
-| Saves             | -         |
+| Restart           | ✔         |
+| Screenshots       | ✔         |
+| Saves             | ✕         |
 | States            | ✕         |
 | Rewind            | ✕         |
 | Netplay           | ✕         |
+| Core Options      | ✕         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✕         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -63,37 +62,59 @@ sms|bin|rom
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
-The Emux SMS core's directory name is 'emux (sms)'
+### Directories
+
+The Emux SMS core's internal core name is 'emux (sms)'
+
+### Geometry and timing
+
+- The Emux SMS core's core provided FPS is (FPS)
+- The Emux SMS core's core provided sample rate is (Rate)
+- The Emux SMS core's core provided aspect ratio is (Ratio)
 
 ## Controllers
 
-*The Emux SMS core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The Emux SMS core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-### User 1 - 16 Device Type(s)
+### User 1 device types
 
-* **RetroPad** - Joypad
+- None - Doesn't diable input. There's no reason to switch to this.
+- **RetroPad** - Joypad - Stay on this.
+- RetroPad w/Analog - Joypad - There's no reason to switch to this.
 
-* RetroPad w/Analog - Joypad - **There is no reason to switch to this.**
+### Controller tables
 
-### Controllers graph
+#### Joypad
 
-| Emux SMS    | RetroPad                                                       |
-|-------------|----------------------------------------------------------------|
-| 1           | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| Pause       | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| D-Pad Up    | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| D-Pad Down  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| D-Pad Left  | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| D-Pad Right | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| 2           | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
+![](images/Controllers/sms.png)
 
-## Compatibility
-
-Unknown
+| RetroPad Inputs                           | Emux SMS core Inputs |
+|-------------------------------------------|----------------------|
+| ![](images/RetroPad/Retro_B_Round.png)    | 1                    |
+| ![](images/RetroPad/Retro_Start.png)      | Pause                |
+| ![](images/RetroPad/Retro_Dpad_Up.png)    | D-Pad Up             |
+| ![](images/RetroPad/Retro_Dpad_Down.png)  | D-Pad Down           |
+| ![](images/RetroPad/Retro_Dpad_Left.png)  | D-Pad Left           |
+| ![](images/RetroPad/Retro_Dpad_Right.png) | D-Pad Right          |
+| ![](images/RetroPad/Retro_A_Round.png)    | 2                    |
 
 ## External Links
 
-* [Libretro Repository](https://github.com/libretro/emux)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
-* [Official Website](https://github.com/sronsse/emux)
+- [Official Emux SMS Github Repository](https://github.com/sronsse/emux)
+- [Libretro Emux SMS Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/emux_sms_libretro.info)
+- [Libretro Emux SMS Github Repository](https://github.com/libretro/emux)
+- [Report Libretro Emux SMS Core Issues Here](https://github.com/libretro/libretro-meta/issues)
+
+### See also
+
+#### Sega - Master System - Mark III
+
+- [Sega - MS/GG/MD/CD (Genesis Plus GX)](https://docs.libretro.com/library/genesis_plus_gx/)
+- [Sega - MS/MD/CD/32X (PicoDrive)](https://docs.libretro.com/library/picodrive/)
