@@ -395,7 +395,9 @@
 
 ### [✔] Handy
 
-### [✕] Hatari
+### [〰️] Hatari
+
+- Add Keyboard inputs
 
 ### [〰️] higan Accuracy
 
