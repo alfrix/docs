@@ -352,6 +352,8 @@
 
 ### [✕] FreeJ2ME
 
+### [✕] Frodo
+
 ### [〰️] Fuse
 
 - Improve background section.
