@@ -536,7 +536,7 @@
 - Complete why use this core section.
 - Complete compatibility section.
 
-### [〰️] OpenLara
+### [✔] OpenLara
 
 ### [!!!] P-UAE
 
