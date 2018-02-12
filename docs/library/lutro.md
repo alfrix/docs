@@ -4,68 +4,73 @@
 
 Lutro is an experimental lua game framework that follows the [LÖVE API](https://love2d.org/wiki/Main_Page). Lutro games can be played with LibRetro/RetroArch through the Lutro core. 
 
-### Usage
+#### How to start the Lutro core:
 
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
+- As an example showcasing loading content with the Lutro core, we will load the Pong game hosted on RetroArch's Content Downloader.
 
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
+You can do this by going to RetroArch's main menu screen and selecting 'Online Updater'. From there, select 'Content Downloader'.
 
-3. Browse through the list and select 'Lua Engine (Lutro)'.
+<center> ![](images\Cores\all\download.png) </center>
 
-4. After this has finished downloading, you will now need a Lutro game. We will be using Pong as an example. You can obtain Pong by going back to the previous menu screen. From there, select 'Content Downloader'.
+- Select 'Lutro', then select 'Pong.lutro'. This should download and extract this file to RetroArch's Downloads directory.
 
-5. Select 'Lutro', then select 'Pong.lutro'. This should download and extract this file to RetroArch's Downloads directory.
+<center> ![](images\Cores\lutro\lutro.png) </center>
 
-#### How to play
+- Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
 
-1. Go back to RetroArch's main menu screen. Select 'Load Content', then 'Downloads'.
+<center> ![](images\Cores\all\load.png) </center>
 
-2. Select 'Pong.lutro'
+<center> ![](images\Cores\all\downloads.png) </center>
 
-3. If you are asked which core to select, choose 'Lutro'.
+- Select 'Pong.lutro'.
 
-The game should now start running!
+- If you are asked which core to select, choose 'Lua Engine (Lutro)'.
 
-### Author(s):
+The content should now start running!
 
-Higor Euripedes/Jean-Andre Santoni
+### Author/License
 
-## Contribute to this documentation
+The Lutro core has been authored by
 
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/lutro.md). Changes are proposed using "Pull Requests."
+- Higor Euripedes
+- Jean-Andre Santoni
 
-## See also
+The Lutro core is licensed under
 
-[ChaiLove](https://docs.libretro.com/library/chailove/)
+- [MIT](https://github.com/libretro/libretro-lutro/blob/master/LICENSE) 
 
-## License
-
-MIT
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
-*Content that can be loaded by the Lutro core have the following file extensions.*
+Content that can be loaded by the Lutro core have the following file extensions:
 
-lutro|lua
+- .lutro
+- .lua
 
-## Database(s)
+## Databases
 
-*RetroArch database(s) that are associated with the Lutro core*
+RetroArch database(s) that are associated with the Lutro core:
 
-* Lutro
+- [Lutro](https://github.com/libretro/libretro-database/blob/master/rdb/Lutro.rdb)
 
 ## Features
 
+Frontend-level settings or features that the Lutro core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✕         |
+| Screenshots       | ✕         |
 | Saves             | ✕         |
 | States            | ✕         |
 | Rewind            | ✕         |
 | Netplay           | ✕         |
+| Core Options      | ✕         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -73,37 +78,71 @@ lutro|lua
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
-The Lutro core's directory name is 'lutro'
+### Directories
+
+The Lutro core's internal core name is 'lutro'
+
+### Geometry and timing
+
+- The Lutro core's core provided FPS is 60
+- The Lutro core's core provided sample rate is 44100 Hz
+- The LUtro core's core provided aspect ratio is (Ratio)
 
 ## Controllers
 
-*The Lutro core supports the following controller setting(s), bolded controller settings are the default for the specified user(s):*
+The Lutro core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-### User 1 - 16 Device Type(s)
+### User 1 device types
 
-* **RetroPad** - Joypad 
+- None - Doesn't disable input. There's no reason to switch to this.
+- **RetroPad** - Joypad - Stay on this.
+- RetroPad w/Analog - Joypad - Same as RetroPad. There's no reaosn to switch to this.
 
-* RetroPad w/Analog - Joypad - **There is no reason to switch to this.**
+### Controller tables
 
-### Controllers graph
+#### Joypad
 
-**What the buttons do are game specific.**
+!!! attention
+	What the inputs do are game specific.
 
-| Lutro     | RetroPad                                                       |
-|-----------|----------------------------------------------------------------|
-| B         | ![RetroPad_B](images/RetroPad/Retro_B_Round.png)               |
-| Y         | ![RetroPad_Y](images/RetroPad/Retro_Y_Round.png)               |
-| Select    | ![RetroPad_Select](images/RetroPad/Retro_Select.png)           |
-| Start     | ![RetroPad_Start](images/RetroPad/Retro_Start.png)             |
-| Up        | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Up.png)            |
-| Down      | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Down.png)          |
-| Left      | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Left.png)          |
-| Right     | ![RetroPad_Dpad](images/RetroPad/Retro_Dpad_Right.png)         |
-| A         | ![RetroPad_A](images/RetroPad/Retro_A_Round.png)               |
-| X         | ![RetroPad_X](images/RetroPad/Retro_X_Round.png)               |
+| User 1 Remap descriptors | RetroPad Inputs                              | Lutro core Inputs |
+|--------------------------|----------------------------------------------|-------------------|
+|                          | ![](images/RetroPad/Retro_B_Round.png)       | B                 |
+|                          | ![](images/RetroPad/Retro_Y_Round.png)       | Y                 |
+|                          | ![](images/RetroPad/Retro_Select.png)        | Select            |
+|                          | ![](images/RetroPad/Retro_Start.png)         | Start             |
+| Up                       | ![](images/RetroPad/Retro_Dpad_Up.png)       | Up                |
+| Down                     | ![](images/RetroPad/Retro_Dpad_Down.png)     | Down              |
+| Left                     | ![](images/RetroPad/Retro_Dpad_Left.png)     | Left              |
+| Right                    | ![](images/RetroPad/Retro_Dpad_Right.png)    | Right             |
+|                          | ![](images/RetroPad/Retro_A_Round.png)       | A                 |
+|                          | ![](images/RetroPad/Retro_X_Round.png)       | X                 |
+|                          | ![](images/RetroPad/Retro_L1.png)            | L1                |
+|                          | ![](images/RetroPad/Retro_R1.png)            | R1                |
+|                          | ![](images/RetroPad/Retro_L2.png)            | L2                |
+|                          | ![](images/RetroPad/Retro_R2.png)            | R2                |
+|                          | ![](images/RetroPad/Retro_L3.png)            | L3                |
+|                          | ![](images/RetroPad/Retro_R3.png)            | R3                |
 
 ## External Links
 
-* [Official/Libretro Repository](https://github.com/libretro/libretro-lutro)
-* [Report Core Issues Here](https://github.com/libretro/libretro-meta)
+- [Lua Website](https://www.lua.org/)
+- [LÖVE API Website](https://love2d.org/)
+- [Libretro Lutro Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/lutro_libretro.info)
+- [Libretro Lutro Github Repository](https://github.com/libretro/libretro-lutro)
+- [LUTRO LÖVE API Comparison](https://github.com/libretro/lutro-status)
+- [Lutro Github Wiki](https://github.com/libretro/libretro-lutro/wiki)
+- [Report Libretro Lutro Core Issues Here](https://github.com/libretro/libretro-lutro/issues)
+
+### See also
+
+#### Custom Engine
+
+- [ChaiLove](https://docs.libretro.com/library/chailove/)

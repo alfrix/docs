@@ -352,6 +352,8 @@
 
 ### [✕] FreeJ2ME
 
+### [✕] Frodo
+
 ### [〰️] Fuse
 
 - Improve background section.
@@ -393,7 +395,9 @@
 
 ### [✔] Handy
 
-### [✕] Hatari
+### [〰️] Hatari
+
+- Add Keyboard inputs
 
 ### [〰️] higan Accuracy
 
@@ -414,6 +418,8 @@
 ### [✔] Imageviewer
 
 ### [〰️] Lutro
+
+- Add core provided aspect ratio.
 
 ### [✕] MAME
 
@@ -564,7 +570,7 @@
 
 ### [〰️] PrBoom
 
-### [〰️] ProSystem
+### [✔] ProSystem
 
 ### [〰️] PX68k
 
@@ -710,7 +716,7 @@ https://redream.io/quickstart
 
 ### [✕] Video Processor
 
-### [〰️] Virtual Jaguar
+### [✔] Virtual Jaguar
 
 ### [〰️] XRick
 

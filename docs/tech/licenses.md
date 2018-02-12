@@ -106,6 +106,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | fMSX                                                                             | [Non-commercial](https://github.com/libretro/fmsx-libretro/blob/master/LICENSE)           | Non-commercial |
 | FreeIntv                                                                         | [GPLv3](https://github.com/libretro-mirrors/freeintv/blob/master/license.txt)             |                |
 | FreeJ2ME                                                                         | [GPLv3](https://github.com/hex007/freej2me/blob/master/LICENSE)                           |                |
+| Frodo                                                                            | [GPLv2](https://github.com/r-type/frodo-libretro/blob/master/COPYING)                     |                |
 | Fuse                                                                             | [GPLv3](https://github.com/libretro/fuse-libretro/blob/master/LICENSE)                    |                |
 | [Gambatte](../library/gambatte.md)                                               | [GPLv2](https://github.com/libretro/gambatte-libretro/blob/master/COPYING)                |                |
 | [Game Music Emu](../library/game_music_emu.md)            		           | [GPLv3](https://github.com/libretro/libretro-gme/blob/master/LICENSE)                     |                |

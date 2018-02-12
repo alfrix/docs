@@ -51,6 +51,7 @@
 - fMSX
 - FreeIntv
 - FreeJ2ME
+- Frodo
 - Fuse
 - Gambatte
 - Game Music Emu
