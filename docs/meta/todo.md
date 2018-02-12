@@ -252,8 +252,7 @@
 
 ### [〰️] CrocoDS
 
-- Complete core option descriptions
-- Complete and verify controllers table.
+- Complete Speed hack core option description.
 
 ### [〰️] DeSmuME
 
@@ -582,12 +581,7 @@
 
 ### [✔] QuickNES
 
-### [〰️] Redream
-
-NO LONGER UPDATED
-UPDATE ISSUE TRACKER LINK
-UPDATE EVERYTHING
-https://redream.io/quickstart
+### [✔] Redream
 
 ### [〰️] Reicast
 
