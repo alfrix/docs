@@ -609,13 +609,7 @@
 
 ### [〰️] Snes9x
 
-- Improve background section.
-- Explain Satellaview/BS-X compatibility.
-- This core needs to be ported to the new lightgun API
 - Test Multi-Mouse support.
-- Does this core support Sufami Turbo games?
-- Does this core support Super Game Boy games?
-- Verify the controller tables.
 
 ### [〰️] Snes9x 2002
 
