@@ -708,7 +708,9 @@
 
 ### [✕] VICE VIC20
 
-### [✕] Video Processor
+### [〰️] Video Processor
+
+- Complete documentation when core is fixed.
 
 ### [✔] Virtual Jaguar
 

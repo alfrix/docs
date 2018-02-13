@@ -118,6 +118,7 @@ pages:
         - 'ScummVM': 'library/scummvm.md'
         - 'Uzebox (Uzem)': 'library/uzem.md'
         - 'GCE - Vectrex (vecx)': 'library/vecx.md'
+        - 'Video Processor': 'library/video_processor.md'
         - 'Bandai - WonderSwan/Color (Beetle Cygne)': 'library/beetle_cygne.md'
         - 'ZX Spectrum (Fuse)': 'library/fuse.md'
         - 'Sinclair - ZX 81 (EightyOne)': 'library/eightyone.md'
