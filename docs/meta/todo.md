@@ -134,48 +134,18 @@
 
 ### [〰️] bsnes-mercury Accuracy
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
 - Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] bsnes-mercury Balanced
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
 - Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] bsnes-mercury Performance
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
 - Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] bsnes Accuracy
 
@@ -187,15 +157,7 @@
 
 ### [〰️] bsnes C++98 (v085)
 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Super Game Boy support?
-- Satellaview/BS-X support?
-- MSU-1 support?
-- Other controllers?
-- Verify controllers table.
-- Add internal sample rate.
 - Complete compatibility section.
 - Add core provided aspect ratio.
 
