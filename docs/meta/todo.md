@@ -582,6 +582,8 @@
 
 ### [〰️] vecx
 
+### [✔] VeMUlator
+
 ### [✕] VICE C64
 
 ### [✕] VICE C128

@@ -176,6 +176,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [VBA-M](../library/vba_m.md)                                                     | [GPLv2](https://github.com/libretro/vbam-libretro/blob/master/doc/gpl.txt)                |                |
 | [VBA Next](../library/vba_next.md)                                               | [GPLv2](https://github.com/libretro/vba-next/blob/master/LICENSE)                         |                |
 | [vecx](../library/vecx.md)                                                       | [GPLv3](https://github.com/libretro/libretro-vecx/blob/master/LICENSE.md)                 |                |
+| [VeMUlator](../library/vemulator.md)                                             | [GPLv3](https://github.com/MJaoune/vemulator-libretro/blob/master/COPYING)                |                |
 | VICE C64                                                                         | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
 | VICE C128                                                                        | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
 | VICE PLUS4                                                                       | [GPLv2](https://github.com/r-type/vice3.0-libretro/blob/master/vice/COPYING)              |                |
