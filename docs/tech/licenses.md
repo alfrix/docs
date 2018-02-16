@@ -48,6 +48,7 @@ See below for a summary of the licenses behind RetroArch and its cores:
 | [RetroArch](http://www.retroarch.com/)                  | [GPLv3](https://github.com/libretro/RetroArch/blob/master/COPYING) |                |
 | [Lakka](http://www.lakka.tv/)                           | [Non-commercial](http://www.lakka.tv/doc/FAQ/)                     | Non-commercial |
 | [libretro/docs](https://docs.libretro.com/)             | [MIT](https://github.com/libretro/docs/blob/master/LICENSE)        |                |
+| [libretro/retroarch-assets](https://github.com/libretro/retroarch-assets)             | [Attribution 4.0 International (CC BY 4.0)](https://github.com/libretro/retroarch-assets/blob/master/COPYING)        |                |
 
 ## Cores
 

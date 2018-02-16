@@ -89,16 +89,21 @@ Mattel Intellivision games were often meant to be played with game-specific card
 
 ## Controls
 
+**Definitions:**
+
+* **Mini-Keypad** - Allows the user to view and select keys from a small Intellivision pad in the lower corner of the display.
+* **Controller Swap** - Some Intellivision games expect the left controller to be player one, others expect the right controller. This isn't a problem if you have two controllers (and don't mind juggling them) but users with only one controller or using a portable setup would be effectively locked out of some games. Controller Swap swaps the two controller interfaces so that the player does not have to physically swap controllers.
+
 | RetroPad | FreeIntv Function |
 | --- | --- |
 | D-Pad| 8-way movement |
 | Left Analog Stick | 16-way disc |
 | A | Left Action Button |
 | Y | Top Action Button |
-| X | Use the Last Selected Intellivision Keypad Button (see Mini-Keypad below for more information) - In Astrosmash, for example, you can leave "3" selected to enable instant access to hyperspace. |
-| L/R | Show Intellivision Mini-Keypad which allows you to view and select keys from a small Intellivision pad in the lower corner of the display. |
+| X | Use the Last Selected Intellivision Keypad Button. In Astrosmash, for example, you can leave "3" selected to enable instant access to hyperspace. |
+| L/R | Activate the Mini-Keypad |
 | Start | Pause Game |
-| Select | Swap left/right controllers - Some games expect the left controller to be player one, others expect the right controller. This isn't a problem if you have two controllers (and don't mind juggling them) but users with only one controller or using a portable setup would be effectively locked out of some games. Pressing select from either controller with swap the left controller for the right and vice-versa. |
+| Select | Controller Swap |
 
 ## Compatibility
 
@@ -108,7 +113,7 @@ Awaiting description.
 
 - [Official FreeIntv Website](http://neocomputer.org/projects/freeintv/)
 - [Libretro FreeIntv Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/freeintv_libretro.info)
-- [Libretro FreeIntv Github Repository](https://github.com/markwkidd/FreeIntv)
+- [Libretro FreeIntv Github Repository](https://github.com/libretro/FreeIntv)
 - [Intellivision RetroPie Wiki page](https://github.com/RetroPie/RetroPie-Setup/wiki/Intellivision)
 - [FreeIntv RetroPie Forums Topic](https://retropie.org.uk/forum/topic/15665/libretro-intellivision-emulator)
 - [FreeIntv Libretro Forums Topic](https://forums.libretro.com/t/video-demonstration-of-the-new-freeintv-intellivision-core/14389)
