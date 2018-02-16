@@ -1,6 +1,6 @@
 #### Contents
 
-* **[What are Logs?](#what-are-logs?-why-are-they-so-important?)**
+* **[What are Logs?](#what-are-logs-why-are-they-so-important)**
 * **[Generating Logs](#generating-logs)**
 * **[Posting Logs in the Forum and Github](#posting-logs-in-the-forum-and-github)**
 
