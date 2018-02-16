@@ -134,107 +134,36 @@
 
 ### [〰️] bsnes-mercury Accuracy
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
 - Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] bsnes-mercury Balanced
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
 - Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] bsnes-mercury Performance
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
 - Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] bsnes Accuracy
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
-- Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] bsnes Balanced
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
-- Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] bsnes C++98 (v085)
 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Super Game Boy support?
-- Satellaview/BS-X support?
-- MSU-1 support?
-- Other controllers?
-- Verify controllers table.
-- Add internal sample rate.
 - Complete compatibility section.
 - Add core provided aspect ratio.
 
 ### [〰️] bsnes Peformance
 
-- Improve background section
-- Imrpove why use this core section
-- Add a MSU-1 support guide
-- Test the Super Gameboy guide to see if it works
-- Improve Super GameBoy support section.
-- Needs Crop overscan core option screenshots 
-- New Lightgun API
 - Multi-Mouse support?
-- Sufami Turbo support?
-- Satellaview/BS-X support?
-- Verify controllers table.
-- Add internal sample rate.
 
 ### [〰️] Caprice32
 
@@ -252,8 +181,7 @@
 
 ### [〰️] CrocoDS
 
-- Complete core option descriptions
-- Complete and verify controllers table.
+- Complete Speed hack core option description.
 
 ### [〰️] DeSmuME
 
@@ -537,7 +465,7 @@
 - Complete why use this core section.
 - Complete compatibility section.
 
-### [〰️] OpenLara
+### [✔] OpenLara
 
 ### [!!!] P-UAE
 
@@ -582,12 +510,7 @@
 
 ### [✔] QuickNES
 
-### [〰️] Redream
-
-NO LONGER UPDATED
-UPDATE ISSUE TRACKER LINK
-UPDATE EVERYTHING
-https://redream.io/quickstart
+### [✔] Redream
 
 ### [〰️] Reicast
 
@@ -615,59 +538,27 @@ https://redream.io/quickstart
 
 ### [〰️] Snes9x
 
-- Improve background section.
-- Explain Satellaview/BS-X compatibility.
-- This core needs to be ported to the new lightgun API
 - Test Multi-Mouse support.
-- Does this core support Sufami Turbo games?
-- Does this core support Super Game Boy games?
-- Verify the controller tables.
 
 ### [〰️] Snes9x 2002
 
-- Improve background section
-- Improve why use this core section.
-- Test Multi-Mouse support.
-- Does this core support Sufami Turbo games?
-- Does this core support Super Game Boy games?
-- Add internal sample rate.
 - Complete compatibility section.
 
 ### [〰️] Snes9x 2005
 
-- Improve background section.
-- Improve why use this core section.
-- Test Multi-Mouse support.
-- Does this core support Sufami Turbo games?
-- Does this core support Super Game Boy games?
-- Figure out what the exact differences between 2005 and 2005 Plus are. 2005 Plus is compiled with Blargg's APU but I have no idea what that does.
-- Figure out and describe what the Video Mode core option does and add a screenshot for it.
-- Add internal FPS.
-- Add internal sample rate.
-- Test Multitap support.
+- Complete Video Mode core option description.
+- Add core provided aspect ratio FPS.
+- Add core provided sample rate.
 
 ### [〰️] Snes9x 2005 Plus
 
-- Improve background section.
-- Improve why use this core section.
-- Test Multi-Mouse support.
-- Does this core support Sufami Turbo games?
-- Does this core support Super Game Boy games?
-- Figure out what the exact differences between 2005 and 2005 Plus are. 2005 Plus is compiled with Blargg's APU but I have no idea what that does.
-- Figure out and describe what the Video Mode core option does and add a screenshot for it.
-- Add internal FPS.
-- Add internal sample rate.
-- Test Multitap support.
+- Complete Video Mode core option description.
+- Add core provided aspect ratio FPS.
+- Add core provided sample rate.
 
 ### [〰️] Snes9x 2010
 
-- Improve background section
-- Improve why use this core section.
-- This core needs to be ported to the new lightgun API
 - Test Multi-Mouse support.
-- Does this core support Sufami Turbo games?
-- Does this core support Super Game Boy games?
-- Verify the controller tables.
 
 ### [〰️] Stella
 
@@ -714,7 +605,9 @@ https://redream.io/quickstart
 
 ### [✕] VICE VIC20
 
-### [✕] Video Processor
+### [〰️] Video Processor
+
+- Complete documentation when core is fixed.
 
 ### [✔] Virtual Jaguar
 

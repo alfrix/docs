@@ -1,61 +1,52 @@
-# Amstrad CPC (CrocoDS)
-
-## Contribute to this documentation
-
-In order to propose improvements to this document, [visit it's corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/crocods.md). Changes are proposed using "Pull Requests."
+# Amstrad - CPC (CrocoDS)
 
 ## Background
 
 Based on Win-CPC. CrocoDS was originally an Amstrad CPC emulator created for the Nintendo DS and was ported to libretro some time after.
 
-### Why use this core?
+### Author/License
 
-Awaiting description.
-
-### How to get and install the CrocoDS core:
-
-1. Start up RetroArch. Inside the main menu, go to 'Online Updater'.
-
-2. Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
-
-3. Browse through the list and select 'Amstrad CPC (CrocoDS)'.
-
-After this has finished downloading, the core should now be ready for use!
-
-### Authors
+The CrocoDS core has been authored by
 
 - RedBug
 
-## See also
-
-- [Amstrad CPC (Caprice32)](https://docs.libretro.com/library/caprice32/)
-
-## License
-
-A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
+The CrocoDS core is licensed under
 
 - [MIT](https://github.com/libretro/libretro-crocods/blob/master/LICENSE)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
 Content that can be loaded by the CrocoDS core have the following file extensions:
 
-- dsk
-- sna
-- [kcr](https://github.com/redbug26/crocods-core/wiki/kcr)
+- .dsk
+- .sna
+- .[kcr](https://github.com/redbug26/crocods-core/wiki/kcr)
+
+## Databases
+
+RetroArch database(s) that are associated with the CrocoDS core:
+
+- [Amstrad - CPC](https://github.com/libretro/libretro-database/blob/master/rdb/Amstrad%20-%20CPC.rdb)
 
 ## Features
 
+Frontend-level settings or features that the CrocoDS core respects.
+
 | Feature           | Supported |
 |-------------------|:---------:|
+| Restart           | ✔         |
+| Screenshots       | ✔         |
 | Saves             | ✕         |
 | States            | ✔         |
 | Rewind            | ✔         |
 | Netplay           | ✔         |
+| Core Options      | ✔         |
 | RetroAchievements | ✕         |
 | RetroArch Cheats  | ✕         |
 | Native Cheats     | ✕         |
-| Controllers       | ✔         |
+| Controls          | ✔         |
 | Remapping         | ✔         |
 | Multi-Mouse       | ✕         |
 | Rumble            | ✕         |
@@ -63,163 +54,192 @@ Content that can be loaded by the CrocoDS core have the following file extension
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✕         |
-| Softpatching      | ✕         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✕         |
+| Disk Control      | ✕         |
+| Username          | ✕         |
+| Language          | ✕         |
+| Crop Overscan     | ✕         |
+| LEDs              | ✕         |
 
-### Saves/States
+### Directories
 
-The CrocoDS core's directory name is 'crocods'
+The CrocoDS core's internal core name is 'crocods'
 
-Save states are saved/loaded to and from where state files are stored.
+The CrocoDS core saves/loads to/from these directories.
 
-- .state
+**Frontend's State directory**
 
-State directory
+- 'content-name'.state# (State)
 
-- .state ()
+### Geometry and timing
+
+- The CrocoDS core's core provided FPS is 50
+- The CrocoDS core's core provided sample rate is 44100 Hz
+- The CrocoDS core's core provided aspect ratio is 1
 
 ## Core options
 
-The CrocoDS core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded.
+The CrocoDS core has the following option(s) that can be tweaked from the core options menu. The default setting is bolded. 
 
-- **Color Monitor** (**color**/green): Self-explanatory.
+Settings with (Restart) means that core has to be closed for the new setting to be applied on next launch.
 
+- **Color Monitor** [crocods_greenmonitor] (**color**|green)
+
+	Self-explanatory.
+	
 ??? note "Color Monitor - color"
-	![color_monitor_color](images\Cores\crocods\color_monitor_color.png)
+	![](images\Cores\crocods\color.png)
 	
 ??? note "Color Monitor - green"
-	![color_monitor_green](images\Cores\crocods\color_monitor_green.png)	
+	![](images\Cores\crocods\green.png)	
+	
+- **Resize** [crocods_resize] (**Auto**|320x200|Overscan)
 
-- **Resize** (**Auto**/320x200/Overscan): Self-explanatory.
-
+	Self-explanatory.
+	
 ??? note "Resize - 320x200"
-	![screenshot_name](images\Cores\crocods\resize_320x200.png)
+	![](images\Cores\crocods\320x200.png)
 	
 ??? note "Resize - Overscan"
-	![screenshot_name](images\Cores\crocods\resize_overscan.png)	
+	![](images\Cores\crocods\overscan.png)	
+	
+- **Speed hack** [crocods_hack] (**no**|yes)
 
-- **Speed hack** (**no**/yes): Awaiting description.
-
+	Awaiting description.
+	
 ## Controllers
-
-### Device types
 
 The CrocoDS core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 device types
+### User 1 - 2 device types
 
-- **RetroPad** - Joypad - Look at the User 1 RetroPad graph below for inputs.
-- RetroKeyboard - Keyboard  - Awaiting description.
+- None - Doesn't disable input. There's no reason to switch to this.
+- **RetroPad** - Joypad - Stay on this.
+- RetroKeyboard - Joypad - Keyboard inputs are always active. There's no reason to switch to this.
 
-#### User 2 device types
+### Controller tables
 
-- **RetroPad** - Joypad - Look at the User 2 RetorPad graph below for inputs.
-- RetroKeyboard - Keyboard  - Awaiting description.
+#### Joypad
 
-### Controllers graph
+| User 1 Remap descriptors | RetroPad Inputs                           | CrocoDS core Inputs |
+|--------------------------|-------------------------------------------|---------------------|
+|                          | ![](images/RetroPad/Retro_B_Round.png)    | JOY_FIRE2           |
+|                          | ![](images/RetroPad/Retro_Y_Round.png)    | NIL                 |
+| Pause                    | ![](images/RetroPad/Retro_Select.png)     | SPARE               |
+| Start                    | ![](images/RetroPad/Retro_Start.png)      | RETURN              |
+| Up                       | ![](images/RetroPad/Retro_Dpad_Up.png)    | JOY_UP              |
+| Down                     | ![](images/RetroPad/Retro_Dpad_Down.png)  | JOY_DOWN            |
+| Left                     | ![](images/RetroPad/Retro_Dpad_Left.png)  | JOY_LEFT            |
+| Right                    | ![](images/RetroPad/Retro_Dpad_Right.png) | JOY_RIGHT           |
+|                          | ![](images/RetroPad/Retro_A_Round.png)    | JOY_FIRE1           |
+|                          | ![](images/RetroPad/Retro_X_Round.png)    | NIL                 |
+|                          | ![](images/RetroPad/Retro_L1.png)         | NIL                 |
+|                          | ![](images/RetroPad/Retro_R1.png)         | NIL                 |
 
-| CrocoDS     | User 1 RetroPad                            |
-|-------------|--------------------------------------------|
-| Joy Fire 2  | ![](images/RetroPad/Retro_B_Round.png)     |
-| Space       | ![](images/RetroPad/Retro_Select.png)      |
-| Return      | ![t](images/RetroPad/Retro_Start.png)      |
-| Joy Up      | ![](images/RetroPad/Retro_Dpad_Up.png)     |
-| Joy Down    | ![](images/RetroPad/Retro_Dpad_Down.png)   |
-| Joy Left    | ![](images/RetroPad/Retro_Dpad_Left.png)   |
-| Joy Right   | ![](images/RetroPad/Retro_Dpad_Right.png)  |
-| Joy Fire 2  | ![](images/RetroPad/Retro_A_Round.png)     |
+| User 2 Remap descriptors | RetroPad Inputs                           | CrocoDS core Inputs |
+|--------------------------|-------------------------------------------|---------------------|
+|                          | ![](images/RetroPad/Retro_B_Round.png)    | SPARE               |
+|                          | ![](images/RetroPad/Retro_Y_Round.png)    | NIL                 |
+|                          | ![](images/RetroPad/Retro_Select.png)     | SPARE               |
+|                          | ![](images/RetroPad/Retro_Start.png)      | RETURN              |
+|                          | ![](images/RetroPad/Retro_Dpad_Up.png)    | CURSOR_UP           |
+|                          | ![](images/RetroPad/Retro_Dpad_Down.png)  | CURSOR_DOWN         |
+|                          | ![](images/RetroPad/Retro_Dpad_Left.png)  | CURSOR_LEFT         |
+|                          | ![](images/RetroPad/Retro_Dpad_Right.png) | CURSOR_RIGHT        |
+|                          | ![](images/RetroPad/Retro_A_Round.png)    | SPARE               |
+|                          | ![](images/RetroPad/Retro_X_Round.png)    | NIL                 |
+|                          | ![](images/RetroPad/Retro_L1.png)         | NIL                 |
+|                          | ![](images/RetroPad/Retro_R1.png)         | NIL                 |
 
-| CrocoDS      | User 2 RetroPad                            |
-|--------------|--------------------------------------------|
-| Space        | ![](images/RetroPad/Retro_B_Round.png)     |
-| Space        | ![](images/RetroPad/Retro_Select.png)      |
-| Return       | ![t](images/RetroPad/Retro_Start.png)      |
-| Cursor Up    | ![](images/RetroPad/Retro_Dpad_Up.png)     |
-| Cursor Down  | ![](images/RetroPad/Retro_Dpad_Down.png)   |
-| Cursor Left  | ![](images/RetroPad/Retro_Dpad_Left.png)   |
-| Cursor Right | ![](images/RetroPad/Retro_Dpad_Right.png)  |
-| Space        | ![](images/RetroPad/Retro_A_Round.png)     |
+#### Keyboard
 
-| CrocoDS             | RetroKeyboard                                                                  |
-|---------------------|--------------------------------------------------------------------------------|
-| 0     			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_0.png)             |
-| 1     			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_1.png)             |
-| 2     			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_2.png)             |
-| 3     			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_3.png)             |
-| 4     			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_4.png)             |
-| 5      			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_5.png)             |
-| 6     			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_6.png)             |
-| 7     			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_7.png)             |
-| 8     			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_8.png)             |
-| 9      		      | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_9.png)             |
-| A      			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_A.png)             |
-| B      			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_B.png)             |
-| C      	          | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_C.png)             |
-| D      			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_D.png)             |
-| E      			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_E.png)             |
-| F      			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_F.png)             |
-| G      			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_G.png)             |
-| H       			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_H.png)             |
-| I       			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_I.png)             |
-| J       			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_J.png)             |
-| K       			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_K.png)             |
-| L       			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_L.png)             |
-| M       			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_M.png)             |
-| N       			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_N.png)             |
-| O       		      | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_O.png)             |
-| P        			  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_P.png)             |
-| Q                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Q.png)             |
-| R                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_R.png)             |
-| S                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_S.png)             |
-| T                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_T.png)             |
-| U                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_U.png)             |
-| V                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_V.png)             |
-| W                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_W.png)             |
-| X                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_X.png)             |
-| Y                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Y.png)             |
-| Z                   | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Z.png)             |
-| Space               | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Space.png)         |
-| Comma               | Comma                                                                          |
-| Dot                 | Period                                                                         |
-| Colon               | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Semicolon.png)     |
-| Minus               | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Minus.png)         |
-| Hat                 | Equals                                                                         |
-| At                  | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Bracket_Left.png)  |
-| Open Square Bracket | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Bracket_Right.png) |
-| Tab                 | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Tab.png)           |
-| Return              | Return                                                                         |
-| Delete              | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Backspace.png)     |
-| Escape              | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Esc.png)           |
-| Cursor Up           | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Up.png)      |
-| Cursor Down         | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Down.png)    |
-| Cursor Left         | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Left.png)    |
-| Cursor Right        | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Arrow_Right.png)   |
-| F0                  | Keypad 0                                                                       |
-| F1                  | Keypad 1                                                                       |
-| F2                  | Keypad 2                                                                       |
-| F3                  | Keypad 3                                                                       |
-| F4                  | Keypad 4                                                                       |
-| F5                  | Keypad 5                                                                       |
-| F6                  | Keypad 6                                                                       |
-| F7                  | Keypad 7                                                                       |
-| F8                  | Keypad 8                                                                       |
-| F9                  | Keypad 9                                                                       |
-| Fdot                | Keypad Period                                                                  |
-| Shift               | Left Shift                                                                     |
-| Shift               | Right Shift                                                                    |
-| Control             | Left Control                                                                   |
-| Control             | Right Control                                                                  |
-| Caps Lock           | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Caps_Lock.png)     |
-| Small Enter         | Keypad Enter                                                                   |
-| Joy Left            | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Del.png)        |
-| Joy Right           | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Down.png)     |
-| Joy Up              | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Home.png)          |
-| Joy Down            | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_End.png)           |
-| Joy Fire 1          | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Insert.png)           |
-| Joy Fire 2          | ![](images/Button_Pack/Keyboard_&_Mouse/Dark/Keyboard_Black_Page_Up.png)       |
+| RetroKeyboard Inputs         | CrocoDS core Inputs |
+|------------------------------|---------------------|
+| Keyboard Backspace           | DEL                 |
+| Keyboard Tab                 | TAB                 |
+| Keyboard Return              | RETURN              |
+| Keyboard Escape              | ESC                 |
+| Keyboard Space               | SPARE               |
+| Keyboard Comma ,             | COMMA               |
+| Keyboard Minus -             | MINUS               |
+| Keyboard Period .            | DOT                 |
+| Keyboard 0                   | 0                   |
+| Keyboard 1                   | 1                   |
+| Keyboard 2                   | 2                   |
+| Keyboard 3                   | 3                   |
+| Keyboard 4                   | 4                   |
+| Keyboard 5                   | 5                   |
+| Keyboard 6                   | 6                   |
+| Keyboard 7                   | 7                   |
+| Keyboard 8                   | 8                   |
+| Keyboard 9                   | 9                   |
+| Keyboard Semicolon ;         | COLON               |
+| Keyboard Equals =            | HAT                 |
+| Keyboard Left Bracket [      | AT                  |
+| Keyboard Right Bracket ]     | OPEN_SQUARE_BRACKET |
+| Keyboard a                   | A                   |
+| Keyboard b                   | B                   |
+| Keyboard c                   | C                   |
+| Keyboard d                   | D                   |
+| Keyboard e                   | E                   |
+| Keyboard f                   | F                   |
+| Keyboard g                   | G                   |
+| Keyboard h                   | H                   |
+| Keyboard i                   | I                   |
+| Keyboard j                   | J                   |
+| Keyboard k                   | K                   |
+| Keyboard l                   | L                   |
+| Keyboard m                   | M                   |
+| Keyboard n                   | N                   |
+| Keyboard o                   | O                   |
+| Keyboard p                   | P                   |
+| Keyboard q                   | Q                   |
+| Keyboard r                   | R                   |
+| Keyboard s                   | S                   |
+| Keyboard t                   | T                   |
+| Keyboard u                   | U                   |
+| Keyboard v                   | V                   |
+| Keyboard w                   | W                   |
+| Keyboard x                   | X                   |
+| Keyboard y                   | Y                   |
+| Keyboard z                   | Z                   |
+| Keyboard Delete              | JOY_LEFT            |
+| Keyboard Keypad 0            | F0                  |
+| Keyboard Keypad 1            | F1                  |
+| Keyboard Keypad 2            | F2                  |
+| Keyboard Keypad 3            | F3                  |
+| Keyboard Keypad 4            | F4                  |
+| Keyboard Keypad 5            | F5                  |
+| Keyboard Keypad 6            | F6                  |
+| Keyboard Keypad 7            | F7                  |
+| Keyboard Keypad 8            | F8                  |
+| Keyboard Keypad 9            | F9                  |
+| Keyboard Keypad Period .     | FDOT                |
+| Keyboard Keypad Enter        | SMALL_ENTER         |
+| Keyboard Up                  | CURSOR_UP           |
+| Keyboard Down                | CURSOR_DOWN         |
+| Keyboard Right               | CURSOR_RIGHT        |
+| Keyboard Left                | CURSOR_LEFT         |
+| Keyboard Insert              | JOY_FIRE1           |
+| Keyboard Home                | JOY_UP              |
+| Keyboard End                 | JOY_DOWN            |
+| Keyboard Page Up             | JOY_FIRE2           |
+| Keyboard Page Down           | JOY_RIGHT           |
+| Keyboard Caps Lock           | CAPS_LOCK           |
+| Keyboard Right Shift         | SHIFT               |
+| Keyboard Left Shift          | SHIFT               |
+| Keyboard Right Control       | CONTROL             |
+| Keyboard Left Control        | CONTROL             |
 
 ## External Links
 
+- [Official CrocoDS Github Repository](https://github.com/redbug26/crocods-core)
 - [Libretro CrocoDS Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/crocods_libretro.info)
 - [Libretro CrocoDS Github Repository](https://github.com/libretro/libretro-crocods)
 - [Report Libretro CrocoDS Core Issues Here](https://github.com/libretro/libretro-crocods/issues)
-- [Official CrocoDS Github Repository](https://github.com/redbug26/crocods-core)
+
+### See also
+
+#### Amstrad - CPC
+
+- [Amstrad - CPC (Caprice32)](https://docs.libretro.com/library/caprice32/)

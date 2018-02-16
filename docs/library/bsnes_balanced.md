@@ -1,12 +1,4 @@
-# SNES / Super Famicom (bsnes Balanced)
-
-## Contribute to this documentation
-
-**In order to propose improvements to this document, [visit its corresponding source page on github](https://github.com/libretro/docs/tree/master/docs/library/bsnes_balanced.md). Changes are proposed using "Pull Requests."**
-
-**There is a To-Do list for libretro/docs [here](https://docs.libretro.com/docguide/todo/)**
-
-**You can submit suggestions or issues regarding documentation at the [libretro/docs issue tracker](https://github.com/libretro/docs/issues) or in our [forum thread](https://forums.libretro.com/t/wip-adding-pages-to-documentation-site/10078/).**
+# Nintendo - SNES / Famicom (bsnes Balanced)
 
 ## Background
 
@@ -14,72 +6,21 @@ bsnes is a Super Nintendo emulator that began development on 2004-10-14. It focu
 
 This core has been compiled with the Balanced profile.
 
-### Why use this core?
+Highly accurate SNES emulation. Whether to use the Accuracy, or Balanced or Performance core depends on how much accuracy you want to give up for game performance. 
 
-Highly accurate SNES emulation. Whether to use the Accuracy, or Balanced or Performance core depends on how much accuracy you want to give up for game performance. Please check the [compatibility section](https://docs.libretro.com/library/bsnes_balanced/#compatibility) for more information.
+Please check the [compatibility section](https://docs.libretro.com/library/bsnes_balanced/#compatibility) for more information.
 
-### How to get and install the bsnes Balanced core:
+### Author/License
 
-- Start up RetroArch. Inside the main menu, go to 'Online Updater'.
-
-<center> ![](images\Cores\all\updater.png) </center>
-
-- Just to make sure we have the latest info files, select 'Update Core Info FIles'. Wait until this is done. Then, select 'Core Updater'.
-
-<center> ![](images\Cores\all\info.png) </center>
-
-- Browse through the list and select 'SNES / Super Famicom (bsnes Balanced)'.
-
-<center> ![](images\Cores\higan\bsnes_balanced.png) </center>
-
-After this has finished downloading, the core should now be ready for use!
-
-#### How to start (after installation):
-
-- Go back to RetroArch's main menu screen. Select 'Load Content'.
-
-<center> ![](images\Cores\all\load.png) </center>
-
-- Browse to the folder that contains the content you want to run.
-
-- Select the content that you want to run.
-
-<center> ![](images\Cores\all\snes.png) </center>
-
-- If you are asked which core to select, choose 'SNES / Super Famicom (bsnes Balanced)'.
-
-The content should now start running!
-
-### Authors
+The bsnes Balanced core has been authored by
 
 - byuu
-
-## See also
-
-### SNES
-
-- [SNES / Super Famicom (Beetle bsnes)](https://docs.libretro.com/library/beetle_snes/)
-- [SNES / Super Famicom (bsnes Accuracy)](https://docs.libretro.com/library/bsnes_accuracy/)
-- [SNES / Super Famicom (bsnes C++98 (v085))](https://docs.libretro.com/library/bsnes_cplusplus98/)
-- [SNES / Super Famicom (bsnes Performance)](https://docs.libretro.com/library/bsnes_performance/)
-- [SNES / Super Famicom (bsnes-mercury Accuracy)](https://docs.libretro.com/library/bsnes_mercury_accuracy/)
-- [SNES / Super Famicom (bsnes-mercury Balanced)](https://docs.libretro.com/library/bsnes_mercury_balanced/)
-- [SNES / Super Famicom (bsnes-mercury Performance)](https://docs.libretro.com/library/bsnes_mercury_performance/)
-- [SNES / Super Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
-- [SNES / Super Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
-- [SNES / Super Famicom (Snes9x 2002)](https://docs.libretro.com/library/snes9x_2002/)
-- [SNES / Super Famicom (Snes9x 2005 Plus)](https://docs.libretro.com/library/snes9x_2005_plus/)
-- [SNES / Super Famicom (Snes9x 2005)](https://docs.libretro.com/library/snes9x_2005/)
-- [SNES / Super Famicom (Snes9x 2010)](https://docs.libretro.com/library/snes9x_2010/)
-- [SNES / Super Famicom (Snes9x)](https://docs.libretro.com/library/snes9x/)
-
-## License
-
-A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 The bsnes Balanced core is licensed under
 
 - [GPLv3](https://github.com/libretro/bsnes-libretro/blob/libretro/COPYING)
+
+A summary of the licenses behind RetroArch and its cores have found [here](https://docs.libretro.com/tech/licenses/).
 
 ## Extensions
 
@@ -91,7 +32,7 @@ Content that can be loaded by the bsnes Balanced core have the following file ex
 
 ## Databases
 
-RetroArch database(s) that are associated with the bsnes Balanced core
+RetroArch database(s) that are associated with the bsnes Balanced core:
 
 - [Nintendo - Super Nintendo Entertainment System](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System.rdb)
 - [Nintendo - Super Nintendo Entertainment System Hacks](https://github.com/libretro/libretro-database/blob/master/rdb/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System%20Hacks.rdb)
@@ -99,7 +40,7 @@ RetroArch database(s) that are associated with the bsnes Balanced core
 
 ## BIOS
 
-Required or optional firmware files go in RetroArch's system directory.
+Required or optional firmware files go in the frontend's system directory.
 
 !!! attention
 	The bsnes Balanced core uses split ROMS for [special chip games](https://en.wikipedia.org/wiki/List_of_Super_NES_enhancement_chips#List_of_Super_NES_games_that_use_enhancement_chips).
@@ -126,7 +67,7 @@ Notable Cx4 Games:
 - Mega Man X2
 - Mega Man X3
 
-|   Filename        |    Description                         |              md5sum              |
+| Filename          | Description                            | md5sum                           |
 |:-----------------:|:--------------------------------------:|:--------------------------------:|
 | dsp1.data.rom     | DSP1 co-processor firmware             | 3d81b45fa0c2aa8b852dfb1ece7c0971 |
 | dsp1.program.rom  | DSP1 co-processor firmware             | ae209fbe789fbf11a48aea5ab1197321 |
@@ -145,11 +86,11 @@ Notable Cx4 Games:
 | st011.program.rom | ST011 co-processor firmware            | 95222ebf1c0c2990bcf25db43743f032 |
 | st018.data.rom    | ST018 co-processor firmware            | 49c898b60d0f15e90d0ba780dd12f366 |
 | st018.program.rom | ST018 co-processor firmware            | dda40ccd57390c96e49d30a041f9a9e7 |
-| sgb.boot.rom      | Super Game Boy 1 or 2 BIOS             |                                  |
+| sgb.boot.rom      | Super Game Boy BIOS                    |                                  |
 
 ## Features
 
-RetroArch-level settings or features that the bsnes Balanced core respects.
+Frontend-level settings or features that the bsnes Balanced core respects.
 
 | Feature           | Supported |
 |-------------------|:---------:|
@@ -171,70 +112,95 @@ RetroArch-level settings or features that the bsnes Balanced core respects.
 | Camera            | ✕         |
 | Location          | ✕         |
 | Subsystem         | ✔         |
-| Softpatching      | ✔         |
+| [Softpatching](https://docs.libretro.com/guides/softpatching/) | ✔         |
 | Disk Control      | ✕         |
 | Username          | ✕         |
 | Language          | ✕         |
 | Crop Overscan     | ✔         |
+| LEDs              | ✕         |
 
 ### Directories
 
-The bsnes Balanced core's directory name is 'bsnes'
+The bsnes Balanced core's internal core name is 'bsnes'
 
 The bsnes Balanced core saves/loads to/from these directories.
 
-**RetroArch's Save directory**
+**Frontend's Save directory**
 
 - 'content-name'.srm (Cartridge battery save)
 
-**RetroArch's State directory**
+**Frontend's State directory**
 
 - 'content-name'.state# (State)
 
 ### Geometry and timing
 
-- The bsnes Balanced core's internal FPS is 60 except for PAL games. PAL games are 50 fps.
-- The bsnes Balanced core's internal sample rate is 32040 Hz
+- The bsnes Balanced core's core provided FPS is 60.0988118623 for NTSC games and 50.0069789082 for PAL games.
+- The bsnes Balanced core's core provided sample rate is 32040.5 Hz
 - The bsnes Balanced core's core provided aspect ratio is 4/3
 
-### Super Gameboy Support
+## Super GameBoy
 
 !!! warning
-	Super Gameboy support in this core is **command-line only**, **Windows only** and has **buggy save state support** and **visual glitches**. **Use the [higan Accuracy core](https://docs.libretro.com/library/higan_accuracy#super-gameboy-support) or the [nSide Balanced core](https://docs.libretro.com/library/nside_balanced#super-gameboy-support) for simplified, functional, and easily accessible Super Gameboy support.**
+	Super GameBoy support in this core is **Windows only**, and has **buggy save state support** and **visual glitches**. **Use the [higan Accuracy core](https://docs.libretro.com/library/higan_accuracy#super-gameboy-support) or the [nSide Balanced core](https://docs.libretro.com/library/nside_balanced#super-gameboy-support) for simplified, functional, and easily accessible Super Gameboy support.**
 
-Super Gameboy is supported via the Subsystem API. In RetroArch the Subsystem API is only available via [CLI](https://docs.libretro.com/guides/cli-intro/).
+For Super GameBoy support, you need sgb.boot.rom (in RetroArch's System directory), a GameBoy ROM and a Super GameBoy ROM.
 
-For SGB support, you need both the sgb.boot.rom (in RetroArch's system directory) and a SNES Super Game Boy ROM. 
+Please note that the Game Boy and Super GameBoy ROMs have to be unzipped.
+	
+Super GameBoy is supported via the Subsystem API.
 
-To launch SGB games, launch RetroArch like this:
+There are two ways to access the Subsystem API.
 
-retroarch -L {path to bsnes core} {path to SNES Super Game Boy ROM} --subsystem sgb {path to GB rom}
+**One way is to access the Subsystem API through RetroArch's GUI like this.**
 
-!!! warning
-	Super Game Boy ROM and GB roms must be unzipped.
+First, we load our GameBoy ROM through 'Load Super GameBoy' in RetroArch's Main Menu.
 
-### MSU-1 Support
+![](images/Cores/bsnes/menu1.png)
 
-Awaiting description.
+![](images/Cores/bsnes/gb.png)
 
+Next, we load our Super GameBoy ROM through 'Load Super GameBoy' in RetroArch's Menu Menu.
+
+![](images/Cores/bsnes/menu2.png)
+
+![](images/Cores/bsnes/sgb.png)
+
+Then, we start the content by selecting 'Start GameBoy' In RetroArch's Menu Menu.
+
+![](images/Cores/bsnes/start.png)
+
+**The other way is to launch RetroArch with commandline like this.**
+
+```
+retroarch -L {path to bsnes core} {path to Super GameBoy ROM} --subsystem sgb {path to GameBoy rom}
+```
+
+## MSU-1
+
+!!! attention
+	MSU-1 support in this core is complex. **Use the [Snes9x core](https://docs.libretro.com/library/snes9x#msu-1-support) for simplified and easily accessible MSU-1 support.**
+
+MSU-1 support can be used by loading a correct .bml file.
+
+There's documentation for loading MSU-1 games in standalone higan [here](https://higan.readthedocs.io/en/stable/guides/import/#msu-1-games).
+	
 ## Controllers
-
-### Device types
 
 The bsnes Balanced core supports the following device type(s) in the controls menu, bolded device types are the default for the specified user(s):
 
-#### User 1 device types
+### User 1 device types
 
-- None - Doesn't disable input.
+- None - Disables input.
 - **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad
 - [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
 
-#### User 2 device types
+### User 2 device types
 
-- None - Doesn't disable input.
+- None - Disables input.
 - **[SNES Joypad](http://nintendo.wikia.com/wiki/Super_Nintendo_Entertainment_System_controller)** - Joypad
 - [SNES Mouse](https://en.wikipedia.org/wiki/Super_NES_Mouse) - Mouse
-- [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad - Allows for up to five players to play together in certain games.
+- [Multitap](http://nintendo.wikia.com/wiki/Super_Multitap) - Joypad - Allows for up to five players to play together in multitap games.
 - [SuperScope](https://en.wikipedia.org/wiki/Super_Scope) - Lightgun
 - [Justifier](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun
 - [Justifiers](https://en.wikipedia.org/wiki/Konami_Justifier) - Lightgun - Two Justifiers are plugged in, for two-player Justifier games.
@@ -245,40 +211,42 @@ Activating multitap support in compatible games can be configured by switching t
 
 ### Controller tables
 
-#### Joypad and analog device type table
+#### Joypad
 
-| User 1 - 5 Remap descriptors  | RetroPad Inputs                              | SNES Joypad / Multitap |
-|-------------------------------|----------------------------------------------|------------------------|
-| B                             | ![](images/RetroPad/Retro_B_Round.png)       | B                      |
-| Y                             | ![](images/RetroPad/Retro_Y_Round.png)       | Y                      |
-| Select                        | ![](images/RetroPad/Retro_Select.png)        | Select                 |
-| Start                         | ![](images/RetroPad/Retro_Start.png)         | Start                  |
-| D-Pad Up                      | ![](images/RetroPad/Retro_Dpad_Up.png)       | D-Pad Up               |
-| D-Pad Down                    | ![](images/RetroPad/Retro_Dpad_Down.png)     | D-Pad Down             |
-| D-Pad Left                    | ![](images/RetroPad/Retro_Dpad_Left.png)     | D-Pad Left             |
-| D-Pad Right                   | ![](images/RetroPad/Retro_Dpad_Right.png)    | D-Pad Right            |
-| A                             | ![](images/RetroPad/Retro_A_Round.png)       | A                      |
-| X                             | ![](images/RetroPad/Retro_X_Round.png)       | X                      |
-| L                             | ![](images/RetroPad/Retro_L1.png)            | L                      |
-| R                             | ![](images/RetroPad/Retro_R1.png)            | R                      |
+![](images/Controllers/snes.png)
 
-#### Mouse device type table
+| User 1 - 5 Remap descriptors | RetroPad Inputs                           |
+|------------------------------|-------------------------------------------|
+| B                            | ![](images/RetroPad/Retro_B_Round.png)    |
+| Y                            | ![](images/RetroPad/Retro_Y_Round.png)    |
+| Select                       | ![](images/RetroPad/Retro_Select.png)     |
+| Start                        | ![](images/RetroPad/Retro_Start.png)      |
+| D-Pad Up                     | ![](images/RetroPad/Retro_Dpad_Up.png)    |
+| D-Pad Down                   | ![](images/RetroPad/Retro_Dpad_Down.png)  |
+| D-Pad Left                   | ![](images/RetroPad/Retro_Dpad_Left.png)  |
+| D-Pad Right                  | ![](images/RetroPad/Retro_Dpad_Right.png) |
+| A                            | ![](images/RetroPad/Retro_A_Round.png)    |
+| X                            | ![](images/RetroPad/Retro_X_Round.png)    |
+| L                            | ![](images/RetroPad/Retro_L1.png)         |
+| R                            | ![](images/RetroPad/Retro_R1.png)         |
 
-| User 1 - 2 Remap descriptors  | RetroMouse Inputs                       | SNES Mouse               |
-|-------------------------------|------------------------------------------|-------------------------|
-|                               | ![](images/RetroMouse/Retro_Mouse.png)   | SNES Mouse Cursor       |
-|                               | ![](images/RetroMouse/Retro_Left.png)    | SNES Mouse Left Button  |
-|                               | ![](images/RetroMouse/Retro_Right.png)   | SNES Mouse Right Button |
+#### Mouse
 
-#### Lightgun device type table
+| RetroMouse Inputs                                   | SNES Mouse                |
+|-----------------------------------------------------|---------------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) Mouse Cursor | SNES Mouse Cursor         |
+| ![](images/RetroMouse/Retro_Left.png) Mouse 1       | SNES Mouse Left Button    |
+| ![](images/RetroMouse/Retro_Right.png) Mouse 2      | SNES Mouse Right Button   |
 
-| User 2 Remap descriptors      | RetroLightgun Inputs | SuperScope           | Justifier(s)        |
-|-------------------------------|----------------------|----------------------|---------------------|
-|                               | Gun                  | SuperScope Crosshair | Justifier Crosshair |
-|                               | Gun Trigger          | SuperScope Trigger   | Justifier Trigger   |
-|                               | Gun Cursor           | SuperScope Cursor    |                     |
-|                               | Gun Turbo            | SuperScope Turbo     | Justifier Offscreen |
-|                               | Gun Pause            | SuperScope Pause     | Justifier Start     |
+#### Lightgun
+
+| RetroLightgun Inputs                                 | SuperScope                | Justifier(s)        |
+|------------------------------------------------------|---------------------------|---------------------|
+| ![](images/RetroMouse/Retro_Mouse.png) Gun Crosshair | SuperScope Crosshair      | Justifier Crosshair |
+| Gun Trigger                                          | SuperScope Trigger        | Justifier Trigger   |
+| Gun Aux A                                            | SuperScope Cursor         |                     |
+| Gun Aux B                                            | SuperScope Turbo          |                     |
+| Gun Start                                            | SuperScope Pause          | Justifier Start     |
 
 ## Compatibility
 
@@ -288,8 +256,42 @@ Activating multitap support in compatible games can be configured by switching t
 
 ## External Links
 
+- [Official higan Website](https://byuu.org/)
+- [Official higan Upstream Downloads](https://byuu.org/emulation/higan/)
 - [Libretro bsnes Balanced Core info file](https://github.com/libretro/libretro-super/blob/master/dist/info/bsnes_balanced_libretro.info)
 - [Libretro bsnes Balanced Github Repository](https://github.com/libretro/bsnes-libretro)
 - [Report Libretro bsnes Balanced Core Issues Here](https://github.com/libretro/bsnes-libretro/issues)
-- [Official higan Website](https://byuu.org/)
-- [Official higan Upstream Downloads](https://byuu.org/emulation/higan/)
+
+### See also
+
+#### Nintendo - Sufami Turbo
+
+- [Nintendo - SNES / Famicom (Beetle bsnes)](https://docs.libretro.com/library/beetle_bsnes/)
+- [Nintendo - SNES / Famicom (bsnes-mercury Accuracy)](https://docs.libretro.com/library/bsnes_mercury_accuracy/)
+- [Nintendo - SNES / Famicom (bsnes-mercury Balanced)](https://docs.libretro.com/library/bsnes_mercury_balanced/)
+- [Nintendo - SNES / Famicom (bsnes-mercury Performance)](https://docs.libretro.com/library/bsnes_mercury_performance/)
+- [Nintendo - SNES / Famicom (bsnes Accuracy)](https://docs.libretro.com/library/bsnes_accuracy/)
+- [Nintendo - SNES / Famicom (bsnes C++98 (v085))](https://docs.libretro.com/library/bsnes_cplusplus98/)
+- [Nintendo - SNES / Famicom (bsnes Performance)](https://docs.libretro.com/library/bsnes_performance/)
+- [Nintendo - SNES / Famicom (Snes9x)](https://docs.libretro.com/library/snes9x/)
+- [Nintendo - SNES / Famicom (Snes9x 2002)](https://docs.libretro.com/library/snes9x_2002/)
+- [Nintendo - SNES / Famicom (Snes9x 2005 Plus)](https://docs.libretro.com/library/snes9x_2005_plus/)
+- [Nintendo - SNES / Famicom (Snes9x 2005)](https://docs.libretro.com/library/snes9x_2005/)
+- [Nintendo - SNES / Famicom (Snes9x 2010)](https://docs.libretro.com/library/snes9x_2010/)
+
+#### Nintendo - Super Nintendo Entertainment System (+ Hacks)
+
+- [Nintendo - SNES / Famicom (Beetle bsnes)](https://docs.libretro.com/library/beetle_bsnes/)
+- [Nintendo - SNES / Famicom (bsnes-mercury Accuracy)](https://docs.libretro.com/library/bsnes_mercury_accuracy/)
+- [Nintendo - SNES / Famicom (bsnes-mercury Balanced)](https://docs.libretro.com/library/bsnes_mercury_balanced/)
+- [Nintendo - SNES / Famicom (bsnes-mercury Performance)](https://docs.libretro.com/library/bsnes_mercury_performance/)
+- [Nintendo - SNES / Famicom (bsnes Accuracy)](https://docs.libretro.com/library/bsnes_accuracy/)
+- [Nintendo - SNES / Famicom (bsnes C++98 (v085))](https://docs.libretro.com/library/bsnes_cplusplus98/)
+- [Nintendo - SNES / Famicom (bsnes Performance)](https://docs.libretro.com/library/bsnes_performance/)
+- [Nintendo - SNES / Famicom (higan Accuracy)](https://docs.libretro.com/library/higan_accuracy/)
+- [Nintendo - SNES / Famicom (nSide Balanced)](https://docs.libretro.com/library/nside_balanced/)
+- [Nintendo - SNES / Famicom (Snes9x)](https://docs.libretro.com/library/snes9x/)
+- [Nintendo - SNES / Famicom (Snes9x 2002)](https://docs.libretro.com/library/snes9x_2002/)
+- [Nintendo - SNES / Famicom (Snes9x 2005 Plus)](https://docs.libretro.com/library/snes9x_2005_plus/)
+- [Nintendo - SNES / Famicom (Snes9x 2005)](https://docs.libretro.com/library/snes9x_2005/)
+- [Nintendo - SNES / Famicom (Snes9x 2010)](https://docs.libretro.com/library/snes9x_2010/)
