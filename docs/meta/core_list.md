@@ -121,6 +121,7 @@
 - VBA-M
 - VBA Next
 - vecx
+- VeMUlator
 - VICE C64
 - VICE C128
 - VICE PLUS4

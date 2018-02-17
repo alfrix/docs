@@ -175,6 +175,7 @@ pages:
         - 'Sega - MS/MD/CD/32X (PicoDrive)': 'library/picodrive.md'
         - 'Sega - Saturn (Beetle Saturn)': 'library/beetle_saturn.md'
         - 'Sega - Saturn (Yabause)': 'library/yabause.md'
+        - 'VeMUlator': 'library/vemulator.md'
       - Sony Cores:
         - 'Sony - PlayStation (Beetle PSX)': 'library/beetle_psx.md'
         - 'Sony - PlayStation (Beetle PSX HW)': 'library/beetle_psx_hw.md'
