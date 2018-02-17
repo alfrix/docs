@@ -216,6 +216,7 @@ pages:
     - Installing and Updating RetroArch:
       - 'Windows': 'guides/install-windows.md'
     - Getting Started:
+      - 'Keyboard Controls': 'guides/retroarch-keyboard-controls.md'
       - 'Windows': 'guides/windows.md'
       - 'Command-line interface (CLI)': 'guides/cli-intro.md'
       - 'Generating Logs': 'guides/generating-retroarch-logs.md'
