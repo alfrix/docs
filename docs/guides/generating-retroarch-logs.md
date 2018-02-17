@@ -24,8 +24,9 @@ The answer to this dilemma involves "logs", which RetroArch and other libretro s
 #### RetroArch logs
 1. Open a terminal.
 2. Navigate to the RetroArch folder with the `cd` command.
-3. Start retroarch in 'verbose' mode with this command: `retroarch --menu --verbose >> retroarch.log 2>&1`
-4. Once you exit RetroArch, a file called `retroarch.log` is now stored in your home directory.
+3. Start retroarch in 'verbose' mode with this command:<br />
+ `retroarch --menu --verbose >> retroarch.log 2>&1`
+4. Once you exit RetroArch, a file called `retroarch.log` should be stored in your home directory.
 
 #### Graphic card logs
 `lspci -nnk | grep -A 3 VGA` will give information about your graphic card.
@@ -40,18 +41,43 @@ The answer to this dilemma involves "logs", which RetroArch and other libretro s
 
 ### Generating Logs in Windows
 
-**Note: The 'Windows installer' edition of RetroArch provides a "log to file" shortcut for RA, as well as a link to the RA installation folder itself where the log is written to.**
+
+If you **installed** RetroArch:
+
+1. Open the Windows start menu
+2. Search and open `RetroArch (log to file)`
+
+Once you exit RetroArch, a file called `retroarch-log.txt` should be stored in the RetroArch folder, in order to retrieve it:
+
+1. Open the windows start menu
+2. Search and open `RetroArch Data Folder`
+3. Find `retroarch-log.txt`
+
+
+If you **haven't installed** RetroArch and have a folder with it:
+
+!!! tip
+    You can hold `shift` then `right click` on the **folder that contains** retroarch.exe <br />
+    Select `Open PowerShell window here`.<br />
+    Then jump to step 3.
 
 1. Open a console window with the `cmd` command, found either in the Start Menu or through use of the Windows "Run" menu. 
 2. Navigate to the RetroArch folder using the `cd` command.
-3. Launch RetroArch with this commandline: `retroarch >> retroarch.log 2>&1`
-4. Once you exit RetroARch, a file called `retroarch.log` is now stored in the RetroArch folder.
+3. Launch RetroArch with this commandline:<br />
+ `.\retroarch.exe --log-file .\retroarch-log.txt -v`
+4. Once you exit RetrorArch, a file called `retroarch-log.txt` should be stored in the folder.
+
+!!! note "Log with debug symbols"
+    Optionally or if asked, launch RetroArch with debug symbols with this commandline:<br />
+    `.\retroarch_debug.exe --log-file .\retroarch-log.txt -v`
+
 
 ### Generating Logs in OS X
 1. Open a console window with the OS X "Terminal" app.
 2. Navigate to the RetroArch folder using the `cd` command.
-3. Launch RetroArch with this commandline: `retroarch --menu --verbose --log-file ~/retroarch.log`
-4. Once you exit RetroArch, a file called `retroarch.log` is now stored in your home directory.
+3. Launch RetroArch with this commandline:<br />
+ `retroarch --menu --verbose --log-file ~/retroarch.log`
+4. Once you exit RetroArch, a file called `retroarch.log` should be stored in your home directory.
 
 ### Generating Logs in Android
 Gathering log files in Android requires a third-party app that can interface with the `logcat` system. Many free apps are available via Android's "Play Store" system.
