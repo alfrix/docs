@@ -237,6 +237,8 @@ pages:
       - 'Custom Settings': 'guides/overrides.md'
       - 'Optimal Vsync Performance': 'guides/optimal-vsync.md'
       - 'Softpatching ROMs': 'guides/softpatching.md'
+    - Contributing:
+      - 'How to Contribute to the Docs': 'guides/how-to-contribute.md'
 extra:
   logo: 'images/invader.png'
   version: '0.1.0'
